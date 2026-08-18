@@ -57,3 +57,7 @@ all_*_parsed.json
 div_extracted_*.json
 extracted_*.json
 final_extracted_*.json
+
+# Agent local state
+.commandcode/
+memory.md

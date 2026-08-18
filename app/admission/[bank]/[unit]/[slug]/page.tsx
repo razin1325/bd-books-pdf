@@ -1,19 +1,12 @@
 import React from 'react';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
-import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
-import { CLASSES_LIST, SUBJECTS_LIST } from '@/lib/types';
-import { getAdmissionBookHref } from '@/lib/admission';
-import {
-  getBookBySlug,
-  getBooksBySubject,
-  getRelatedBooks,
-  getBooksByClass,
-} from '@/lib/data';
+import { getBooksBySubject } from '@/lib/data';
+import { ADMISSION_BANKS, getAdmissionUnitRelativeSlug } from '@/lib/admission';
 import {
   BookOpen,
   Download,
@@ -27,137 +20,58 @@ import {
 
 interface RouteProps {
   params: Promise<{
-    classSlug: string;
-    secondSlug: string;
+    bank: string;
+    unit: string;
+    slug: string;
   }>;
 }
 
-export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
-  const { classSlug, secondSlug } = await params;
-  const currentClass = CLASSES_LIST.find((c) => c.slug === classSlug);
-
-  if (!currentClass) return { title: 'Page Not Found' };
-
-  // Check if secondSlug matches a standard or custom subject
-  let currentSubject = SUBJECTS_LIST.find((s) => s.slug === secondSlug);
-  if (!currentSubject) {
-    const subjectBooks = await getBooksBySubject(classSlug, secondSlug);
-    if (subjectBooks.length > 0) {
-      currentSubject = {
-        name: subjectBooks[0].subject,
-        slug: secondSlug,
-        bnName: subjectBooks[0].subject,
-      };
-    }
-  }
-
-  if (currentSubject) {
-    const title = `${currentClass.name} ${currentSubject.name} Book & Guide PDF 2026`;
-    const description = `${currentClass.name} ${currentSubject.name} Book & Guide PDF 2026. ${currentClass.bnName}-এর ${currentSubject.bnName} বিষয়ের সকল পাঠ্যবই ও গাইড PDF পড়ুন ও ডাউনলোড করুন।`;
-    return {
-      title,
-      description,
-      openGraph: { title, description },
-    };
-  }
-
-  // Otherwise check if secondSlug is a book
-  const book = await getBookBySlug(secondSlug);
-  if (book) {
-    const title = `${book.title} | ${book.subject} PDF`;
-    const description = `${book.description.substring(0, 160)}`;
-    return {
-      title,
-      description,
-      openGraph: {
-        title,
-        description,
-        images: book.cover_image ? [{ url: book.cover_image }] : [],
-      },
-    };
-  }
-
-  return { title: 'Page Not Found' };
+async function resolveBook(bankSlug: string, unitSlug: string, slug: string) {
+  const bank = ADMISSION_BANKS.find((b) => b.bankSlug === bankSlug);
+  const unit = bank?.units.find((u) => u.unitSlug === unitSlug);
+  if (!bank || !unit) return null;
+  const books = await getBooksBySubject('admission', bank.subjectSlug);
+  // Prefixed books: unit-slug + relative slug. Single-unit banks (e.g. medical) also match by full slug.
+  const book =
+    books.find((b) => b.slug === `${unit.unitSlug}-${slug}`) ||
+    (bank.units.length === 1 ? books.find((b) => b.slug === slug) : undefined);
+  return book ? { bank, unit, book } : null;
 }
 
-export default async function DynamicRoutePage({ params }: RouteProps) {
-  const { classSlug, secondSlug } = await params;
-  const currentClass = CLASSES_LIST.find((c) => c.slug === classSlug);
+export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
+  const { bank, unit, slug } = await params;
+  const resolved = await resolveBook(bank, unit, slug);
+  if (!resolved) return { title: 'Page Not Found' };
+  const { book } = resolved;
+  const title = `${book.title} | ${book.subject} PDF`;
+  const description = `${book.description.substring(0, 160)}`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: book.cover_image ? [{ url: book.cover_image }] : [],
+    },
+  };
+}
 
-  if (!currentClass) {
+export default async function AdmissionBookDetailPage({ params }: RouteProps) {
+  const { bank, unit, slug } = await params;
+  const resolved = await resolveBook(bank, unit, slug);
+
+  if (!resolved) {
     notFound();
   }
+  const { bank: bankInfo, unit: unitInfo, book } = resolved;
 
-  // Check standard subject first, then custom subject from books
-  let currentSubject = SUBJECTS_LIST.find((s) => s.slug === secondSlug);
-  const subjectBooks = await getBooksBySubject(classSlug, secondSlug);
+  const allUnitBooks = (await getBooksBySubject('admission', bankInfo.subjectSlug)).filter((b) => {
+    if (b.slug === book.slug) return false;
+    if (bankInfo.units.length === 1) return true; // single-unit banks: all siblings related
+    return b.slug.startsWith(`${unitInfo.unitSlug}-`) && getAdmissionUnitRelativeSlug(b.slug) !== null;
+  });
+  const relatedBooks = allUnitBooks.slice(0, 5);
 
-  if (!currentSubject && subjectBooks.length > 0) {
-    currentSubject = {
-      name: subjectBooks[0].subject,
-      slug: secondSlug,
-      bnName: subjectBooks[0].subject,
-    };
-  }
-
-  // CASE 1: Subject Page (standard or custom)
-  if (currentSubject) {
-    return (
-      <div className="space-y-8">
-        <Breadcrumb
-          items={[
-            { label: currentClass.name, href: `/class/${classSlug}` },
-            { label: currentSubject.name },
-          ]}
-        />
-
-        <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-200 shadow-xs space-y-3">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900">
-            {currentClass.name} {currentSubject.name} Book & Guide PDF 2026
-          </h1>
-          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-            {currentClass.bnName}-এর {currentSubject.bnName} (
-            {currentSubject.name}) বিষয়ের মূল পাঠ্যবই, গাইড বই এবং নোট PDF এখানে পাওয়া যাবে। প্রয়োজনীয় বইটি ক্লিক করে সম্পূর্ণ ফ্রিতে অনলাইন ভিউ অথবা সরাসরি ডাউনলোড করুন।
-          </p>
-        </div>
-
-        <AdSlot slotId={`subject-${classSlug}-${secondSlug}-top`} />
-
-        {/* Books List for Subject */}
-        {subjectBooks.length > 0 ? (
-          <div className="space-y-4">
-            <h2 className="text-xl font-bold text-gray-900 border-b border-gray-200 pb-2">
-              Available PDF Downloads:
-            </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {subjectBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
-          </div>
-        ) : (
-          <div className="bg-amber-50 border border-amber-200 p-6 rounded-xl text-center space-y-2">
-            <p className="text-sm text-amber-800 font-medium">
-              বর্তমানে {currentClass.name} {currentSubject.name} বিষয়ের সরাসরি কোনো আলাদা বই আপলোড করা হয়নি।
-            </p>
-            <p className="text-xs text-amber-700">
-              আপনি {currentClass.name}-এর অন্যান্য বিষয় বা লাইব্রেরির সকল বই ঘুরে দেখতে পারেন।
-            </p>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // CASE 2: Book Detail Page (e.g. /class-8/math-guide-pdf-2026)
-  const book = await getBookBySlug(secondSlug);
-  if (!book) {
-    notFound();
-  }
-
-  const relatedBooks = await getRelatedBooks(book, 5);
-
-  // Book JSON-LD Structured Data Schema
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Book',
@@ -174,7 +88,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
     description: book.description,
     genre: book.book_type,
     image: book.cover_image,
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}${getAdmissionBookHref(book)}`,
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${slug}`,
   };
 
   return (
@@ -187,8 +101,9 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
 
       <Breadcrumb
         items={[
-          { label: book.class_name, href: `/class/${book.class_slug}` },
-          { label: book.subject, href: `/${book.class_slug}/${book.subject_slug}` },
+          { label: 'Admission', href: '/class/admission' },
+          { label: bankInfo.bnName, href: `/admission/${bankInfo.bankSlug}` },
+          { label: unitInfo.name, href: `/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}` },
           { label: book.title },
         ]}
       />
@@ -256,7 +171,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
                 className="flex-1 py-3.5 px-6 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm sm:text-base rounded-xl transition-all shadow-sm hover:shadow flex items-center justify-center space-x-2"
               >
                 <ExternalLink className="w-5 h-5" />
-                <span>Read Online (অনলাইনে পড়ুন)</span>
+                <span>Read Online (অনলাইনে পড়ুন)</span>
               </a>
 
               <a
@@ -273,9 +188,9 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
             {/* SEO Description Paragraph */}
             <div className="pt-4 border-t border-gray-100 space-y-2">
               <h2 className="text-sm font-bold text-gray-900 uppercase tracking-wider">
-                বই বিবরণ ও তথ্য (Description):
+                বই সম্পর্কে বিস্তারিত (Description):
               </h2>
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-700 leading-relaxed whitespace-pre-line">
                 {book.description}
               </p>
             </div>
@@ -304,7 +219,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
           <div className="p-3 bg-gray-50 rounded-lg flex items-center space-x-3">
             <BookOpen className="w-5 h-5 text-gray-400" />
             <div>
-              <span className="text-xs text-gray-500 block">Subject (বিষয়)</span>
+              <span className="text-xs text-gray-500 block">Subject (বিষয়)</span>
               <span className="font-semibold text-gray-900">{book.subject}</span>
             </div>
           </div>
@@ -312,7 +227,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
           <div className="p-3 bg-gray-50 rounded-lg flex items-center space-x-3">
             <FileText className="w-5 h-5 text-gray-400" />
             <div>
-              <span className="text-xs text-gray-500 block">Book Type (বইয়ের ধরন)</span>
+              <span className="text-xs text-gray-500 block">Book Type (বইয়ের ধরন)</span>
               <span className="font-semibold text-gray-900 capitalize">{book.book_type}</span>
             </div>
           </div>
@@ -336,7 +251,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
           <div className="p-3 bg-gray-50 rounded-lg flex items-center space-x-3">
             <Building className="w-5 h-5 text-gray-400" />
             <div>
-              <span className="text-xs text-gray-500 block">Publisher (প্রকাশনী)</span>
+              <span className="text-xs text-gray-500 block">Publisher (প্রকাশক)</span>
               <span className="font-semibold text-gray-900">{book.publisher || 'NCTB / Library'}</span>
             </div>
           </div>
@@ -349,12 +264,41 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
           <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
             <BookOpen className="w-5 h-5 text-emerald-600" />
             <h2 className="text-xl font-bold text-gray-900">
-              Similar & Related Books ({book.class_name}-এর অন্যান্য প্রয়োজনীয় বই ও গাইড)
+              Similar & Related Books (অন্যান্য বছরের প্রশ্নব্যাংক)
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {relatedBooks.map((relBook) => (
-              <BookCard key={relBook.id} book={relBook} />
+              <Link
+                key={relBook.id}
+                href={`/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${getAdmissionUnitRelativeSlug(relBook.slug) ?? relBook.slug}`}
+                className="bg-white rounded-xl border border-gray-200 hover:border-emerald-500 hover:shadow-md transition-all overflow-hidden group"
+              >
+                <div className="relative aspect-3/4 bg-gray-100">
+                  {relBook.cover_image ? (
+                    <Image
+                      src={relBook.cover_image}
+                      alt={relBook.title}
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      unoptimized
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 p-3 text-center bg-gradient-to-br from-emerald-50 to-teal-100">
+                      <BookOpen className="w-8 h-8 sm:w-12 sm:h-12 text-emerald-600 mb-1" />
+                      <span className="text-3xs sm:text-xs font-semibold text-gray-600 line-clamp-2">
+                        {relBook.title}
+                      </span>
+                    </div>
+                  )}
+                </div>
+                <div className="p-3">
+                  <h3 className="font-bold text-gray-900 text-xs sm:text-sm line-clamp-2 group-hover:text-emerald-600 transition-colors leading-snug">
+                    {relBook.title}
+                  </h3>
+                </div>
+              </Link>
             ))}
           </div>
         </section>

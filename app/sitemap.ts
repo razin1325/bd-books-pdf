@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { CLASSES_LIST, SUBJECTS_LIST, DIVISION_COLLEGES_REQ, DETAILED_COLLEGES_LIST } from '@/lib/types';
 import { getBooks } from '@/lib/data';
+import { getAdmissionBookHref } from '@/lib/admission';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app';
@@ -63,7 +64,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Book detail routes
   const bookRoutes = books.map((book) => ({
-    url: `${baseUrl}/${book.class_slug}/${book.slug}`,
+    url: `${baseUrl}${getAdmissionBookHref(book)}`,
     lastModified: new Date(book.updated_at || book.created_at || Date.now()),
     changeFrequency: 'monthly' as const,
     priority: 0.8,

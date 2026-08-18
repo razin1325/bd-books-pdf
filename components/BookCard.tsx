@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Book } from '@/lib/types';
+import { getAdmissionBookHref } from '@/lib/admission';
 import { BookOpen, Download, ExternalLink } from 'lucide-react';
 
 interface BookCardProps {
@@ -12,6 +13,8 @@ interface BookCardProps {
 export default function BookCard({ book, priority = false }: BookCardProps) {
   const isGuide = book.book_type === 'guide';
   const isTextbook = book.book_type === 'textbook';
+
+  const bookHref = getAdmissionBookHref(book);
 
   return (
     <div className="bg-white rounded-xl border border-gray-200 shadow-2xs hover:shadow-md transition-all overflow-hidden flex flex-col group h-full hover:border-emerald-500">
@@ -65,7 +68,7 @@ export default function BookCard({ book, priority = false }: BookCardProps) {
 
           {/* Title */}
           <h3 className="font-bold text-gray-900 text-xs sm:text-sm line-clamp-2 group-hover:text-emerald-600 transition-colors leading-snug">
-            <Link href={`/${book.class_slug}/${book.slug}`}>
+            <Link href={bookHref}>
               {book.title}
             </Link>
           </h3>
@@ -74,7 +77,7 @@ export default function BookCard({ book, priority = false }: BookCardProps) {
         {/* Action Buttons */}
         <div className="pt-2 border-t border-gray-100 flex items-center gap-1.5">
           <Link
-            href={`/${book.class_slug}/${book.slug}`}
+            href={bookHref}
             className="flex-1 text-center py-2 px-2 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-extrabold text-3xs sm:text-xs rounded-lg transition-colors flex items-center justify-center space-x-1 shadow-2xs"
           >
             <span>View PDF</span>

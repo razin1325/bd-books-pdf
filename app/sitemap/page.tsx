@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 import { CLASSES_LIST, SUBJECTS_LIST, DIVISION_COLLEGES_REQ, DETAILED_COLLEGES_LIST } from '@/lib/types';
 import { getBooks } from '@/lib/data';
+import { getAdmissionBookHref } from '@/lib/admission';
 import {
   BookOpen,
   GraduationCap,
@@ -257,7 +258,7 @@ export default async function HtmlSitemapPage() {
           {allBooks.map((book) => (
             <Link
               key={book.id}
-              href={`/${book.class_slug}/${book.slug}`}
+              href={getAdmissionBookHref(book)}
               className="p-2.5 hover:bg-emerald-50/50 rounded-xl border border-gray-200 hover:border-emerald-300 flex items-center justify-between transition-colors group"
             >
               <span className="font-bold text-gray-900 group-hover:text-emerald-700 truncate pr-2">
