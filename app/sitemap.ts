@@ -1,0 +1,73 @@
+import { MetadataRoute } from 'next';
+import { CLASSES_LIST, SUBJECTS_LIST, DIVISION_COLLEGES_REQ, DETAILED_COLLEGES_LIST } from '@/lib/types';
+import { getBooks } from '@/lib/data';
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app';
+  const books = await getBooks();
+
+  const divisionRoutes = DIVISION_COLLEGES_REQ.map((d) => `/college-admission/${d.slug}`);
+  const individualCollegeRoutes = DETAILED_COLLEGES_LIST.map((c) => `/college/${c.slug}`);
+
+  // Static & Hub routes
+  const staticRoutes = [
+    '',
+    '/books',
+    '/textbooks',
+    '/guide-books',
+    '/hsc-exam-routine',
+    '/hsc-routine',
+    '/college-admission',
+    '/college-admission/ndc',
+    '/college-admission/holy-cross',
+    '/college-admission/st-joseph',
+    '/college-admission/how-to-apply',
+    '/college-admission/requirements-gpa-cut-marks',
+    ...divisionRoutes,
+    '/colleges',
+    ...individualCollegeRoutes,
+    '/search',
+    '/sitemap',
+    '/about',
+    '/contact',
+    '/privacy-policy',
+    '/terms',
+    '/disclaimer',
+  ].map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: route === '' || route === '/hsc-exam-routine' || route === '/college-admission' || route === '/colleges' ? 1.0 : 0.8,
+  }));
+
+  // Class routes
+  const classRoutes = CLASSES_LIST.map((cls) => ({
+    url: `${baseUrl}/class/${cls.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.9,
+  }));
+
+  // Subject routes
+  const subjectRoutes: MetadataRoute.Sitemap = [];
+  CLASSES_LIST.forEach((cls) => {
+    SUBJECTS_LIST.forEach((subj) => {
+      subjectRoutes.push({
+        url: `${baseUrl}/${cls.slug}/${subj.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 0.7,
+      });
+    });
+  });
+
+  // Book detail routes
+  const bookRoutes = books.map((book) => ({
+    url: `${baseUrl}/${book.class_slug}/${book.slug}`,
+    lastModified: new Date(book.updated_at || book.created_at || Date.now()),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticRoutes, ...classRoutes, ...subjectRoutes, ...bookRoutes];
+}
