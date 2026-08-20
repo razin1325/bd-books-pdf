@@ -38,6 +38,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/blogs/shikhsha-upobitti-application-rules-eligibility-2026',
     '/blogs/new-voter-list-check-online',
     '/blogs/nu-honours-1st-year-routine-2026-pdf',
+    '/nu-honours-routine',
     '/blogs/primary-scholarship-routine-2026-pdf',
     '/blogs/degree-admission-circular-2026-nu',
     '/blogs/honours-1st-year-ict-suggestion-2026-pdf',

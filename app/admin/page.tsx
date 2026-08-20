@@ -23,6 +23,10 @@ import {
   ArrowUpDown,
   BookOpen,
   Sparkles,
+  Users,
+  Eye,
+  Activity,
+  TrendingUp,
 } from 'lucide-react';
 
 export default function AdminPage() {
@@ -33,6 +37,15 @@ export default function AdminPage() {
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
   const [successMsg, setSuccessMsg] = useState('');
+
+  // Analytics Stats State
+  const [analyticsStats, setAnalyticsStats] = useState<{
+    todayVisitors: number;
+    totalPageViews: number;
+    activeLiveUsers: number;
+    topPages: { url: string; views: number }[];
+    updatedAt: string;
+  } | null>(null);
 
   // Editing State
   const [editingSlug, setEditingSlug] = useState<string | null>(null);
@@ -117,6 +130,24 @@ export default function AdminPage() {
     return () => {
       window.removeEventListener('paste', handlePaste);
     };
+  }, [isAuthenticated]);
+
+  useEffect(() => {
+    if (!isAuthenticated) return;
+
+    const fetchAnalytics = async () => {
+      try {
+        const res = await fetch('/api/analytics');
+        const data = await res.json();
+        if (data.success) {
+          setAnalyticsStats(data);
+        }
+      } catch (e) {}
+    };
+
+    fetchAnalytics();
+    const interval = setInterval(fetchAnalytics, 10000); // Live poll every 10 seconds
+    return () => clearInterval(interval);
   }, [isAuthenticated]);
 
   const fetchBooks = async () => {
@@ -505,9 +536,9 @@ export default function AdminPage() {
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-emerald-800 to-teal-900 text-white p-6 sm:p-8 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-md">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Admin Portal (গুগল ড্রাইভ বই ম্যানেজমেন্ট)</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Admin Portal (গুগল ড্রাইভ বই ও লাইভ এনালিটিক্স)</h1>
           <p className="text-sm text-emerald-200 mt-1">
-            নতুন বই পোস্ট বা এডিট করুন (কিবোর্ডে Ctrl+V ও ফিল্টার ফিচার সক্রিয়)
+            নতুন বই পোস্ট বা এডিট করুন (কিবোর্ডে Ctrl+V, ফিল্টার ও লাইভ ইউজার ট্র্যাকিং সক্রিয়)
           </p>
         </div>
         <button
@@ -516,6 +547,71 @@ export default function AdminPage() {
         >
           Logout (লগআউট)
         </button>
+      </div>
+
+      {/* 📊 Live Site Visitor Analytics Cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* Card 1: Live Active Users */}
+        <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-2 relative overflow-hidden">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-extrabold text-gray-500 uppercase tracking-wider">লাইভ ভিজিটর (Active Now)</span>
+            <div className="flex items-center space-x-1.5 bg-emerald-100 text-emerald-800 text-3xs font-black px-2 py-0.5 rounded-full border border-emerald-200">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
+              <span>LIVE</span>
+            </div>
+          </div>
+          <div className="flex items-baseline space-x-2">
+            <span className="text-3xl font-black text-slate-900">{analyticsStats?.activeLiveUsers || 1}</span>
+            <span className="text-xs font-bold text-emerald-600">অনলাইনে আছেন</span>
+          </div>
+          <p className="text-3xs text-gray-400 font-medium">বিগত ৫ মিনিটের সক্রিয় সেশন</p>
+        </div>
+
+        {/* Card 2: Today's Unique Visitors */}
+        <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-extrabold text-gray-500 uppercase tracking-wider">আজকের ইউজার (Today)</span>
+            <div className="w-8 h-8 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center">
+              <Users className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline space-x-2">
+            <span className="text-3xl font-black text-slate-900">{analyticsStats?.todayVisitors || 0}</span>
+            <span className="text-xs font-bold text-blue-600">জন মানুষ</span>
+          </div>
+          <p className="text-3xs text-gray-400 font-medium">আজকের অনন্য (Unique) ভিজিটর</p>
+        </div>
+
+        {/* Card 3: Total Page Views */}
+        <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-extrabold text-gray-500 uppercase tracking-wider">মোট পেজ ভিউ (Total Views)</span>
+            <div className="w-8 h-8 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center">
+              <Eye className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="flex items-baseline space-x-2">
+            <span className="text-3xl font-black text-slate-900">{analyticsStats?.totalPageViews || 0}</span>
+            <span className="text-xs font-bold text-purple-600">বার পঠিত</span>
+          </div>
+          <p className="text-3xs text-gray-400 font-medium">সর্বমোট পেজ লোড সংখ্যা</p>
+        </div>
+
+        {/* Card 4: Top Page */}
+        <div className="bg-white p-5 rounded-2xl border border-gray-200 shadow-2xs space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-extrabold text-gray-500 uppercase tracking-wider">টপ পপুলার পেজ</span>
+            <div className="w-8 h-8 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center">
+              <TrendingUp className="w-4 h-4" />
+            </div>
+          </div>
+          <div className="text-xs font-bold text-slate-900 truncate">
+            {analyticsStats?.topPages[0]?.url || '/'}
+          </div>
+          <p className="text-3xs text-emerald-600 font-bold">
+            {analyticsStats?.topPages[0]?.views || 0} বার দেখা হয়েছে
+          </p>
+        </div>
       </div>
 
       {successMsg && (

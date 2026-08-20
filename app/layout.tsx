@@ -1,8 +1,11 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { Analytics } from '@vercel/analytics/react';
+import AnalyticsTracker from '@/components/AnalyticsTracker';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -50,11 +53,28 @@ export default function RootLayout({
   return (
     <html lang="bn" className="scroll-smooth" style={{ colorScheme: 'light' }} suppressHydrationWarning>
       <body className={`${inter.className} bg-gray-50 text-gray-900 min-h-screen flex flex-col antialiased`} suppressHydrationWarning>
+        {/* Google Analytics 4 (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-84HSH4S0WP"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-84HSH4S0WP');
+          `}
+        </Script>
+
+        <AnalyticsTracker />
         <Header />
         <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
           {children}
         </main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

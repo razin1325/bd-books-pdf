@@ -47,8 +47,8 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <h3>অনলাইনে মার্কশিট সহ SSC Vocational রেজাল্ট দেখার উপায়:</h3>
       <p>কারিগরি বোর্ডের এসএসসি ভোকেশনাল রেজাল্ট দুটি অফিশিয়াল পোর্টাল থেকে দেখা যায়:</p>
       <ol>
-        <li><strong>১ম পোর্টাল:</strong> বাংলাদেশ কারিগরি শিক্ষা বোর্ডের ওয়েবসাইট <a href="https://bteb.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">bteb.gov.bd</a> অথবা <a href="http://result.btebadmission.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">btebadmission.gov.bd</a> এ প্রবেশ করুন।</li>
-        <li><strong>২য় পোর্টাল:</strong> শিক্ষা বোর্ডের রেজাল্ট ওয়েবসাইট <a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">eboardresults.com</a> এ ভিজিট করুন।</li>
+        <li><strong>১ম পোর্টাল:</strong> বাংলাদেশ কারিগরি শিক্ষা বোর্ডের ওয়েবসাইট <a href="https://bteb.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">bteb.gov.bd</a> অথবা <a href="http://result.btebadmission.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">btebadmission.gov.bd</a> এ প্রবেশ করুন।</li>
+        <li><strong>২য় পোর্টাল:</strong> শিক্ষা বোর্ডের রেজাল্ট ওয়েবসাইট <a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">eboardresults.com</a> এ ভিজিট করুন।</li>
         <li>Examination অপশন থেকে <strong>SSC/Dakhil/Equivalent</strong> অথবা <strong>SSC Vocational</strong> নির্বাচন করুন।</li>
         <li>Year অপশনে <strong>2026</strong> সিলেক্ট করুন।</li>
         <li>Board অপশনে <strong>Technical</strong> সিলেক্ট করুন।</li>
@@ -58,7 +58,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
 
       <h3>এসএমএস (SMS)-এর মাধ্যমে ফল জানার নিয়ম:</h3>
       <p>যেকোনো মোবাইল অপারেটরের মেসেজ অপশনে গিয়ে লিখুন:</p>
-      <div className="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono my-4 text-center">
+      <div class="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono my-4 text-center">
         SSC &lt;space&gt; TEC &lt;space&gt; Roll &lt;space&gt; 2026 ➔ পাঠাতে হবে 16222 নম্বরে
       </div>
       <p>উদাহরণ: <code>SSC TEC 123456 2026</code> লিখে পাঠাতে হবে <strong>16222</strong> নম্বরে। কিছুক্ষণের মধ্যেই ফিরতি এসএমএসে আপনার জিপিএ জানিয়ে দেওয়া হবে।</p>
@@ -96,7 +96,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <p>বাংলাদেশের মাধ্যমিক ও উচ্চমাধ্যমিক শিক্ষা বোর্ডসমূহের অধীনে অনুষ্ঠিত এসএসসি ও সমমান পরীক্ষা ২০২৬-এর ফলাফল প্রকাশিত হয়েছে। এই গাইডে খুব সহজে মোবাইল বা কম্পিউটার দিয়ে বিষয়ের প্রাপ্ত নম্বর সহ মার্কশিট ডাউনলোডের অফিশিয়াল নিয়ম তুলে ধরা হলো।</p>
 
       <h3>১. EBoardResults ওয়েবসাইটের মাধ্যমে দেখার নিয়ম:</h3>
-      <p><a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">eboardresults.com</a> পোর্টালে রেজাল্ট খুব দ্রুত পাওয়া যায়। নিয়মটি হলো:</p>
+      <p><a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">eboardresults.com</a> পোর্টালে রেজাল্ট খুব দ্রুত পাওয়া যায়। নিয়মটি হলো:</p>
       <ul>
         <li>ওয়েবসাইটে প্রবেশ করে <strong>SSC/Dakhil/Equivalent</strong> সিলেক্ট করুন।</li>
         <li>পরীক্ষার বছর <strong>2026</strong> নির্বাচন করুন।</li>
@@ -106,23 +106,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       </ul>
 
       <h3>২. Education Board Results অফিশিয়াল সার্ভার:</h3>
-      <p>সরকারি অফিশিয়াল সার্ভার <a href="http://www.educationboardresults.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">educationboardresults.gov.bd</a> এ গিয়ে সাধারণ তথ্যাবলি ও যোগফল ক্যাপচা মিলালেই মার্কশিট দেখা যাবে।</p>
+      <p>সরকারি অফিশিয়াল সার্ভার <a href="http://www.educationboardresults.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">educationboardresults.gov.bd</a> এ গিয়ে সাধারণ তথ্যাবলি ও যোগফল ক্যাপচা মিলালেই মার্কশিট দেখা যাবে।</p>
 
       <h3>সকল শিক্ষা বোর্ডের SMS কোডের তালিকা:</h3>
-      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+      <table class="w-full border-collapse border border-gray-300 my-4 text-sm">
         <thead>
-          <tr className="bg-emerald-600 text-white">
-            <th className="border border-gray-300 p-2">শিক্ষা বোর্ডের নাম</th>
-            <th className="border border-gray-300 p-2">SMS ৩ অক্ষরের কোড</th>
-            <th className="border border-gray-300 p-2">নমুনা SMS ফর্ম্যাট (16222)</th>
+          <tr class="bg-emerald-600 text-white">
+            <th class="border border-gray-300 p-2">শিক্ষা বোর্ডের নাম</th>
+            <th class="border border-gray-300 p-2">SMS ৩ অক্ষরের কোড</th>
+            <th class="border border-gray-300 p-2">নমুনা SMS ফর্ম্যাট (16222)</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td className="border border-gray-300 p-2">ঢাকা বোর্ড (Dhaka)</td><td className="border border-gray-300 p-2">DHA</td><td className="border border-gray-300 p-2">SSC DHA 123456 2026</td></tr>
-          <tr><td className="border border-gray-300 p-2">চট্টগ্রাম বোর্ড (Chattogram)</td><td className="border border-gray-300 p-2">CHI</td><td className="border border-gray-300 p-2">SSC CHI 123456 2026</td></tr>
-          <tr><td className="border border-gray-300 p-2">রাজশাহী বোর্ড (Rajshahi)</td><td className="border border-gray-300 p-2">RAJ</td><td className="border border-gray-300 p-2">SSC RAJ 123456 2026</td></tr>
-          <tr><td className="border border-gray-300 p-2">কুমিল্লা বোর্ড (Cumilla)</td><td className="border border-gray-300 p-2">COM</td><td className="border border-gray-300 p-2">SSC COM 123456 2026</td></tr>
-          <tr><td className="border border-gray-300 p-2">মাদরাসা বোর্ড (Madrasah)</td><td className="border border-gray-300 p-2">MAD</td><td className="border border-gray-300 p-2">SSC MAD 123456 2026</td></tr>
+          <tr><td class="border border-gray-300 p-2">ঢাকা বোর্ড (Dhaka)</td><td class="border border-gray-300 p-2">DHA</td><td class="border border-gray-300 p-2">SSC DHA 123456 2026</td></tr>
+          <tr><td class="border border-gray-300 p-2">চট্টগ্রাম বোর্ড (Chattogram)</td><td class="border border-gray-300 p-2">CHI</td><td class="border border-gray-300 p-2">SSC CHI 123456 2026</td></tr>
+          <tr><td class="border border-gray-300 p-2">রাজশাহী বোর্ড (Rajshahi)</td><td class="border border-gray-300 p-2">RAJ</td><td class="border border-gray-300 p-2">SSC RAJ 123456 2026</td></tr>
+          <tr><td class="border border-gray-300 p-2">কুমিল্লা বোর্ড (Cumilla)</td><td class="border border-gray-300 p-2">COM</td><td class="border border-gray-300 p-2">SSC COM 123456 2026</td></tr>
+          <tr><td class="border border-gray-300 p-2">মাদরাসা বোর্ড (Madrasah)</td><td class="border border-gray-300 p-2">MAD</td><td class="border border-gray-300 p-2">SSC MAD 123456 2026</td></tr>
         </tbody>
       </table>
     `,
@@ -162,7 +162,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <h3>অনলাইনে আবেদন করার সঠিক ধাপসমূহ:</h3>
       <p>আবেদন করতে অফিশিয়াল পেমেন্ট পোর্টালে প্রবেশ করুন:</p>
       <ul>
-        <li>সমাজসেবা অধিদপ্তরের অনলাইন সার্ভিস পোর্টালে প্রবেশ করুন (<a href="https://mis.bhata.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">mis.bhata.gov.bd</a>)।</li>
+        <li>সমাজসেবা অধিদপ্তরের অনলাইন সার্ভিস পোর্টালে প্রবেশ করুন (<a href="https://mis.bhata.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">mis.bhata.gov.bd</a>)।</li>
         <li><strong>প্রতিবন্ধী ভাতা আবেদন</strong> লিংকে ক্লিক করুন।</li>
         <li>আবেদনকারীর <strong>সুবর্ণ নাগরিক নম্বর (Disability ID)</strong> ও জাতীয় পরিচয়পত্র নম্বর লিখুন।</li>
         <li>ব্যক্তিগত তথ্য, স্থায়ী ঠিকানা, প্রতিবন্ধিতার ধরন নির্বাচন করুন।</li>
@@ -287,13 +287,13 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
 
       <h3>অনলাইনে ফল জানার নিয়ম:</h3>
       <ul>
-        <li>সিলেট বোর্ডের অফিসিয়াল ওয়েবসাইট <a href="https://sylhetboard.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">sylhetboard.gov.bd</a> এ ভিজিট করুন।</li>
+        <li>সিলেট বোর্ডের অফিসিয়াল ওয়েবসাইট <a href="https://sylhetboard.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">sylhetboard.gov.bd</a> এ ভিজিট করুন।</li>
         <li>Result অপশন সিলেক্ট করে আপনার রোল ও রেজিস্ট্রেশন নম্বর দিন।</li>
-        <li>এছাড়া <a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">eboardresults.com</a> থেকে সিলেট বোর্ড সিলেক্ট করে মার্কশিট দেখা যাবে।</li>
+        <li>এছাড়া <a href="https://eboardresults.com" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">eboardresults.com</a> থেকে সিলেট বোর্ড সিলেক্ট করে মার্কশিট দেখা যাবে।</li>
       </ul>
 
       <h3>SMS কোড (সিলেট বোর্ড):</h3>
-      <div className="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono text-center my-3">
+      <div class="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono text-center my-3">
         SSC &lt;space&gt; SYL &lt;space&gt; Roll &lt;space&gt; 2026 ➔ Send to 16222
       </div>
     `,
@@ -350,7 +350,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
 
       <h3>স্মার্ট এনআইডি ডাউনলোডের স্টেপ-বাই-স্টেপ প্রসেস:</h3>
       <ol>
-        <li>বাংলাদেশ নির্বাচন কমিশনের অফিশিয়াল এনআইডি পোর্টাল <a href="https://services.nidw.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">services.nidw.gov.bd</a>-এ যান।</li>
+        <li>বাংলাদেশ নির্বাচন কমিশনের অফিশিয়াল এনআইডি পোর্টাল <a href="https://services.nidw.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">services.nidw.gov.bd</a>-এ যান।</li>
         <li><strong>রেজিস্ট্রেশন করুন</strong> বাটনে ক্লিক করুন।</li>
         <li>আপনার <strong>Form Number (NIDFN)</strong> অথবা এনআইডি নম্বর এবং সঠিক <strong>জন্ম তারিখ (Date of Birth)</strong> প্রদান করুন।</li>
         <li>বর্তমান ঠিকানা ও স্থায়ী ঠিকানা (বিভাগ, জেলা, উপজেলা) সঠিকভাবে নির্বাচন করুন।</li>
@@ -431,7 +431,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
 
       <h3>অনলাইনে ভোটার এলাকা ও তালিকা চেক করার নিয়ম:</h3>
       <ul>
-        <li>নির্বাচন কমিশনের রেজাল্ট ও ভোটার পোর্টাল <a href="https://services.nidw.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">services.nidw.gov.bd</a>-এ যান।</li>
+        <li>নির্বাচন কমিশনের রেজাল্ট ও ভোটার পোর্টাল <a href="https://services.nidw.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">services.nidw.gov.bd</a>-এ যান।</li>
         <li><strong>ভোটার তথ্য অনুসন্ধান</strong> লিংকে ক্লিক করুন।</li>
         <li>নিজের জাতীয় পরিচয়পত্র নম্বর বা ফর্ম নম্বর এবং জন্ম তারিখ দিন।</li>
         <li>ক্যাপচা পূরণ করে <strong>ভোটার তথ্য দেখুন</strong> বাটনে চাপ দিলে আপনার ভোটকেন্দ্রের নাম, ভোটার নম্বর ও ওয়ার্ড বিস্তারিত দেখা যাবে।</li>
@@ -453,28 +453,118 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     tags: ['NU Routine', 'Honours 1st Year', 'জাতীয় বিশ্ববিদ্যালয়', 'অনার্স রুটিন'],
     coverImage: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80',
     content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ অফিশিয়াল বিষয়ভিত্তিক পরীক্ষা সময়সূচি ২০২৬ (Full Timetable)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ২০২৬ পরীক্ষার পূর্ণাঙ্গ অফিশিয়াল বিষয়ভিত্তিক সময়সূচি নিচে ছক আকারে তুলে ধরা হলো। আপনার বিষয় ও বিষয়ের কোড অনুযায়ী পরীক্ষার তারিখ মিলিয়ে নিন:</p>
+
+      <div class="not-prose my-6 overflow-x-auto rounded-2xl border border-purple-300 shadow-md">
+        <table class="w-full text-left text-sm text-gray-800 border-collapse bg-white">
+          <thead class="bg-gradient-to-r from-purple-800 to-indigo-900 text-white text-xs uppercase font-extrabold">
+            <tr>
+              <th class="py-3.5 px-4 border-b border-purple-700">পরীক্ষার তারিখ ও বার</th>
+              <th class="py-3.5 px-4 border-b border-purple-700">পরীক্ষার সময়</th>
+              <th class="py-3.5 px-4 border-b border-purple-700">বিষয় কোড</th>
+              <th class="py-3.5 px-4 border-b border-purple-700">বিষয়ের নাম ও বিভাগ</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১১ সেপ্টেম্বর ২০২৬ (শুক্রবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১১৫০১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস (আবশ্যিক - সকল বিভাগ)</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১৪ সেপ্টেম্বর ২০২৬ (সোমবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১১০০১ / ২১১০১১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">বাংলা (আবশ্যিক) / ইংরেজি (নন-মেজর)</td>
+            </tr>
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১৭ সেপ্টেম্বর ২০২৬ (বৃহস্পতিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২০০১ / ২১২১০১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">রাষ্ট্রবিজ্ঞান ১ম পত্র / ইতিহাস ১ম পত্র / সমাজবিজ্ঞান ১ম পত্র</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">২০ সেপ্টেম্বর ২০২৬ (রবিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২০০৩ / ২১২১০৩</td>
+              <td class="py-3 px-4 font-bold text-gray-900">রাষ্ট্রবিজ্ঞান ২য় পত্র / ইতিহাস ২য় পত্র / সমাজবিজ্ঞান ২য় পত্র</td>
+            </tr>
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">২৩ সেপ্টেম্বর ২০২৬ (বুধবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২২০১ / ২১২৫০১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">অর্থনীতি ১ম পত্র / সমাজকর্ম ১ম পত্র</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">২৭ সেপ্টেম্বর ২০২৬ (রবিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২২০৩ / ২১২৫০৩</td>
+              <td class="py-3 px-4 font-bold text-gray-900">অর্থনীতি ২য় পত্র / সমাজকর্ম ২য় পত্র</td>
+            </tr>
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">৩০ সেপ্টেম্বর ২০২৬ (বুধবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২৫০১ / ২১২৭০১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">হিসাববিজ্ঞান ১ম পত্র / ব্যবস্থাপনা ১ম পত্র / ফিন্যান্স ১ম পত্র</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">০৪ অক্টোবর ২০২৬ (রবিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১২৫০৩ / ২১২৭০৩</td>
+              <td class="py-3 px-4 font-bold text-gray-900">হিসাববিজ্ঞান ২য় পত্র / ব্যবস্থাপনা ২য় পত্র / ফিন্যান্স ২য় পত্র</td>
+            </tr>
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">০৭ অক্টোবর ২০২৬ (বুধবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১৩৭০১ / ২১৩৭০৩</td>
+              <td class="py-3 px-4 font-bold text-gray-900">কম্পিউটার ও তথ্য প্রযুক্তি (ICT) / রসায়ন ১ম পত্র</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১০ অক্টোবর ২০২৬ (শনিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১৩৭০৫ / ২১৩৭০৭</td>
+              <td class="py-3 px-4 font-bold text-gray-900">পদার্থবিজ্ঞান ১ম পত্র / উদ্ভিদবিজ্ঞান ১ম পত্র / মাটি বিজ্ঞান ১ম পত্র</td>
+            </tr>
+            <tr class="hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১৩ অক্টোবর ২০২৬ (মঙ্গলবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১৩৭০৯ / ২১৩৭১১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">পদার্থবিজ্ঞান ২য় পত্র / প্রাণীবিজ্ঞান ১ম পত্র / ভূগোল ১ম পত্র</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-purple-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-purple-950">১৭ অক্টোবর ২০২৬ (শনিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - বিকেল ৫:০০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">২১৩৭১৩ / ২১৩৭১৫</td>
+              <td class="py-3 px-4 font-bold text-gray-900">গণিত ১ম পত্র / পরিসংখ্যান ১ম পত্র / মনোবিজ্ঞান ১ম পত্র</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ পরীক্ষা রুটিন ২০২৬ (NU Honours 1st Year Routine PDF)</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় (National University, Bangladesh)-এর অধীনে অনুষ্ঠিতব্য ২০২৬ সালের অনার্স ১ম বর্ষ (২০২৩-২৪ ও ২০২৪-২৫ শিক্ষাবর্ষের নিয়মিত, অনিয়মিত ও গ্রেড উন্নয়ন) পরীক্ষার অফিশিয়াল রুটিন ও নির্দেশিকা প্রকাশিত হয়েছে। শিক্ষার্থীরা খুব সহজেই আমাদের সাইট থেকে সরাসরি পিডিএফ ডাউনলোড ও সময়সূচি চেক করতে পারবেন।</p>
 
       <h3>পরীক্ষার গুরুত্বপূর্ণ তথ্য ও সময়সূচি:</h3>
-      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+      <table class="w-full border-collapse border border-gray-300 my-4 text-sm">
         <thead>
-          <tr className="bg-emerald-700 text-white font-bold">
-            <th className="border border-gray-300 p-2.5">বিবরণ</th>
-            <th className="border border-gray-300 p-2.5">তথ্য / সময়</th>
+          <tr class="bg-emerald-700 text-white font-bold">
+            <th class="border border-gray-300 p-2.5">বিবরণ</th>
+            <th class="border border-gray-300 p-2.5">তথ্য / সময়</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td className="border border-gray-300 p-2.5 font-bold">পরীক্ষা শুরুর সময়</td><td className="border border-gray-300 p-2.5">প্রতিদিন দুপুর ০১:৩০ মি. (বেলা দেড়টা)</td></tr>
-          <tr><td className="border border-gray-300 p-2.5 font-bold">পরীক্ষার সময়কাল</td><td className="border border-gray-300 p-2.5">প্রশ্নপত্রে উল্লেখিত সময় অনুযায়ী (৩/৪ ঘণ্টা)</td></tr>
-          <tr><td className="border border-gray-300 p-2.5 font-bold">অফিশিয়াল ওয়েবসাইট</td><td className="border border-gray-300 p-2.5">nu.ac.bd / nu.edu.bd</td></tr>
-          <tr><td className="border border-gray-300 p-2.5 font-bold">প্রবেশপত্র সংগ্রহ</td><td className="border border-gray-300 p-2.5">পরীক্ষা শুরুর ৩ দিন পূর্বে নিজ নিজ কলেজ হতে</td></tr>
+          <tr><td class="border border-gray-300 p-2.5 font-bold">পরীক্ষা শুরুর সময়</td><td class="border border-gray-300 p-2.5">প্রতিদিন দুপুর ০১:৩০ মি. (বেলা দেড়টা)</td></tr>
+          <tr><td class="border border-gray-300 p-2.5 font-bold">পরীক্ষার সময়কাল</td><td class="border border-gray-300 p-2.5">প্রশ্নপত্রে উল্লেখিত সময় অনুযায়ী (৩/৪ ঘণ্টা)</td></tr>
+          <tr><td class="border border-gray-300 p-2.5 font-bold">অফিশিয়াল ওয়েবসাইট</td><td class="border border-gray-300 p-2.5">nu.ac.bd / nu.edu.bd</td></tr>
+          <tr><td class="border border-gray-300 p-2.5 font-bold">প্রবেশপত্র সংগ্রহ</td><td class="border border-gray-300 p-2.5">পরীক্ষা শুরুর ৩ দিন পূর্বে নিজ নিজ কলেজ হতে</td></tr>
         </tbody>
       </table>
 
       <h3>অন অনার্স ১ম বর্ষ রুটিন PDF ডাউনলোড করার অফিশিয়াল নিয়ম:</h3>
       <ol>
-        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিশিয়াল পোর্টাল <a href="https://www.nu.ac.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd</a> এ প্রবেশ করুন।</li>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিশিয়াল পোর্টাল <a href="https://www.nu.ac.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">nu.ac.bd</a> এ প্রবেশ করুন।</li>
         <li>মেনু বার থেকে <strong>Recent Notices / Examination Routine</strong> ট্যাবে ক্লিক করুন।</li>
         <li><strong>"Honours 1st Year Exam Routine 2026 PDF"</strong> অপশনে প্রেস করলেই মূল অফিশিয়াল নোটিশটি ডাউনলোড হয়ে যাবে।</li>
       </ol>
@@ -512,29 +602,59 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     tags: ['প্রাথমিক বৃত্তি', 'DPE Routine', 'Primary Scholarship', '৫ম শ্রেণি'],
     coverImage: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1200&q=80',
     content: `
+      <h2>প্রাথমিক বৃত্তি পরীক্ষা ২০২৬ বিষয়ভিত্তিক পূর্ণাঙ্গ পরীক্ষার সময়সূচি (Primary Scholarship Timetable)</h2>
+      <p>৫ম শ্রেণির প্রাথমিক বৃত্তি পরীক্ষা ২০২৬-এর অফিশিয়াল বিষয়ভিত্তিক পরীক্ষার তারিখ, বিষয় ও মানবণ্টনের ছক নিচে প্রদান করা হলো:</p>
+
+      <div class="not-prose my-6 overflow-x-auto rounded-2xl border border-blue-300 shadow-md">
+        <table class="w-full text-left text-sm text-gray-800 border-collapse bg-white">
+          <thead class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white text-xs uppercase font-extrabold">
+            <tr>
+              <th class="py-3.5 px-4 border-b border-blue-700">পরীক্ষার তারিখ ও দিন</th>
+              <th class="py-3.5 px-4 border-b border-blue-700">পরীক্ষার সময়</th>
+              <th class="py-3.5 px-4 border-b border-blue-700">বিষয়ের নাম</th>
+              <th class="py-3.5 px-4 border-b border-blue-700">নম্বর বিভাজন</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-blue-50/60 transition-colors">
+              <td class="py-3.5 px-4 font-bold text-blue-950">২২ ডিসেম্বর ২০২৬ (মঙ্গলবার)</td>
+              <td class="py-3.5 px-4 text-xs font-semibold text-gray-600">সকাল ১০:০০ - দুপুর ১২:০০</td>
+              <td class="py-3.5 px-4 font-bold text-gray-900">বাংলা (Bangla) + ইংরেজি (English)</td>
+              <td class="py-3.5 px-4 font-mono font-bold text-emerald-700">বাংলা ২৫ + ইংরেজি ২৫ (মোট ৫০)</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-blue-50/60 transition-colors">
+              <td class="py-3.5 px-4 font-bold text-blue-950">২৩ ডিসেম্বর ২০২৬ (বুধবার)</td>
+              <td class="py-3.5 px-4 text-xs font-semibold text-gray-600">সকাল ১০:০০ - দুপুর ১২:০০</td>
+              <td class="py-3.5 px-4 font-bold text-gray-900">প্রাথমিক গণিত (Math) + প্রাথমিক বিজ্ঞান (Science)</td>
+              <td class="py-3.5 px-4 font-mono font-bold text-emerald-700">গণিত ২৫ + বিজ্ঞান ২৫ (মোট ৫০)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>প্রাথমিক বৃত্তি পরীক্ষা ২০২৬ পূর্ণাঙ্গ রুটিন ও মানবণ্টন (Primary Scholarship Routine)</h2>
       <p>প্রাথমিক শিক্ষা অধিদপ্তর (DPE) কর্তৃক ৫ম শ্রেণির প্রাথমিক বিদ্যালয়ের শিক্ষার্থীদের জন্য প্রাথমিক বৃত্তি পরীক্ষা ২০২৬-এর অফিশিয়াল সময়সূচি ও প্রশ্ন কাঠামোর মানবণ্টন ঘোষণা করা হয়েছে।</p>
 
       <h3>প্রাথমিক বৃত্তি পরীক্ষার বিষয়ভিত্তিক নম্বর বিভাজন:</h3>
       <p>বৃত্তি পরীক্ষা মোট <strong>১০০ নম্বরের</strong> বিষয়ভিত্তিক প্রশ্নের ওপর অনুষ্ঠিত হবে। সময় থাকবে ২ ঘণ্টা (সকাল ১০:০০ মি. হতে দুপুর ১২:০০ মি. পর্যন্ত)।</p>
-      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+      <table class="w-full border-collapse border border-gray-300 my-4 text-sm">
         <thead>
-          <tr className="bg-emerald-700 text-white font-bold">
-            <th className="border border-gray-300 p-2">বিষয়ের নাম</th>
-            <th className="border border-gray-300 p-2">নম্বর</th>
-            <th className="border border-gray-300 p-2">প্রশ্ন ধরন</th>
+          <tr class="bg-emerald-700 text-white font-bold">
+            <th class="border border-gray-300 p-2">বিষয়ের নাম</th>
+            <th class="border border-gray-300 p-2">নম্বর</th>
+            <th class="border border-gray-300 p-2">প্রশ্ন ধরন</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td className="border border-gray-300 p-2 font-bold">বাংলা (Bangla)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">বহুনির্বাচনী ও সংক্ষিপ্ত উত্তর</td></tr>
-          <tr><td className="border border-gray-300 p-2 font-bold">ইংরেজি (English)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">Short Questions & Composition</td></tr>
-          <tr><td className="border border-gray-300 p-2 font-bold">প্রাথমিক গণিত (Mathematics)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">গাণিতিক সমস্যা ও সমাধান</td></tr>
-          <tr><td className="border border-gray-300 p-2 font-bold">প্রাথমিক বিজ্ঞান (Science)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">সংক্ষিপ্ত ও যোগ্যতাভিত্তিক প্রশ্ন</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">বাংলা (Bangla)</td><td class="border border-gray-300 p-2">২৫ নম্বর</td><td class="border border-gray-300 p-2">বহুনির্বাচনী ও সংক্ষিপ্ত উত্তর</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">ইংরেজি (English)</td><td class="border border-gray-300 p-2">২৫ নম্বর</td><td class="border border-gray-300 p-2">Short Questions & Composition</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">প্রাথমিক গণিত (Mathematics)</td><td class="border border-gray-300 p-2">২৫ নম্বর</td><td class="border border-gray-300 p-2">গাণিতিক সমস্যা ও সমাধান</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">প্রাথমিক বিজ্ঞান (Science)</td><td class="border border-gray-300 p-2">২৫ নম্বর</td><td class="border border-gray-300 p-2">সংক্ষিপ্ত ও যোগ্যতাভিত্তিক প্রশ্ন</td></tr>
         </tbody>
       </table>
 
       <h3>বৃত্তি পোর্টালে ফলাফল ও রুটিন দেখার নিয়ম:</h3>
-      <p>প্রাথমিক শিক্ষা অধিদপ্তরের মূল ওয়েবসাইট <a href="https://dpe.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">dpe.gov.bd</a> অথবা ডিপিইও (DPEO) নোটিশ বোর্ড থেকে সরাসরি রুটিন পিডিএফ ফাইল পেয়ে যাবেন।</p>
+      <p>প্রাথমিক শিক্ষা অধিদপ্তরের মূল ওয়েবসাইট <a href="https://dpe.gov.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">dpe.gov.bd</a> অথবা ডিপিইও (DPEO) নোটিশ বোর্ড থেকে সরাসরি রুটিন পিডিএফ ফাইল পেয়ে যাবেন।</p>
     `,
     faq: [
       {
@@ -562,23 +682,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <p>জাতীয় বিশ্ববিদ্যালয় (National University)-এর অধীনস্থ সরকারি ও বেসরকারি কলেজসমূহে ২০২৬ সালের ডিগ্রি (পাস) ও সার্টিফিকেট কোর্স ১ম বর্ষের অফিশিয়াল ভর্তি বিজ্ঞপ্তি প্রকাশিত হয়েছে।</p>
 
       <h3>ডিগ্রি ভর্তির ন্যূনতম জিপিএ যোগ্যতা (Educational Qualifications):</h3>
-      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+      <table class="w-full border-collapse border border-gray-300 my-4 text-sm">
         <thead>
-          <tr className="bg-emerald-700 text-white font-bold">
-            <th className="border border-gray-300 p-2">পরীক্ষার নাম</th>
-            <th className="border border-gray-300 p-2">ন্যূনতম জিপিএ (GPA)</th>
-            <th className="border border-gray-300 p-2">পাসের সাল</th>
+          <tr class="bg-emerald-700 text-white font-bold">
+            <th class="border border-gray-300 p-2">পরীক্ষার নাম</th>
+            <th class="border border-gray-300 p-2">ন্যূনতম জিপিএ (GPA)</th>
+            <th class="border border-gray-300 p-2">পাসের সাল</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td className="border border-gray-300 p-2 font-bold">এসএসসি (SSC / সমমান)</td><td className="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td className="border border-gray-300 p-2">২০২১, ২০২২, ২০২৩</td></tr>
-          <tr><td className="border border-gray-300 p-2 font-bold">এইচএসসি (HSC / সমমান)</td><td className="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td className="border border-gray-300 p-2">২০২৩, ২০২৪, ২০২৫</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">এসএসসি (SSC / সমমান)</td><td class="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td class="border border-gray-300 p-2">২০২১, ২০২২, ২০২৩</td></tr>
+          <tr><td class="border border-gray-300 p-2 font-bold">এইচএসসি (HSC / সমমান)</td><td class="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td class="border border-gray-300 p-2">২০২৩, ২০২৪, ২০২৫</td></tr>
         </tbody>
       </table>
 
       <h3>অনলাইনে ডিগ্রি প্রাথমিক আবেদন করার অফিশিয়াল প্রসেস:</h3>
       <ol>
-        <li>জাতীয় বিশ্ববিদ্যালয়ের ভর্তি ওয়েবসাইট <a href="http://app1.nu.edu.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">app1.nu.edu.bd</a> অথবা <a href="https://www.nu.ac.bd/admissions" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd/admissions</a> পোর্টালে যান।</li>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের ভর্তি ওয়েবসাইট <a href="http://app1.nu.edu.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">app1.nu.edu.bd</a> অথবা <a href="https://www.nu.ac.bd/admissions" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">nu.ac.bd/admissions</a> পোর্টালে যান।</li>
         <li><strong>Degree Pass</strong> ট্যাবে গিয়ে <strong>Apply Now (Degree Pass)</strong> বোতামে ক্লিক করুন।</li>
         <li>আপনার এসএসসি ও এইচএসসি পরীক্ষার রোল ও রেজিস্ট্রেশন নম্বর লিখুন।</li>
         <li>নিজের পছন্দের কলেজ সিলেক্ট করে কোর্সের পছন্দক্রম (BA / BSS / BBS / BSc) প্রদান করুন।</li>
@@ -622,6 +742,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <h2>অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) সাজেশন ২০২৬</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় (National University)-এর অনার্স ১ম বর্ষের পরীক্ষার জন্য কম্পিউটার ও তথ্য প্রযুক্তি (Computer & Information Technology - ICT) বিষয়ের পূর্ণাঙ্গ ১০০% কমন ফাইনাল সাজেশন ও বিগত পরীক্ষার সমাধান নিচে তুলে ধরা হলো।</p>
 
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 অনার্স ১ম বর্ষ ICT সাজেশন PDF ফাইল (Direct Drive Download)
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
+
       <h3>ক-বিভাগ (সংক্ষিপ্ত উত্তর প্রশ্নাবলী - নম্বর ১০):</h3>
       <ul>
         <li>১. কম্পিউটার বাস (Computer Bus) কাকে বলে? বিভিন্ন প্রকার বাসের সংজ্ঞার্থ লিখ।</li>
@@ -656,6 +793,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস সাজেশন ২০২৬ (NU History Department)</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের শিক্ষার্থীদের জন্য পরীক্ষা ২০২৬-এর বিষভিত্তিক ক, খ এবং গ বিভাগের প্রশ্ন উত্তর ও গাইডলাইন নিচে তুলে ধরা হলো।</p>
 
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 ইতিহাস বিভাগ পূর্ণাঙ্গ ফাইনাল সাজেশন PDF ফাইল (Direct Drive Download)
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
+
       <h3>ক-বিভাগ (সংক্ষিপ্ত প্রশ্নাবলী):</h3>
       <ul>
         <li>১. ইতিহাস শব্দের উৎপত্তি কোন শব্দ থেকে হয়েছে?</li>
@@ -689,6 +843,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       <h2>স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস (History of the Emergence of Independent Bangladesh - 211501)</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষের সকল বিভাগের জন্য বাধ্যতামূলক বা আবশ্যিক বিষয় ‘স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস’ (বিষয় কোড: ২১১৫০১)-এর পূর্ণাঙ্গ ১০০ নম্বর ফাইনাল সাজেশন ও গাইডলাইন।</p>
 
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস (২১১৫০১) নোট PDF ফাইল
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
+
       <h3>গুরুত্বপূর্ণ রচনামূলক প্রশ্নাবলী (গ-বিভাগ):</h3>
       <ol>
         <li>১. ১৯৫২ সালের ভাষা আন্দোলনের পটভূমি ও তাৎপর্য সংক্ষেপে আলোচনা কর। এটি কীভাবে বাঙালি জাতীয়তাবাদের উন্মেষ ঘটায়?</li>
@@ -715,6 +886,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     content: `
       <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ICT মূল বই PDF (Computer & Info Tech)</h2>
       <p>অনার্স ১ম বর্ষের কম্পিউটার ও তথ্য প্রযুক্তি বিষয়ের মূল রেফারেন্স বইয়ের পিডিএফ সংস্করণ সংক্রান্ত অফিশিয়াল তথ্য নিচে প্রদান করা হলো।</p>
+
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 অনার্স ১ম বর্ষ ICT মূল বই PDF (Direct Drive Download)
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
 
       <h3>বইয়ের প্রধান অধ্যায়সূচি:</h3>
       <ul>
@@ -745,7 +933,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
 
       <h3>অনলাইনে মার্কশিট সহ রেজাল্ট দেখার নিয়ম:</h3>
       <ol>
-        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিসিয়াল ফলাফল ওয়েবসাইট <a href="http://www.nu.ac.bd/results" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd/results</a> এ প্রবেশ করুন।</li>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিসিয়াল ফলাফল ওয়েবসাইট <a href="http://www.nu.ac.bd/results" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">nu.ac.bd/results</a> এ প্রবেশ করুন।</li>
         <li>বামে থাকা অপশন থেকে <strong>Masters</strong> এ ক্লিক করে <strong>Masters Final</strong> সিলেক্ট করুন।</li>
         <li>আপনার <strong>Exam Roll Number</strong> এবং <strong>Registration Number</strong> ইনপুট দিন।</li>
         <li>পরীক্ষার বছর <strong>2026</strong> টাইপ করুন।</li>
@@ -753,7 +941,7 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       </ol>
 
       <h3>SMS দিয়ে রেজাল্ট দেখার উপায়:</h3>
-      <div className="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono text-center my-3">
+      <div class="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono text-center my-3">
         NU &lt;space&gt; MF &lt;space&gt; Roll_No ➔ পাঠাতে হবে 16222 নম্বরে
       </div>
     `,
@@ -772,13 +960,67 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     author: 'IAU Exam Cell',
     tags: ['Fazil Routine', 'ইসলামিক আরবি বিশ্ববিদ্যালয়', 'ফাজিল রুটিন', 'IAU Exam'],
     content: `
+      <h2>ইসলামিক আরবি বিশ্ববিদ্যালয় ফাজিল অনার্স পূর্ণাঙ্গ পরীক্ষা সময়সূচি ২০২৬ (IAU Routine)</h2>
+      <p>ফাজিল (অনার্স) ১ম, ২য়, ৩য় ও ৪র্থ বর্ষ পরীক্ষা ২০২৬-এর অফিশিয়াল বিষয়ভিত্তিক সময়সূচি নিচে পূর্ণাঙ্গভাবে প্রদান করা হলো:</p>
+
+      <div class="not-prose my-6 overflow-x-auto rounded-2xl border border-emerald-300 shadow-md">
+        <table class="w-full text-left text-sm text-gray-800 border-collapse bg-white">
+          <thead class="bg-gradient-to-r from-emerald-800 to-teal-900 text-white text-xs uppercase font-extrabold">
+            <tr>
+              <th class="py-3.5 px-4 border-b border-emerald-700">পরীক্ষার তারিখ ও দিন</th>
+              <th class="py-3.5 px-4 border-b border-emerald-700">পরীক্ষার সময়</th>
+              <th class="py-3.5 px-4 border-b border-emerald-700">বিষয় কোড</th>
+              <th class="py-3.5 px-4 border-b border-emerald-700">বিষয়ের নাম ও পত্র</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">১৫ সেপ্টেম্বর ২০২৬ (মঙ্গলবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০১</td>
+              <td class="py-3 px-4 font-bold text-gray-900">উলূমুল কুরআন ও তাফসীর (১ম পত্র)</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">১৮ সেপ্টেম্বর ২০২৬ (শুক্রবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০২</td>
+              <td class="py-3 px-4 font-bold text-gray-900">উলূমুল হাদিস ও ফিকহ (২য় পত্র)</td>
+            </tr>
+            <tr class="hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">২১ সেপ্টেম্বর ২০২৬ (সোমবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০৩</td>
+              <td class="py-3 px-4 font-bold text-gray-900">আরবি ভাষা ও সাহিত্য (৩য় পত্র)</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">২৪ সেপ্টেম্বর ২০২৬ (বৃহস্পতিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০৪</td>
+              <td class="py-3 px-4 font-bold text-gray-900">ইসলামি দাওয়াহ ও সংস্কৃতি (৪র্থ পত্র)</td>
+            </tr>
+            <tr class="hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">২৭ সেপ্টেম্বর ২০২৬ (রবিবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০৫</td>
+              <td class="py-3 px-4 font-bold text-gray-900">আল-আকিদা ওয়াল ফালসাফা (৫ম পত্র)</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-emerald-50/60 transition-colors">
+              <td class="py-3 px-4 font-bold text-emerald-950">৩০ সেপ্টেম্বর ২০২৬ (বুধবার)</td>
+              <td class="py-3 px-4 text-xs font-semibold text-gray-600">দুপুর ১:৩০ - ৪:৩০</td>
+              <td class="py-3 px-4 font-mono font-bold text-emerald-700">১০৬</td>
+              <td class="py-3 px-4 font-bold text-gray-900">আল-তারিখুল ইসলামী (ইসলামের ইতিহাস) (৬ষ্ঠ পত্র)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>ইসলামিক আরবি বিশ্ববিদ্যালয় ফাজিল অনার্স পরীক্ষা রুটিন ২০২৬ (Fazil Routine PDF)</h2>
       <p>ইসলামিক আরবি বিশ্ববিদ্যালয় (Islamic Arabic University - IAU)-এর অধীনস্থ ফাজিল (অনার্স) ১ম, ২য়, ৩য় ও ৪র্থ বর্ষ পরীক্ষা ২০২৬-এর অফিশিয়াল বিষয়ভিত্তিক সময়সূচি প্রকাশ করা হয়েছে।</p>
 
       <h3>পরীক্ষা সংক্রান্ত গুরুত্বপূর্ণ তথ্য:</h3>
       <ul>
         <li>পরীক্ষা শুরুর সময়: প্রতিদিন দুপুর ১:৩০ মিনিট।</li>
-        <li>অফিশিয়াল পোর্টাল: <a href="https://iau.edu.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">iau.edu.bd</a>।</li>
+        <li>অফিশিয়াল পোর্টাল: <a href="https://iau.edu.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">iau.edu.bd</a>।</li>
         <li>পরীক্ষার্থীদের নিজ নিজ মাদরাসা হতে কেন্দ্র ফি জমা দিয়ে প্রবেশপত্র সংগ্রহ করতে হবে।</li>
       </ul>
     `,
@@ -797,12 +1039,48 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     author: 'NU Notice Board',
     tags: ['Degree Form Fillup', 'জাতীয় বিশ্ববিদ্যালয়', 'ডিগ্রি ফরম পূরণ', 'NU Form Fillup'],
     content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ ফরম পূরণ ও ফি জমার অফিশিয়াল সময়সূচি (Full Schedule)</h2>
+      <p>ডিগ্রি ১ম বর্ষ অন-লাইন ফরম পূরণের বিষয়ভিত্তিক ও প্রশাসনিক সকল ডেডলাইন নিচে ছক আকারে সংকলন করা হলো:</p>
+
+      <div class="not-prose my-6 overflow-x-auto rounded-2xl border border-amber-300 shadow-md">
+        <table class="w-full text-left text-sm text-gray-800 border-collapse bg-white">
+          <thead class="bg-gradient-to-r from-amber-800 to-orange-900 text-white text-xs uppercase font-extrabold">
+            <tr>
+              <th class="py-3.5 px-4 border-b border-amber-700">কার্যক্রমের বিবরণ</th>
+              <th class="py-3.5 px-4 border-b border-amber-700">শুরুর তারিখ</th>
+              <th class="py-3.5 px-4 border-b border-amber-700">শেষ তারিখ</th>
+              <th class="py-3.5 px-4 border-b border-amber-700">অফিশিয়াল পোর্টাল / ব্যাংক</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr class="hover:bg-amber-50/60 transition-colors">
+              <td class="py-3.5 px-4 font-bold text-slate-900">অনলাইনে ফরম পূরণের আবেদন আবেদন তৈরি</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-emerald-700">২৫ আগস্ট ২০২৬</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-rose-700">২০ সেপ্টেম্বর ২০২৬</td>
+              <td class="py-3.5 px-4 font-mono text-xs text-purple-700 font-bold">emsb.nu.ac.bd</td>
+            </tr>
+            <tr class="bg-slate-50/80 hover:bg-amber-50/60 transition-colors">
+              <td class="py-3.5 px-4 font-bold text-slate-900">শিক্ষার্থীর ডাটা নিশ্চয়ন (কলেজ কর্তৃক)</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-emerald-700">২১ সেপ্টেম্বর ২০২৬</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-rose-700">২২ সেপ্টেম্বর ২০২৬</td>
+              <td class="py-3.5 px-4 font-mono text-xs text-purple-700 font-bold">College Authority Portal</td>
+            </tr>
+            <tr class="hover:bg-amber-50/60 transition-colors">
+              <td class="py-3.5 px-4 font-bold text-slate-900">সোনালী সেবার মাধ্যমে ফি জমাদান</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-emerald-700">২৩ সেপ্টেম্বর ২০২৬</td>
+              <td class="py-3.5 px-4 text-xs font-bold text-rose-700">২৪ সেপ্টেম্বর ২০২৬</td>
+              <td class="py-3.5 px-4 font-mono text-xs text-purple-700 font-bold">Sonali Sheba Online</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h2>জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ পরীক্ষার অন-লাইন ফরম পূরণ ২০২৬</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় (National University) ডিগ্রি ১ম বর্ষ (নিয়মিত, অনিয়মিত ও গ্রেড উন্নয়ন) পরীক্ষার অফিশিয়াল অন-লাইন ফরম পূরণ সংক্রান্ত নোটিশ প্রকাশিত হয়েছে।</p>
 
       <h3>ফরম পূরণের অনলাইন ধাপসমূহ:</h3>
       <ol>
-        <li>অনলাইন ফরম পূরণ পোর্টাল <a href="http://emsb.nu.ac.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">emsb.nu.ac.bd</a> অথবা <a href="http://www.nubd.info" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nubd.info</a> এ যান।</li>
+        <li>অনলাইন ফরম পূরণ পোর্টাল <a href="http://emsb.nu.ac.bd" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">emsb.nu.ac.bd</a> অথবা <a href="http://www.nubd.info" target="_blank" rel="noopener noreferrer" class="text-emerald-600 font-bold underline">nubd.info</a> এ যান।</li>
         <li><strong>Student Login / Form Fillup</strong> অপশন নির্বাচন করে আপনার রেজিস্ট্রেশন নম্বর লিখুন।</li>
         <li>সাবজেক্ট কোড নির্বাচন করে ফরম ডাউনলোড ও প্রিন্ট করুন।</li>
         <li>প্রিন্টকৃত ফরম ও নির্ধারিত ফি (সোনালী সেবা বা কলেজের ব্যাংক একাউন্টে) বিজ্ঞপ্তির শেষ তারিখের মধ্যে জমা দিন।</li>
@@ -825,6 +1103,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     content: `
       <h2>অনার্স ১ম বর্ষ বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১) চূড়ান্ত সাজেশন ২০২৬</h2>
       <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের অন্যতম মূল বিষয় ‘বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১)’-এর অফিশিয়াল সাজেশন ও উত্তরমালা নিচে দেওয়া হলো।</p>
+
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১) সংক্ষিপ্ত সাজেশন PDF
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
 
       <h3>ক-বিভাগ (সংক্ষিপ্ত সংজ্ঞার্থ প্রশ্ন):</h3>
       <ul>
@@ -850,6 +1145,23 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
     content: `
       <h2>অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) পূর্ণাঙ্গ গাইড বই PDF</h2>
       <p>অনার্স ১ম বর্ষের তথ্য ও যোগাযোগ প্রযুক্তি (Computer & Information Technology) বিষয়ের সমাধান ও গাইড নোটের অফিশিয়াল সূচিপত্র ও ব্যবহার নির্দেশিকা।</p>
+
+      <div class="not-prose my-8 p-6 sm:p-8 bg-slate-900 rounded-3xl border-2 border-emerald-500 shadow-2xl text-center space-y-4">
+        <div class="inline-block bg-amber-400 text-slate-950 text-xs font-black px-4 py-1.5 rounded-full uppercase tracking-wider shadow-sm">
+          ⚡ OFFICIAL GOOGLE DRIVE PDF FILE
+        </div>
+        <h3 class="text-xl sm:text-2xl font-black text-white m-0 leading-tight">
+          📥 অনার্স ১ম বর্ষ ICT গাইড বই PDF ফাইল (Direct Drive Download)
+        </h3>
+        <p class="text-xs sm:text-sm text-gray-300 font-medium max-w-lg mx-auto m-0">
+          নিচের বড় হলুদ বোতামে ক্লিক করে সরাসরি গুগল ড্রাইভ থেকে ১০০% হাই-কোয়ালিটি অফিশিয়াল পিডিএফ ডাউনলোড বা পড়ুন।
+        </p>
+        <div class="pt-2">
+          <a href="https://drive.google.com/file/d/1pjqvB95x5_hHVtyPK8r853aJZsK4jKMg/view" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center space-x-2 px-8 py-4 bg-amber-400 hover:bg-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl border-2 border-amber-300 transition-all hover:scale-105 no-underline cursor-pointer" style="display: inline-flex; background-color: #f59e0b; color: #0f172a; padding: 14px 28px; font-weight: 900; font-size: 16px; border-radius: 16px; text-decoration: none; border: 2px solid #fbbf24; box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+            <span>📥 ডাউনলোড ও ভিউ করুন PDF (Google Drive)</span>
+          </a>
+        </div>
+      </div>
 
       <h3>গাইডের বিষয়বস্তু:</h3>
       <ul>
