@@ -257,7 +257,7 @@ export default function HscRoutinePage() {
         </div>
       </div>
 
-      <AdSlot slotId="hsc-routine-top" format="horizontal" showPlaceholder={true} />
+<AdSlot slotId="hsc-routine-top" format="horizontal" />
 
       {/* Quick Summary Highlights */}
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
@@ -416,7 +416,7 @@ export default function HscRoutinePage() {
         </div>
       </section>
 
-      <AdSlot slotId="hsc-routine-middle" format="horizontal" showPlaceholder={true} />
+      <AdSlot slotId="hsc-routine-middle" format="horizontal" />
 
       {/* Practical Exam Guidelines & Rules */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -459,7 +459,7 @@ export default function HscRoutinePage() {
         </section>
       </div>
 
-      <AdSlot slotId="hsc-routine-bottom" format="horizontal" showPlaceholder={true} />
+      <AdSlot slotId="hsc-routine-bottom" format="horizontal" />
     </div>
   );
 }

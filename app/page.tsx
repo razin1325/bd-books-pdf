@@ -49,7 +49,7 @@ export default async function HomePage() {
       </section>
 
       {/* Top Ad Slot */}
-      <AdSlot slotId="homepage-top" format="horizontal" showPlaceholder={true} />
+<AdSlot slotId="homepage-top" format="horizontal" />
 
       {/* 🚀 Latest Posts Section (College Admission & Blog Notices) */}
       <LatestPostsSection />
@@ -177,7 +177,7 @@ export default async function HomePage() {
       </section>
 
       {/* Middle Ad Slot */}
-      <AdSlot slotId="homepage-middle" format="horizontal" showPlaceholder={true} />
+      <AdSlot slotId="homepage-middle" format="horizontal" />
 
       {/* 📘 Section: Guide Books & Solutions (8 Cards total) */}
       <section className="space-y-4">
@@ -230,7 +230,7 @@ export default async function HomePage() {
       </section>
 
       {/* Bottom Ad Slot */}
-      <AdSlot slotId="homepage-bottom" format="horizontal" showPlaceholder={true} />
+      <AdSlot slotId="homepage-bottom" format="horizontal" />
     </div>
   );
 }

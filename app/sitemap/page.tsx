@@ -333,9 +333,6 @@ export default async function HtmlSitemapPage() {
           <Link href="/about" className="hover:text-emerald-400 transition-colors">
             আমাদের সম্পর্কে (About Us)
           </Link>
-          <Link href="/contact" className="hover:text-emerald-400 transition-colors">
-            যোগাযোগ করুন (Contact Us)
-          </Link>
           <Link href="/privacy-policy" className="hover:text-emerald-400 transition-colors">
             প্রাইভেসি পলিসি (Privacy Policy)
           </Link>
