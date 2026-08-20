@@ -101,7 +101,7 @@ export default function ExpandableBlogGrid({
             onClick={handleLoadMore}
             className="inline-flex items-center space-x-2 px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white rounded-xl font-extrabold text-sm shadow-md hover:shadow-lg transition-all hover:scale-102 cursor-pointer border border-emerald-500/30 group"
           >
-            <span>আরও ৫টি ব্লগ দেখুন ({remainingCount}টি নোটিশ বাকি)</span>
+            <span>আরও দেখুন</span>
             <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
           </button>
         </div>

@@ -118,7 +118,7 @@ export default function LatestPostsSection() {
             onClick={handleLoadMore}
             className="inline-flex items-center space-x-2 px-8 py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-extrabold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all hover:scale-102 cursor-pointer border border-emerald-400/30 group"
           >
-            <span>আরও পোস্ট দেখুন ({remainingCount}টি নোটিশ বাকি)</span>
+            <span>আরও দেখুন</span>
             <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
           </button>
         </div>

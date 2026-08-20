@@ -2,7 +2,7 @@ import { Book } from './types';
 import { supabase } from './supabase';
 
 // Official NCTB 2026 Textbooks Dataset (Matched 100% with User's Supabase database & Cloudinary)
-let MOCK_BOOKS: Book[] = [
+export let MOCK_BOOKS: Book[] = [
   {
     "id": "b-joykoly-bangla-bichitra",
     "title": "জয়কলি বাংলা বিচিত্রা PDF (Joykoly Bangla Bichitra PDF 2026 - বিশ্ববিদ্যালয় ভর্তি ও HSC বাংলা সহায়িকা)",
@@ -4353,27 +4353,45 @@ export async function getBooksByType(bookType: 'textbook' | 'guide' | 'solution'
   return Array.from(map.values());
 }
 
+function normalizeSearchText(text: string): string {
+  if (!text) return '';
+  let str = text.toLowerCase().trim();
+  const bnDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+  const enDigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+  for (let i = 0; i < 10; i++) {
+    str = str.replaceAll(bnDigits[i], enDigits[i]);
+  }
+  str = str.replace(/অষ্টম/g, 'class 8 8th 8');
+  str = str.replace(/সপ্তম/g, 'class 7 7th 7');
+  str = str.replace(/ষষ্ঠ/g, 'class 6 6th 6');
+  str = str.replace(/পঞ্চম/g, 'class 5 5th 5');
+  str = str.replace(/চতুর্থ/g, 'class 4 4th 4');
+  str = str.replace(/তৃতীয়/g, 'class 3 3rd 3');
+  str = str.replace(/দ্বিতীয়/g, 'class 2 2nd 2');
+  str = str.replace(/প্রথম/g, 'class 1 1st 1');
+  str = str.replace(/নবম|দশম/g, 'class 9 10 9-10 ssc');
+  str = str.replace(/একাদশ|দ্বাদশ/g, 'class 11 12 11-12 hsc');
+  return str;
+}
+
 export async function searchBooks(query: string): Promise<Book[]> {
   if (!query || query.trim() === '') return [];
-  const q = query.toLowerCase().trim();
-  
-  if (supabase) {
-    const { data, error } = await supabase
-      .from('books')
-      .select('*')
-      .or(`title.ilike.%${q}%,subject.ilike.%${q}%,class_name.ilike.%${q}%,description.ilike.%${q}%`)
-      .eq('is_published', true);
-    if (!error && data && data.length > 0) return data as Book[];
-  }
+  const allBooks = await getBooks();
+  const rawQ = query.toLowerCase().trim();
+  const normQ = normalizeSearchText(query);
+  const words = normQ.split(/\s+/).filter((w) => w.length > 0);
 
-  return MOCK_BOOKS.filter(b => {
-    return (
-      b.is_published &&
-      (b.title.toLowerCase().includes(q) ||
-        b.subject.toLowerCase().includes(q) ||
-        b.class_name.toLowerCase().includes(q) ||
-        b.description.toLowerCase().includes(q))
-    );
+  return allBooks.filter((b) => {
+    if (!b.is_published) return false;
+    const targetText = `${b.title} ${b.subject} ${b.class_name} ${b.class_slug} ${b.subject_slug} ${b.description} ${b.publisher || ''} ${b.author || ''}`;
+    const normTarget = normalizeSearchText(targetText);
+
+    // Direct phrase match
+    if (targetText.toLowerCase().includes(rawQ) || normTarget.includes(normQ)) return true;
+
+    // Multi-token match
+    const allWordsMatch = words.every((word) => normTarget.includes(word));
+    return allWordsMatch;
   });
 }
 

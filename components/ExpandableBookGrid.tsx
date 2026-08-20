@@ -38,7 +38,7 @@ export default function ExpandableBookGrid({
             onClick={() => setVisibleCount((prev) => prev + step)}
             className="inline-flex items-center space-x-2 bg-white hover:bg-emerald-50 border border-gray-300 hover:border-emerald-500 text-gray-700 hover:text-emerald-700 font-semibold px-6 py-2.5 rounded-full shadow-xs hover:shadow-md transition-all text-sm group"
           >
-            <span>আরও {Math.min(step, remaining)}টি দেখুন</span>
+            <span>আরও দেখুন</span>
             <ChevronDown className="w-4 h-4 text-gray-500 group-hover:text-emerald-600 transition-transform group-hover:translate-y-0.5" />
           </button>
         </div>
