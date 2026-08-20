@@ -132,6 +132,13 @@ export default function Header() {
               গাইড বই
             </Link>
 
+            <Link
+              href="/blogs"
+              className="px-3 py-2 text-emerald-800 font-bold hover:text-emerald-900 hover:bg-emerald-50 rounded-lg transition-colors"
+            >
+              ব্লগ ও শিক্ষা সংবাদ
+            </Link>
+
             {/* HSC Routine Button */}
             <Link
               href="/hsc-exam-routine"

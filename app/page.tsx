@@ -5,8 +5,9 @@ import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import HscSection from '@/components/HscSection';
 import { CLASSES_LIST } from '@/lib/types';
-import { getLatestBooks, getBooksByType, getBooksByClass } from '@/lib/data';
+import { getLatestBooks, getBooksByType } from '@/lib/data';
 import { BookOpen, GraduationCap, FileText, Sparkles, ArrowRight, Award, ChevronRight, BookMarked } from 'lucide-react';
+import LatestPostsSection from '@/components/LatestPostsSection';
 
 const ADMISSION_VARSITIES = [
   { name: 'ঢাকা বিশ্ববিদ্যালয় (DU)', slug: 'du', color: 'from-blue-700 to-indigo-900' },
@@ -19,29 +20,9 @@ const ADMISSION_VARSITIES = [
 ];
 
 export default async function HomePage() {
-  const latestBooks = await getLatestBooks(6);
-  const guideBooks = await getBooksByType('guide');
-
-  // Fetch 5 distinct rows of NCTB Textbooks
-  const primaryBooks1_5 = (await getBooksByType('textbook'))
-    .filter((b) => ['class-1', 'class-2', 'class-3', 'class-4', 'class-5'].includes(b.class_slug))
-    .slice(0, 6);
-
-  const class6Textbooks = (await getBooksByClass('class-6'))
-    .filter((b) => b.book_type === 'textbook')
-    .slice(0, 6);
-
-  const class7Textbooks = (await getBooksByClass('class-7'))
-    .filter((b) => b.book_type === 'textbook')
-    .slice(0, 6);
-
-  const class8Textbooks = (await getBooksByClass('class-8'))
-    .filter((b) => b.book_type === 'textbook')
-    .slice(0, 6);
-
-  const class910Textbooks = (await getBooksByClass('class-9-10'))
-    .filter((b) => b.book_type === 'textbook')
-    .slice(0, 6);
+  const latestBooks = await getLatestBooks(24);
+  const guideBooks = (await getBooksByType('guide')).slice(0, 8);
+  const textbookBooks = (await getBooksByType('textbook')).slice(0, 8);
 
   return (
     <div className="space-y-8 sm:space-y-10 pb-8">
@@ -69,6 +50,9 @@ export default async function HomePage() {
 
       {/* Top Ad Slot */}
       <AdSlot slotId="homepage-top" format="horizontal" showPlaceholder={true} />
+
+      {/* 🚀 Latest Posts Section (College Admission & Blog Notices) */}
+      <LatestPostsSection />
 
       {/* Section: Dedicated University Admission Preparation */}
       <section className="space-y-4">
@@ -159,7 +143,43 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 📘 Section: Guide Books & Solutions (Moved right under Browse By Class!) */}
+      {/* 📚 Single Combined Section: NCTB Board Textbooks (8 Cards total) */}
+      <section className="space-y-4 bg-emerald-50/30 p-4 sm:p-6 rounded-2xl border border-emerald-200/80">
+        <div className="flex items-center justify-between border-b border-emerald-200 pb-3">
+          <div className="flex items-center space-x-2.5">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-sm flex-shrink-0 shadow-2xs">
+              <BookMarked className="w-5 h-5 sm:w-6 sm:h-6" />
+            </div>
+            <div>
+              <h2 className="text-lg sm:text-2xl font-extrabold text-gray-900 leading-snug">
+                NCTB Board Textbooks (১ম থেকে ১০ম শ্রেণি বোর্ড পাঠ্যবই)
+              </h2>
+              <p className="text-2xs sm:text-xs text-gray-500 font-medium">
+                জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ডের সকল অফিশিয়াল পাঠ্যবই PDF ডাউনলোডের তালিকা
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/textbooks"
+            className="text-xs sm:text-sm font-bold text-emerald-700 hover:text-emerald-900 flex items-center space-x-1 flex-shrink-0"
+          >
+            <span>সব পাঠ্যবই</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        {/* Grid showing exactly 8 textbook cards (2 rows of 4) */}
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
+          {textbookBooks.map((book) => (
+            <BookCard key={book.id} book={book} />
+          ))}
+        </div>
+      </section>
+
+      {/* Middle Ad Slot */}
+      <AdSlot slotId="homepage-middle" format="horizontal" showPlaceholder={true} />
+
+      {/* 📘 Section: Guide Books & Solutions (8 Cards total) */}
       <section className="space-y-4">
         <div className="flex items-center justify-between border-b border-gray-200 pb-3">
           <div className="flex items-center space-x-2">
@@ -177,14 +197,14 @@ export default async function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {guideBooks.slice(0, 6).map((book) => (
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
+          {guideBooks.map((book) => (
             <BookCard key={book.id} book={book} />
           ))}
         </div>
       </section>
 
-      {/* Section: Popular Books */}
+      {/* ⭐️ Section: Popular Books (8 Cards total) */}
       <section className="space-y-4">
         <div className="flex items-center justify-between border-b border-gray-200 pb-3">
           <div className="flex items-center space-x-2">
@@ -202,194 +222,12 @@ export default async function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
           {latestBooks.map((book) => (
             <BookCard key={book.id} book={book} />
           ))}
         </div>
       </section>
-
-      {/* Middle Ad Slot */}
-      <AdSlot slotId="homepage-middle" format="horizontal" showPlaceholder={true} />
-
-      {/* ======================================================== */}
-      {/* 📚 5 DISTINCT ROWS OF NCTB TEXTBOOKS WITH AD SLOTS BETWEEN EACH ROW */}
-      {/* ======================================================== */}
-
-      {/* ROW 1: Class 1 to 5 Primary Textbooks */}
-      <section className="space-y-4 bg-emerald-50/40 p-4 sm:p-6 rounded-2xl border border-emerald-200">
-        <div className="flex items-center justify-between border-b border-emerald-200 pb-3">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center font-black text-xs">
-              ১-৫
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-gray-900">
-                ১ম থেকে ৫ম শ্রেণি বোর্ড পাঠ্যবই (Primary NCTB Textbooks)
-              </h2>
-              <p className="text-3xs sm:text-2xs text-gray-500 font-medium">
-                প্রথম, দ্বিতীয়, তৃতীয়, চতুর্থ ও পঞ্চম শ্রেণির অফিশিয়াল পাঠ্যবই PDF
-              </p>
-            </div>
-          </div>
-          <Link
-            href="/textbooks"
-            className="text-xs font-bold text-emerald-700 hover:text-emerald-900 flex items-center space-x-1"
-          >
-            <span>সব দেখুন</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {primaryBooks1_5.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* 📢 AD SLOT BETWEEN ROW 1 & ROW 2 */}
-      <AdSlot slotId="nctb-textbook-row-1-ad" format="horizontal" showPlaceholder={true} />
-
-      {/* ROW 2: Class 6 Textbooks */}
-      <section className="space-y-4 bg-blue-50/40 p-4 sm:p-6 rounded-2xl border border-blue-200">
-        <div className="flex items-center justify-between border-b border-blue-200 pb-3">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-black text-xs">
-              ৬ষ্ঠ
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-gray-900">
-                ষষ্ঠ শ্রেণি বোর্ড পাঠ্যবই (Class 6 NCTB Textbooks)
-              </h2>
-              <p className="text-3xs sm:text-2xs text-gray-500 font-medium">
-                ষষ্ঠ শ্রেণির বাংলা, গণিত, ইংরেজি, বিজ্ঞান ও সকল বিষয়ের পাঠ্যবই
-              </p>
-            </div>
-          </div>
-          <Link
-            href="/class/class-6"
-            className="text-xs font-bold text-blue-700 hover:text-blue-900 flex items-center space-x-1"
-          >
-            <span>Class 6 সব বই</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {class6Textbooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* 📢 AD SLOT BETWEEN ROW 2 & ROW 3 */}
-      <AdSlot slotId="nctb-textbook-row-2-ad" format="horizontal" showPlaceholder={true} />
-
-      {/* ROW 3: Class 7 Textbooks */}
-      <section className="space-y-4 bg-purple-50/40 p-4 sm:p-6 rounded-2xl border border-purple-200">
-        <div className="flex items-center justify-between border-b border-purple-200 pb-3">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-lg bg-purple-600 text-white flex items-center justify-center font-black text-xs">
-              ৭ম
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-gray-900">
-                সপ্তম শ্রেণি বোর্ড পাঠ্যবই (Class 7 NCTB Textbooks)
-              </h2>
-              <p className="text-3xs sm:text-2xs text-gray-500 font-medium">
-                সপ্তম শ্রেণির বাংলা, গণিত, বিজ্ঞান, ইতিহাস ও সকল বিষয়ের পাঠ্যবই
-              </p>
-            </div>
-          </div>
-          <Link
-            href="/class/class-7"
-            className="text-xs font-bold text-purple-700 hover:text-purple-900 flex items-center space-x-1"
-          >
-            <span>Class 7 সব বই</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {class7Textbooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* 📢 AD SLOT BETWEEN ROW 3 & ROW 4 */}
-      <AdSlot slotId="nctb-textbook-row-3-ad" format="horizontal" showPlaceholder={true} />
-
-      {/* ROW 4: Class 8 Textbooks */}
-      <section className="space-y-4 bg-amber-50/40 p-4 sm:p-6 rounded-2xl border border-amber-200">
-        <div className="flex items-center justify-between border-b border-amber-200 pb-3">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-lg bg-amber-600 text-white flex items-center justify-center font-black text-xs">
-              ৮ম
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-gray-900">
-                অষ্টম শ্রেণি বোর্ড পাঠ্যবই (Class 8 NCTB Textbooks)
-              </h2>
-              <p className="text-3xs sm:text-2xs text-gray-500 font-medium">
-                অষ্টম শ্রেণির গণিত, বিজ্ঞান, বাংলা, ইংরেজি ও সকল ধর্মীয় বিষয়
-              </p>
-            </div>
-          </div>
-          <Link
-            href="/class/class-8"
-            className="text-xs font-bold text-amber-700 hover:text-amber-900 flex items-center space-x-1"
-          >
-            <span>Class 8 সব বই</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {class8Textbooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* 📢 AD SLOT BETWEEN ROW 4 & ROW 5 */}
-      <AdSlot slotId="nctb-textbook-row-4-ad" format="horizontal" showPlaceholder={true} />
-
-      {/* ROW 5: Class 9 & 10 Textbooks */}
-      <section className="space-y-4 bg-teal-50/40 p-4 sm:p-6 rounded-2xl border border-teal-200">
-        <div className="flex items-center justify-between border-b border-teal-200 pb-3">
-          <div className="flex items-center space-x-2.5">
-            <div className="w-8 h-8 rounded-lg bg-teal-700 text-white flex items-center justify-center font-black text-xs">
-              ৯-১০
-            </div>
-            <div>
-              <h2 className="text-lg sm:text-xl font-extrabold text-gray-900">
-                নবম ও দশম শ্রেণি বোর্ড পাঠ্যবই (Class 9-10 SSC Textbooks)
-              </h2>
-              <p className="text-3xs sm:text-2xs text-gray-500 font-medium">
-                বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা বিভাগের সকল এসএসসি বিষয়
-              </p>
-            </div>
-          </div>
-          <Link
-            href="/class/class-9-10"
-            className="text-xs font-bold text-teal-800 hover:text-teal-950 flex items-center space-x-1"
-          >
-            <span>Class 9-10 সব বই</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {class910Textbooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* 📢 AD SLOT BELOW ROW 5 */}
-      <AdSlot slotId="nctb-textbook-row-5-ad" format="horizontal" showPlaceholder={true} />
 
       {/* Bottom Ad Slot */}
       <AdSlot slotId="homepage-bottom" format="horizontal" showPlaceholder={true} />

@@ -53,7 +53,7 @@ export default async function GuideBooksPage() {
           {CLASSES_LIST.map((cls) => (
             <Link
               key={cls.slug}
-              href={`/class/${cls.slug}`}
+              href={`/guide-books/${cls.slug}`}
               className="bg-white p-3 rounded-xl border border-gray-200 hover:border-emerald-600 hover:shadow-sm transition-all flex flex-col items-center justify-center space-y-1 group"
             >
               <span className="text-xs font-extrabold text-gray-900 group-hover:text-emerald-700">
@@ -79,6 +79,7 @@ export default async function GuideBooksPage() {
                 bnName={cls.bnName}
                 books={classGuides}
                 themeColor="emerald"
+                hrefPrefix="/guide-books"
               />
 
               {/* Insert Ad Slot every 3 class sections for monetization */}

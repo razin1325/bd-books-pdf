@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
 import Image from 'next/image';
+import BookCover from '@/components/BookCover';
 import { Book, CLASSES_LIST, SUBJECTS_LIST, BookType } from '@/lib/types';
 import { getBooks, createBook, updateBook, deleteBook } from '@/lib/data';
 import {
@@ -21,6 +22,7 @@ import {
   SlidersHorizontal,
   ArrowUpDown,
   BookOpen,
+  Sparkles,
 } from 'lucide-react';
 
 export default function AdminPage() {
@@ -55,6 +57,7 @@ export default function AdminPage() {
   const [fileSize, setFileSize] = useState('');
   const [author, setAuthor] = useState('');
   const [publisher, setPublisher] = useState('');
+  const [isLatest, setIsLatest] = useState(false);
 
   // Drag & Drop Upload State
   const [uploadingCover, setUploadingCover] = useState(false);
@@ -276,6 +279,7 @@ export default function AdminPage() {
     setFileSize(book.file_size || '');
     setAuthor(book.author || '');
     setPublisher(book.publisher || '');
+    setIsLatest(book.is_latest ?? false);
 
     const formElement = document.getElementById('book-form');
     if (formElement) {
@@ -301,6 +305,7 @@ export default function AdminPage() {
     setFileSize('');
     setAuthor('');
     setPublisher('');
+    setIsLatest(false);
   };
 
   const handleSubmitBook = async (e: React.FormEvent) => {
@@ -346,6 +351,7 @@ export default function AdminPage() {
       author: author || 'Education Board',
       publisher: publisher || 'Edu Library',
       is_published: true,
+      is_latest: isLatest,
     };
 
     if (editingSlug) {
@@ -590,6 +596,21 @@ export default function AdminPage() {
                     ? '⚠️ টিপস: স্লাগ (URL) পরিবর্তন করলে গুগলের আগের লিংক পরিবর্তন হয়ে যাবে।'
                     : 'এটি টাইটেল লিখলে স্বয়ংক্রিয়ভাবে তৈরি হবে, চাইলে পরিবর্তনও করতে পারেন।'}
                 </span>
+              </div>
+
+              {/* Latest Posts Pin Checkbox */}
+              <div className="flex items-center space-x-2.5 bg-amber-50 border border-amber-300 p-3.5 rounded-xl shadow-2xs">
+                <input
+                  type="checkbox"
+                  id="isLatestPostCheckbox"
+                  checked={isLatest}
+                  onChange={(e) => setIsLatest(e.target.checked)}
+                  className="w-5 h-5 text-emerald-600 rounded focus:ring-emerald-500 cursor-pointer accent-emerald-600"
+                />
+                <label htmlFor="isLatestPostCheckbox" className="text-xs sm:text-sm font-bold text-gray-900 cursor-pointer flex items-center space-x-1.5 select-none">
+                  <Sparkles className="w-4 h-4 text-amber-600 animate-pulse" />
+                  <span>Latest Posts (হোমপেজের 'সর্বশেষ পোস্টসমূহ' সেকশনে পিন/প্রদর্শন করুন)</span>
+                </label>
               </div>
             </div>
           </div>
@@ -973,27 +994,29 @@ export default function AdminPage() {
                     {/* Cover Thumbnail */}
                     <td className="p-2 text-center">
                       <div className="relative w-10 h-14 bg-gray-100 rounded border border-gray-300 overflow-hidden mx-auto shadow-2xs">
-                        {b.cover_image ? (
-                          <Image
-                            src={b.cover_image}
-                            alt={b.title}
-                            fill
-                            sizes="40px"
-                            className="object-cover"
-                            unoptimized
-                          />
-                        ) : (
-                          <div className="w-full h-full flex items-center justify-center text-3xs text-gray-400">
-                            No Img
-                          </div>
-                        )}
+                        <BookCover
+                          title={b.title}
+                          coverImage={b.cover_image}
+                          subject={b.subject}
+                          bookType={b.book_type}
+                          year={b.year}
+                          showBadges={false}
+                        />
                       </div>
                     </td>
 
-                    <td className="p-3 font-bold text-gray-900 max-w-xs truncate">
-                      <span className="block truncate" title={b.title}>
-                        {b.title}
-                      </span>
+                    <td className="p-3 font-bold text-gray-900 max-w-xs">
+                      <div className="flex items-center space-x-1.5">
+                        {b.is_latest && (
+                          <span className="bg-amber-100 text-amber-800 text-[10px] font-black px-1.5 py-0.5 rounded border border-amber-300 flex items-center space-x-0.5 flex-shrink-0">
+                            <Sparkles className="w-3 h-3 text-amber-600" />
+                            <span>LATEST</span>
+                          </span>
+                        )}
+                        <span className="truncate block" title={b.title}>
+                          {b.title}
+                        </span>
+                      </div>
                       <span className="text-3xs font-mono text-emerald-800 font-semibold block truncate">
                         Slug: /{b.class_slug}/{b.slug}
                       </span>

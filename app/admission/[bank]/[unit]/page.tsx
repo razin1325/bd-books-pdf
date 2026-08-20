@@ -1,13 +1,15 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import Image from 'next/image';
 import Breadcrumb from '@/components/Breadcrumb';
+import BookCard from '@/components/BookCard';
+import ExpandableBookGrid from '@/components/ExpandableBookGrid';
+import BookDetailView from '@/components/BookDetailView';
 import AdSlot from '@/components/AdSlot';
-import { getBooksBySubject } from '@/lib/data';
-import { ADMISSION_BANKS, getAdmissionUnitRelativeSlug } from '@/lib/admission';
-import { BookOpen, Download, ExternalLink } from 'lucide-react';
+import SearchBox from '@/components/SearchBox';
+import { getBooksBySubject, getBooksByClass, getBookBySlug, getRelatedBooks } from '@/lib/data';
+import { ADMISSION_BANKS } from '@/lib/admission';
+import { Search, ArrowRight, Award } from 'lucide-react';
 
 interface RouteProps {
   params: Promise<{
@@ -22,8 +24,7 @@ async function resolveUnit(bankSlug: string, unitSlug: string) {
   if (!bank || !unit) return null;
   const books = await getBooksBySubject('admission', bank.subjectSlug);
   const unitBooks = books.filter((b) => {
-    if (getAdmissionUnitRelativeSlug(b.slug) !== null && b.slug.startsWith(`${unit.unitSlug}-`)) return true;
-    // Single-unit banks (e.g. medical) list all their books directly
+    if (b.slug.startsWith(`${unit.unitSlug}-`)) return true;
     return bank.units.length === 1;
   });
   return { bank, unit, unitBooks };
@@ -31,8 +32,22 @@ async function resolveUnit(bankSlug: string, unitSlug: string) {
 
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { bank, unit } = await params;
+  const directBook = (await getBookBySlug(unit)) || (await getBookBySlug(bank));
+  if (directBook) {
+    return {
+      title: `${directBook.title} | PDF Download & Review`,
+      description: directBook.description.slice(0, 160),
+    };
+  }
+
   const resolved = await resolveUnit(bank, unit);
-  if (!resolved) return { title: 'Page Not Found' };
+  if (!resolved) {
+    const term = `${bank} ${unit}`.replace(/-/g, ' ');
+    return {
+      title: `${term} ভর্তি প্রশ্নব্যাংক PDF 2026`,
+      description: `${term} বিশ্ববিদ্যালয় ভর্তি পরীক্ষার প্রশ্ন ও সমাধান PDF।`,
+    };
+  }
   const title = `${resolved.unit.name} প্রশ্নব্যাংক PDF | ${resolved.unit.bnName} Question Bank`;
   return {
     title,
@@ -42,10 +57,104 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
 
 export default async function AdmissionUnitPage({ params }: RouteProps) {
   const { bank, unit } = await params;
-  const resolved = await resolveUnit(bank, unit);
-  if (!resolved) {
-    notFound();
+
+  // Check if unit or bank parameter is actually a direct book slug
+  const directBook = (await getBookBySlug(unit)) || (await getBookBySlug(bank));
+  if (directBook) {
+    const relatedBooks = await getRelatedBooks(directBook, 4);
+    return <BookDetailView book={directBook} relatedBooks={relatedBooks} />;
   }
+
+  const resolved = await resolveUnit(bank, unit);
+
+  if (!resolved) {
+    const searchTerm = `${bank} ${unit}`.replace(/-/g, ' ');
+    const allAdmissionBooks = await getBooksByClass('admission');
+    const matchedBooks = allAdmissionBooks.filter((b) => {
+      const q = bank.toLowerCase().trim();
+      const u = unit.toLowerCase().trim();
+      return (
+        b.subject_slug.toLowerCase() === q ||
+        b.subject.toLowerCase().includes(q) ||
+        b.title.toLowerCase().includes(q) ||
+        b.title.toLowerCase().includes(u)
+      );
+    });
+
+    return (
+      <div className="space-y-8 pb-8">
+        <Breadcrumb
+          items={[
+            { label: 'Admission', href: '/class/admission' },
+            { label: bank.toUpperCase(), href: `/admission/${bank}` },
+            { label: unit },
+          ]}
+        />
+
+        <div className="bg-gradient-to-r from-emerald-800 to-teal-900 text-white p-6 sm:p-8 rounded-2xl shadow-md space-y-4">
+          <h1 className="text-2xl sm:text-3xl font-extrabold capitalize">
+            {searchTerm} ভর্তি প্রস্তুতি ও প্রশ্নব্যাংক PDF
+          </h1>
+          <p className="text-sm text-emerald-100 max-w-2xl">
+            {searchTerm} সংক্রান্ত সকল ভর্তি পরীক্ষার প্রশ্নব্যাংক, নোট ও সমাধান খুঁজুন।
+          </p>
+          <div className="pt-2 max-w-xl">
+            <SearchBox defaultQuery={searchTerm} placeholder={`${searchTerm} লিখে সার্চ করুন...`} />
+          </div>
+        </div>
+
+        {matchedBooks.length > 0 ? (
+          <div className="space-y-4">
+            <h2 className="text-xl font-bold text-gray-900 border-b border-gray-200 pb-2">
+              সম্পর্কিত PDF বইসমূহ:
+            </h2>
+            <ExpandableBookGrid books={matchedBooks} initialCount={5} step={5} />
+          </div>
+        ) : (
+          <div className="bg-amber-50/80 border-2 border-amber-200 p-6 sm:p-8 rounded-2xl space-y-3 text-center">
+            <div className="w-12 h-12 bg-amber-100 text-amber-800 rounded-full flex items-center justify-center mx-auto">
+              <Search className="w-6 h-6" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">
+              "{searchTerm}" পেজটি শীঘ্রই আপলোড করা হবে
+            </h3>
+            <p className="text-sm text-gray-600 max-w-xl mx-auto">
+              আপনি উপরের সার্চ বক্স থেকে সরাসরি অনুসন্ধান করতে পারেন অথবা নিচের এডমিশন ব্যাংকগুলো থেকে প্রয়োজনীয় বইটি বেছে নিন।
+            </p>
+          </div>
+        )}
+
+        <div className="bg-white rounded-2xl border border-gray-200 p-6 space-y-4 shadow-xs">
+          <div className="flex items-center space-x-2 border-b border-gray-100 pb-3">
+            <Award className="w-5 h-5 text-emerald-600" />
+            <h2 className="text-xl font-bold text-gray-900">
+              এডমিশন প্রশ্নব্যাংক ডিরেক্টরি (All Admission Banks):
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {ADMISSION_BANKS.map((b) => (
+              <Link
+                key={b.bankSlug}
+                href={`/admission/${b.bankSlug}`}
+                className="p-4 bg-gray-50 hover:bg-emerald-50 border border-gray-200 hover:border-emerald-500 rounded-xl transition-all flex items-center justify-between group"
+              >
+                <div>
+                  <span className="font-bold text-gray-900 group-hover:text-emerald-700 transition-colors block">
+                    {b.bnName}
+                  </span>
+                  <span className="text-xs text-gray-500 block truncate max-w-[220px]">
+                    {b.description}
+                  </span>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-emerald-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const { bank: bankInfo, unit: unitInfo, unitBooks } = resolved;
 
   return (
@@ -70,69 +179,9 @@ export default async function AdmissionUnitPage({ params }: RouteProps) {
       {unitBooks.length > 0 ? (
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-gray-900 border-b border-gray-200 pb-2">
-            Available PDF Downloads ({unitBooks.length}):
+            Available PDF Downloads:
           </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-            {unitBooks.map((book) => (
-              <div
-                key={book.id}
-                className="bg-white rounded-xl border border-gray-200 shadow-2xs hover:shadow-md transition-all overflow-hidden flex flex-col group h-full hover:border-emerald-500"
-              >
-                <div className="relative aspect-3/4 bg-gray-100 overflow-hidden">
-                  {book.cover_image ? (
-                    <Image
-                      src={book.cover_image}
-                      alt={book.title}
-                      fill
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      unoptimized
-                    />
-                  ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 p-3 text-center bg-gradient-to-br from-emerald-50 to-teal-100">
-                      <BookOpen className="w-8 h-8 sm:w-12 sm:h-12 text-emerald-600 mb-1" />
-                      <span className="text-3xs sm:text-xs font-semibold text-gray-600 line-clamp-2">
-                        {book.title}
-                      </span>
-                    </div>
-                  )}
-                  <div className="absolute top-1.5 left-1.5 sm:top-2 sm:left-2 flex flex-wrap gap-1">
-                    <span className="text-3xs sm:text-2xs font-extrabold px-1.5 py-0.5 sm:px-2 sm:py-0.5 rounded uppercase tracking-wider text-white shadow-xs bg-purple-600">
-                      {book.book_type}
-                    </span>
-                    <span className="text-3xs sm:text-2xs font-bold bg-black/70 backdrop-blur-xs text-white px-1.5 py-0.5 rounded">
-                      {book.year}
-                    </span>
-                  </div>
-                </div>
-                <div className="p-2.5 sm:p-4 flex-1 flex flex-col justify-between space-y-2 sm:space-y-3">
-                  <h3 className="font-bold text-gray-900 text-xs sm:text-sm line-clamp-2 group-hover:text-emerald-600 transition-colors leading-snug">
-                    <Link href={`/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${getAdmissionUnitRelativeSlug(book.slug) ?? book.slug}`}>
-                      {book.title}
-                    </Link>
-                  </h3>
-                  <div className="pt-2 border-t border-gray-100 flex items-center gap-1.5">
-                    <Link
-                      href={`/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${getAdmissionUnitRelativeSlug(book.slug) ?? book.slug}`}
-                      className="flex-1 text-center py-2 px-2 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-extrabold text-3xs sm:text-xs rounded-lg transition-colors flex items-center justify-center space-x-1 shadow-2xs"
-                    >
-                      <span>View PDF</span>
-                      <ExternalLink className="w-3 h-3 sm:w-3.5 sm:h-3.5 flex-shrink-0" />
-                    </Link>
-                    <a
-                      href={book.pdf_url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="p-2 bg-gray-100 hover:bg-emerald-50 text-gray-700 hover:text-emerald-700 active:bg-emerald-100 rounded-lg transition-colors flex-shrink-0"
-                      title="Download PDF directly"
-                    >
-                      <Download className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ExpandableBookGrid books={unitBooks} initialCount={5} step={5} />
         </div>
       ) : (
         <div className="bg-amber-50 border border-amber-200 p-6 rounded-xl text-center space-y-2">

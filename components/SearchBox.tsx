@@ -6,16 +6,18 @@ import { Search } from 'lucide-react';
 
 interface SearchBoxProps {
   initialQuery?: string;
+  defaultQuery?: string;
   placeholder?: string;
   className?: string;
 }
 
 export default function SearchBox({
   initialQuery = '',
+  defaultQuery,
   placeholder = 'বই বা গাইডের নাম লিখে সার্চ করুন...',
   className = '',
 }: SearchBoxProps) {
-  const [query, setQuery] = useState(initialQuery);
+  const [query, setQuery] = useState(defaultQuery || initialQuery);
   const router = useRouter();
 
   const handleSearch = (e: React.FormEvent) => {
@@ -33,11 +35,11 @@ export default function SearchBox({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder={placeholder}
-          className="w-full py-3.5 pl-4 pr-12 text-sm sm:text-base text-gray-900 bg-white border border-gray-300 rounded-xl shadow-xs focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all placeholder:text-gray-400"
+          className="w-full py-3.5 pl-4 pr-12 text-sm sm:text-base text-gray-900 bg-white border border-gray-300 rounded-xl shadow-xs focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 outline-none transition-all placeholder:text-gray-400 font-medium"
         />
         <button
           type="submit"
-          className="absolute right-2 p-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition-colors flex items-center justify-center"
+          className="absolute right-2 p-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition-colors flex items-center justify-center cursor-pointer shadow-2xs"
           title="Search"
         >
           <Search className="w-5 h-5" />

@@ -17,6 +17,7 @@ export interface Book {
   author?: string;
   publisher?: string;
   is_published: boolean;
+  is_latest?: boolean;
   created_at?: string;
   updated_at?: string;
 }

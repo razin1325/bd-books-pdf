@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import SearchBox from '@/components/SearchBox';
 import BookCard from '@/components/BookCard';
+import ExpandableBookGrid from '@/components/ExpandableBookGrid';
 import AdSlot from '@/components/AdSlot';
 import { searchBooks } from '@/lib/data';
 import { Search } from 'lucide-react';
@@ -61,11 +62,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           </div>
 
           {results.length > 0 ? (
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {results.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
+            <ExpandableBookGrid books={results} initialCount={5} step={5} />
           ) : (
             <div className="bg-gray-50 border border-gray-200 p-8 rounded-xl text-center space-y-2 my-8">
               <p className="text-base font-semibold text-gray-800">

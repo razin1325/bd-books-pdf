@@ -1,183 +1,18 @@
 import React from 'react';
-import { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import Image from 'next/image';
-import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
-import BookCard from '@/components/BookCard';
-import ExpandableBookGrid from '@/components/ExpandableBookGrid';
 import BookCover from '@/components/BookCover';
+import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
-import { CLASSES_LIST, SUBJECTS_LIST } from '@/lib/types';
+import { Book } from '@/lib/types';
 import { getAdmissionBookHref } from '@/lib/admission';
-import {
-  getBookBySlug,
-  getBooksBySubject,
-  getRelatedBooks,
-  getBooksByClass,
-} from '@/lib/data';
-import {
-  BookOpen,
-  Download,
-  ExternalLink,
-  FileText,
-  Calendar,
-  Layers,
-  User,
-  Building,
-} from 'lucide-react';
+import { ExternalLink, Download, FileText, Calendar, Layers, User, Building, BookOpen } from 'lucide-react';
 
-interface RouteProps {
-  params: Promise<{
-    classSlug: string;
-    secondSlug: string;
-  }>;
+interface BookDetailViewProps {
+  book: Book;
+  relatedBooks?: Book[];
 }
 
-export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
-  const { classSlug, secondSlug } = await params;
-  const currentClass = CLASSES_LIST.find((c) => c.slug === classSlug);
-
-  if (!currentClass) return { title: 'Page Not Found' };
-
-  // Check if secondSlug matches a standard or custom subject
-  let currentSubject = SUBJECTS_LIST.find((s) => s.slug === secondSlug);
-  if (!currentSubject) {
-    const subjectBooks = await getBooksBySubject(classSlug, secondSlug);
-    if (subjectBooks.length > 0) {
-      currentSubject = {
-        name: subjectBooks[0].subject,
-        slug: secondSlug,
-        bnName: subjectBooks[0].subject,
-      };
-    }
-  }
-
-  if (currentSubject) {
-    const title = `${currentClass.name} ${currentSubject.name} Book & Guide PDF 2026`;
-    const description = `${currentClass.name} ${currentSubject.name} Book & Guide PDF 2026. ${currentClass.bnName}-এর ${currentSubject.bnName} বিষয়ের সকল পাঠ্যবই ও গাইড PDF পড়ুন ও ডাউনলোড করুন।`;
-    return {
-      title,
-      description,
-      openGraph: { title, description },
-    };
-  }
-
-  // Otherwise check if secondSlug is a book
-  const book = await getBookBySlug(secondSlug);
-  if (book) {
-    const title = `${book.title} | ${book.subject} PDF`;
-    const description = `${book.description.substring(0, 160)}`;
-    return {
-      title,
-      description,
-      openGraph: {
-        title,
-        description,
-        images: book.cover_image ? [{ url: book.cover_image }] : [],
-      },
-    };
-  }
-
-  return { title: 'Page Not Found' };
-}
-
-export default async function DynamicRoutePage({ params }: RouteProps) {
-  const { classSlug, secondSlug } = await params;
-  const currentClass = CLASSES_LIST.find((c) => c.slug === classSlug);
-
-  if (!currentClass) {
-    notFound();
-  }
-
-  // Check standard subject first, then custom subject from books
-  let currentSubject = SUBJECTS_LIST.find((s) => s.slug === secondSlug);
-  const subjectBooks = await getBooksBySubject(classSlug, secondSlug);
-
-  if (!currentSubject && subjectBooks.length > 0) {
-    currentSubject = {
-      name: subjectBooks[0].subject,
-      slug: secondSlug,
-      bnName: subjectBooks[0].subject,
-    };
-  }
-
-  // CASE 1: Subject Page (standard or custom)
-  if (currentSubject) {
-    const textbookBooks = subjectBooks.filter((b) => b.book_type === 'textbook');
-    const guideBooks = subjectBooks.filter((b) => b.book_type === 'guide' || b.book_type === 'solution');
-
-    return (
-      <div className="space-y-8">
-        <Breadcrumb
-          items={[
-            { label: currentClass.name, href: `/class/${classSlug}` },
-            { label: currentSubject.name },
-          ]}
-        />
-
-        <div className="bg-white p-6 sm:p-8 rounded-xl border border-gray-200 shadow-xs space-y-3">
-          <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900">
-            {currentClass.name} {currentSubject.name} Book & Guide PDF 2026
-          </h1>
-          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
-            {currentClass.bnName}-এর {currentSubject.bnName} (
-            {currentSubject.name}) বিষয়ের মূল পাঠ্যবই, গাইড বই এবং নোট PDF এখানে পাওয়া যাবে। প্রয়োজনীয় বইটি ক্লিক করে সম্পূর্ণ ফ্রিতে অনলাইন ভিউ অথবা সরাসরি ডাউনলোড করুন।
-          </p>
-        </div>
-
-        <AdSlot slotId={`subject-${classSlug}-${secondSlug}-top`} />
-
-        {/* Section 1: Guide Books & Solutions */}
-        {guideBooks.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-              <FileText className="w-6 h-6 text-emerald-600" />
-              <h2 className="text-xl font-bold text-gray-900">
-                {currentClass.bnName} {currentSubject.bnName} গাইড বই ও সমাধান (Guide Books & Solutions)
-              </h2>
-            </div>
-            <ExpandableBookGrid books={guideBooks} initialCount={5} step={5} />
-          </div>
-        )}
-
-        {/* Section 2: Text Books */}
-        {textbookBooks.length > 0 && (
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-              <BookOpen className="w-6 h-6 text-blue-600" />
-              <h2 className="text-xl font-bold text-gray-900">
-                {currentClass.bnName} {currentSubject.bnName} পাঠ্যবই (Text Books)
-              </h2>
-            </div>
-            <ExpandableBookGrid books={textbookBooks} initialCount={5} step={5} />
-          </div>
-        )}
-
-        {/* Fallback Empty State if 0 books in both */}
-        {textbookBooks.length === 0 && guideBooks.length === 0 && (
-          <div className="bg-amber-50 border border-amber-200 p-6 rounded-xl text-center space-y-2">
-            <p className="text-sm text-amber-800 font-medium">
-              বর্তমানে {currentClass.name} {currentSubject.name} বিষয়ের সরাসরি কোনো আলাদা বই আপলোড করা হয়নি।
-            </p>
-            <p className="text-xs text-amber-700">
-              আপনি {currentClass.name}-এর অন্যান্য বিষয় বা লাইব্রেরির সকল বই ঘুরে দেখতে পারেন।
-            </p>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  // CASE 2: Book Detail Page (e.g. /class-8/math-guide-pdf-2026)
-  const book = await getBookBySlug(secondSlug);
-  if (!book) {
-    notFound();
-  }
-
-  const relatedBooks = await getRelatedBooks(book, 5);
-
-  // Book JSON-LD Structured Data Schema
+export default function BookDetailView({ book, relatedBooks = [] }: BookDetailViewProps) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Book',
@@ -216,7 +51,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
       {/* Main Book Detail Section */}
       <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-xs">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Thumbnail */}
+          {/* Cover Thumbnail */}
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-[260px] aspect-3/4 bg-gray-100 rounded-xl overflow-hidden shadow-sm border border-gray-200">
               <BookCover

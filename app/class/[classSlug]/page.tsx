@@ -3,11 +3,11 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
-import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
-import { CLASSES_LIST, SUBJECTS_LIST } from '@/lib/types';
+import ExpandableBookGrid from '@/components/ExpandableBookGrid';
+import { CLASSES_LIST, SUBJECTS_LIST, Book } from '@/lib/types';
 import { getBooksByClass } from '@/lib/data';
-import { BookOpen, FileText, ChevronRight } from 'lucide-react';
+import { BookOpen, FileText, ChevronRight, Stethoscope, GraduationCap } from 'lucide-react';
 
 interface ClassPageProps {
   params: Promise<{
@@ -56,6 +56,25 @@ export default async function ClassPage({ params }: ClassPageProps) {
   const textBooks = classBooks.filter((b) => b.book_type === 'textbook');
   const guideBooks = classBooks.filter((b) => b.book_type === 'guide' || b.book_type === 'solution');
 
+  // Medical Books helper
+  const isMedicalBook = (b: Book) => {
+    const text = (b.title + ' ' + (b.description || '') + ' ' + (b.author || '') + ' ' + (b.publisher || '')).toLowerCase();
+    return (
+      text.includes('retina') ||
+      text.includes('মেডিকেল') ||
+      text.includes('রেটিনা') ||
+      text.includes('medical') ||
+      text.includes('প্রাণিবিজ্ঞান') ||
+      text.includes('উদ্ভিদবিজ্ঞান') ||
+      text.includes('zoology') ||
+      text.includes('botany')
+    );
+  };
+
+  const isAdmission = classSlug === 'admission';
+  const medicalGuideBooks = isAdmission ? guideBooks.filter(isMedicalBook) : [];
+  const otherAdmissionGuideBooks = isAdmission ? guideBooks.filter((b) => !isMedicalBook(b)) : [];
+
   // Extract all dynamic subjects (standard + custom subjects added via admin)
   const dynamicSubjectsMap = new Map<string, { name: string; slug: string }>();
 
@@ -89,47 +108,34 @@ export default async function ClassPage({ params }: ClassPageProps) {
 
       <AdSlot slotId={`class-${classSlug}-top`} format="horizontal" />
 
-      {/* Section: Text Books by Subject */}
-      <section className="space-y-4">
-        <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-          <BookOpen className="w-6 h-6 text-blue-600" />
-          <h2 className="text-xl font-bold text-gray-900">Text Books (পাঠ্যবই বিষয়সমূহ)</h2>
-        </div>
-
-        {/* Subject Quick Badges Link to /[classSlug]/[subjectSlug] */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-          {availableSubjects.map((subj) => (
-            <Link
-              key={subj.slug}
-              href={`/${classSlug}/${subj.slug}`}
-              className="bg-white p-3 rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50/50 transition-all flex items-center justify-between text-xs sm:text-sm font-medium text-gray-800"
-            >
-              <span className="truncate pr-1">{subj.name}</span>
-              <ChevronRight className="w-4 h-4 text-gray-400 flex-shrink-0" />
-            </Link>
-          ))}
-        </div>
-
-        {/* Available Text Books Cards */}
-        {textBooks.length > 0 && (
-          <div className="pt-4">
-            <h3 className="text-sm font-semibold text-gray-500 mb-3">
-              {currentClass.name} Available Textbooks:
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {textBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
+      {/* If Admission Page: Render Dedicated Medical Books Section first */}
+      {isAdmission && medicalGuideBooks.length > 0 && (
+        <section className="space-y-4 bg-emerald-50/50 p-5 rounded-2xl border border-emerald-200">
+          <div className="flex items-center space-x-2 border-b border-emerald-200 pb-2">
+            <Stethoscope className="w-6 h-6 text-emerald-600" />
+            <h2 className="text-xl font-bold text-emerald-950">
+              মেডিকেল ভর্তি পরীক্ষা গাইড ও ডাইজেস্ট (Medical Admission Books)
+            </h2>
           </div>
-        )}
-      </section>
+          <p className="text-xs sm:text-sm text-emerald-700">
+            মেডিকেল ও ডেন্টাল ভর্তি পরীক্ষার্থীদের জন্য রেটিনা ডাইজেস্ট ও মেডিকেল প্রশ্নব্যাংক কালেকশন।
+          </p>
+
+          <ExpandableBookGrid books={medicalGuideBooks} initialCount={5} step={5} />
+        </section>
+      )}
 
       {/* Section: Guide Books by Subject */}
       <section className="space-y-4">
         <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-          <FileText className="w-6 h-6 text-emerald-600" />
-          <h2 className="text-xl font-bold text-gray-900">Guide Books (গাইড ও নোটসমূহ)</h2>
+          {isAdmission ? (
+            <GraduationCap className="w-6 h-6 text-indigo-600" />
+          ) : (
+            <FileText className="w-6 h-6 text-emerald-600" />
+          )}
+          <h2 className="text-xl font-bold text-gray-900">
+            {isAdmission ? 'ভার্সিটি ও ইঞ্জিনিয়ারিং এডমিশন গাইড (University & Engineering)' : 'Guide Books (গাইড ও নোটসমূহ)'}
+          </h2>
         </div>
 
         {/* Subject Quick Badges */}
@@ -137,7 +143,7 @@ export default async function ClassPage({ params }: ClassPageProps) {
           {availableSubjects.map((subj) => (
             <Link
               key={subj.slug}
-              href={`/${classSlug}/${subj.slug}`}
+              href={`/guide-books/${classSlug}/${subj.slug}`}
               className="bg-white p-3 rounded-lg border border-gray-200 hover:border-emerald-500 hover:bg-emerald-50/50 transition-all flex items-center justify-between text-xs sm:text-sm font-medium text-gray-800"
             >
               <span className="truncate pr-1">{subj.name} Guide</span>
@@ -146,20 +152,59 @@ export default async function ClassPage({ params }: ClassPageProps) {
           ))}
         </div>
 
-        {/* Available Guide Books Cards */}
-        {guideBooks.length > 0 && (
-          <div className="pt-4">
-            <h3 className="text-sm font-semibold text-gray-500 mb-3">
-              {currentClass.name} Available Guide Books & Solutions:
-            </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-              {guideBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
+        {/* Available Guide Books Cards (or Other Admission Books) */}
+        {isAdmission ? (
+          otherAdmissionGuideBooks.length > 0 && (
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-gray-500 mb-3">
+                ভার্সিটি ও ইঞ্জিনিয়ারিং ভর্তি প্রস্তুতি গাইডসমূহ:
+              </h3>
+              <ExpandableBookGrid books={otherAdmissionGuideBooks} initialCount={5} step={5} />
             </div>
-          </div>
+          )
+        ) : (
+          guideBooks.length > 0 && (
+            <div className="pt-4">
+              <h3 className="text-sm font-semibold text-gray-500 mb-3">
+                {currentClass.name} Available Guide Books & Solutions:
+              </h3>
+              <ExpandableBookGrid books={guideBooks} initialCount={5} step={5} />
+            </div>
+          )
         )}
       </section>
+
+      {/* Section: Text Books by Subject */}
+      {textBooks.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
+            <BookOpen className="w-6 h-6 text-blue-600" />
+            <h2 className="text-xl font-bold text-gray-900">Text Books (পাঠ্যবই বিষয়সমূহ)</h2>
+          </div>
+
+          {/* Subject Quick Badges Link to /[classSlug]/[subjectSlug] */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {availableSubjects.map((subj) => (
+              <Link
+                key={subj.slug}
+                href={`/${classSlug}/${subj.slug}`}
+                className="bg-white p-3 rounded-lg border border-gray-200 hover:border-blue-500 hover:bg-blue-50/50 transition-all flex items-center justify-between text-xs sm:text-sm font-medium text-gray-800"
+              >
+                <span className="truncate pr-1">{subj.name}</span>
+                <ChevronRight className="w-4 h-4 text-gray-400 flex-shrink-0" />
+              </Link>
+            ))}
+          </div>
+
+          {/* Available Text Books Cards */}
+          <div className="pt-4">
+            <h3 className="text-sm font-semibold text-gray-500 mb-3">
+              {currentClass.name} Available Textbooks:
+            </h3>
+            <ExpandableBookGrid books={textBooks} initialCount={5} step={5} />
+          </div>
+        </section>
+      )}
     </div>
   );
 }

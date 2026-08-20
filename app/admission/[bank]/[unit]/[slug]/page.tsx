@@ -4,8 +4,11 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
+import BookCard from '@/components/BookCard';
+import BookCover from '@/components/BookCover';
 import AdSlot from '@/components/AdSlot';
-import { getBooksBySubject } from '@/lib/data';
+import SearchBox from '@/components/SearchBox';
+import { getBooksBySubject, getBooksByClass } from '@/lib/data';
 import { ADMISSION_BANKS, getAdmissionUnitRelativeSlug } from '@/lib/admission';
 import {
   BookOpen,
@@ -16,6 +19,9 @@ import {
   Layers,
   User,
   Building,
+  Search,
+  ArrowRight,
+  Award,
 } from 'lucide-react';
 
 interface RouteProps {
@@ -61,7 +67,90 @@ export default async function AdmissionBookDetailPage({ params }: RouteProps) {
   const resolved = await resolveBook(bank, unit, slug);
 
   if (!resolved) {
-    notFound();
+    const term = `${bank} ${unit} ${slug}`.replace(/-/g, ' ');
+    const allAdmissionBooks = await getBooksByClass('admission');
+    const matchedBooks = allAdmissionBooks.filter((b) => {
+      const s = slug.toLowerCase().trim();
+      return b.slug.toLowerCase().includes(s) || b.title.toLowerCase().includes(s);
+    });
+
+    return (
+      <div className="space-y-8 pb-8">
+        <Breadcrumb
+          items={[
+            { label: 'Admission', href: '/class/admission' },
+            { label: bank.toUpperCase(), href: `/admission/${bank}` },
+            { label: unit, href: `/admission/${bank}/${unit}` },
+            { label: slug },
+          ]}
+        />
+
+        <div className="bg-gradient-to-r from-emerald-800 to-teal-900 text-white p-6 sm:p-8 rounded-2xl shadow-md space-y-4">
+          <h1 className="text-2xl sm:text-3xl font-extrabold capitalize">
+            {term} ভর্তি প্রস্তুতি ও প্রশ্নব্যাংক PDF
+          </h1>
+          <p className="text-sm text-emerald-100 max-w-2xl">
+            {term} সংক্রান্ত ভর্তি পরীক্ষার বই, প্রশ্নব্যাংক ও সমাধান অনলাইন ভিউ অথবা ডাউনলোড করুন।
+          </p>
+          <div className="pt-2 max-w-xl">
+            <SearchBox defaultQuery={slug.replace(/-/g, ' ')} placeholder="বইয়ের নাম লিখে সার্চ করুন..." />
+          </div>
+        </div>
+
+        {matchedBooks.length > 0 ? (
+          <div className="space-y-4">
+            <h2 className="text-xl font-bold text-gray-900 border-b border-gray-200 pb-2">
+              সম্পর্কিত PDF বইসমূহ ({matchedBooks.length}):
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
+              {matchedBooks.map((b) => (
+                <BookCard key={b.id} book={b} />
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="bg-amber-50/80 border-2 border-amber-200 p-6 sm:p-8 rounded-2xl space-y-3 text-center">
+            <div className="w-12 h-12 bg-amber-100 text-amber-800 rounded-full flex items-center justify-center mx-auto">
+              <Search className="w-6 h-6" />
+            </div>
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900">
+              নির্দিষ্ট বইটি শীঘ্রই সার্ভারে আপলোড করা হবে
+            </h3>
+            <p className="text-sm text-gray-600 max-w-xl mx-auto">
+              আপনি উপরের সার্চ বার থেকে সার্চ করতে পারেন অথবা আমাদের এডমিশন গ্যালারির অন্যান্য প্রশ্নব্যাংক ঘুরে দেখতে পারেন।
+            </p>
+          </div>
+        )}
+
+        <div className="bg-white rounded-2xl border border-gray-200 p-6 space-y-4 shadow-xs">
+          <div className="flex items-center space-x-2 border-b border-gray-100 pb-3">
+            <Award className="w-5 h-5 text-emerald-600" />
+            <h2 className="text-xl font-bold text-gray-900">
+              এডমিশন প্রশ্নব্যাংক ডিরেক্টরি (All Admission Banks):
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {ADMISSION_BANKS.map((b) => (
+              <Link
+                key={b.bankSlug}
+                href={`/admission/${b.bankSlug}`}
+                className="p-4 bg-gray-50 hover:bg-emerald-50 border border-gray-200 hover:border-emerald-500 rounded-xl transition-all flex items-center justify-between group"
+              >
+                <div>
+                  <span className="font-bold text-gray-900 group-hover:text-emerald-700 transition-colors block">
+                    {b.bnName}
+                  </span>
+                  <span className="text-xs text-gray-500 block truncate max-w-[220px]">
+                    {b.description}
+                  </span>
+                </div>
+                <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-emerald-600 group-hover:translate-x-1 transition-all flex-shrink-0" />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
   }
   const { bank: bankInfo, unit: unitInfo, book } = resolved;
 
@@ -114,21 +203,14 @@ export default async function AdmissionBookDetailPage({ params }: RouteProps) {
           {/* Thumbnail */}
           <div className="flex flex-col items-center">
             <div className="relative w-full max-w-[260px] aspect-3/4 bg-gray-100 rounded-xl overflow-hidden shadow-sm border border-gray-200">
-              {book.cover_image ? (
-                <Image
-                  src={book.cover_image}
-                  alt={book.title}
-                  fill
-                  sizes="260px"
-                  className="object-cover"
-                  unoptimized
-                />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center p-4 text-center bg-emerald-50 text-emerald-800">
-                  <BookOpen className="w-16 h-16 text-emerald-600 mb-2" />
-                  <span className="font-bold text-sm">{book.title}</span>
-                </div>
-              )}
+              <BookCover
+                title={book.title}
+                coverImage={book.cover_image}
+                subject={book.subject}
+                bookType={book.book_type}
+                year={book.year}
+                showBadges={false}
+              />
             </div>
           </div>
 
@@ -267,38 +349,9 @@ export default async function AdmissionBookDetailPage({ params }: RouteProps) {
               Similar & Related Books (অন্যান্য বছরের প্রশ্নব্যাংক)
             </h2>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             {relatedBooks.map((relBook) => (
-              <Link
-                key={relBook.id}
-                href={`/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${getAdmissionUnitRelativeSlug(relBook.slug) ?? relBook.slug}`}
-                className="bg-white rounded-xl border border-gray-200 hover:border-emerald-500 hover:shadow-md transition-all overflow-hidden group"
-              >
-                <div className="relative aspect-3/4 bg-gray-100">
-                  {relBook.cover_image ? (
-                    <Image
-                      src={relBook.cover_image}
-                      alt={relBook.title}
-                      fill
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 16vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      unoptimized
-                    />
-                  ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center text-gray-400 p-3 text-center bg-gradient-to-br from-emerald-50 to-teal-100">
-                      <BookOpen className="w-8 h-8 sm:w-12 sm:h-12 text-emerald-600 mb-1" />
-                      <span className="text-3xs sm:text-xs font-semibold text-gray-600 line-clamp-2">
-                        {relBook.title}
-                      </span>
-                    </div>
-                  )}
-                </div>
-                <div className="p-3">
-                  <h3 className="font-bold text-gray-900 text-xs sm:text-sm line-clamp-2 group-hover:text-emerald-600 transition-colors leading-snug">
-                    {relBook.title}
-                  </h3>
-                </div>
-              </Link>
+              <BookCard key={relBook.id} book={relBook} />
             ))}
           </div>
         </section>

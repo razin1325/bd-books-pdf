@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS books (
   author TEXT DEFAULT 'NCTB / Education Board',
   publisher TEXT DEFAULT 'BD Edu Library',
   is_published BOOLEAN DEFAULT true,
+  is_latest BOOLEAN DEFAULT false,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -32,6 +33,7 @@ CREATE INDEX IF NOT EXISTS idx_books_subject_slug ON books(subject_slug);
 CREATE INDEX IF NOT EXISTS idx_books_type ON books(book_type);
 CREATE INDEX IF NOT EXISTS idx_books_year ON books(year);
 CREATE INDEX IF NOT EXISTS idx_books_published ON books(is_published);
+CREATE INDEX IF NOT EXISTS idx_books_is_latest ON books(is_latest);
 
 -- 3. Enable Row Level Security (RLS) & Access Policies
 ALTER TABLE books ENABLE ROW LEVEL SECURITY;

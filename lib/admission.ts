@@ -181,18 +181,32 @@ export const ADMISSION_BANKS: AdmissionBank[] = [
     ],
   },
   {
-    bankSlug: 'medical',
-    subjectSlug: 'medical',
-    name: 'Medical & Dental',
-    bnName: 'মেডিকেল ও ডেন্টাল ভর্তি',
-    description:
-      'মেডিকেল ও ডেন্টাল ভর্তি পরীক্ষার প্রস্তুতির জন্য প্রশ্নব্যাংক, গাইড ও লেকচার বই PDF।',
+    bankSlug: 'buet',
+    subjectSlug: 'buet',
+    name: 'BUET & Engineering',
+    bnName: 'বুয়েট ও প্রকৌশল (BUET)',
+    description: 'বুয়েট, রুয়েট, কুয়েট ও চুয়েট ভর্তি পরীক্ষার বিগত বছরের প্রশ্ন ও সমাধান PDF।',
     units: [
       {
-        unitSlug: 'medical-books',
-        name: 'Medical Admission Books',
-        bnName: 'মেডিকেল ভর্তি বই',
-        description: 'মেডিকেল ভর্তি পরীক্ষার প্রস্তুতির জন্য প্রশ্নব্যাংক, গাইড ও নোট PDF।',
+        unitSlug: 'buet-engineering',
+        name: 'BUET & Engineering Question Bank',
+        bnName: 'বুয়েট ও প্রকৌশল ভর্তি প্রশ্নব্যাংক',
+        description: 'বুয়েট ও প্রকৌশল বিশ্ববিদ্যালয় ভর্তি পরীক্ষার প্রশ্ন ও সমাধান PDF।',
+      },
+    ],
+  },
+  {
+    bankSlug: 'agri',
+    subjectSlug: 'agri',
+    name: 'Agri Varsity GST',
+    bnName: 'কৃষি গুচ্ছ (Agri GST)',
+    description: 'কৃষি গুচ্ছ (Agri GST) বিশ্ববিদ্যালয় ভর্তি পরীক্ষার বিগত বছরের প্রশ্ন ও সমাধান PDF।',
+    units: [
+      {
+        unitSlug: 'agri-gst',
+        name: 'Agri GST Question Bank',
+        bnName: 'কৃষি গুচ্ছ ভর্তি প্রশ্নব্যাংক',
+        description: 'কৃষি গুচ্ছ ভর্তি পরীক্ষার বিগত বছরের প্রশ্ন ও সমাধান PDF।',
       },
     ],
   },
@@ -225,5 +239,5 @@ export function getAdmissionBookHref(book: Book): string {
   // Books not grouped by a unit prefix (e.g. medical) map to their bank's single unit
   const bank = ADMISSION_BANKS.find((b) => b.subjectSlug === book.subject_slug);
   if (bank && bank.units.length === 1) return `/admission/${bank.bankSlug}/${bank.units[0].unitSlug}/${book.slug}`;
-  return `/admission/${book.subject_slug}/${book.slug}`;
+  return `/admission/${book.slug}`;
 }
