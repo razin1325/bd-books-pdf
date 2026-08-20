@@ -4,6 +4,7 @@ import SearchBox from '@/components/SearchBox';
 import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import HscSection from '@/components/HscSection';
+import HonoursSection from '@/components/HonoursSection';
 import { CLASSES_LIST } from '@/lib/types';
 import { getLatestBooks, getBooksByType } from '@/lib/data';
 import { BookOpen, GraduationCap, FileText, Sparkles, ArrowRight, Award, ChevronRight, BookMarked } from 'lucide-react';
@@ -102,6 +103,9 @@ export default async function HomePage() {
 
       {/* 🎓 Section: HSC (Class 11-12) Articles & Routine */}
       <HscSection />
+
+      {/* 🏛️ Section: Honours, Degree & National University Notice */}
+      <HonoursSection />
 
       {/* Section: Browse By Class (Mobile: 4 per row, Desktop: 6 per row) */}
       <section className="space-y-4">

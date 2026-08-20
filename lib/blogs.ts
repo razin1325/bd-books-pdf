@@ -438,6 +438,427 @@ export const BLOG_POSTS_DATA: BlogPostItem[] = [
       </ul>
     `,
   },
+  {
+    id: 'b-post-13',
+    title: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ পরীক্ষা রুটিন ২০২৬ PDF (NU Honours 1st Year Routine 2026)',
+    slug: 'nu-honours-1st-year-routine-2026-pdf',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় (National University) অনার্স ১ম বর্ষ ২০২৩-২৪ ও ২০২৪-২৫ সেশনের বিষয়ভিত্তিক পূর্ণাঙ্গ পরীক্ষার সময়সূচি ও PDF ডাউনলোড লিংক।',
+    metaTitle: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ পরীক্ষা রুটিন ২০২৬ PDF | NU Honours Routine',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ পরীক্ষা রুটিন ২০২৬ PDF ডাউনলোড নিয়মাবলি, পরীক্ষার কেন্দ্র তালিকা, এডমিট কার্ড সংগ্রহ ও পরীক্ষা শুরু সময়।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU Exam Cell',
+    tags: ['NU Routine', 'Honours 1st Year', 'জাতীয় বিশ্ববিদ্যালয়', 'অনার্স রুটিন'],
+    coverImage: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ পরীক্ষা রুটিন ২০২৬ (NU Honours 1st Year Routine PDF)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় (National University, Bangladesh)-এর অধীনে অনুষ্ঠিতব্য ২০২৬ সালের অনার্স ১ম বর্ষ (২০২৩-২৪ ও ২০২৪-২৫ শিক্ষাবর্ষের নিয়মিত, অনিয়মিত ও গ্রেড উন্নয়ন) পরীক্ষার অফিশিয়াল রুটিন ও নির্দেশিকা প্রকাশিত হয়েছে। শিক্ষার্থীরা খুব সহজেই আমাদের সাইট থেকে সরাসরি পিডিএফ ডাউনলোড ও সময়সূচি চেক করতে পারবেন।</p>
+
+      <h3>পরীক্ষার গুরুত্বপূর্ণ তথ্য ও সময়সূচি:</h3>
+      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+        <thead>
+          <tr className="bg-emerald-700 text-white font-bold">
+            <th className="border border-gray-300 p-2.5">বিবরণ</th>
+            <th className="border border-gray-300 p-2.5">তথ্য / সময়</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td className="border border-gray-300 p-2.5 font-bold">পরীক্ষা শুরুর সময়</td><td className="border border-gray-300 p-2.5">প্রতিদিন দুপুর ০১:৩০ মি. (বেলা দেড়টা)</td></tr>
+          <tr><td className="border border-gray-300 p-2.5 font-bold">পরীক্ষার সময়কাল</td><td className="border border-gray-300 p-2.5">প্রশ্নপত্রে উল্লেখিত সময় অনুযায়ী (৩/৪ ঘণ্টা)</td></tr>
+          <tr><td className="border border-gray-300 p-2.5 font-bold">অফিশিয়াল ওয়েবসাইট</td><td className="border border-gray-300 p-2.5">nu.ac.bd / nu.edu.bd</td></tr>
+          <tr><td className="border border-gray-300 p-2.5 font-bold">প্রবেশপত্র সংগ্রহ</td><td className="border border-gray-300 p-2.5">পরীক্ষা শুরুর ৩ দিন পূর্বে নিজ নিজ কলেজ হতে</td></tr>
+        </tbody>
+      </table>
+
+      <h3>অন অনার্স ১ম বর্ষ রুটিন PDF ডাউনলোড করার অফিশিয়াল নিয়ম:</h3>
+      <ol>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিশিয়াল পোর্টাল <a href="https://www.nu.ac.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd</a> এ প্রবেশ করুন।</li>
+        <li>মেনু বার থেকে <strong>Recent Notices / Examination Routine</strong> ট্যাবে ক্লিক করুন।</li>
+        <li><strong>"Honours 1st Year Exam Routine 2026 PDF"</strong> অপশনে প্রেস করলেই মূল অফিশিয়াল নোটিশটি ডাউনলোড হয়ে যাবে।</li>
+      </ol>
+
+      <h3>পরীক্ষার্থীদের জন্য জরুরি অফিশিয়াল নির্দেশাবলী:</h3>
+      <ul>
+        <li>পরীক্ষার্থীদের অবশ্যই নিজ নিজ কলেজের অধ্যক্ষের স্বাক্ষর ও সিলযুক্ত অফিশিয়াল <strong>প্রবেশপত্র (Admit Card)</strong> সঙ্গে আনতে হবে।</li>
+        <li>পরীক্ষার হলে ডিজিটাল ঘড়ি, মোবাইল বা কোনো ধরনের ইলেকট্রনিক ডিভাইস সম্পূর্ণ নিষিদ্ধ।</li>
+        <li>ব্যবহারিক পরীক্ষার সময়সূচি তত্ত্বীয় পরীক্ষা শেষ হওয়ার পর জাতীয় বিশ্ববিদ্যালয়ের পোর্টালে আলাদাভাবে জানিয়ে দেওয়া হবে।</li>
+      </ul>
+    `,
+    faq: [
+      {
+        question: 'অনার্স ১ম বর্ষ পরীক্ষার এডমিট কার্ড কোথায় পাব?',
+        answer: 'পরীক্ষার্থীকে তার নিজ নিজ কলেজ ডিজিটাল পোর্টাল বা প্রশাসনিক ভবন থেকে কলেজ অধ্যক্ষের সিল স্বাক্ষর সহ প্রবেশপত্র সংগ্রহ করতে হবে।',
+      },
+      {
+        question: 'পরীক্ষার কেন্দ্র তালিকা কীভাবে দেখব?',
+        answer: 'জাতীয় বিশ্ববিদ্যালয়ের nu.ac.bd পোর্টালে রুটিনের পাশাপাশি কেন্দ্র তালিকা (Center List) আলাদা নোটিশে প্রকাশ করা হয়।',
+      },
+    ],
+  },
+  {
+    id: 'b-post-14',
+    title: 'প্রাথমিক বৃত্তি পরীক্ষা রুটিন ২০২৬ PDF ডাউনলোড (Primary Scholarship Exam Routine)',
+    slug: 'primary-scholarship-routine-2026-pdf',
+    category: 'উপবৃত্তি ও শিক্ষা বৃত্তি',
+    categorySlug: 'stipend',
+    excerpt: 'প্রাথমিক শিক্ষা অধিদপ্তর (DPE) ৫ম শ্রেণি প্রাথমিক বৃত্তি পরীক্ষা ২০২৬ এর বিষয়ভিত্তিক সময়সূচি, মানবণ্টন ও PDF রুটিন ডাউনলোড।',
+    metaTitle: 'প্রাথমিক বৃত্তি পরীক্ষা রুটিন ২০২৬ PDF | Primary Scholarship Routine',
+    metaDescription: 'প্রাথমিক বৃত্তি পরীক্ষা রুটিন ২০২৬ PDF প্রাথমিক শিক্ষা অধিদপ্তর ৫ম শ্রেণির বৃত্তি পরীক্ষার রুটিন, বিষয়ভিত্তিক ১০০ নম্বরের মানবণ্টন ও পরীক্ষার নিয়মাবলী।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৪ মিনিট পড়া',
+    author: 'Primary Edu Team',
+    tags: ['প্রাথমিক বৃত্তি', 'DPE Routine', 'Primary Scholarship', '৫ম শ্রেণি'],
+    coverImage: 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <h2>প্রাথমিক বৃত্তি পরীক্ষা ২০২৬ পূর্ণাঙ্গ রুটিন ও মানবণ্টন (Primary Scholarship Routine)</h2>
+      <p>প্রাথমিক শিক্ষা অধিদপ্তর (DPE) কর্তৃক ৫ম শ্রেণির প্রাথমিক বিদ্যালয়ের শিক্ষার্থীদের জন্য প্রাথমিক বৃত্তি পরীক্ষা ২০২৬-এর অফিশিয়াল সময়সূচি ও প্রশ্ন কাঠামোর মানবণ্টন ঘোষণা করা হয়েছে।</p>
+
+      <h3>প্রাথমিক বৃত্তি পরীক্ষার বিষয়ভিত্তিক নম্বর বিভাজন:</h3>
+      <p>বৃত্তি পরীক্ষা মোট <strong>১০০ নম্বরের</strong> বিষয়ভিত্তিক প্রশ্নের ওপর অনুষ্ঠিত হবে। সময় থাকবে ২ ঘণ্টা (সকাল ১০:০০ মি. হতে দুপুর ১২:০০ মি. পর্যন্ত)।</p>
+      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+        <thead>
+          <tr className="bg-emerald-700 text-white font-bold">
+            <th className="border border-gray-300 p-2">বিষয়ের নাম</th>
+            <th className="border border-gray-300 p-2">নম্বর</th>
+            <th className="border border-gray-300 p-2">প্রশ্ন ধরন</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td className="border border-gray-300 p-2 font-bold">বাংলা (Bangla)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">বহুনির্বাচনী ও সংক্ষিপ্ত উত্তর</td></tr>
+          <tr><td className="border border-gray-300 p-2 font-bold">ইংরেজি (English)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">Short Questions & Composition</td></tr>
+          <tr><td className="border border-gray-300 p-2 font-bold">প্রাথমিক গণিত (Mathematics)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">গাণিতিক সমস্যা ও সমাধান</td></tr>
+          <tr><td className="border border-gray-300 p-2 font-bold">প্রাথমিক বিজ্ঞান (Science)</td><td className="border border-gray-300 p-2">২৫ নম্বর</td><td className="border border-gray-300 p-2">সংক্ষিপ্ত ও যোগ্যতাভিত্তিক প্রশ্ন</td></tr>
+        </tbody>
+      </table>
+
+      <h3>বৃত্তি পোর্টালে ফলাফল ও রুটিন দেখার নিয়ম:</h3>
+      <p>প্রাথমিক শিক্ষা অধিদপ্তরের মূল ওয়েবসাইট <a href="https://dpe.gov.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">dpe.gov.bd</a> অথবা ডিপিইও (DPEO) নোটিশ বোর্ড থেকে সরাসরি রুটিন পিডিএফ ফাইল পেয়ে যাবেন।</p>
+    `,
+    faq: [
+      {
+        question: 'প্রাথমিক বৃত্তি পরীক্ষায় কোন শ্রেণির শিক্ষার্থীরা অংশ নিতে পারবে?',
+        answer: 'সরকারি ও নিবন্ধিত প্রাথমিক বিদ্যালয়ের ৫ম শ্রেণির বার্ষিক পরীক্ষায় উত্তীর্ণ নির্ধারিত শতাংশ মেধাবী শিক্ষার্থীরা এ পরীক্ষায় অংশ নিতে পারবে।',
+      },
+    ],
+  },
+  {
+    id: 'b-post-15',
+    title: 'জাতীয় বিশ্ববিদ্যালয় ডিগ্রি পাস ভর্তি বিজ্ঞপ্তি ২০২৬ (NU Degree Admission Circular)',
+    slug: 'degree-admission-circular-2026-nu',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় (National University) ডিগ্রি ১ম বর্ষ পাস ও সার্টিফিকেট কোর্স ভর্তি বিজ্ঞপ্তি ২০২৬। ন্যূনতম জিপিএ ও অনলাইন আবেদন নির্দেশিকা।',
+    metaTitle: 'ডিগ্রি পাস ভর্তি বিজ্ঞপ্তি ২০২৬ ও আবেদন নিয়ম | NU Degree Admission',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় ডিগ্রি পাস ভর্তি বিজ্ঞপ্তি ২০২৬ অনলাইনে প্রাথমিক আবেদন করার পয়েন্ট যোগ্যতা, সাবজেক্ট চয়েস ও প্রয়োজনীয় কাগজপত্রের তালিকা।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU Admission Team',
+    tags: ['Degree Admission', 'জাতীয় বিশ্ববিদ্যালয়', 'ডিগ্রি ভর্তি', 'NU Admission'],
+    coverImage: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় ডিগ্রি পাস ও সার্টিফিকেট কোর্স ভর্তি বিজ্ঞপ্তি ২০২৬ (Degree Admission Circular)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় (National University)-এর অধীনস্থ সরকারি ও বেসরকারি কলেজসমূহে ২০২৬ সালের ডিগ্রি (পাস) ও সার্টিফিকেট কোর্স ১ম বর্ষের অফিশিয়াল ভর্তি বিজ্ঞপ্তি প্রকাশিত হয়েছে।</p>
+
+      <h3>ডিগ্রি ভর্তির ন্যূনতম জিপিএ যোগ্যতা (Educational Qualifications):</h3>
+      <table className="w-full border-collapse border border-gray-300 my-4 text-sm">
+        <thead>
+          <tr className="bg-emerald-700 text-white font-bold">
+            <th className="border border-gray-300 p-2">পরীক্ষার নাম</th>
+            <th className="border border-gray-300 p-2">ন্যূনতম জিপিএ (GPA)</th>
+            <th className="border border-gray-300 p-2">পাসের সাল</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td className="border border-gray-300 p-2 font-bold">এসএসসি (SSC / সমমান)</td><td className="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td className="border border-gray-300 p-2">২০২১, ২০২২, ২০২৩</td></tr>
+          <tr><td className="border border-gray-300 p-2 font-bold">এইচএসসি (HSC / সমমান)</td><td className="border border-gray-300 p-2">ন্যূনতম জিপিএ <strong>২.০ (2.00)</strong></td><td className="border border-gray-300 p-2">২০২৩, ২০২৪, ২০২৫</td></tr>
+        </tbody>
+      </table>
+
+      <h3>অনলাইনে ডিগ্রি প্রাথমিক আবেদন করার অফিশিয়াল প্রসেস:</h3>
+      <ol>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের ভর্তি ওয়েবসাইট <a href="http://app1.nu.edu.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">app1.nu.edu.bd</a> অথবা <a href="https://www.nu.ac.bd/admissions" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd/admissions</a> পোর্টালে যান।</li>
+        <li><strong>Degree Pass</strong> ট্যাবে গিয়ে <strong>Apply Now (Degree Pass)</strong> বোতামে ক্লিক করুন।</li>
+        <li>আপনার এসএসসি ও এইচএসসি পরীক্ষার রোল ও রেজিস্ট্রেশন নম্বর লিখুন।</li>
+        <li>নিজের পছন্দের কলেজ সিলেক্ট করে কোর্সের পছন্দক্রম (BA / BSS / BBS / BSc) প্রদান করুন।</li>
+        <li>আবেদনকারীর সাম্প্রতিক তোলা পাসপোর্ট সাইজ রঙিন ছবি (১৫০x১২০ পিক্সেল) আপলোড করুন।</li>
+        <li>আবেদন ফরম পূরণ শেষে প্রিন্ট কপি ও আবেদন ফি (৩৫০ টাকা) মোবাইল ব্যাংকিং (বিকাশ/রকেট/নগদ) এর মাধ্যমে কলেজে জমা দিন।</li>
+      </ol>
+
+      <h3>ভর্তির জন্য প্রয়োজনীয় কাগজপত্রের তালিকা:</h3>
+      <ul>
+        <li>অনলাইন থেকে ডাউনলোডের প্রাথমিক আবেদন ফর্মের মূল কপি।</li>
+        <li>এসএসসি ও এইচএসসি পরীক্ষার মূল মার্কশিট/সনদের সত্যাহিত ফটোকপি।</li>
+        <li>রেজিস্ট্রেশন কার্ড ও এডমিট কার্ডের ফটোকপি।</li>
+        <li>আবেদনকারীর পাসপোর্ট সাইজ রঙিন ছবি ৪ কপি।</li>
+      </ul>
+    `,
+    faq: [
+      {
+        question: 'ডিগ্রি প্রাথমিক আবেদনের ফি কত টাকা?',
+        answer: 'জাতীয় বিশ্ববিদ্যালয়ের ডিগ্রি ১ম বর্ষ প্রাথমিক আবেদন ফি ৩৫০ (তিনশত পঞ্চাশ) টাকা।',
+      },
+      {
+        question: 'এসএসসি বা এইচএসসিতে ২.০০ থাকলে কি ডিগ্রি ভর্তি হওয়া যাবে?',
+        answer: 'হ্যাঁ, উভয় পরীক্ষায় ন্যূনতম ২.০০ জিপিএ থাকলে ডিগ্রি পাস কোর্সে আবেদনের সুযোগ রয়েছে।',
+      },
+    ],
+  },
+  {
+    id: 'b-post-16',
+    title: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ তথ্য ও যোগাযোগ প্রযুক্তি (ICT) সাজেশন ২০২৬ PDF',
+    slug: 'honours-1st-year-ict-suggestion-2026-pdf',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'অনার্স ১ম বর্ষ ফাইনাল পরীক্ষার জন্য কম্পিউটার ও তথ্য প্রযুক্তি (ICT) ১০০% কমন প্রশ্ন উত্তর সহ সাজেশন ও বিগত বছরের প্রশ্ন সমাধান PDF।',
+    metaTitle: 'অনার্স ১ম বর্ষ আইসিটি সাজেশন ২০২৬ PDF | NU Honours 1st Year ICT Suggestion',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ তথ্য ও যোগাযোগ প্রযুক্তি (ICT) সাজেশন ২০২৬ PDF ফাইল ও কম্পিউটার সায়েন্স সংক্ষিপ্ত প্রশ্ন সমাধান।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU Suggestion Team',
+    tags: ['ICT Suggestion', 'Honours 1st Year', 'জাতীয় বিশ্ববিদ্যালয়', 'আইসিটি সাজেশন'],
+    content: `
+      <h2>অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) সাজেশন ২০২৬</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় (National University)-এর অনার্স ১ম বর্ষের পরীক্ষার জন্য কম্পিউটার ও তথ্য প্রযুক্তি (Computer & Information Technology - ICT) বিষয়ের পূর্ণাঙ্গ ১০০% কমন ফাইনাল সাজেশন ও বিগত পরীক্ষার সমাধান নিচে তুলে ধরা হলো।</p>
+
+      <h3>ক-বিভাগ (সংক্ষিপ্ত উত্তর প্রশ্নাবলী - নম্বর ১০):</h3>
+      <ul>
+        <li>১. কম্পিউটার বাস (Computer Bus) কাকে বলে? বিভিন্ন প্রকার বাসের সংজ্ঞার্থ লিখ।</li>
+        <li>২. র‍্যাম (RAM) এবং রোম (ROM)-এর মধ্যে প্রধান ৩টি পার্থক্য নির্দেশ কর।</li>
+        <li>৩. অপারেটিং সিস্টেম (Operating System)-এর প্রধান কাজসমূহ কী কী?</li>
+        <li>৪. আইপি এড্রেস (IP Address) এবং ডোমেইন নেম (Domain Name)-এর পার্থক্য বুঝিয়ে বল।</li>
+        <li>৫. ডাটাবেজ ম্যানেজমেন্ট সিস্টেম (DBMS)-এর সুবিধা কী কী?</li>
+      </ul>
+
+      <h3>খ ও গ-বিভাগ (রচনামূলক প্রশ্নাবলী - নম্বর ৭০):</h3>
+      <ol>
+        <li>১. ক্লাউড কম্পিউটিং (Cloud Computing) কী? এর বিভিন্ন প্রকার সার্ভিস মডেল (IaaS, PaaS, SaaS) চিত্রসহ আলোচনা কর।</li>
+        <li>২. কম্পিউটার নেটওয়ার্কের টপোলজি (Star, Mesh, Ring, Bus) সমূহের তুলনামূলক সুবিধা ও অসুবিধা ব্যাখ্যা কর।</li>
+        <li>৩. সাইবার নিরাপত্তা (Cyber Security) এবং ফায়ারওয়াল (Firewall)-এর গুরুত্ব সংক্ষেপে উপস্থাপন কর।</li>
+      </ol>
+    `,
+  },
+  {
+    id: 'b-post-17',
+    title: 'অনার্স ১ম বর্ষ ইতিহাস বিভাগ পূর্ণাঙ্গ ফাইনাল সাজেশন ২০২৬ PDF (NU History Suggestion)',
+    slug: 'honours-1st-year-history-suggestion-pdf',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের ক, খ এবং গ বিভাগের রচনামূলক ও সংক্ষিপ্ত প্রশ্ন উত্তর সহ প্রিমিয়াম সাজেশন।',
+    metaTitle: 'অনার্স ১ম বর্ষ ইতিহাস বিভাগ সাজেশন ২০২৬ PDF | NU History Suggestion',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের ফাইনাল পরীক্ষার সুপার সাজেশন ২০২৬ পিডিএফ ফাইল ও সংক্ষিপ্ত প্রশ্ন উত্তর।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU History Faculty',
+    tags: ['History Suggestion', 'অনার্স ১ম বর্ষ', 'ইতিহাস বিভাগ', 'NU Suggestion'],
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস সাজেশন ২০২৬ (NU History Department)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের শিক্ষার্থীদের জন্য পরীক্ষা ২০২৬-এর বিষভিত্তিক ক, খ এবং গ বিভাগের প্রশ্ন উত্তর ও গাইডলাইন নিচে তুলে ধরা হলো।</p>
+
+      <h3>ক-বিভাগ (সংক্ষিপ্ত প্রশ্নাবলী):</h3>
+      <ul>
+        <li>১. ইতিহাস শব্দের উৎপত্তি কোন শব্দ থেকে হয়েছে?</li>
+        <li>২. মেহেরগড় সভ্যতা কোন নদীর তীরে আবিষ্কৃত হয়?</li>
+        <li>৩. হরপ্পা ও মহেঞ্জোদারো সভ্যতার অন্যতম প্রধান বৈশিষ্ট্য কী ছিল?</li>
+        <li>৪. কৌটিল্য কে ছিলেন এবং তাঁর রচিত বিখ্যাত গ্রন্থের নাম কী?</li>
+      </ul>
+
+      <h3>খ ও গ-বিভাগ (রচনামূলক ও বিশ্লেষণাত্মক প্রশ্ন):</h3>
+      <ol>
+        <li>১. প্রাচীন ভারতের ইতিহাস পুনর্গঠনে প্রত্নতাত্ত্বিক উপাদানের গুরুত্ব মূল্যায়ন কর।</li>
+        <li>২. সিন্ধু সভ্যতার নগর পরিকল্পনা ও সামাজিক-অর্থনৈতিক জীবনের একটি সংক্ষিপ্ত বিবরণ দাও।</li>
+        <li>৩. মৌর্য সম্রাট অশোকের ‘ধর্ম’ নীতি এবং বৌদ্ধধর্ম প্রচারে তাঁর অবদান আলোচনা কর।</li>
+      </ol>
+    `,
+  },
+  {
+    id: 'b-post-18',
+    title: 'স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস অনার্স ১ম বর্ষ সিলেবাস, বই ও সাজেশন PDF',
+    slug: 'honours-1st-year-history-of-emergence-syllabus-suggestion',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'অনার্স ১ম বর্ষ আবশ্যিক বিষয় স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস (History of the Emergence of Independent Bangladesh) বিষয় কোড ২১১৫০১।',
+    metaTitle: 'স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস সাজেশন ২০২৬ PDF | History of Emergence',
+    metaDescription: 'স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস অনার্স ১ম বর্ষ আবশ্যিক বিষয় বিষয় কোড ২১১৫০১ সিলেবাস ও ১০০% কমন সাজেশন ২০২৬ PDF।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৬ মিনিট পড়া',
+    author: 'NU Exam Cell',
+    tags: ['স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস', '২০১৫০১', 'অনার্স ১ম বর্ষ', 'NU Mandatory'],
+    content: `
+      <h2>স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস (History of the Emergence of Independent Bangladesh - 211501)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষের সকল বিভাগের জন্য বাধ্যতামূলক বা আবশ্যিক বিষয় ‘স্বাধীন বাংলাদেশের অভ্যুদয়ের ইতিহাস’ (বিষয় কোড: ২১১৫০১)-এর পূর্ণাঙ্গ ১০০ নম্বর ফাইনাল সাজেশন ও গাইডলাইন।</p>
+
+      <h3>গুরুত্বপূর্ণ রচনামূলক প্রশ্নাবলী (গ-বিভাগ):</h3>
+      <ol>
+        <li>১. ১৯৫২ সালের ভাষা আন্দোলনের পটভূমি ও তাৎপর্য সংক্ষেপে আলোচনা কর। এটি কীভাবে বাঙালি জাতীয়তাবাদের উন্মেষ ঘটায়?</li>
+        <li>২. ১৯৬৬ সালের ঐতিহাসিক ৬-দফা কর্মসূচির দফাগুলো উল্লেখ কর। একে কেন ‘বাঙালির ম্যাগনা কার্টা’ বলা হয়?</li>
+        <li>৩. ১৯৬৯ সালের গণঅভ্যুত্থানের কারণ ও ঐতিহাসিক গুরুত্ব মূল্যায়ন কর।</li>
+        <li>৪. ১৯৭১ সালের ৭ই মার্চের বঙ্গবন্ধুর ঐতিহাসিক ভাষণের মূল বক্তব্য এবং মুক্তিযুদ্ধে এর গুরুত্ব নিরূপণ কর।</li>
+        <li>৫. ১৯৭১ সালের ২৫শে মার্চের কালরাতে সংঘটিত ‘অপারেশন সার্চলাইট’ এবং গণহত্যা সম্পর্কিত ঐতিহাসিক বিবরণ উপস্থাপন কর।</li>
+      </ol>
+    `,
+  },
+  {
+    id: 'b-post-19',
+    title: 'অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) মূল বই PDF ডাউনলোড (NU ICT Book)',
+    slug: 'honours-1st-year-ict-book-pdf-download',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষের কম্পিউটার ও তথ্য প্রযুক্তি (Computer & Information Technology) মূল বই ও ই-বুক PDF।',
+    metaTitle: 'অনার্স ১ম বর্ষ ICT মূল বই PDF ডাউনলোড | NU Honours ICT Book PDF',
+    metaDescription: 'অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) মূল পাঠ্যবই PDF ডাউনলোডের লিংক ও অধ্যায়ভিত্তিক তথ্য সংকলন।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৪ মিনিট পড়া',
+    author: 'Edu Library Team',
+    tags: ['ICT Book', 'Honours ICT', 'জাতীয় বিশ্ববিদ্যালয় বই', 'PDF Download'],
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ICT মূল বই PDF (Computer & Info Tech)</h2>
+      <p>অনার্স ১ম বর্ষের কম্পিউটার ও তথ্য প্রযুক্তি বিষয়ের মূল রেফারেন্স বইয়ের পিডিএফ সংস্করণ সংক্রান্ত অফিশিয়াল তথ্য নিচে প্রদান করা হলো।</p>
+
+      <h3>বইয়ের প্রধান অধ্যায়সূচি:</h3>
+      <ul>
+        <li>অধ্যায় ১: কম্পিউটার পরিচিতি ও হার্ডওয়্যার সংগঠন (Hardware Organization)</li>
+        <li>অধ্যায় ২: সফটওয়্যার, সিস্টেম সফটওয়্যার ও এপ্লিকেশন সফটওয়্যার</li>
+        <li>অধ্যায় ৩: অপারেটিং সিস্টেম ও মেমোরি ম্যানেজমেন্ট</li>
+        <li>অধ্যায় ৪: ডাটা কম্যুনিকেশন ও কম্পিউটার নেটওয়ার্কিং (Computer Networks)</li>
+        <li>অধ্যায় ৫: ইন্টারনেট, ই-কমার্স ও তথ্য নিরাপত্তা (Cyber Security)</li>
+      </ul>
+    `,
+  },
+  {
+    id: 'b-post-20',
+    title: 'জাতীয় বিশ্ববিদ্যালয় মাস্টার্স ফাইনাল বর্ষ রেজাল্ট ২০২৬ ও মার্কশিট দেখার নিয়ম (NU Masters Result)',
+    slug: 'nu-masters-final-year-result-2026',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় মাস্টার্স শেষ পর্ব (Masters Final Year Result 2026) পরীক্ষার সিজিপিএ (CGPA) সহ ফলাফল দেখার অফিশিয়াল পোর্টাল ও SMS পদ্ধতি।',
+    metaTitle: 'জাতীয় বিশ্ববিদ্যালয় মাস্টার্স ফাইনাল বর্ষ রেজাল্ট ২০২৬ | NU Masters Result',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় মাস্টার্স ফাইনাল বর্ষ রেজাল্ট ২০২৬ দেখার নিয়ম অনলাইনে মার্কশিট সহ পয়েন্ট দেখার লিংক nu.ac.bd/results ও SMS কোড।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU Result Cell',
+    tags: ['Masters Result', 'জাতীয় বিশ্ববিদ্যালয়', 'মাস্টার্স রেজাল্ট', 'nu.ac.bd'],
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় মাস্টার্স ফাইনাল বর্ষ রেজাল্ট ২০২৬ (NU Masters Final Result)</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয়ের মাস্টার্স শেষ পর্ব (নিয়মিত, অনিয়মিত ও মানোন্নয়ন) পরীক্ষা ২০২৬-এর ফলাফল সম্পর্কিত অফিশিয়াল নির্দেশিকা। শিক্ষার্থীরা খুব সহজেই সিজিপিএ সহ তাদের রেজাল্ট চেক করতে পারবেন।</p>
+
+      <h3>অনলাইনে মার্কশিট সহ রেজাল্ট দেখার নিয়ম:</h3>
+      <ol>
+        <li>জাতীয় বিশ্ববিদ্যালয়ের অফিসিয়াল ফলাফল ওয়েবসাইট <a href="http://www.nu.ac.bd/results" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nu.ac.bd/results</a> এ প্রবেশ করুন।</li>
+        <li>বামে থাকা অপশন থেকে <strong>Masters</strong> এ ক্লিক করে <strong>Masters Final</strong> সিলেক্ট করুন।</li>
+        <li>আপনার <strong>Exam Roll Number</strong> এবং <strong>Registration Number</strong> ইনপুট দিন।</li>
+        <li>পরীক্ষার বছর <strong>2026</strong> টাইপ করুন।</li>
+        <li>সিকিউরিটি ক্যাপচা কোডটি দিয়ে <strong>Search Result</strong> বাটনে চাপলেই আপনার ফলাফল স্ক্রিনে প্রদর্শিত হবে।</li>
+      </ol>
+
+      <h3>SMS দিয়ে রেজাল্ট দেখার উপায়:</h3>
+      <div className="bg-slate-900 text-emerald-400 p-4 rounded-xl font-mono text-center my-3">
+        NU &lt;space&gt; MF &lt;space&gt; Roll_No ➔ পাঠাতে হবে 16222 নম্বরে
+      </div>
+    `,
+  },
+  {
+    id: 'b-post-21',
+    title: 'ফাজিল ১ম, ২য় ও ৩য় বর্ষ পরীক্ষা রুটিন ২০২৬ PDF (Fazil Honours Exam Routine IAU)',
+    slug: 'fazil-honours-routine-2026-pdf',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'ইসলামিক আরবি বিশ্ববিদ্যালয় (IAU) ফাজিল অনার্স ও কামিল পরীক্ষা ২০২৬ বিষয়ভিত্তিক অফিশিয়াল সময়সূচি ও PDF ডাউনলোড।',
+    metaTitle: 'ফাজিল পরীক্ষা রুটিন ২০২৬ PDF | Fazil Honours Routine IAU',
+    metaDescription: 'ইসলামিক আরবি বিশ্ববিদ্যালয় ফাজিল অনার্স ১ম, ২য় ও ৩য় বর্ষ পরীক্ষা রুটিন ২০২৬ PDF ডাউনলোডের অফিশিয়াল পোর্টাল iau.edu.bd লিংক।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৪ মিনিট পড়া',
+    author: 'IAU Exam Cell',
+    tags: ['Fazil Routine', 'ইসলামিক আরবি বিশ্ববিদ্যালয়', 'ফাজিল রুটিন', 'IAU Exam'],
+    content: `
+      <h2>ইসলামিক আরবি বিশ্ববিদ্যালয় ফাজিল অনার্স পরীক্ষা রুটিন ২০২৬ (Fazil Routine PDF)</h2>
+      <p>ইসলামিক আরবি বিশ্ববিদ্যালয় (Islamic Arabic University - IAU)-এর অধীনস্থ ফাজিল (অনার্স) ১ম, ২য়, ৩য় ও ৪র্থ বর্ষ পরীক্ষা ২০২৬-এর অফিশিয়াল বিষয়ভিত্তিক সময়সূচি প্রকাশ করা হয়েছে।</p>
+
+      <h3>পরীক্ষা সংক্রান্ত গুরুত্বপূর্ণ তথ্য:</h3>
+      <ul>
+        <li>পরীক্ষা শুরুর সময়: প্রতিদিন দুপুর ১:৩০ মিনিট।</li>
+        <li>অফিশিয়াল পোর্টাল: <a href="https://iau.edu.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">iau.edu.bd</a>।</li>
+        <li>পরীক্ষার্থীদের নিজ নিজ মাদরাসা হতে কেন্দ্র ফি জমা দিয়ে প্রবেশপত্র সংগ্রহ করতে হবে।</li>
+      </ul>
+    `,
+  },
+  {
+    id: 'b-post-22',
+    title: 'জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ ফরম পূরণ নোটিশ ২০২৬ (NU Degree 1st Year Form Fillup)',
+    slug: 'nu-degree-1st-year-form-fillup-2026',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ পরীক্ষার অন-লাইন ফরম পূরণের তারিখ, ফি জমা দেওয়ার ইনকোর্স ফি ও সোনালী সেবার চালান নির্দেশিকা।',
+    metaTitle: 'ডিগ্রি ১ম বর্ষ ফরম পূরণ নোটিশ ২০২৬ | NU Degree 1st Year Form Fillup',
+    metaDescription: 'জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ অন-লাইন ফরম পূরণের সময়সূচি, ফি প্রদানের ইনকোর্স চালানের নিয়ম ও অফিশিয়াল লিংক emsb.nu.ac.bd।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU Notice Board',
+    tags: ['Degree Form Fillup', 'জাতীয় বিশ্ববিদ্যালয়', 'ডিগ্রি ফরম পূরণ', 'NU Form Fillup'],
+    content: `
+      <h2>জাতীয় বিশ্ববিদ্যালয় ডিগ্রি ১ম বর্ষ পরীক্ষার অন-লাইন ফরম পূরণ ২০২৬</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় (National University) ডিগ্রি ১ম বর্ষ (নিয়মিত, অনিয়মিত ও গ্রেড উন্নয়ন) পরীক্ষার অফিশিয়াল অন-লাইন ফরম পূরণ সংক্রান্ত নোটিশ প্রকাশিত হয়েছে।</p>
+
+      <h3>ফরম পূরণের অনলাইন ধাপসমূহ:</h3>
+      <ol>
+        <li>অনলাইন ফরম পূরণ পোর্টাল <a href="http://emsb.nu.ac.bd" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">emsb.nu.ac.bd</a> অথবা <a href="http://www.nubd.info" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold underline">nubd.info</a> এ যান।</li>
+        <li><strong>Student Login / Form Fillup</strong> অপশন নির্বাচন করে আপনার রেজিস্ট্রেশন নম্বর লিখুন।</li>
+        <li>সাবজেক্ট কোড নির্বাচন করে ফরম ডাউনলোড ও প্রিন্ট করুন।</li>
+        <li>প্রিন্টকৃত ফরম ও নির্ধারিত ফি (সোনালী সেবা বা কলেজের ব্যাংক একাউন্টে) বিজ্ঞপ্তির শেষ তারিখের মধ্যে জমা দিন।</li>
+      </ol>
+    `,
+  },
+  {
+    id: 'b-post-23',
+    title: 'অনার্স ১ম বর্ষ বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১) সংক্ষিপ্ত সাজেশন ও উত্তর PDF',
+    slug: 'honours-1st-year-history-of-bangladesh-short-suggestion',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিষয় কোড ২১২১০১ (ইতিহাস ও সমাজ) পরীক্ষা ২০২৬ সংক্ষিপ্ত প্রশ্ন উত্তর সহ সমাধান।',
+    metaTitle: 'অনার্স ১ম বর্ষ বাংলাদেশের ইতিহাস সাজেশন ২০২৬ PDF | History of Bangladesh',
+    metaDescription: 'অনার্স ১ম বর্ষ বাংলাদেশের ইতিহাস ১৯৪৭-১৯৭১ বিষয় কোড ২১২১০১ সংক্ষিপ্ত প্রশ্ন উত্তর সহ ১০০% কমন সাজেশন ২০২৬ PDF।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৫ মিনিট পড়া',
+    author: 'NU History Team',
+    tags: ['History of Bangladesh', 'অনার্স ইতিহাস', '২১২১০১', 'NU History'],
+    content: `
+      <h2>অনার্স ১ম বর্ষ বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১) চূড়ান্ত সাজেশন ২০২৬</h2>
+      <p>জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ ইতিহাস বিভাগের অন্যতম মূল বিষয় ‘বাংলাদেশের ইতিহাস (১৯৪৭-১৯৭১)’-এর অফিশিয়াল সাজেশন ও উত্তরমালা নিচে দেওয়া হলো।</p>
+
+      <h3>ক-বিভাগ (সংক্ষিপ্ত সংজ্ঞার্থ প্রশ্ন):</h3>
+      <ul>
+        <li>১. দ্বি-জাতি তত্ত্বের প্রবক্তা কে ছিলেন? (উত্তর: মোহাম্মদ আলী জিন্নাহ, ১৯৩৯)।</li>
+        <li>২. কত সালে পূর্ব পাকিস্তান আওয়ামী মুসলিম লীগ গঠিত হয়? (উত্তর: ২৩ জুন ১৯৪৯)।</li>
+        <li>৩. যুক্তফ্রন্ট কবে গঠিত হয় এবং এর ২১ দফার প্রথম দফা কী ছিল? (উত্তর: ৪ ডিসেম্বর ১৯৫৩, প্রথম দফা: বাংলাকে অন্যতম রাষ্ট্রভাষা করা)।</li>
+      </ul>
+    `,
+  },
+  {
+    id: 'b-post-24',
+    title: 'অনার্স ১ম বর্ষ আইসিটি গাইড বই ও বিগত বছরের প্রশ্ন সমাধান PDF (NU ICT Guide Book)',
+    slug: 'honours-1st-year-ict-guide-book-pdf',
+    category: 'শিক্ষা ও ফলপ্রকাশ',
+    categorySlug: 'education-result',
+    excerpt: 'জাতীয় বিশ্ববিদ্যালয় অনার্স ১ম বর্ষ কম্পিউটার সাইন্স ও তথ্য প্রযুক্তি পূর্ণাঙ্গ গাইড বই ও হ্যান্ডনোট PDF ফাইল।',
+    metaTitle: 'অনার্স ১ম বর্ষ আইসিটি গাইড বই PDF | NU Honours ICT Guide Book',
+    metaDescription: 'অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) গাইড বই ও হ্যান্ডনোট PDF ডাউনলোডের তথ্য নির্দেশিকা।',
+    date: 'আগস্ট ২১, ২০২৬',
+    readTime: '৪ মিনিট পড়া',
+    author: 'Edu Library Team',
+    tags: ['ICT Guide', 'Honours ICT', 'আইসিটি গাইড', 'NU Handnotes'],
+    content: `
+      <h2>অনার্স ১ম বর্ষ কম্পিউটার ও তথ্য প্রযুক্তি (ICT) পূর্ণাঙ্গ গাইড বই PDF</h2>
+      <p>অনার্স ১ম বর্ষের তথ্য ও যোগাযোগ প্রযুক্তি (Computer & Information Technology) বিষয়ের সমাধান ও গাইড নোটের অফিশিয়াল সূচিপত্র ও ব্যবহার নির্দেশিকা।</p>
+
+      <h3>গাইডের বিষয়বস্তু:</h3>
+      <ul>
+        <li>১. বিগত ১০ বছরের বোর্ড প্রশ্ন ও উত্তর সমাধান।</li>
+        <li>২. ক-বিভাগ, খ-বিভাগ ও গ-বিভাগের মোস্ট ইম্পর্ট্যান্ট সাজেসন্স।</li>
+        <li>৩. প্র্যাকটিক্যাল ল্যাব ও কম্পিউটার প্রোগ্রামিং প্রারম্ভিক নোট।</li>
+      </ul>
+    `,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPostItem | undefined {
