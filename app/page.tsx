@@ -143,6 +143,34 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* 📘 Section: Guide Books & Solutions (8 Cards total) */}
+      <section className="space-y-4">
+        <div className="flex items-center justify-between border-b border-gray-200 pb-3">
+          <div className="flex items-center space-x-2">
+            <FileText className="w-5 h-5 text-emerald-600" />
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
+              Guide Books & Solutions (গাইড বই ও সমাধান)
+            </h2>
+          </div>
+          <Link
+            href="/guide-books"
+            className="text-xs sm:text-sm font-semibold text-emerald-700 hover:text-emerald-800 flex items-center space-x-1"
+          >
+            <span>সব গাইড বই</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
+          {guideBooks.map((book) => (
+            <BookCard key={book.id} book={book} />
+          ))}
+        </div>
+      </section>
+
+      {/* Middle Ad Slot */}
+      <AdSlot slotId="homepage-middle" format="horizontal" />
+
       {/* 📚 Single Combined Section: NCTB Board Textbooks (8 Cards total) */}
       <section className="space-y-4 bg-emerald-50/30 p-4 sm:p-6 rounded-2xl border border-emerald-200/80">
         <div className="flex items-center justify-between border-b border-emerald-200 pb-3">
@@ -171,34 +199,6 @@ export default async function HomePage() {
         {/* Grid showing exactly 8 textbook cards (2 rows of 4) */}
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
           {textbookBooks.map((book) => (
-            <BookCard key={book.id} book={book} />
-          ))}
-        </div>
-      </section>
-
-      {/* Middle Ad Slot */}
-      <AdSlot slotId="homepage-middle" format="horizontal" />
-
-      {/* 📘 Section: Guide Books & Solutions (8 Cards total) */}
-      <section className="space-y-4">
-        <div className="flex items-center justify-between border-b border-gray-200 pb-3">
-          <div className="flex items-center space-x-2">
-            <FileText className="w-5 h-5 text-emerald-600" />
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
-              Guide Books & Solutions (গাইড বই ও সমাধান)
-            </h2>
-          </div>
-          <Link
-            href="/guide-books"
-            className="text-xs sm:text-sm font-semibold text-emerald-700 hover:text-emerald-800 flex items-center space-x-1"
-          >
-            <span>সব গাইড বই</span>
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5 sm:gap-4.5">
-          {guideBooks.map((book) => (
             <BookCard key={book.id} book={book} />
           ))}
         </div>
