@@ -70,6 +70,15 @@ export default function AdminPage() {
   const [filterType, setFilterType] = useState('ALL');
   const [sortBy, setSortBy] = useState<'id_asc' | 'id_desc' | 'title_asc' | 'class_asc'>('id_asc');
 
+  // Pagination State (1 2 3 4 5 6 7 ...)
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(15);
+
+  // Reset pagination to Page 1 whenever filters or search term change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, filterClass, filterType, sortBy, itemsPerPage]);
+
   // Check login state on mount
   useEffect(() => {
     const authStatus = sessionStorage.getItem('admin_authenticated');
@@ -432,6 +441,13 @@ export default function AdminPage() {
 
     return result;
   }, [books, searchTerm, filterClass, filterType, sortBy]);
+
+  // Pagination Calculation
+  const totalPages = Math.ceil(filteredBooks.length / itemsPerPage) || 1;
+  const paginatedBooks = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filteredBooks.slice(start, start + itemsPerPage);
+  }, [filteredBooks, currentPage, itemsPerPage]);
 
   if (!isAuthenticated) {
     return (
@@ -988,8 +1004,8 @@ export default function AdminPage() {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200 font-medium">
-              {filteredBooks.length > 0 ? (
-                filteredBooks.map((b) => (
+              {paginatedBooks.length > 0 ? (
+                paginatedBooks.map((b) => (
                   <tr key={b.id} className="hover:bg-emerald-50/50 transition-colors">
                     {/* Cover Thumbnail */}
                     <td className="p-2 text-center">
@@ -1052,7 +1068,7 @@ export default function AdminPage() {
                     <td className="p-3 text-right space-x-2 whitespace-nowrap">
                       <button
                         onClick={() => handleEditClick(b)}
-                        className="px-3 py-1.5 bg-amber-100 text-amber-900 hover:bg-amber-600 hover:text-white rounded-lg transition-colors font-bold text-2xs inline-flex items-center space-x-1 shadow-2xs"
+                        className="px-3 py-1.5 bg-amber-100 text-amber-900 hover:bg-amber-600 hover:text-white rounded-lg transition-colors font-bold text-2xs inline-flex items-center space-x-1 shadow-2xs cursor-pointer"
                         title="Edit book info"
                       >
                         <Edit className="w-3.5 h-3.5" />
@@ -1061,7 +1077,7 @@ export default function AdminPage() {
 
                       <button
                         onClick={() => handleDelete(b)}
-                        className="px-3 py-1.5 bg-red-100 text-red-700 hover:bg-red-600 hover:text-white rounded-lg transition-colors font-bold text-2xs inline-flex items-center space-x-1 shadow-2xs"
+                        className="px-3 py-1.5 bg-red-100 text-red-700 hover:bg-red-600 hover:text-white rounded-lg transition-colors font-bold text-2xs inline-flex items-center space-x-1 shadow-2xs cursor-pointer"
                         title="Delete book and cover image"
                       >
                         <Trash2 className="w-3.5 h-3.5" />
@@ -1080,6 +1096,80 @@ export default function AdminPage() {
             </tbody>
           </table>
         </div>
+
+        {/* Page Counter Pagination Bar (1 2 3 4 5 6 7 ...) */}
+        {filteredBooks.length > 0 && (
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-gray-200 text-xs text-gray-600">
+            <div className="flex items-center space-x-2">
+              <span>প্রতি পেজে বই:</span>
+              <select
+                value={itemsPerPage}
+                onChange={(e) => setItemsPerPage(Number(e.target.value))}
+                className="py-1 px-2.5 bg-white border border-gray-300 rounded-lg font-bold text-gray-900 outline-none focus:border-emerald-600 cursor-pointer"
+              >
+                <option value={10}>১০টি</option>
+                <option value={15}>১৫টি</option>
+                <option value={25}>২৫টি</option>
+                <option value={50}>৫০টি</option>
+                <option value={100}>১০০টি</option>
+              </select>
+              <span className="font-semibold text-gray-500 hidden sm:inline">
+                (প্রদর্শিত {Math.min((currentPage - 1) * itemsPerPage + 1, filteredBooks.length)} - {Math.min(currentPage * itemsPerPage, filteredBooks.length)}, মোট {filteredBooks.length}টি বইয়ের মধ্যে)
+              </span>
+            </div>
+
+            {/* Page Number Buttons */}
+            <div className="flex items-center space-x-1.5 overflow-x-auto max-w-full py-1">
+              <button
+                type="button"
+                disabled={currentPage === 1}
+                onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
+                className="px-3 py-1.5 rounded-lg border border-gray-300 font-bold bg-white text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+              >
+                আগের পেজ
+              </button>
+
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                .filter((p) => {
+                  return (
+                    p === 1 ||
+                    p === totalPages ||
+                    Math.abs(p - currentPage) <= 2
+                  );
+                })
+                .map((page, idx, array) => {
+                  const prevPage = array[idx - 1];
+                  const showEllipsis = prevPage && page - prevPage > 1;
+
+                  return (
+                    <React.Fragment key={page}>
+                      {showEllipsis && <span className="px-1 text-gray-400 font-bold">...</span>}
+                      <button
+                        type="button"
+                        onClick={() => setCurrentPage(page)}
+                        className={`w-8 h-8 rounded-lg font-extrabold text-xs transition-all flex items-center justify-center cursor-pointer ${
+                          currentPage === page
+                            ? 'bg-emerald-600 text-white border border-emerald-600 shadow-sm'
+                            : 'bg-white text-gray-700 border border-gray-300 hover:bg-emerald-50 hover:text-emerald-700'
+                        }`}
+                      >
+                        {page}
+                      </button>
+                    </React.Fragment>
+                  );
+                })}
+
+              <button
+                type="button"
+                disabled={currentPage === totalPages}
+                onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+                className="px-3 py-1.5 rounded-lg border border-gray-300 font-bold bg-white text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+              >
+                পরের পেজ
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
