@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
+import { getBaseUrl } from '@/lib/site';
 
 export interface BreadcrumbItem {
   label: string;
@@ -12,20 +13,22 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
+  const baseUrl = getBaseUrl();
+
   // Generate JSON-LD BreadcrumbList Schema
   const schemaItems = [
     {
       '@type': 'ListItem',
       position: 1,
       name: 'Home',
-      item: process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app',
+      item: baseUrl,
     },
     ...items.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 2,
       name: item.label,
       item: item.href
-        ? `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}${item.href}`
+        ? `${baseUrl}${item.href}`
         : undefined,
     })),
   ];

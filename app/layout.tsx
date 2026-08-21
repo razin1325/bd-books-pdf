@@ -6,10 +6,12 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Analytics } from '@vercel/analytics/react';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
+import { getBaseUrl } from '@/lib/site';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(getBaseUrl()),
   title: {
     default: 'বাংলাদেশের সকল শ্রেণির বই ও গাইড PDF | BD Edu PDF',
     template: '%s | BD Edu PDF',
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'bn_BD',
-    url: 'https://bd-edu-books.vercel.app',
+    url: getBaseUrl(),
     siteName: 'শিক্ষা বইমেলা - BD Edu PDF',
     title: 'বাংলাদেশের সকল শ্রেণির বই ও গাইড PDF',
     description: 'শ্রেণি ও বিষয় অনুযায়ী পাঠ্যবই, গাইড বই এবং প্রয়োজনীয় শিক্ষামূলক PDF খুঁজে নিন।',

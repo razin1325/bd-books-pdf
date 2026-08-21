@@ -10,6 +10,7 @@ import AdSlot from '@/components/AdSlot';
 import SearchBox from '@/components/SearchBox';
 import { getBooksBySubject, getBooksByClass } from '@/lib/data';
 import { ADMISSION_BANKS, getAdmissionUnitRelativeSlug } from '@/lib/admission';
+import { getBaseUrl } from '@/lib/site';
 import {
   BookOpen,
   Download,
@@ -177,7 +178,7 @@ export default async function AdmissionBookDetailPage({ params }: RouteProps) {
     description: book.description,
     genre: book.book_type,
     image: book.cover_image,
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${slug}`,
+    url: `${getBaseUrl()}/admission/${bankInfo.bankSlug}/${unitInfo.unitSlug}/${slug}`,
   };
 
   return (

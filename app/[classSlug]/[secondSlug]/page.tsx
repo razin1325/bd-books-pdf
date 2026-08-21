@@ -10,6 +10,7 @@ import BookCover from '@/components/BookCover';
 import AdSlot from '@/components/AdSlot';
 import { CLASSES_LIST, SUBJECTS_LIST } from '@/lib/types';
 import { getAdmissionBookHref } from '@/lib/admission';
+import { getBaseUrl } from '@/lib/site';
 import {
   getBookBySlug,
   getBooksBySubject,
@@ -194,7 +195,7 @@ export default async function DynamicRoutePage({ params }: RouteProps) {
     description: book.description,
     genre: book.book_type,
     image: book.cover_image,
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}${getAdmissionBookHref(book)}`,
+    url: `${getBaseUrl()}${getAdmissionBookHref(book)}`,
   };
 
   return (

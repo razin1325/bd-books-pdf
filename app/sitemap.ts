@@ -2,9 +2,10 @@ import { MetadataRoute } from 'next';
 import { CLASSES_LIST, SUBJECTS_LIST, DIVISION_COLLEGES_REQ, DETAILED_COLLEGES_LIST } from '@/lib/types';
 import { getBooks } from '@/lib/data';
 import { getAdmissionBookHref } from '@/lib/admission';
+import { getBaseUrl } from '@/lib/site';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app';
+  const baseUrl = getBaseUrl();
   const books = await getBooks();
 
   const divisionRoutes = DIVISION_COLLEGES_REQ.map((d) => `/college-admission/${d.slug}`);

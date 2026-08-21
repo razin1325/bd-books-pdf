@@ -5,6 +5,7 @@ import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import { Book } from '@/lib/types';
 import { getAdmissionBookHref } from '@/lib/admission';
+import { getBaseUrl } from '@/lib/site';
 import { ExternalLink, Download, FileText, Calendar, Layers, User, Building, BookOpen } from 'lucide-react';
 
 interface BookDetailViewProps {
@@ -29,7 +30,7 @@ export default function BookDetailView({ book, relatedBooks = [] }: BookDetailVi
     description: book.description,
     genre: book.book_type,
     image: book.cover_image,
-    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://bd-edu-books.vercel.app'}${getAdmissionBookHref(book)}`,
+    url: `${getBaseUrl()}${getAdmissionBookHref(book)}`,
   };
 
   return (
