@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 import AdSlot from '@/components/AdSlot';
 import SearchBox from '@/components/SearchBox';
-import BookCard from '@/components/BookCard';
 import ExpandableBookGrid from '@/components/ExpandableBookGrid';
 import BookDetailView from '@/components/BookDetailView';
 import { getBooksBySubject, getBooksByClass, getBookBySlug, getRelatedBooks } from '@/lib/data';
@@ -186,7 +185,7 @@ export default async function AdmissionBankPage({ params }: RouteProps) {
             <Search className="w-6 h-6" />
           </div>
           <h3 className="text-lg sm:text-xl font-bold text-gray-900">
-            বর্তমানে "{formattedBankTitle}" ক্যাটাগরির জন্য আলাদা পেজ শীঘ্রই যোগ করা হবে
+            বর্তমানে &quot;{formattedBankTitle}&quot; ক্যাটাগরির জন্য আলাদা পেজ শীঘ্রই যোগ করা হবে
           </h3>
           <p className="text-sm text-gray-600 max-w-xl mx-auto leading-relaxed">
             চিন্তার কিছু নেই! আপনি উপরের সার্চ বক্স থেকে সহজেই যেকোনো বিষয় বা বিশ্ববিদ্যালয়ের নাম লিখে সার্চ করে আপনার কাঙ্ক্ষিত PDF পড়তে ও ডাউনলোড করতে পারবেন।

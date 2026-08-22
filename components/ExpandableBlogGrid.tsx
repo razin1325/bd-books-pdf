@@ -23,7 +23,6 @@ export default function ExpandableBlogGrid({
 
   const visiblePosts = posts.slice(0, visibleCount);
   const hasMore = visibleCount < posts.length;
-  const remainingCount = posts.length - visibleCount;
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => Math.min(prev + step, posts.length));

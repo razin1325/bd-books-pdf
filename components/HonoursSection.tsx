@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Eye, Bookmark, ChevronRight, Sparkles, GraduationCap, ArrowRight, Clock } from 'lucide-react';
+import { Eye, Bookmark, ChevronRight, Sparkles, GraduationCap } from 'lucide-react';
 import BookCover from '@/components/BookCover';
 
 export interface HonoursArticle {

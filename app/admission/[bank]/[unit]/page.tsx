@@ -2,7 +2,6 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
-import BookCard from '@/components/BookCard';
 import ExpandableBookGrid from '@/components/ExpandableBookGrid';
 import BookDetailView from '@/components/BookDetailView';
 import AdSlot from '@/components/AdSlot';
@@ -116,7 +115,7 @@ export default async function AdmissionUnitPage({ params }: RouteProps) {
               <Search className="w-6 h-6" />
             </div>
             <h3 className="text-lg sm:text-xl font-bold text-gray-900">
-              "{searchTerm}" পেজটি শীঘ্রই আপলোড করা হবে
+              &quot;{searchTerm}&quot; পেজটি শীঘ্রই আপলোড করা হবে
             </h3>
             <p className="text-sm text-gray-600 max-w-xl mx-auto">
               আপনি উপরের সার্চ বক্স থেকে সরাসরি অনুসন্ধান করতে পারেন অথবা নিচের এডমিশন ব্যাংকগুলো থেকে প্রয়োজনীয় বইটি বেছে নিন।

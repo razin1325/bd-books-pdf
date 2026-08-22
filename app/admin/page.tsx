@@ -25,12 +25,16 @@ import {
   Sparkles,
   Users,
   Eye,
-  Activity,
   TrendingUp,
 } from 'lucide-react';
 
 export default function AdminPage() {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return sessionStorage.getItem('admin_authenticated') === 'true';
+    }
+    return false;
+  });
   const [passwordInput, setPasswordInput] = useState('');
   const [authError, setAuthError] = useState('');
 
@@ -87,19 +91,64 @@ export default function AdminPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(15);
 
-  // Reset pagination to Page 1 whenever filters or search term change
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [searchTerm, filterClass, filterType, sortBy, itemsPerPage]);
+  const fetchBooks = async () => {
+    setLoading(true);
+    const data = await getBooks();
+    setBooks(data);
+    setLoading(false);
+  };
+
+  // File Upload Handler (for Drag&Drop, File Input, or Ctrl+V Clipboard Paste)
+  const handleFileUpload = async (file: File) => {
+    if (!file.type.startsWith('image/')) {
+      alert('অনুগ্রহ করে ছবি ফাইল (JPG, PNG, WEBP) সিলেক্ট বা পেস্ট করুন!');
+      return;
+    }
+    setUploadingCover(true);
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const res = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await res.json();
+      if (res.ok && data.url) {
+        setCoverImage(data.url);
+      } else {
+        alert('Cloudinary Upload সমস্যা: ' + (data.error || 'অজানা ত্রুটি'));
+      }
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : 'অজানা ত্রুটি';
+      alert('আপলোড এরর: ' + message);
+    } finally {
+      setUploadingCover(false);
+    }
+  };
 
   // Check login state on mount
   useEffect(() => {
-    const authStatus = sessionStorage.getItem('admin_authenticated');
-    if (authStatus === 'true') {
-      setIsAuthenticated(true);
-      fetchBooks();
-    }
-  }, []);
+    if (!isAuthenticated) return;
+    let isMounted = true;
+
+    const loadData = async () => {
+      await Promise.resolve();
+      if (!isMounted) return;
+      setLoading(true);
+      const data = await getBooks();
+      if (isMounted) {
+        setBooks(data);
+        setLoading(false);
+      }
+    };
+
+    loadData();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [isAuthenticated]);
 
   // Keyboard Clipboard Paste Handler (Ctrl + V) for image upload
   useEffect(() => {
@@ -142,20 +191,15 @@ export default function AdminPage() {
         if (data.success) {
           setAnalyticsStats(data);
         }
-      } catch (e) {}
+      } catch {
+        // Ignore fetch error
+      }
     };
 
     fetchAnalytics();
     const interval = setInterval(fetchAnalytics, 10000); // Live poll every 10 seconds
     return () => clearInterval(interval);
   }, [isAuthenticated]);
-
-  const fetchBooks = async () => {
-    setLoading(true);
-    const data = await getBooks();
-    setBooks(data);
-    setLoading(false);
-  };
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -173,34 +217,6 @@ export default function AdminPage() {
   const handleLogout = () => {
     sessionStorage.removeItem('admin_authenticated');
     setIsAuthenticated(false);
-  };
-
-  // File Upload Handler (for Drag&Drop, File Input, or Ctrl+V Clipboard Paste)
-  const handleFileUpload = async (file: File) => {
-    if (!file.type.startsWith('image/')) {
-      alert('অনুগ্রহ করে ছবি ফাইল (JPG, PNG, WEBP) সিলেক্ট বা পেস্ট করুন!');
-      return;
-    }
-    setUploadingCover(true);
-    try {
-      const formData = new FormData();
-      formData.append('file', file);
-
-      const res = await fetch('/api/upload', {
-        method: 'POST',
-        body: formData,
-      });
-      const data = await res.json();
-      if (res.ok && data.url) {
-        setCoverImage(data.url);
-      } else {
-        alert('Cloudinary Upload সমস্যা: ' + (data.error || 'অজানা ত্রুটি'));
-      }
-    } catch (err: any) {
-      alert('আপলোড এরর: ' + err.message);
-    } finally {
-      setUploadingCover(false);
-    }
   };
 
   // Permanent Cloudinary Image Removal Handler
@@ -228,8 +244,9 @@ export default function AdminPage() {
         } else {
           alert('Cloudinary থেকে ডিলিট এরর: ' + (data.error || 'অজানা ত্রুটি'));
         }
-      } catch (err: any) {
-        alert('ছবি ডিলিট করতে সমস্যা: ' + err.message);
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : 'অজানা ত্রুটি';
+        alert('ছবি ডিলিট করতে সমস্যা: ' + message);
       } finally {
         setUploadingCover(false);
       }
@@ -721,7 +738,7 @@ export default function AdminPage() {
                 />
                 <label htmlFor="isLatestPostCheckbox" className="text-xs sm:text-sm font-bold text-gray-900 cursor-pointer flex items-center space-x-1.5 select-none">
                   <Sparkles className="w-4 h-4 text-amber-600 animate-pulse" />
-                  <span>Latest Posts (হোমপেজের 'সর্বশেষ পোস্টসমূহ' সেকশনে পিন/প্রদর্শন করুন)</span>
+                  <span>Latest Posts (হোমপেজের &apos;সর্বশেষ পোস্টসমূহ&apos; সেকশনে পিন/প্রদর্শন করুন)</span>
                 </label>
               </div>
             </div>
@@ -1072,7 +1089,7 @@ export default function AdminPage() {
             <div className="relative">
               <select
                 value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as any)}
+                onChange={(e) => setSortBy(e.target.value as 'id_asc' | 'id_desc' | 'title_asc' | 'class_asc')}
                 className="w-full py-2.5 pl-8 pr-3 text-xs sm:text-sm font-bold text-gray-900 bg-white border-2 border-gray-300 rounded-xl outline-none focus:border-emerald-600 transition-all appearance-none cursor-pointer"
               >
                 <option value="id_asc">সিরিয়াল অনুযায়ী (১ থেকে শেষ)</option>

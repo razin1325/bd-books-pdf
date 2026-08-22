@@ -11,7 +11,6 @@ export default function LatestPostsSection() {
 
   const visiblePosts = BLOG_POSTS_DATA.slice(0, visibleCount);
   const hasMore = visibleCount < BLOG_POSTS_DATA.length;
-  const remainingCount = BLOG_POSTS_DATA.length - visibleCount;
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => Math.min(prev + 6, BLOG_POSTS_DATA.length));

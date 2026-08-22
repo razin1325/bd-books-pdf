@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Eye, Bookmark, ChevronRight, Calendar, Sparkles, MapPin, Laptop } from 'lucide-react';
+import { Eye, Bookmark, ChevronRight, Sparkles } from 'lucide-react';
 
 export interface HscArticle {
   id: string;

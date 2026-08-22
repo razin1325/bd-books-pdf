@@ -51,8 +51,9 @@ export async function POST(request: Request) {
     }
 
     return NextResponse.json({ url: data.secure_url || data.url });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || 'Internal upload error' }, { status: 500 });
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : 'Internal error';
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }
 
@@ -113,7 +114,8 @@ export async function DELETE(request: Request) {
     }
 
     return NextResponse.json({ success: true, message: 'Cloudinary থেকে ছবিটি স্থায়ীভাবে মুছে ফেলা হয়েছে!' });
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message || 'Internal delete error' }, { status: 500 });
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : 'Internal delete error';
+    return NextResponse.json({ error: errorMessage }, { status: 500 });
   }
 }

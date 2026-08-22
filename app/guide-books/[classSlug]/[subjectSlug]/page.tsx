@@ -4,13 +4,12 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 import AdSlot from '@/components/AdSlot';
-import BookCard from '@/components/BookCard';
 import ExpandableBookGrid from '@/components/ExpandableBookGrid';
 import BookDetailView from '@/components/BookDetailView';
 import SearchBox from '@/components/SearchBox';
 import { CLASSES_LIST, SUBJECTS_LIST } from '@/lib/types';
 import { getBooksByType, getBookBySlug, getRelatedBooks } from '@/lib/data';
-import { Sparkles, Layers, BookOpen, Search, FileText } from 'lucide-react';
+import { Sparkles, Layers, Search, FileText } from 'lucide-react';
 
 interface RouteProps {
   params: Promise<{
@@ -34,7 +33,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const currentClass = CLASSES_LIST.find((c) => c.slug === classSlug);
   if (!currentClass) return { title: 'Page Not Found' };
 
-  let currentSubject = SUBJECTS_LIST.find((s) => s.slug === subjectSlug);
+  const currentSubject = SUBJECTS_LIST.find((s) => s.slug === subjectSlug);
   const subjName = currentSubject ? currentSubject.bnName : subjectSlug;
 
   const title = `${currentClass.bnName} ${subjName} গাইড বই ও সমাধান PDF 2026 | ${currentClass.name} ${subjName} Guide`;

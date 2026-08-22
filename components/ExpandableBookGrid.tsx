@@ -22,7 +22,6 @@ export default function ExpandableBookGrid({
 
   const visibleBooks = books.slice(0, visibleCount);
   const hasMore = visibleCount < books.length;
-  const remaining = books.length - visibleCount;
 
   return (
     <div className="space-y-5">
