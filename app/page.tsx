@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import SearchBox from '@/components/SearchBox';
 import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
@@ -27,23 +28,43 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-8 sm:space-y-10 pb-8">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-800 via-emerald-700 to-teal-900 text-white rounded-2xl p-5 sm:p-10 shadow-md relative overflow-hidden">
-        <div className="max-w-3xl space-y-4 relative z-10">
-          <div className="inline-flex items-center space-x-2 bg-emerald-600/50 backdrop-blur-sm border border-emerald-500/30 px-3 py-1 rounded-full text-xs font-medium text-emerald-100">
-            <Sparkles className="w-3.5 h-3.5" />
+      {/* Hero Section — Split-Screen: Text Left, Full-Bleed Image Right */}
+      <section className="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 text-white rounded-2xl shadow-lg relative overflow-hidden border border-emerald-800/40 min-h-[240px] sm:min-h-[280px] md:min-h-[320px]">
+
+        {/* DYINGFIELD Artwork — wider overlap so gradient blend has room to fade */}
+        <div className="absolute inset-y-0 right-0 w-full md:w-[62%] pointer-events-none">
+          <Image
+            src="/images/logo.jpg"
+            alt="Dying Field Artwork"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          {/* Wide multi-stop gradient — must match hero bg colors exactly for seamless blend */}
+          <div className="absolute inset-0 bg-gradient-to-r from-emerald-900 from-[15%] via-emerald-900/75 via-[40%] to-transparent to-[75%]" />
+          {/* Mobile: fade from bottom of text area downward */}
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/95 via-slate-900/50 to-transparent md:hidden" />
+        </div>
+
+        {/* Ambient glow */}
+        <div className="absolute -top-20 -left-20 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+
+        {/* Left Column — Text & Search (padding inside section) */}
+        <div className="relative z-10 p-5 sm:p-8 md:w-[58%] flex flex-col justify-center space-y-4 min-h-[240px] sm:min-h-[280px] md:min-h-[320px]">
+          <div className="inline-flex items-center space-x-2 bg-emerald-600/30 border border-emerald-400/30 px-3.5 py-1 rounded-full text-xs font-semibold text-emerald-200 w-fit">
+            <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse" />
             <span>NCTB বোর্ড বই, গাইড ও এডমিশন PDF ২০২৬</span>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight leading-tight">
-            বাংলাদেশের সকল শ্রেণির বই, গাইড ও বিশ্ববিদ্যালয় এডমিশন PDF
+          <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight leading-tight text-white">
+            বাংলাদেশের সকল শ্রেণির বই, গাইড ও বিশ্ববিদ্যালয় এডমিশন PDF
           </h1>
 
-          <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
-            শ্রেণি, বিষয় ও বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি অনুযায়ী পাঠ্যবই, গাইড বই এবং প্রয়োজনীয় শিক্ষামূলক PDF খুঁজে নিন। একদম সহজ ও দ্রুত ডাউনলোডের ব্যবস্থা।
+          <p className="text-emerald-100 text-xs sm:text-base leading-relaxed font-medium">
+            শ্রেণি, বিষয় ও বিশ্ববিদ্যালয় ভর্তি প্রস্তুতি অনুযায়ী পাঠ্যবই, গাইড বই এবং প্রয়োজনীয় শিক্ষামূলক PDF খুঁজে নিন। একদম সহজ ও দ্রুত ডাউনলোডের ব্যবস্থা।
           </p>
 
-          <div className="pt-2 max-w-2xl">
+          <div className="pt-1 max-w-xl">
             <SearchBox placeholder="বই, গাইড বা ভার্সিটির নাম লিখে সার্চ করুন... (যেমন: DU Question Bank, BUET Math)" />
           </div>
         </div>

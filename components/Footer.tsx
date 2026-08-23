@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BookOpen } from 'lucide-react';
 import { CLASSES_LIST } from '@/lib/types';
 
@@ -10,14 +11,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-9 h-9 rounded-lg bg-emerald-600 flex items-center justify-center text-white">
-                <BookOpen className="w-5 h-5" />
+            <Link href="/" className="flex items-center space-x-2.5 group">
+              <div className="relative w-9 h-9 rounded-lg overflow-hidden shadow-sm flex-shrink-0 border border-emerald-500/40">
+                <Image
+                  src="/images/logo.jpg"
+                  alt="Dying Field Logo"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <span className="text-xl font-bold text-white tracking-tight">
-                শিক্ষা বইমেলা
+                Dying Field
               </span>
-            </div>
+            </Link>
             <p className="text-sm text-gray-400 leading-relaxed max-w-sm">
               বাংলাদেশের সকল শ্রেণির এনসিটিবি (NCTB) পাঠ্যবই, গাইড বই এবং সমাধান PDF বিনামূল্যে পড়ার ও ডাউনলোড করার দ্রুততম ডিজিটাল প্ল্যাটফর্ম।
             </p>

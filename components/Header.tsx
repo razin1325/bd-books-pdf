@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { BookOpen, Search, Menu, X, ChevronDown, GraduationCap, Sparkles, Building2, Calendar, Home, Zap } from 'lucide-react';
 import { CLASSES_LIST } from '@/lib/types';
 
@@ -96,12 +97,18 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2.5 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-700 to-teal-600 flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
-              <BookOpen className="w-6 h-6" />
+            <div className="relative w-10 h-10 rounded-xl overflow-hidden shadow-sm group-hover:scale-105 transition-transform flex-shrink-0 border border-emerald-300">
+              <Image
+                src="/images/logo.jpg"
+                alt="Dying Field Logo"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             <div>
               <span className="text-lg sm:text-xl font-extrabold text-gray-900 leading-none block tracking-tight group-hover:text-emerald-700 transition-colors">
-                শিক্ষা বইমেলা
+                Dying Field
               </span>
               <span className="text-3xs sm:text-xs text-emerald-600 font-bold tracking-wide block">
                 BD Edu Books & HSC Routine
