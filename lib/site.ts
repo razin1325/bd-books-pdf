@@ -5,9 +5,15 @@
 export function getBaseUrl(): string {
   const envUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
 
-  // If NEXT_PUBLIC_SITE_URL is explicitly set and NOT localhost, use it
+  // If NEXT_PUBLIC_SITE_URL is explicitly set and NOT localhost, use it with HTTPS
   if (envUrl && !envUrl.includes('localhost') && !envUrl.includes('127.0.0.1')) {
-    return envUrl.replace(/\/$/, '');
+    let formatted = envUrl.replace(/\/$/, '');
+    if (formatted.startsWith('http://')) {
+      formatted = formatted.replace('http://', 'https://');
+    } else if (!formatted.startsWith('https://')) {
+      formatted = `https://${formatted}`;
+    }
+    return formatted;
   }
 
   // Vercel automatic production URL
@@ -22,7 +28,7 @@ export function getBaseUrl(): string {
 
   // Default fallback for production environment
   if (process.env.NODE_ENV === 'production') {
-    return 'https://bd-edu-books.vercel.app';
+    return 'https://www.dyingfield.com';
   }
 
   // Fallback for local development
