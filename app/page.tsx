@@ -10,6 +10,8 @@ import { CLASSES_LIST } from '@/lib/types';
 import { getLatestBooks, getBooksByType } from '@/lib/data';
 import { BookOpen, GraduationCap, FileText, Sparkles, ArrowRight, Award, ChevronRight, BookMarked } from 'lucide-react';
 import LatestPostsSection from '@/components/LatestPostsSection';
+import { getCategoryPosts, CATEGORY_LIST } from '@/lib/categories-data';
+import { Tags } from 'lucide-react';
 
 const ADMISSION_VARSITIES = [
   { name: 'ঢাকা বিশ্ববিদ্যালয় (DU)', slug: 'du', color: 'from-blue-700 to-indigo-900' },
@@ -75,6 +77,53 @@ export default async function HomePage() {
 
       {/* 🚀 Latest Posts Section (College Admission & Blog Notices) */}
       <LatestPostsSection />
+
+      {/* 🏷️ Section: Category — Browse by Category Name */}
+      <section className="space-y-4">
+        <div className="flex items-center justify-between border-b border-gray-200 pb-2.5">
+          <div className="flex items-center space-x-2.5">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-pink-100 text-pink-700 flex items-center justify-center shadow-xs flex-shrink-0">
+              <Tags className="w-5 h-5 sm:w-6 sm:h-6" />
+            </div>
+            <div>
+              <h2 className="text-lg sm:text-2xl font-extrabold text-gray-900 leading-snug">
+                Category (বিভাগসমূহ)
+              </h2>
+              <p className="text-2xs sm:text-xs text-gray-500 font-medium">
+                ক্যাটাগরি নির্বাচন করুন — নামের তালিকা, চাকরির বিজ্ঞপ্তি ও আরও অনেক কিছু
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
+          {CATEGORY_LIST.map((cat) => {
+            const count = getCategoryPosts(cat.slug).length;
+            return (
+              <Link
+                key={cat.slug}
+                href={`/category/${cat.slug}`}
+                className="group flex items-center justify-between gap-4 bg-white rounded-2xl border-2 border-gray-200 hover:border-pink-600 hover:shadow-md transition-all p-4 sm:p-5"
+              >
+                <div className="space-y-1 min-w-0">
+                  <span className="text-base sm:text-lg font-extrabold text-gray-900 group-hover:text-pink-700 transition-colors leading-snug block truncate">
+                    {cat.name}
+                  </span>
+                  <span className="block text-xs sm:text-sm font-semibold text-gray-500 truncate">
+                    {cat.bnName}
+                  </span>
+                </div>
+                <div className="flex items-center space-x-2 flex-shrink-0">
+                  <span className="text-[11px] font-bold text-pink-700 bg-pink-50 border border-pink-200 px-2.5 py-1 rounded-full whitespace-nowrap">
+                    {count} পোস্ট
+                  </span>
+                  <ChevronRight className="w-5 h-5 text-gray-400 group-hover:text-pink-600 group-hover:translate-x-1 transition-all" />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
 
       {/* Section: Dedicated University Admission Preparation */}
       <section className="space-y-4">
