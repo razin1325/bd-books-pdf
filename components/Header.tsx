@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { BookOpen, Search, Menu, X, ChevronDown, GraduationCap, Sparkles, Building2, Calendar, Home, Zap } from 'lucide-react';
@@ -9,6 +9,75 @@ import { CLASSES_LIST } from '@/lib/types';
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [classDropdownOpen, setClassDropdownOpen] = useState(false);
+
+  const topBannerRef = useRef<HTMLDivElement>(null);
+  const navContainerRef = useRef<HTMLDivElement>(null);
+  const lastScrollY = useRef(0);
+  const isHidden = useRef(false);
+  const lastChangeTime = useRef(0);
+
+useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const now = Date.now();
+      
+      // Minimum time between state changes (prevents vibration on rapid wheel events)
+      if (now - lastChangeTime.current < 300) return;
+      
+      const HIDE_THRESHOLD = 300; // only hide after scrolling 300px down
+      
+      const scrollingDown = currentScrollY > lastScrollY.current;
+      const scrollingUp = currentScrollY < lastScrollY.current;
+      
+      // Hide: scrolling down past threshold
+      // Show: scrolling up anywhere (but debounced by time gate)
+      const shouldHide = scrollingDown && currentScrollY > HIDE_THRESHOLD && !isHidden.current;
+      const shouldShow = scrollingUp && isHidden.current;
+      
+      if (shouldHide) {
+        isHidden.current = true;
+        lastChangeTime.current = now;
+        if (topBannerRef.current) {
+          topBannerRef.current.style.maxHeight = '0';
+          topBannerRef.current.style.opacity = '0';
+          topBannerRef.current.style.overflow = 'hidden';
+        }
+        if (navContainerRef.current) {
+          navContainerRef.current.style.maxHeight = '0';
+          navContainerRef.current.style.opacity = '0';
+          navContainerRef.current.style.overflow = 'hidden';
+        }
+      } else if (shouldShow) {
+        isHidden.current = false;
+        lastChangeTime.current = now;
+        if (topBannerRef.current) {
+          topBannerRef.current.style.maxHeight = '60px';
+          topBannerRef.current.style.opacity = '1';
+          topBannerRef.current.style.overflow = 'visible';
+        }
+        if (navContainerRef.current) {
+          navContainerRef.current.style.maxHeight = '200px';
+          navContainerRef.current.style.opacity = '1';
+          navContainerRef.current.style.overflow = 'visible';
+        }
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    let ticking = false;
+    const throttled = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          handleScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener('scroll', throttled, { passive: true });
+    return () => window.removeEventListener('scroll', throttled);
+  }, []);
 
   const tickerItems = (
     <>
@@ -88,12 +157,12 @@ export default function Header() {
       `}</style>
 
       {/* Top Banner Notice */}
-      <div className="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 text-white text-2xs sm:text-xs py-1.5 px-4 text-center font-medium flex items-center justify-center space-x-2">
+      <div ref={topBannerRef} className="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 text-white text-2xs sm:text-xs py-1.5 px-4 text-center font-medium flex items-center justify-center space-x-2" style={{ maxHeight: '60px', overflow: 'hidden', opacity: 1, transition: 'max-height 0.3s ease, opacity 0.3s ease' }}>
         <Sparkles className="w-3.5 h-3.5 text-amber-300 animate-pulse flex-shrink-0" />
         <span>🇧🇩 এইচএসসি রুটিন ২০২৭, এনসিটিবি পাঠ্যবই, গাইড বই ও একাদশ শ্রেণি ভর্তি তথ্য</span>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div ref={navContainerRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ maxHeight: '200px', overflow: 'hidden', opacity: 1, transition: 'max-height 0.3s ease, opacity 0.3s ease' }}>
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2.5 group">
