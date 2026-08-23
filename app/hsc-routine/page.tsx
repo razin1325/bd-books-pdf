@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import HscRoutinePage from './page';
+import HscRoutinePage from '../hsc-exam-routine/page';
 
 export const metadata: Metadata = {
     title: "HSC Exam Routine 2026 PDF Download - All Board | bd-books-pdf",
