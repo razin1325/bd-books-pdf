@@ -14,6 +14,7 @@ export interface CategoryPost {
 
 import { JOB_CIRCULAR_POSTS } from './job-circular-data';
 import { HSC_HAND_NOTE_POSTS } from './hsc-hand-note-data';
+import { DAILY_GK_POSTS } from './daily-gk-data';
 
 const BABY_NAME_POSTS: CategoryPost[] = [
   {
@@ -9561,7 +9562,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
 ];
 
-export const CATEGORY_POSTS: CategoryPost[] = [...HSC_HAND_NOTE_POSTS, ...BABY_NAME_POSTS, ...JOB_CIRCULAR_POSTS];
+export const CATEGORY_POSTS: CategoryPost[] = [...HSC_HAND_NOTE_POSTS, ...BABY_NAME_POSTS, ...JOB_CIRCULAR_POSTS, ...DAILY_GK_POSTS];
 
 export interface CategoryMeta {
   name: string;
@@ -9592,6 +9593,13 @@ export const CATEGORY_LIST: CategoryMeta[] = [
     bnName: 'চাকরির সার্কুলার ও নিয়োগ বিজ্ঞপ্তি',
     description: 'বিসিএস, ব্যাংক, সরকারি-বেসরকারি চাকরির সার্কুলার, নিয়োগ বিজ্ঞপ্তি ও সাপ্তাহিক চাকরির খবর',
     source: 'https://educationblog24.com/category/job-circular-news',
+  },
+  {
+    name: 'Daily Gk Information',
+    slug: 'daily-gk-information',
+    bnName: 'দৈনিক সাধারণ জ্ঞান',
+    description: 'বিগত সালের সাধারণ জ্ঞান, সাম্প্রতিক GK, প্রিলিমিনারি ও প্রাইমারি শিক্ষক নিয়োগ সাধারণ জ্ঞান',
+    source: 'https://educationblog24.com/category/daily-gk-information',
   },
 ];
 

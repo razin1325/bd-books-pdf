@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Breadcrumb from '@/components/Breadcrumb';
 import AdSlot from '@/components/AdSlot';
-import CategoryCard from '@/components/CategoryCard';
+import ExpandableCategoryGrid from '@/components/ExpandableCategoryGrid';
 import { getCategoryPosts, CATEGORY_LIST, type CategoryMeta } from '@/lib/categories-data';
 import { Tags } from 'lucide-react';
 
@@ -38,6 +38,12 @@ const CATEGORY_THEMES: Record<string, CategoryTheme> = {
     chip: 'bg-blue-600/30 border-blue-500/30',
     chipText: 'text-blue-200',
     border: 'border-blue-500/20',
+  },
+  'daily-gk-information': {
+    grad: 'from-slate-900 via-blue-900 to-indigo-900',
+    chip: 'bg-sky-600/30 border-sky-500/30',
+    chipText: 'text-sky-200',
+    border: 'border-sky-500/20',
   },
 };
 
@@ -111,11 +117,7 @@ export default async function CategoryListingPage({ params }: RouteProps) {
       <AdSlot slotId={`category-${meta.slug}-top`} format="horizontal" />
 
       {posts.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {posts.map((post) => (
-            <CategoryCard key={post.id} post={post} />
-          ))}
-        </div>
+        <ExpandableCategoryGrid posts={posts} initialCount={12} step={12} />
       ) : (
         <div className="bg-amber-50 border border-amber-200 p-8 rounded-2xl text-center">
           <p className="text-base font-bold text-amber-900">এই ক্যাটাগরিতে বর্তমানে কোনো পোস্ট নেই।</p>
