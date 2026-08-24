@@ -21,6 +21,12 @@ interface CategoryTheme {
 }
 
 const CATEGORY_THEMES: Record<string, CategoryTheme> = {
+  'hsc-hand-note': {
+    grad: 'from-amber-900 via-emerald-900 to-teal-900',
+    chip: 'bg-emerald-600/30 border-emerald-500/30',
+    chipText: 'text-emerald-200',
+    border: 'border-emerald-500/20',
+  },
   'baby-boy-girl-name': {
     grad: 'from-rose-900 via-pink-900 to-purple-900',
     chip: 'bg-pink-600/30 border-pink-500/30',

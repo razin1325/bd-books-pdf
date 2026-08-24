@@ -4,8 +4,9 @@ import type { CategoryPost } from './categories-data';
 export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   {
     id: 1006,
-    title: `বাংলাদেশ টেলিভিশন (বিটিভি) নিয়োগ বিজ্ঞপ্তি 2026 || বাংলাদেশ টেলিভিশন নিয়োগ বিজ্ঞপ্তি ২০২৬ pdf`,
-    slug: "বাংলাদেশ-টেলিভিশন-বিটিভ",
+    title: "বাংলাদেশ টেলিভিশন (বিটিভি) নিয়োগ বিজ্ঞপ্তি 2026 || বাংলাদেশ টেলিভিশন নিয়োগ বিজ্ঞপ্তি ২০২৬ pdf",
+    slug: "bangladsh-tlbhshn-btbh-job-circular-notice-2026",
+    oldSlug: "বাংলাদেশ-টেলিভিশন-বিটিভ",
     excerpt: `বাংলাদেশ টেলিভিশন জেলা প্রতিনিধি নিয়োগ বিজ্ঞপ্তি (২০১৬ নীতিমালা অনুযায়ী) বাংলাদেশ টেলিভিশন (বিটিভি) &#8216;জেলা প্রতিনিধি&#8217; পদে নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশ করেছে। আপনার এলাকার জন্য একজন যোগ্য জেলা প্রতিনিধি নিয়োগ দেয়া হবে। আগ্রহী ও যোগ্য প্রার্থীদের নীচে উল্লেখিত যোগ্যতা থাকতে হবে। আবেদনকারীদ`,
     content: `<p><strong>বাংলাদেশ টেলিভিশন জেলা প্রতিনিধি নিয়োগ বিজ্ঞপ্তি (২০১৬ নীতিমালা অনুযায়ী)</strong></p>
 <p>বাংলাদেশ টেলিভিশন (বিটিভি) &#8216;জেলা প্রতিনিধি&#8217; পদে নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশ করেছে। আপনার এলাকার জন্য একজন যোগ্য জেলা প্রতিনিধি নিয়োগ দেয়া হবে। আগ্রহী ও যোগ্য প্রার্থীদের নীচে উল্লেখিত যোগ্যতা থাকতে হবে।</p>
@@ -48,8 +49,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 129,
-    title: `সাপ্তাহিক চাকরির খবর ৭/০২/২০২৬ -সাপ্তাহিক চাকরির খবর পত্রিকা ৭ ফেব্রুয়ারি ২০২৬ PDF`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-৭-০২",
+    title: "সাপ্তাহিক চাকরির খবর ৭/০২/২০২৬ -সাপ্তাহিক চাকরির খবর পত্রিকা ৭ ফেব্রুয়ারি ২০২৬ PDF",
+    slug: "weekly-job-khabor-7022026-weekly-job-khabor-ptrk-7-fbrjr-2026-pdf",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-৭-০২",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন আসা করি সবাই ভালো আছেন। বন্ধুরা প্রতি সাপ্তাহের ধারাবাহিকতায় আজকে আমরা সাপ্তাহিক চাকরির পত্রিকা ৭ ফেব্রুয়ারী&nbsp;২০২৬ তোমাদের মাঝে শেয়ার করবো। আসা করি তোমাদের উপকারে আসবে ।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &n`,
     content: `<div style="clear: both; text-align: center;"></div>
 <p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন আসা করি সবাই ভালো আছেন। বন্ধুরা প্রতি সাপ্তাহের ধারাবাহিকতায় আজকে আমরা <span style="background-color: #fcff01;">সাপ্তাহিক চাকরির পত্রিকা ৭ ফেব্রুয়ারী&nbsp;</span>২০২৬ তোমাদের মাঝে শেয়ার করবো। আসা করি তোমাদের উপকারে আসবে ।&nbsp;</p>
@@ -120,8 +122,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 507,
-    title: `৪৭ তম বিসিএস সার্কুলার ২০২৬ (সংশোধিত) PDF | বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 47 BCS Circular 2026 PDF Download`,
-    slug: "৪৭-তম-বিসিএস-সার্কুলার-২০",
+    title: "৪৭ তম বিসিএস সার্কুলার ২০২৬ (সংশোধিত) PDF | বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 47 BCS Circular 2026 PDF Download",
+    slug: "47-tm-bcs-circular-2026-revised-pdf",
+    oldSlug: "৪৭-তম-বিসিএস-সার্কুলার-২০",
     excerpt: `৪৭তম বিসিএসের বিজ্ঞপ্তি ১. বিজ্ঞপ্তি প্রকাশ: আজ বৃহস্পতিবার বিকেলে সরকারি কর্ম কমিশন (পিএসসি) ৪৭তম বিসিএসের বিজ্ঞপ্তি সংশোধিত প্রকাশ করেছে। ২. নিয়োগ সংখ্যা: ক্যাডার পদে: ৩,৪৮৭ জন। নন-ক্যাডার পদে: ২০১ জন। ৪৭ তম বিসিএস সার্কুলার ২০২৬ (সংশোধিত)&nbsp; PDF Deadline: 30 Jan 2026 🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩�`,
     content: `<p></p>
 <p></p>
@@ -174,8 +177,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 2677,
-    title: `Somaj seba job circular 2026~(৩৪৯ টি পদে) সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "somaj-seba-job-circular-2026৩৪৯-টি-পদে-সমাজসেবা-অধ",
+    title: "Somaj seba job circular 2026~(৩৪৯ টি পদে) সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "somaj-seba-job-circular-2026349-t-pd-smjsb-odptr-job-circular-notice-2026",
+    oldSlug: "somaj-seba-job-circular-2026৩৪৯-টি-পদে-সমাজসেবা-অধ",
     excerpt: `&nbsp; সমাজকল্যাণ মন্ত্রণালয়াধীন সমাজসেবা অধিদপ্তর একাধিক শূন্য পদে জনবল নিয়োগে বিজ্ঞপ্তি প্রকাশিত হয়েছে। সমাজসেবা অধিদপ্তরে ৩২ ক্যাটাগরির পদে ১৩ থেকে ২০তম গ্রেডে ৩৪৯ জনকে নিয়োগ দেওয়া হবে। আগ্রহী প্রার্থীদের অনলাইনে আবেদন করতে হবে। যারা অষ্টম শ্রেণি পর্যন্ত পড়েছেন তাদের জন্য এই নিয়োগে চাকরির সুযোগ `,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivg729sO0B9Sfh7T9HKBC1jkIQCILVZp2Hd6KbgbXawPk4o607056mVqoIe66zqKbXTbZbWNvAjzkUSzL5mTtlU1bvLYHLunOdaM5yo9dTUytKiOXypUiNhBry4WBX4RSe4JVD0hhzQ-bN1ni8EcxyjLuvzk0LdAfFEfK6uETxfG0AHFqEgYlbjPgOPV8n/s739/IMG_20260330_131321.webp" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="Somaj seba job circular 2026~(৩৪৯ টি পদে) সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬" border="0" data-original-height="415" data-original-width="739" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivg729sO0B9Sfh7T9HKBC1jkIQCILVZp2Hd6KbgbXawPk4o607056mVqoIe66zqKbXTbZbWNvAjzkUSzL5mTtlU1bvLYHLunOdaM5yo9dTUytKiOXypUiNhBry4WBX4RSe4JVD0hhzQ-bN1ni8EcxyjLuvzk0LdAfFEfK6uETxfG0AHFqEgYlbjPgOPV8n/s16000/IMG_20260330_131321.webp" title="Somaj seba job circular 2026~(৩৪৯ টি পদে) সমাজসেবা অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬" /></a></div>
@@ -278,8 +282,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 3072,
-    title: `বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF (বিস্তারিত সার্কুলার)`,
-    slug: "বাংলাদেশ-রেলওয়ে-নিয়োগ",
+    title: "বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF (বিস্তারিত সার্কুলার)",
+    slug: "bangladsh-rloy-nyg-notice-2026-pdf-bstrt-circular",
+    oldSlug: "বাংলাদেশ-রেলওয়ে-নিয়োগ",
     excerpt: `বাংলাদেশ রেলওয়ে ৪৯৩ পদে নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। নিচে বিস্তারিত সার্কুলার তুলে ধরা হলো। Table Of Contents বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ ১. পদের নাম:&nbsp;ফিল্ড কানুনগোপদসংখ্যা:&nbsp;৬বেতন স্কেল:&nbsp;১১,০০০-২৬,৫৯০ টাকা (গ্রেড ১৩)।আবেদনের যোগ্যতা:&nbsp;এসএসসি বা সমমান পাস হতে হবে। ডিপ্ল`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYE0XlChjHI8JoZC8XkBqbG9IGrWZv2tE3oiAB9GrimrmdIbDQwDGWfVst9nX51CY2UqvHVfzvGmI5yAy9S-RigvG7aawIh5naBf_nTRgHaMT3TZJxJq9CNlvEyJX7Quyy2z0daqzpSDNl3ngiHU9o53K10DjazNEnaKJQxlAqj656aDMjh02dditDUfMB/s739/IMG_20260319_020100.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="415" data-original-width="739" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYE0XlChjHI8JoZC8XkBqbG9IGrWZv2tE3oiAB9GrimrmdIbDQwDGWfVst9nX51CY2UqvHVfzvGmI5yAy9S-RigvG7aawIh5naBf_nTRgHaMT3TZJxJq9CNlvEyJX7Quyy2z0daqzpSDNl3ngiHU9o53K10DjazNEnaKJQxlAqj656aDMjh02dditDUfMB/s16000/IMG_20260319_020100.jpg" /></a></div>
 <p></p>
@@ -319,11 +324,11 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 3817,
-    title: `বাংলাদেশে সেনাবাহিনী নিয়োগ ২০২৬ (পুরুষ,মহিলা,বিবাহিত,অবিবাহিত) | সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার pdf | bangladesh army job circular 2026`,
-    slug: "বাংলাদেশে-সেনাবাহিনী-নিয",
+    title: "বাংলাদেশে সেনাবাহিনী নিয়োগ ২০২৬ (পুরুষ,মহিলা,বিবাহিত,অবিবাহিত) | সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার pdf | bangladesh army job circular 2026",
+    slug: "bangladsh-army-job-circular-2026-prshmhlbbhtobbht",
+    oldSlug: "bangladesh-army-job-circular-2026",
     excerpt: `বাংলাদেশ সেনাবাহিনীতে&nbsp; ৮৩তম ডিএসএসসি (এএমসি) এবং ৬৯তম ডিএসএসসি (এডিসি)-পুরুষ/মহিলা -নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। বিস্তারিত সার্কুলার নিচে তুলে ধরা হলো।&nbsp; Table Of Contents যোগ্যতাঃ ১। বয়স। ০১ জুলাই ২০২৬ তারিখে অনূর্ধ্ব ২৮ বছর (এফিডেভিট গ্রহণযোগ্য নয়)। ২। শারীরিক মান (ন্যূনতম)। পুরুষদের ক`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfRNSIacXGE_Xb_HapkROTj3n4jRB4wA-8WIgNDisUk5bTzZYXKRhTLwxMlvZ5ewgY0PQsOUjPPh25UKRncRB104vtTzU-RGomfWrfp_pQu4I063-LAwKpUeciIB16ISg9quU7xS-MLJ9g2Zg_ZMSY2q39kGW1Na6qryaaE-AVjF6w1jd5OR7cEWZWCIkK/s1280/IMG_20260120_165018.webp" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="বাংলাদেশে সেনাবাহিনী নিয়োগ ২০২৬ (পুরুষ,মহিলা,বিবাহিত,অবিবাহিত) | সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার pdf | bangladesh army job circular 2026" border="0" data-original-height="520" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfRNSIacXGE_Xb_HapkROTj3n4jRB4wA-8WIgNDisUk5bTzZYXKRhTLwxMlvZ5ewgY0PQsOUjPPh25UKRncRB104vtTzU-RGomfWrfp_pQu4I063-LAwKpUeciIB16ISg9quU7xS-MLJ9g2Zg_ZMSY2q39kGW1Na6qryaaE-AVjF6w1jd5OR7cEWZWCIkK/s16000/IMG_20260120_165018.webp" /></a></div>
-<p></p>
+    content: `<div style="clear: both; text-align: center;"><img decoding="async" alt="বাংলাদেশে সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার PDF" border="0" src="https://i.imgur.com/ySO8slB.png" style="max-width:100%; height:auto;" /></div>
 <p></p>
 <p>বাংলাদেশ সেনাবাহিনীতে&nbsp; ৮৩তম ডিএসএসসি (এএমসি) এবং ৬৯তম ডিএসএসসি (এডিসি)-পুরুষ/মহিলা -নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। বিস্তারিত সার্কুলার নিচে তুলে ধরা হলো।&nbsp;</p>
 <div> <button>Table Of Contents</button>      </p>
@@ -435,7 +440,7 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
 <div></div>
 <p>Tag:বাংলাদেশে সেনাবাহিনী নিয়োগ ২০২৬ (পুরুষ,মহিলা,বিবাহিত,অবিবাহিত),সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার pdf,bangladesh army job circular 2026</p>
 `,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfRNSIacXGE_Xb_HapkROTj3n4jRB4wA-8WIgNDisUk5bTzZYXKRhTLwxMlvZ5ewgY0PQsOUjPPh25UKRncRB104vtTzU-RGomfWrfp_pQu4I063-LAwKpUeciIB16ISg9quU7xS-MLJ9g2Zg_ZMSY2q39kGW1Na6qryaaE-AVjF6w1jd5OR7cEWZWCIkK/s16000/IMG_20260120_165018.webp",
+    image: "https://i.imgur.com/ySO8slB.png",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a7%87-%e0%a6%b8%e0%a7%87%e0%a6%a8%e0%a6%be%e0%a6%ac%e0%a6%be%e0%a6%b9%e0%a6%bf%e0%a6%a8%e0%a7%80-%e0%a6%a8%e0%a6%bf%e0%a6%af.html",
     category: "Job Circular News",
@@ -443,8 +448,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 3930,
-    title: `বাংলাদেশ পুলিশ ট্রেইনি রিক্রুট কনস্টেবল নিয়োগ ২০২৬ সার্কুলার,সময়সূচি,কোন জেলায় কতজন | পুলিশ কনস্টেবল নিয়োগ ২০২৬ PDF`,
-    slug: "বাংলাদেশ-পুলিশ-ট্রেইনি-র",
+    title: "বাংলাদেশ পুলিশ ট্রেইনি রিক্রুট কনস্টেবল নিয়োগ ২০২৬ সার্কুলার,সময়সূচি,কোন জেলায় কতজন | পুলিশ কনস্টেবল নিয়োগ ২০২৬ PDF",
+    slug: "bangladsh-police-trin-rkrt-knstbl-job-circular-2026-circularsmyschkn-jly-ktjn",
+    oldSlug: "বাংলাদেশ-পুলিশ-ট্রেইনি-র",
     excerpt: `&nbsp;বাংলাদেশ পুলিশ বাহিনীতে ট্রেইনি রিক্রুট কনস্টেবল (টিআরসি) পদে নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশিত হয়েছে। বিজ্ঞপ্তি অনুসারে, দেশের ৬৪ জেলা থেকে এবার ৩ হাজার ৬০০ জনকে নিয়োগ দেওয়া হবে। এর মধ্যে ৩ হাজার ৬০ জন পুরুষ ও ৫৪০ জন নারী নিয়োগ পাবেন। ইতিমধ্যে অনলাইনে আবেদন শুরু হয়েছে। আগামী ৭ ফেব্রুয়ারি পর্যন্`,
     content: `<p>&nbsp;<span style="color: #121212; font-family: Shurjo, SolaimanLipi, &quot;Siyam Rupali&quot;, Roboto, Arial, Helvetica, monospace; font-size: var(--fs-18); white-space-collapse: break-spaces;">বাংলাদেশ পুলিশ বাহিনীতে ট্রেইনি রিক্রুট কনস্টেবল (টিআরসি) পদে নিয়োগের জন্য বিজ্ঞপ্তি প্রকাশিত হয়েছে। বিজ্ঞপ্তি অনুসারে, দেশের ৬৪ জেলা থেকে এবার ৩ হাজার ৬০০ জনকে নিয়োগ দেওয়া হবে। এর মধ্যে ৩ হাজার ৬০ জন পুরুষ ও ৫৪০ জন নারী নিয়োগ পাবেন। ইতিমধ্যে অনলাইনে আবেদন শুরু হয়েছে। আগামী ৭ ফেব্রুয়ারি পর্যন্ত অনলাইনে আবেদন করা যাবে।</span></p>
 <div> <button>Table Of Contents</button>      </p>
@@ -593,8 +599,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 3949,
-    title: `প্রাইমারি সহকারী শিক্ষক নিয়োগ ২০২৩ মৌখিক পরীক্ষার সময়সূচি [সকল জেলা] | প্রাইমারির মৌখিক পরীক্ষার সময়সূচি ২০২৬`,
-    slug: "প্রাইমারি-সহকারী-শিক্ষক",
+    title: "প্রাইমারি সহকারী শিক্ষক নিয়োগ ২০২৩ মৌখিক পরীক্ষার সময়সূচি [সকল জেলা] | প্রাইমারির মৌখিক পরীক্ষার সময়সূচি ২০২৬",
+    slug: "primary-shkr-teacher-job-circular-2023-mkhk-prkshr-smysch-all-jl",
+    oldSlug: "প্রাইমারি-সহকারী-শিক্ষক",
     excerpt: `Table Of Contents প্রাথমিক বিদ্যালয়ে সহকারী শিক্ষক নিয়োগ ২০২৩ মৌখিক পরীক্ষার সময়সূচি&nbsp; সুনামগঞ্জ জেলা বরগুনা জেলা নীলফামারী জেলা রংপুর জেলা হবিগঞ্জ জেলা কুড়িগ্রাম জেলা গাইবান্ধা জেলা পঞ্চগড় জেলা বরিশাল জেলা &nbsp; Tag:প্রাথমিক বিদ্যালয়ে সহকারী শিক্ষক নিয়োগ ২০২৩ মৌখিক পরীক্ষার সময়সূচি [সকল জে`,
     content: `<p></p>
 <div> <button>Table Of Contents</button>      </p>
@@ -653,8 +660,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 3952,
-    title: `খাদ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF ~খাদ্য অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "খাদ্য-মন্ত্রণালয়ে-নিয়ো",
+    title: "খাদ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF ~খাদ্য অধিদপ্তর নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "khdj-ministry-nyg-notice-2026-pdf-khdj-odptr-job-circular-notice-2026",
+    oldSlug: "খাদ্য-মন্ত্রণালয়ে-নিয়ো",
     excerpt: `&nbsp;আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। প্রিয় পাঠকবৃন্ধ ১১ জানুয়ারি ২০২৬ খাদ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। নিচে বিস্তারিত পিকচার ও পিডিএফ ফাইলে তুলে ধরা হলো। সময়সীমা নিম্নরুপ: Online-এ আবেদনপত্র পূরণ ও পরীক্ষার ফি জমাদান শুরুর তারিখ ও সময়: ১১-০১-২০২`,
     content: `<p>&nbsp;আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। প্রিয় পাঠকবৃন্ধ ১১ জানুয়ারি ২০২৬ খাদ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। নিচে বিস্তারিত পিকচার ও পিডিএফ ফাইলে তুলে ধরা হলো।</p>
 <p>সময়সীমা নিম্নরুপ:</p>
@@ -695,8 +703,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 4136,
-    title: `18th NTRCA Job Circular 2026 PDF |অষ্টাদশ/১৮তম শিক্ষক নিবন্ধন নিয়োগ বিজ্ঞপ্তি ২০২৩ যোগ্যতা |১৮ তম শিক্ষক নিবন্ধন সার্কুলার ২০২৩ pdf download`,
-    slug: "18th-ntrca-job-circular-2026-pdf-অষ্টাদশ-১৮তম-শিক্ষক-ন",
+    title: "18th NTRCA Job Circular 2026 PDF |অষ্টাদশ/১৮তম শিক্ষক নিবন্ধন নিয়োগ বিজ্ঞপ্তি ২০২৩ যোগ্যতা |১৮ তম শিক্ষক নিবন্ধন সার্কুলার ২০২৩ pdf download",
+    slug: "18th-ntrca-job-circular-2026-pdf",
+    oldSlug: "18th-ntrca-job-circular-2026-pdf-অষ্টাদশ-১৮তম-শিক্ষক-ন",
     excerpt: `দেশের বেসরকারি শিক্ষা প্রতিষ্ঠানসমূহে শিক্ষক হতে আগ্রহী প্রার্থীদের নিবন্ধন ও প্রত্যয়নের লক্ষ্যে বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন কর্তৃপক্ষ (NTRCA) কর্তৃক আয়োজিত অষ্টাদশ শিক্ষক নিবন্ধন পরীক্ষা ২০২৩-তে অংশগ্রহণ ইচ্ছুক প্রার্থীদের নিকট হতে আবেদনপত্র আহ্বান করা যাচ্ছে। প্রার্থীদের প্রথম ধাপে প্রিল`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyzs_xg-gk_0KBX8e-kDaVIpRyri1SwLnGGenTJ9a_1S3bH6wkWl8s-Eoxadr34yV8uNtVY18MycyK85wJw8QIZ-4vzDRV16uF-saIC_brTPTGolu5TBd5w0DfhkKe7Eb663CzGMzSNj4DIfFv1RSbeoEARIJkYDhuPfARsqi0lsgS0UcF4PUFsNe55rFQ/s1280/IMG_20261107_153920.webp" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="18th NTRCA Job Circular 2026 PDF |অষ্টাদশ/১৮তম শিক্ষক নিবন্ধন নিয়োগ বিজ্ঞপ্তি ২০২৩" border="0" data-original-height="520" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyzs_xg-gk_0KBX8e-kDaVIpRyri1SwLnGGenTJ9a_1S3bH6wkWl8s-Eoxadr34yV8uNtVY18MycyK85wJw8QIZ-4vzDRV16uF-saIC_brTPTGolu5TBd5w0DfhkKe7Eb663CzGMzSNj4DIfFv1RSbeoEARIJkYDhuPfARsqi0lsgS0UcF4PUFsNe55rFQ/s16000/IMG_20261107_153920.webp" /></a></div>
 <p></p>
@@ -759,8 +768,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 4165,
-    title: `বিমান বাংলাদেশ এয়ারলাইন্স (BBAL) এর অধীনে বিভিন্ন পদে নিয়োগ ২০২৬`,
-    slug: "বিমান-বাংলাদেশ-এয়ারলাইন",
+    title: "বিমান বাংলাদেশ এয়ারলাইন্স (BBAL) এর অধীনে বিভিন্ন পদে নিয়োগ ২০২৬",
+    slug: "bmn-bangladsh-eyrlins-bbal-er-on-bbhnn-pd-nyg-2026",
+    oldSlug: "বিমান-বাংলাদেশ-এয়ারলাইন",
     excerpt: `&nbsp; বিমান বাংলাদেশ এয়ারলাইন্স (BBAL) এর অধীনে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি &#8211; ১৫/১১ &nbsp;Deadline: 15 Nov 2026 বিমান ফ্লাইট ক্যাটারিং সেন্টারের হাইজিন এন্ড ফুড সেফটি এবং উৎপাদন শাখায় (বেকারী ইউনিটে) সন্মানী প্রদান পূর্বক শুধুমাত্র ০৬ মাসের জন্য নিম্নেবর্ণিত পদে ইন্টার্ন ভর্তির লক্ষ্যে শর্ত প`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -781,8 +791,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 4186,
-    title: `বাংলাদেশ বিমান বাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬-২৪ (অফিসার ক্যাডেট) -আবেদন শুরু ১ নভেম্বর ২০২৬`,
-    slug: "বাংলাদেশ-বিমান-বাহিনীতে",
+    title: "বাংলাদেশ বিমান বাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬-২৪ (অফিসার ক্যাডেট) -আবেদন শুরু ১ নভেম্বর ২০২৬",
+    slug: "bangladsh-air-forcet-nyg-notice-2026-24-ofsr-kjdt-abdn-shr-1-nbhmbr-2026",
+    oldSlug: "বাংলাদেশ-বিমান-বাহিনীতে",
     excerpt: `বাংলাদেশ বিমান বাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬-২৪ অনলাইনে আবেদনের সময়সীমা :- ১ নভেম্বর ২০২৬ থেকে ২৪ এপ্রিল ২০২৬ পর্যন্ত। *শর্ত প্রযোজ্য&nbsp; অনলাইনে আবেদনের নিয়মাবলী সরাসরি https://joinairforce.baf.mil.bd ওয়েবসাইটে &#8216;Apply Now&#8217;-এ ক্লিক করে পরবর্তী নির্দেশনা অনুযায়ী রেজিস্ট্রেশন করে ফি ব`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz8izwZG-22zJKENZ18ZI8DOYSDvJaAWFHEltznlwkb9WDaDxDlPVJY1owoHmHfOq0IqtlciYEhU46OXry66IkCx3pds8lc-Zx8Xxa4cLgkaKb_wWlj0tEq0WxEqnJMm3qTjYu5V5Uel_sikAZGbDD_9ufwHeFhg09KPKje3PYgq6Tcsd-EnS3dDgJhf2y/s640/IMG_20261101_000348.webp" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="বাংলাদেশ বিমান বাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬-২৪" border="0" data-original-height="360" data-original-width="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgz8izwZG-22zJKENZ18ZI8DOYSDvJaAWFHEltznlwkb9WDaDxDlPVJY1owoHmHfOq0IqtlciYEhU46OXry66IkCx3pds8lc-Zx8Xxa4cLgkaKb_wWlj0tEq0WxEqnJMm3qTjYu5V5Uel_sikAZGbDD_9ufwHeFhg09KPKje3PYgq6Tcsd-EnS3dDgJhf2y/s16000/IMG_20261101_000348.webp" /></a></div>
 <p></p>
@@ -831,8 +842,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5298,
-    title: `৯১ তম বিএমএ দীর্ঘমেয়াদী কোর্স ২০২৬ |বাংলাদেশ সেনাবাহিনীতে ৯১তম বিএমএ দীর্ঘমেয়াদী কোর্সে যোগ দিন`,
-    slug: "৯১-তম-বিএমএ-দীর্ঘমেয়াদী",
+    title: "৯১ তম বিএমএ দীর্ঘমেয়াদী কোর্স ২০২৬ |বাংলাদেশ সেনাবাহিনীতে ৯১তম বিএমএ দীর্ঘমেয়াদী কোর্সে যোগ দিন",
+    slug: "91-tm-beme-drghmjd-krs-2026",
+    oldSlug: "৯১-তম-বিএমএ-দীর্ঘমেয়াদী",
     excerpt: `&nbsp; বাংলাদেশ সেনাবাহিনীতে ৯১তম বিএমএ দীর্ঘমেয়াদী কোর্সে যোগ দিন- ২৪/০৪ Deadline: 24 Apr 2026 Apply:&nbsp;https://joinbangladesharmy.army.mil.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -854,8 +866,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5428,
-    title: `বাংলাদেশ সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার পুরুষ/মহিলা | বাংলাদেশ সেনাবাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF`,
-    slug: "বাংলাদেশ-সেনাবাহিনী-নিয়",
+    title: "বাংলাদেশ সেনাবাহিনী নিয়োগ ২০২৬ সার্কুলার পুরুষ/মহিলা | বাংলাদেশ সেনাবাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF",
+    slug: "bangladsh-army-job-circular-2026-circular-prshmhl",
+    oldSlug: "বাংলাদেশ-সেনাবাহিনী-নিয়",
     excerpt: `&nbsp;আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক আজকে আমরা তোমাদের ২৬ জানুয়ারি প্রকাশিত বাংলাদেশ সেনাবাহিনীতে ৮১ তম ডিএসএসসি(এএমসি)-পুরুষ/মহিলা নিয়োগ বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। বিস্তারিত বাংলাদেশ সেনাবাহিনী নিয়োগ বিজ্ঞপ্ত`,
     content: `<p>&nbsp;আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক আজকে আমরা তোমাদের ২৬ জানুয়ারি প্রকাশিত বাংলাদেশ সেনাবাহিনীতে ৮১ তম ডিএসএসসি(এএমসি)-পুরুষ/মহিলা নিয়োগ বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। বিস্তারিত বাংলাদেশ সেনাবাহিনী নিয়োগ বিজ্ঞপ্তি ২০২৬ নিচে তুলে ধরা হলো।&nbsp;</p>
 <div> <button>Table Of Contents</button>  &nbsp;&nbsp;&nbsp; </p>
@@ -957,8 +970,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5455,
-    title: `বর্ডার গার্ড বাংলাদেশ (BGB) নিয়োগ বিজ্ঞপ্তি ২০২৬ | বিজিবি নিয়োগ ২০২৬ সার্কুলার PDF | সিপাহী পদে নিয়োগ ২০২৬`,
-    slug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-নি",
+    title: "বর্ডার গার্ড বাংলাদেশ (BGB) নিয়োগ বিজ্ঞপ্তি ২০২৬ | বিজিবি নিয়োগ ২০২৬ সার্কুলার PDF | সিপাহী পদে নিয়োগ ২০২৬",
+    slug: "brdr-grd-bangladsh-bgb-job-circular-notice-2026",
+    oldSlug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-নি",
     excerpt: `আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় চাকরিপ্রার্থী ভাই ও বোনেরা&nbsp;ডিজিটাল পদ্ধতি অনুসরণ করে বর্ডার গার্ড বাংলাদেশ এ ১০০তম ব্যাচে সিপাহী (জিডি) পদে পুরুষ ও মহিলা প্রার্থী ভর্তির বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। যারা বর্ডার গ`,
     content: `<p>আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় চাকরিপ্রার্থী ভাই ও বোনেরা&nbsp;<span style="background-color: white;"><span style="color: #444444; font-family: kalpurushregular;">ডিজিটাল পদ্ধতি অনুসরণ করে বর্ডার গার্ড বাংলাদেশ এ ১০০তম ব্যাচে সিপাহী (জিডি) পদে পুরুষ ও মহিলা প্রার্থী ভর্তির বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। যারা বর্ডার গার্ড চাকরি বিজ্ঞপ্তি ২০২৬ এর অপেক্ষায় ছিলে তোমাদের সেই অপেক্ষার সময় শেষ হয়েছে। ২০ জানুয়ারি ২০২৬ এ সরকারি অফিশিয়াল ওয়েবসাইট <a href="http://www.bgb.gov.bd/" target="_blank" rel="noopener">http://www.bgb.gov.bd</a>&nbsp;এ বর্ডার গার্ড নিয়োগ বিজ্ঞপ্তি প্রকাশিত হয়েছে। যারা এখন ও&nbsp;</span></span><span style="color: #444444; font-family: kalpurushregular;">বর্ডার গার্ড বাংলাদেশ নিয়োগ বিজ্ঞপ্তি ২০২৬ দেখেন নাই আমাদের ওয়েবসাইট থেকে পিডিএফ ফাইল সহ&nbsp;<b>বর্ডার গার্ড বাংলাদেশ নিয়োগ বিজ্ঞপ্তি ২০২৬</b> দেখে নিন।</span></p>
 <div> <button>Table Of Contents</button>  &nbsp;&nbsp;&nbsp; </p>
@@ -1146,8 +1160,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5459,
-    title: `বর্ডার গার্ড বাংলাদেশ (BGB) নিয়োগ বিজ্ঞপ্তি ২০২৬ | BGB Job Circular 2026`,
-    slug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-নি-2",
+    title: "বর্ডার গার্ড বাংলাদেশ (BGB) নিয়োগ বিজ্ঞপ্তি ২০২৬ | BGB Job Circular 2026",
+    slug: "brdr-grd-bangladsh-bgb-nyg-notice-2026",
+    oldSlug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-নি-2",
     excerpt: `&nbsp; বর্ডার গার্ড বাংলাদেশ (BGB) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2026 &nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;👉 প্রতিষ্ঠানঃ বর্ডার গার্ড বাংলাদেশ👉 পদের নামঃ সিপাহী👉 আবেদন ফীঃ ১০০/- টাকা👉 আবেদন শুরুঃ ২২ জানুয়ারি ২০২৬👉 আবেদন পদ্ধতিঃ SMS এর মাধ্যমে👉 আবেদনের শেষ তারিখঃ ৩১ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1168,8 +1183,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5697,
-    title: `৪৫ তম বিসিএস সার্কুলার pdf | ৪৫ তম বিসিএস সার্কুলার 2022 | 45 BCS Circular PDF`,
-    slug: "৪৫-তম-বিসিএস-সার্কুলার-pdf-৪৫",
+    title: "৪৫ তম বিসিএস সার্কুলার pdf | ৪৫ তম বিসিএস সার্কুলার 2022 | 45 BCS Circular PDF",
+    slug: "45-tm-bcs-circular-pdf",
+    oldSlug: "৪৫-তম-বিসিএস-সার্কুলার-pdf-৪৫",
     excerpt: `&nbsp; আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাইকে আমাদের ওয়েবসাইটে স্বাগতম। প্রিয় পাঠক ৪৫ তম বিসিএস সার্কুলার প্রকাশিত হয়েছে। যারা ৪৫ তম বিসিএস সার্কুলার এর জন্য অপেক্ষায় ছিলেন নিচে পিডিএফ ফাইল দেওয়া হলো ডাউনলোড করে নিন। বিস্তারিত ৪৫ তম বিসিএস সার্কুলার পিডিএফ ফাইল ডাউনলোড করলে পেয়ে যাবেন।&nbsp; Tab`,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAC6M5Ps65_aCm45L6wJcc5-L6qKhJy3vIydQlUn4ecNxpvg314JqbuUZ6yVYsJ6YgVxGlO0RvmBCtlclruA9ROnqsE17Yz63k9XIPwl_SrH_1x7BCfKwPI7E6baqLtilMUhqXpKukLbWeFRIG5lgJFOcPF4Zuf9s2onoaxs_fd2EvkhuVihAEkqicUg/s1280/IMG_20221130_211414.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="৪৫ তম বিসিএস সার্কুলার pdf | ৪৫ তম বিসিএস সার্কুলার 2022 | 45 BCS Circular PDF" border="0" data-original-height="820" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAC6M5Ps65_aCm45L6wJcc5-L6qKhJy3vIydQlUn4ecNxpvg314JqbuUZ6yVYsJ6YgVxGlO0RvmBCtlclruA9ROnqsE17Yz63k9XIPwl_SrH_1x7BCfKwPI7E6baqLtilMUhqXpKukLbWeFRIG5lgJFOcPF4Zuf9s2onoaxs_fd2EvkhuVihAEkqicUg/s16000/IMG_20221130_211414.jpg" title="৪৫ তম বিসিএস সার্কুলার pdf | ৪৫ তম বিসিএস সার্কুলার 2022 | 45 BCS Circular PDF" /></a></div>
@@ -1290,8 +1306,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6040,
-    title: `ঢাকা মেট্রোরেল (dmtcl) নিয়োগ বিজ্ঞপ্তি ২০২৬ ( ৬ অক্টোবর প্রকাশিত) | মেট্রোরেল নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ঢাকা-মেট্রোরেল-dmtcl-নিয়োগ-বি",
+    title: "ঢাকা মেট্রোরেল (dmtcl) নিয়োগ বিজ্ঞপ্তি ২০২৬ ( ৬ অক্টোবর প্রকাশিত) | মেট্রোরেল নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dhk-mtrrl-dmtcl-job-circular-notice-2026-6-oktbr-prksht",
+    oldSlug: "ঢাকা-মেট্রোরেল-dmtcl-নিয়োগ-বি",
     excerpt: `&nbsp; &nbsp;প্রতিষ্ঠানঃ ঢাকা ম্যাস ট্রানজিট কোম্পানি লিমিটেড (dmtcl) &nbsp;পদের নামঃ বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ ৩৩০ টি &nbsp;আবেদন ফীঃ ১,০০০/- ও ৫০০/- টাকা &nbsp; আবেদন পদ্ধতিঃ অফলাইনে &#8211; নির্ধারিত দরখাস্ত পূরণের মাধ্যমে &nbsp;আবেদনের শেষ তারিখঃ&nbsp; ৩১ অক্টোবর ২০২৬ ডিএমটিসিএল-এর নিয়োগ বিজ্ঞ`,
     content: `<p>&nbsp;</p>
 <p style="font-family: Merriweather, Georgia, serif; font-size: 16px;">
@@ -1335,8 +1352,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5028,
-    title: `সাপ্তাহিক চাকরির খবর ২০২৬ -Weekly job Newspaper 2026 -আজকের চাকরির খবর ২০২৬ | সাপ্তাহিক চাকরির খবর পত্রিকা ২০২৬-সাপ্তাহিক চাকরির ডাক পত্রিকা ২০২৬ pdf`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-২০২",
+    title: "সাপ্তাহিক চাকরির খবর ২০২৬ -Weekly job Newspaper 2026 -আজকের চাকরির খবর ২০২৬ | সাপ্তাহিক চাকরির খবর পত্রিকা ২০২৬-সাপ্তাহিক চাকরির ডাক পত্রিকা ২০২৬ pdf",
+    slug: "weekly-job-khabor-2026-weekly-job-newspaper-2026-ajkr-job-khabor-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-২০২",
     excerpt: `&nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; চাকরির খবর ২০২৬|আজকের চাকরির খবর ২০২৬ আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। আমরা তোমাদের নিয়মিত প্রতিদিন চাকরির বিজ্ঞপ্তি সহ প্রতি সাপ্তাহের চাকরির খবর পত্রিকা pdf দিয়ে থাকি। তাই এই`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0tTigJGNqtpYzL4sgdmDhkZoPbosyWjt-lUCoWg6Hl98BczYEJ5ICsDhcYdtIDAhzu6aUB92k7iap5816ytw6B_ahzCP8WtBWAgYk4w3PUd28VHQ21c0E1klJI3BwvuhacTh8Ype8Hww0/s1280/IMG_20261231_045740.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরি বাকরি প্রথম আলো 2026,চাকরির ডাক পত্রিকা ২০২৬,চাকরির খবর ২০২৬,সাপ্তাহিক চাকরি খবর ২০২৬,আজকের চাকরির খবর, আজকের চাকরির খবর ২০২" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0tTigJGNqtpYzL4sgdmDhkZoPbosyWjt-lUCoWg6Hl98BczYEJ5ICsDhcYdtIDAhzu6aUB92k7iap5816ytw6B_ahzCP8WtBWAgYk4w3PUd28VHQ21c0E1klJI3BwvuhacTh8Ype8Hww0/s16000/IMG_20261231_045740.jpg" title="চাকরি বাকরি প্রথম আলো 2026,চাকরির ডাক পত্রিকা ২০২৬,চাকরির খবর ২০২৬,সাপ্তাহিক চাকরি খবর ২০২৬,আজকের চাকরির খবর, আজকের চাকরির খবর ২০২" /></a></div>
 <p></p>
@@ -1401,8 +1419,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5256,
-    title: `সহকারী শিক্ষক নিয়োগ বিজ্ঞপ্তি ২০২৬ (রংপুর, বরিশাল ও সিলেট বিভাগ) |সহকারী শিক্ষক নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF`,
-    slug: "সহকারী-শিক্ষক-নিয়োগ-বিজ",
+    title: "সহকারী শিক্ষক নিয়োগ বিজ্ঞপ্তি ২০২৬ (রংপুর, বরিশাল ও সিলেট বিভাগ) |সহকারী শিক্ষক নিয়োগ বিজ্ঞপ্তি ২০২৬ PDF",
+    slug: "shkr-teacher-nyg-notice-2026-rngpr-brshl-o-slt-bbhg",
+    oldSlug: "সহকারী-শিক্ষক-নিয়োগ-বিজ",
     excerpt: `&nbsp;প্রাথমিক শিক্ষা অধিদপ্তরাধীন সরকারি প্রাথমিক বিদ্যালয়ে রাজস্বখাতভুক্ত &#8220;সহকারী শিক্ষক&#8221; এর শূন্যপদে এবং জাতীয়করণকৃত সরকারি প্রাথমিক বিদ্যালয়ে পিইডিপি-৪ এর আওতায় প্রাক-প্রাথমিক শ্রেণির জন্য রাজস্বখাতে সৃষ্ট &#8220;সহকারী শিক্ষক&#8221; পদে জাতীয় বেতনস্কেল ২০১৫-এর ১৩তম গ্রেডে অস্থা`,
     content: `<p>&nbsp;প্রাথমিক শিক্ষা অধিদপ্তরাধীন সরকারি প্রাথমিক বিদ্যালয়ে রাজস্বখাতভুক্ত &#8220;সহকারী শিক্ষক&#8221; এর শূন্যপদে এবং জাতীয়করণকৃত সরকারি প্রাথমিক বিদ্যালয়ে পিইডিপি-৪ এর আওতায় প্রাক-প্রাথমিক শ্রেণির জন্য রাজস্বখাতে সৃষ্ট &#8220;সহকারী শিক্ষক&#8221; পদে জাতীয় বেতনস্কেল ২০১৫-এর ১৩তম গ্রেডে অস্থায়ীভাবে নিয়োগের জন্য রংপুর, বরিশাল ও সিলেট বিভাগের সকল জেলার সকল উপজেলা/শিক্ষা থানার স্থায়ী নাগরিকদের নিকট থেকে নিম্নে উল্লিখিত নির্দেশনা/শর্ত অনুযায়ী দরখাস্ত আহবান করা যাচ্ছে।</p>
 <div> <button>Table Of Contents</button>      </p>
@@ -1429,8 +1448,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 5297,
-    title: `ব্র্যাক (BRAC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ব্র্যাক-brac-এ-নিয়োগ-বিজ্ঞপ্",
+    title: "ব্র্যাক (BRAC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "brjk-brac-e-nyg-notice-2026",
+    oldSlug: "ব্র্যাক-brac-এ-নিয়োগ-বিজ্ঞপ্",
     excerpt: `&nbsp; ব্র্যাক (BRAC) এ নিয়োগ বিজ্ঞপ্তি &#8211; ০৭/০৩ Deadline: 7 Mar 2026 Apply:&nbsp;https://careers.brac.net/jobs/ডরইভর-বরযক-যনবহন-বভগ-925`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1451,8 +1471,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6350,
-    title: `রেলওয়ে নিয়োগ পরীক্ষার সময়সূচী ২০২৬ (পয়েন্টসম্যান) | রেলওয়ে নিয়োগ পরীক্ষার সময়সূচী  ও কেন্দ্রভিত্তিক আসনবিন্যাস ২০২৬ -পরীক্ষা ৯ সেপ্টেম্বর ২০২৬`,
-    slug: "রেলওয়ে-নিয়োগ-পরীক্ষার",
+    title: "রেলওয়ে নিয়োগ পরীক্ষার সময়সূচী ২০২৬ (পয়েন্টসম্যান) | রেলওয়ে নিয়োগ পরীক্ষার সময়সূচী  ও কেন্দ্রভিত্তিক আসনবিন্যাস ২০২৬ -পরীক্ষা ৯ সেপ্টেম্বর ২০২৬",
+    slug: "railway-job-circular-prkshr-smjsch-2026-pyntsmjn",
+    oldSlug: "রেলওয়ে-নিয়োগ-পরীক্ষার",
     excerpt: `&nbsp;বাংলাদেশ রেলওয়ের চাকরির বাছাই পরীক্ষার সময়সূচি ও কেন্দ্রভিত্তিক আসনবিন্যাস প্রকাশ বাংলাদেশ রেলওয়ের চাকরির বাছাই পরীক্ষার সময়সূচি কেন্দ্রভিত্তিক আসনবিন্যাস Table Of Contents রেলওয়ে নিয়োগ পরীক্ষার সময়সূচী পদের নামঃ পয়েন্টসম্যান-৭৬২, পরীক্ষার তারিখঃ ০৯-০৯-২০২৬ তারিখ পরিক্ষার সময়ঃ সকাল ১০.০০ `,
     content: `<p>&nbsp;বাংলাদেশ রেলওয়ের চাকরির বাছাই পরীক্ষার সময়সূচি ও কেন্দ্রভিত্তিক আসনবিন্যাস প্রকাশ</p>
 <p>বাংলাদেশ রেলওয়ের চাকরির বাছাই পরীক্ষার সময়সূচি কেন্দ্রভিত্তিক আসনবিন্যাস</p>
@@ -1507,8 +1528,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6372,
-    title: `বাংলাদেশ সুপ্রীম কোর্ট হাইকোর্ট বিভাগের নিয়োগ পরীক্ষার সময়সূচী ২০২৬`,
-    slug: "বাংলাদেশ-সুপ্রীম-কোর্ট-হ",
+    title: "বাংলাদেশ সুপ্রীম কোর্ট হাইকোর্ট বিভাগের নিয়োগ পরীক্ষার সময়সূচী ২০২৬",
+    slug: "bangladsh-sprm-krt-hikrt-bbhgr-nyg-prkshr-smysch-2026",
+    oldSlug: "বাংলাদেশ-সুপ্রীম-কোর্ট-হ",
     excerpt: `&nbsp; বাংলাদেশ সুপ্রীম কোর্ট হাইকোর্ট বিভাগের নিয়োগ পরীক্ষার সময়সূচী- ১৫/০৯ &nbsp;পরীক্ষার তারিখঃ ৭-১৫ সেপ্টেম্বর ২০২৬ বাংলাদেশ সুপ্রীম কোর্ট হাইকোর্ট বিভাগে \`এম,এল,এস,এস\` পদে প্রাথমিক বাছাই পরীক্ষার সময় সূচী প্রসঙ্গে (বিজ্ঞপ্তি নং-০২) &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1534,8 +1556,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6499,
-    title: `(PDF) সাপ্তাহিক চাকরির ডাক পত্রিকা ২২ জুলাই ২০২৬ | Saptahik Chakrir Dak 22 July 2022 PDF Download -চাকরির ডাক পত্রিকা PDF`,
-    slug: "pdf-সাপ্তাহিক-চাকরির-ডাক-পত্",
+    title: "(PDF) সাপ্তাহিক চাকরির ডাক পত্রিকা ২২ জুলাই ২০২৬ | Saptahik Chakrir Dak 22 July 2022 PDF Download -চাকরির ডাক পত্রিকা PDF",
+    slug: "pdf-weekly-job-dk-ptrk-22-jli-2026",
+    oldSlug: "pdf-সাপ্তাহিক-চাকরির-ডাক-পত্",
     excerpt: `আসছালামু আলাইকুম প্রিয় শিক্ষার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই সবাই ভালো আছেন। প্রতি সাপ্তাহের নিয়ায় আজকে আবার ও সাপ্তাহিক চাকরির ডাক ১ জুলাই ২০২৬&nbsp;শেয়ার করতেছি। &nbsp;&nbsp;&nbsp;&nbsp;Table Of Contents&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nb`,
     content: `<div style="clear: both; text-align: center;"></div>
 <p>আসছালামু আলাইকুম প্রিয় শিক্ষার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই সবাই ভালো আছেন। প্রতি সাপ্তাহের নিয়ায় আজকে আবার ও সাপ্তাহিক চাকরির ডাক ১ জুলাই ২০২৬&nbsp;শেয়ার করতেছি।</p>
@@ -1583,8 +1606,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6759,
-    title: `bangladesh railway job circular 2022 | বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ |৫৩ পদে বাংলাদেশ রেলওয়েতে নিয়োগ বিজ্ঞপ্তি`,
-    slug: "bangladesh-railway-job-circular-2022-বাংলাদেশ-রেলওয়ে-নি",
+    title: "bangladesh railway job circular 2022 | বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ |৫৩ পদে বাংলাদেশ রেলওয়েতে নিয়োগ বিজ্ঞপ্তি",
+    slug: "bangladesh-railway-job-circular-2022",
+    oldSlug: "bangladesh-railway-job-circular-2022-বাংলাদেশ-রেলওয়ে-নি",
     excerpt: `&nbsp; ৫৩ পদে বাংলাদেশ রেলওয়েতে নিয়োগ বিজ্ঞপ্তি- ০৬/০৪ &nbsp;Deadline:&nbsp; 6 Apr 2022 বাংলাদেশ রেলওয়ের গার্ড গ্রেড-২ পদের নিয়োগ বিজ্ঞপ্তি&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;bangladesh railway job circular 2022&nbsp; &nbsp;বাংলাদেশ রেলওয়েতে নিয়োগ `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1621,8 +1645,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 6818,
-    title: `সাপ্তাহিক চাকরির খবর -সাপ্তাহিক চাকরির খবর ২০২৬| চাকরির খবর-চাকরির খবর সাপ্তাহিক পত্রিকা ২০২৬ |  সাপ্তাহিক চাকরির পত্রিকা ২০২৬ [ PDF Download ]`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-সাপ",
+    title: "সাপ্তাহিক চাকরির খবর -সাপ্তাহিক চাকরির খবর ২০২৬| চাকরির খবর-চাকরির খবর সাপ্তাহিক পত্রিকা ২০২৬ |  সাপ্তাহিক চাকরির পত্রিকা ২০২৬ [ PDF Download ]",
+    slug: "weekly-job-khabor-weekly-job-khabor-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-সাপ",
     excerpt: `&nbsp; আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন।আসা করি সবাই ভালো আছেন। প্রিয় পাঠক আজকে আমরা তোমাদের&nbsp;সাপ্তাহিক চাকরির খবর -সাপ্তাহিক চাকরির খবর ২০২৬ চাকরির খবর-চাকরির খবর সাপ্তাহিক পত্রিকা ২০২৬ সাপ্তাহিক চাকরির পত্রিকা ২০২৬&nbsp;শেয়ার করবো। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nb`,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhDsf6ILWTe52WNcG-BVL0-SD-JLScnX5fd4msdqXRYEDkweK_90iMxYK6idRG7tpfT_jLC4J9_YFWCZ9UHLTRdshXOocHSyVN9_OlplAOrcUuowAJKPPp5DML_3L6M7Io6jXAqEOnsCmQPZb4MnrpwSvxteTvN66bWjO7s66Q9Xwag-umj0lNzJ42f9w=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির খবর -সাপ্তাহিক চাকরির খবর ২০২৬| চাকরির খবর-চাকরির খবর সাপ্তাহিক পত্রিকা ২০২৬|  সাপ্তাহিক চাকরির পত্রিকা ২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEhDsf6ILWTe52WNcG-BVL0-SD-JLScnX5fd4msdqXRYEDkweK_90iMxYK6idRG7tpfT_jLC4J9_YFWCZ9UHLTRdshXOocHSyVN9_OlplAOrcUuowAJKPPp5DML_3L6M7Io6jXAqEOnsCmQPZb4MnrpwSvxteTvN66bWjO7s66Q9Xwag-umj0lNzJ42f9w=s16000" /></a></div>
@@ -1678,8 +1703,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 7165,
-    title: `সরকারি চাকরির নিয়োগ 2022 | চলমান সরকারি চাকরির খবর | সরকারি চাকরির নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সরকারি-চাকরির-নিয়োগ-2022-চলম",
+    title: "সরকারি চাকরির নিয়োগ 2022 | চলমান সরকারি চাকরির খবর | সরকারি চাকরির নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srkr-job-job-circular-2022",
+    oldSlug: "সরকারি-চাকরির-নিয়োগ-2022-চলম",
     excerpt: `Table Of Contents সরকারি চাকরির নিয়োগ 2022&nbsp;&nbsp; আসসালামুআলাইকুম&nbsp;সবাইকে&nbsp;Educationblog.Com&nbsp;এ স্বাগতম।&nbsp; আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। আজকের এই পোস্ট আপনাদের জন্য অনেক গুরুত্বপূর্ণ পোস্ট। আমরা এই পোস্টের ম`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgLIfl12kZmwGCf671oeFVywuCJ-ffoyGlWkDW8CN57maYQsBVI9uoMEFnXMWT2jXIX8soVNPECl_jSTA3i0ZOX_UIbCxDpCCrw9_UuOiCqTAtcoj3I9a8OZPCKuwyD-JTyjmKEhk2-s0GdZuiMPrGB2n1vtoet7GwofuyLcpePOvT9-UZbrK7cKtbP=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="400" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEgLIfl12kZmwGCf671oeFVywuCJ-ffoyGlWkDW8CN57maYQsBVI9uoMEFnXMWT2jXIX8soVNPECl_jSTA3i0ZOX_UIbCxDpCCrw9_UuOiCqTAtcoj3I9a8OZPCKuwyD-JTyjmKEhk2-s0GdZuiMPrGB2n1vtoet7GwofuyLcpePOvT9-UZbrK7cKtbP=s16000" /></a></div>
 <p></p>
@@ -1740,8 +1766,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 7506,
-    title: `পুলিশের এসআই পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ |বাংলাদেশ পুলিশের সাব-ইন্সপেক্টর অব পুলিশ (SI) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "পুলিশের-এসআই-পদে-নিয়োগ-ব",
+    title: "পুলিশের এসআই পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ |বাংলাদেশ পুলিশের সাব-ইন্সপেক্টর অব পুলিশ (SI) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "policer-esai-pd-job-circular-notice-2026",
+    oldSlug: "পুলিশের-এসআই-পদে-নিয়োগ-ব",
     excerpt: `&nbsp; Table Of Contents বাংলাদেশ পুলিশের সাব-ইন্সপেক্টর অব পুলিশ (SI) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;Deadline: 4 Nov 2026 🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩 &nbsp;প্রতিষ্ঠানঃ বাংলাদেশ পুলিশ &nbsp;পদের নামঃ ক্যাডেট সাব-ইন্সপেক্টর অব পুলিশ (নিরস্ত্র) &nbsp;শিক্ষাগত যোগ্যতাঃ স্নাতক &nbsp;বয়সঃ ১৯-২৭ বছর &nbsp;আ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1791,8 +1818,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 7851,
-    title: `জর্ডান গার্মেন্টস ভিসা ২০২৬ -জর্ডানে মহিলা গার্মেন্টস নিয়ােগ বিজ্ঞপ্তি ২০২৬ |সরকারিভাবে জর্ডানে মহিলা গার্মেন্টস অপারেটর নিয়ােগ বিজ্ঞপ্তি ২০২৬ | জর্ডানে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জর্ডান-গার্মেন্টস-ভিসা-২",
+    title: "জর্ডান গার্মেন্টস ভিসা ২০২৬ -জর্ডানে মহিলা গার্মেন্টস নিয়ােগ বিজ্ঞপ্তি ২০২৬ |সরকারিভাবে জর্ডানে মহিলা গার্মেন্টস অপারেটর নিয়ােগ বিজ্ঞপ্তি ২০২৬ | জর্ডানে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jrdn-grmnts-bhs-2026-jrdn-mhl-grmnts-njg-notice-2026",
+    oldSlug: "জর্ডান-গার্মেন্টস-ভিসা-২",
     excerpt: `&nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; সরকারিভাবে জর্ডানে মহিলা গার্মেন্টস অপারেটর নিয়ােগ বিজ্ঞপ্তি ২০২৬ গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের রাষ্ট্রীয় মালিকানাধীন বিদেশে জনশক্তি প্ৰেৱণকারী একমাত্র `,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEib0nkiAU9bq_l2Kbg5TXHD-tWjBNnQO1XtpiZ3FgRv9tNNocTLOMPhQikKEtw-nDm7SlPCscIhjXJXIq2AtEf2rub9bh_RAdU-8ro7A8MtcJt23LylH8gJjyHdShdj05IubS1FPMGmEbJtuQqJlyNtlinEmTWO-jwlQUFpYbp4eZzEn5Nod3UnSWsvKw=s576" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="জর্ডানে মহিলা গার্মেন্টস নিয়ােগ বিজ্ঞপ্তি ২০২৬ |" border="0" data-original-height="532" data-original-width="576" src="https://blogger.googleusercontent.com/img/a/AVvXsEib0nkiAU9bq_l2Kbg5TXHD-tWjBNnQO1XtpiZ3FgRv9tNNocTLOMPhQikKEtw-nDm7SlPCscIhjXJXIq2AtEf2rub9bh_RAdU-8ro7A8MtcJt23LylH8gJjyHdShdj05IubS1FPMGmEbJtuQqJlyNtlinEmTWO-jwlQUFpYbp4eZzEn5Nod3UnSWsvKw=w640-h591" title="দক্ষ হয়ে বিদেশ গেলে ব্যবস্থাপনা পরিচালক অর্থ সম্মান দুই - ই মেলে &quot; বােয়েসেল ।" /></a></div>
 <p></p>
@@ -1832,8 +1860,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 9630,
-    title: `মেঘনা গ্রুপ অব ইন্ডাস্ট্রিজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মেঘনা-গ্রুপ-অব-ইন্ডাস্ট্",
+    title: "মেঘনা গ্রুপ অব ইন্ডাস্ট্রিজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mghn-grp-ob-indstrj-e-nyg-notice-2026",
+    oldSlug: "মেঘনা-গ্রুপ-অব-ইন্ডাস্ট্",
     excerpt: `&nbsp; ৪৫ পদে মেঘনা গ্রুপ অব ইন্ডাস্ট্রিজ এ নিয়োগ বিজ্ঞপ্তি- ৩০/০৫ &nbsp;Deadline: 30 May 2026 &nbsp; Download Circular &nbsp; দৈনিক প্রথম আলো &#8211; ৯ মে ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1862,8 +1891,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10473,
-    title: `সাপ্তাহিক চাকরির খবর ২৬ মার্চ ২০২৬-চাকরির খবর পত্রিকা ২৬/৩/২০২৬ | Saptahik Chakrir Khobor Patrika 26 March 2021 PDF Download`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-২৬-ম",
+    title: "সাপ্তাহিক চাকরির খবর ২৬ মার্চ ২০২৬-চাকরির খবর পত্রিকা ২৬/৩/২০২৬ | Saptahik Chakrir Khobor Patrika 26 March 2021 PDF Download",
+    slug: "weekly-job-khabor-26-mrch-2026-job-khabor-ptrk-2632026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-২৬-ম",
     excerpt: `আসছালামু আলাইকুম প্রিয় চাকরি প্রার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। প্রতি সাপ্তাহের মত এই সাপ্তাহে তোমাদের জন্য আবার ও সাপ্তাহিক চাকরির খবর পত্রিকা ২৬ মার্চ ২০২৬ নিয়ে হাজির হয়েছি। আসা করি তোমাদের উপকারে আসবে। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp`,
     content: `<div style="clear: both; text-align: center;"></div>
 <p></p>
@@ -1902,8 +1932,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10675,
-    title: `বাংলাদেশ কম্পিউটার কাউন্সিল (bcc) এর অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-কম্পিউটার-কাউন্",
+    title: "বাংলাদেশ কম্পিউটার কাউন্সিল (bcc) এর অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-kmputr-kunsl-bcc-er-on-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কম্পিউটার-কাউন্",
     excerpt: `&nbsp; বাংলাদেশ কম্পিউটার কাউন্সিল (bcc) এর অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/০৩ &nbsp;Deadline: 31 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কম্পিউটার কাউন্সিল (bcc) এর অধীনে ইনফো-সরকার ৩য় পর্যায় প্রকল্প👉&nbsp;পদের নামঃ&nbsp;সহকারী নেটওয়ার্ক ইঞ্জিনিয়ার / সহকারী মে`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1929,8 +1960,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10725,
-    title: `ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ধর্ম-বিষয়ক-মন্ত্রণালয়",
+    title: "ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "rm-bshyk-ministry-e-nyg-notice-2026",
+    oldSlug: "ধর্ম-বিষয়ক-মন্ত্রণালয়",
     excerpt: `&nbsp; ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি- ২৩/০৩ &nbsp;Deadline: 23 Mar 2021 &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1954,8 +1986,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10767,
-    title: `বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (blri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-প্রাণিসম্পদ-গবে",
+    title: "বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (blri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-prnsmpd-gbshn-insttut-blri-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-প্রাণিসম্পদ-গবে",
     excerpt: `&nbsp; বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (blri) এ নিয়োগ বিজ্ঞপ্তি- ১৮/০৩ &nbsp;Deadline: 18 Mar 2021 &nbsp;বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (blri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Daily Observer &#8211; 19 February 2021`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -1983,8 +2016,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10794,
-    title: `দৈনিক প্রথম আলো পত্রিকায় নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "দৈনিক-প্রথম-আলো-পত্রিকায",
+    title: "দৈনিক প্রথম আলো পত্রিকায় নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dnk-prthm-al-ptrky-nyg-notice-2026",
+    oldSlug: "দৈনিক-প্রথম-আলো-পত্রিকায",
     excerpt: `&nbsp; দৈনিক প্রথম আলো পত্রিকায় ক্যারিয়ার গড়ার সুযোগ- ২০/০২ &nbsp;Deadline: 20 Feb 2021 &nbsp; &nbsp; Download Circular&nbsp; &nbsp; &nbsp; জব সোর্সঃ দৈনিক প্রথম আলো &#8211; ১২ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2011,8 +2045,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10824,
-    title: `বাংলাদেশ সেতু কর্তৃপক্ষ (bba) তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সেতু-কর্তৃপক্ষ-bba",
+    title: "বাংলাদেশ সেতু কর্তৃপক্ষ (bba) তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-st-krtpksh-bba-t-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সেতু-কর্তৃপক্ষ-bba",
     excerpt: `&nbsp; বাংলাদেশ সেতু কর্তৃপক্ষ (bba) তে নিয়োগ বিজ্ঞপ্তি- ০৪/০৩ &nbsp;Deadline: 4 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ সেতু কর্তৃপক্ষ (bba)👉&nbsp;আবেদন ফীঃ&nbsp;৫১০/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;৮ ফেব্রুয়ারি ২০২৬👉&nbsp;আবেদনের লিংকঃ&nbsp;https://eserv`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2046,8 +2081,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10854,
-    title: `আকিজ সিরামিকস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আকিজ-সিরামিকস-লিঃ-এ-নিয়ো",
+    title: "আকিজ সিরামিকস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "akj-srmks-lh-e-nyg-notice-2026",
+    oldSlug: "আকিজ-সিরামিকস-লিঃ-এ-নিয়ো",
     excerpt: `&nbsp; ১১৫ পদে আকিজ সিরামিকস লিঃ এ নিয়োগ বিজ্ঞপ্তি- ১১/০২ &nbsp;Deadline: 11 Feb 2021 &nbsp;আকিজ সিরামিকস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ৩ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2076,8 +2112,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10884,
-    title: `প্রাথমিক সহকারী শিক্ষক পদে (বান্দরবান পার্বত্য জেলা পরিষদ) নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রাথমিক-সহকারী-শিক্ষক-প",
+    title: "প্রাথমিক সহকারী শিক্ষক পদে (বান্দরবান পার্বত্য জেলা পরিষদ) নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "primary-shkr-teacher-pd-bndrbn-prbtj-jl-prshd-nyg-notice-2026",
+    oldSlug: "প্রাথমিক-সহকারী-শিক্ষক-প",
     excerpt: `&nbsp; ২৮১ পদে প্রাথমিক সহকারী শিক্ষক পদে (বান্দরবান পার্বত্য জেলা পরিষদ) নিয়োগ বিজ্ঞপ্তি- ২৭/০২ &nbsp;Deadline: 25 Feb 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বান্দরবান পার্বত্য জেলা পরিষদ &nbsp;পদের নামঃ&nbsp;সহকারী শিক্ষক &nbsp;পদ সংখ্যাঃ&nbsp;২৮১ টি &nbsp;আবেদন ফীঃ&nbsp;৩০০/- টাকা আবেদন শুরুঃ&nbsp;১০ ফেব্রু`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2112,8 +2149,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10915,
-    title: `বেক্সিমকো (BEXOMCO) কমিউনিকেশনস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বেক্সিমকো-bexomco-কমিউনিকেশনস",
+    title: "বেক্সিমকো (BEXOMCO) কমিউনিকেশনস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bksmk-bexomco-kmunkshns-lh-e-nyg-notice-2026",
+    oldSlug: "বেক্সিমকো-bexomco-কমিউনিকেশনস",
     excerpt: `&nbsp; বেক্সিমকো (BEXOMCO) কমিউনিকেশনস লিঃ এ নিয়োগ বিজ্ঞপ্তি- ০৩/০২ &nbsp;Deadline: 3 Feb 2021 &nbsp;বেক্সিমকো (BEXOMCO) কমিউনিকেশনস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; &nbsp; Source: The Daily Sun- 22 January 2021&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2141,8 +2179,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10945,
-    title: `Daily Star থকে চলমান গুরুত্বপূর্ণ বিষয়ের উপর ইংরেজি টু বাংলা অনুবাদ`,
-    slug: "daily-star-থকে-চলমান-গুরুত্বপূর্ণ",
+    title: "Daily Star থকে চলমান গুরুত্বপূর্ণ বিষয়ের উপর ইংরেজি টু বাংলা অনুবাদ",
+    slug: "daily-star-thk-chlmn-grtbprn-bshyr-upr-english-t-bangla-onbd",
+    oldSlug: "daily-star-থকে-চলমান-গুরুত্বপূর্ণ",
     excerpt: `&nbsp; Daily Star থকে চলমান গুরুত্বপূর্ণ বিষয়ের উপর ইংরেজি টু বাংলা অনুবাদ &nbsp;January 18, 2021 &nbsp;ভোকাবুলারি ও অনুবাদ চর্চা ১৮ জানুয়ারি ২০২৬ &nbsp; Download&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2177,8 +2216,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10975,
-    title: `যমুনা ব্যাংক লিঃ এ ম্যানেজমেন্ট ট্রেইনী ও প্রবেশনারী অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "যমুনা-ব্যাংক-লিঃ-এ-ম্যানে",
+    title: "যমুনা ব্যাংক লিঃ এ ম্যানেজমেন্ট ট্রেইনী ও প্রবেশনারী অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jmn-bjngk-lh-e-mjnjmnt-trin-o-prbshnr-ofsr-pd-nyg-notice-2026",
+    oldSlug: "যমুনা-ব্যাংক-লিঃ-এ-ম্যানে",
     excerpt: `&nbsp; যমুনা ব্যাংক লিঃ এ ম্যানেজমেন্ট ট্রেইনী ও প্রবেশনারী অফিসার পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 🏦&nbsp;ব্যাংক জবস&nbsp;🏦👉 প্রতিষ্ঠানঃ&nbsp;যমুনা ব্যাংক লিঃ👉 পদের নামঃ&nbsp;ম্যানেজমেন্ট ট্রেইনী / প্রবেশনারী অফিসার👉 পদ সংখ্যাঃ&nbsp;অনির্দিষ্ট👉 বেতনঃ&nbsp;৫০,০০০/- &#8211`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2204,8 +2244,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11001,
-    title: `Nsi Job Circular 2021 pdf |বাংলাদেশ সরকারের অধীনস্থ অধিদপ্ত একটি অধিদপ্তর (NSI) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | NSI Job Circular 2021`,
-    slug: "nsi-job-circular-2021-pdf-বাংলাদেশ-সরকারের-অধীন",
+    title: "Nsi Job Circular 2021 pdf |বাংলাদেশ সরকারের অধীনস্থ অধিদপ্ত একটি অধিদপ্তর (NSI) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | NSI Job Circular 2021",
+    slug: "nsi-job-circular-2021-pdf",
+    oldSlug: "nsi-job-circular-2021-pdf-বাংলাদেশ-সরকারের-অধীন",
     excerpt: `&nbsp; ৯৯০ পদে বাংলাদেশ সরকারের অধীনস্থ অধিদপ্ত একটি অধিদপ্তর (NSI) এ নিয়োগ বিজ্ঞপ্তি-২৩/০১ &nbsp;Deadline: 23 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ সরকারের অধীনস্থ অধিদপ্ত একটি অধিদপ্তর (NSI)👉 পদের নামঃ&nbsp; ১৬ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp; ৯৯০ টি👉 `,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2255,8 +2296,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11037,
-    title: `ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Dscc.gov.bd Job Circular 2021`,
-    slug: "ঢাকা-দক্ষিণ-সিটি-কর্পোরে-2",
+    title: "ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Dscc.gov.bd Job Circular 2021",
+    slug: "dhk-dkshn-st-krprshn-dscc-e-nyg-notice-2026",
+    oldSlug: "ঢাকা-দক্ষিণ-সিটি-কর্পোরে-2",
     excerpt: `&nbsp; ৩১ পদে ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc)👉 পদের নামঃ&nbsp;৪ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;৩১টি👉 আবেদন ফীঃ&nbsp;১০০০/-, ৫০০/- ও ৩০০/- টাকা👉 আবেদ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2283,8 +2325,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11062,
-    title: `বাংলাদেশ পুলিশ এর ক্রিমিনাল ইনভেস্টিগেশন ডিপার্টমেন্ট (CID) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Cid.gov.bd Job Circular 2021-cid Job Circular 2021`,
-    slug: "বাংলাদেশ-পুলিশ-এর-ক্রিমি",
+    title: "বাংলাদেশ পুলিশ এর ক্রিমিনাল ইনভেস্টিগেশন ডিপার্টমেন্ট (CID) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Cid.gov.bd Job Circular 2021-cid Job Circular 2021",
+    slug: "bangladsh-police-er-krmnl-inbhstgshn-dprtmnt-cid-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পুলিশ-এর-ক্রিমি",
     excerpt: `&nbsp; বাংলাদেশ পুলিশ এর ক্রিমিনাল ইনভেস্টিগেশন ডিপার্টমেন্ট (CID) এ নিয়োগ বিজ্ঞপ্তি- ২৩/০১ &nbsp;Deadline: 23 Jan 2021 &nbsp;বাংলাদেশ পুলিশ এর ক্রিমিনাল ইনভেস্টিগেশন ডিপার্টমেন্ট (CID) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Cid.gov.bd Job Circular 2021-cid Job Circular 2021&nbsp; Download Circular &nbsp; দৈন`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2313,8 +2356,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11106,
-    title: `বিভিন্ন পদে বাংলাদেশ পুলিশ, পুলিশ সুপারের কার্যালয় নরসিংদী তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-পদে-বাংলাদেশ-পুল",
+    title: "বিভিন্ন পদে বাংলাদেশ পুলিশ, পুলিশ সুপারের কার্যালয় নরসিংদী তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-pd-bangladsh-police-police-sprr-krjly-nrsngd-t-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-পদে-বাংলাদেশ-পুল",
     excerpt: `বিভিন্ন পদে বাংলাদেশ পুলিশ, পুলিশ সুপারের কার্যালয় নরসিংদী তে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ Deadline: 31 Jan 2021`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">বিভিন্ন পদে বাংলাদেশ পুলিশ, পুলিশ সুপারের কার্যালয় নরসিংদী তে নিয়োগ বিজ্ঞপ্তি- ৩১/০১</span></h2>
 <p dir="ltr"> Deadline: 31 Jan 2021</p>
@@ -2330,8 +2374,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11146,
-    title: `বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১-১২-২০২৬`,
-    slug: "বাংলাদেশ-নৌবাহিনী-পরিবা-2",
+    title: "বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১-১২-২০২৬",
+    slug: "bangladsh-navy-prbr-kljn-sngghr-on-nyg-notice-31-12-2026",
+    oldSlug: "বাংলাদেশ-নৌবাহিনী-পরিবা-2",
     excerpt: `বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২ Deadline: 31 Dec 2026`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২</span></h2>
 <p dir="ltr">
@@ -2349,8 +2394,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10562,
-    title: `জ্বালানি ও খনিজ সম্পদ বিভাগ (emrd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জ্বালানি-ও-খনিজ-সম্পদ-বিভ",
+    title: "জ্বালানি ও খনিজ সম্পদ বিভাগ (emrd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jbln-o-khnj-smpd-bbhg-emrd-e-nyg-notice-2026",
+    oldSlug: "জ্বালানি-ও-খনিজ-সম্পদ-বিভ",
     excerpt: `&nbsp; জ্বালানি ও খনিজ সম্পদ বিভাগ (emrd) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১১/০৪ &nbsp;Deadline: 11 Apr 2021 👉&nbsp;প্রতিষ্ঠানঃ&nbsp;জ্বালানি ও খনিজ সম্পদ বিভাগ (emrd)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;১০ টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;২২ মার্`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2383,8 +2429,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10677,
-    title: `যমুনা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "যমুনা-গ্রুপে-নিয়োগ-বিজ্",
+    title: "যমুনা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jmn-grp-nyg-notice-2026",
+    oldSlug: "যমুনা-গ্রুপে-নিয়োগ-বিজ্",
     excerpt: `&nbsp; যমুনা গ্রুপে নিয়োগ বিজ্ঞপ্তি- ১৬/০৩ &nbsp;Deadline: 16 Mar 2021 &nbsp;যমুনা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; যুগান্তর &#8211; ৯ মার্চ ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2410,8 +2457,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10726,
-    title: `এরিয়া ম্যানেজার পদে ডীপল্যান্ড ল্যাবরেটরিজ লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "এরিয়া-ম্যানেজার-পদে-ডীপ",
+    title: "এরিয়া ম্যানেজার পদে ডীপল্যান্ড ল্যাবরেটরিজ লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ery-mjnjr-pd-dpljnd-ljbrtrj-lh-e-nyg-notice-2026",
+    oldSlug: "এরিয়া-ম্যানেজার-পদে-ডীপ",
     excerpt: `&nbsp; এরিয়া ম্যানেজার পদে ডীপল্যান্ড ল্যাবরেটরিজ লিঃ এ নিয়োগ বিজ্ঞপ্তি- ১০/০৩ &nbsp;Deadline: 10 Mar 2021 &nbsp; Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ২৮ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2437,8 +2485,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10768,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১৯ ফেব্রুয়ারি ২০২৬ -চাকরির ডাক পত্রিকা ১৯/২/২০২৬`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-2",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১৯ ফেব্রুয়ারি ২০২৬ -চাকরির ডাক পত্রিকা ১৯/২/২০২৬",
+    slug: "job-ptrk-weekly-job-dk-19-fbrjr-2026-job-dk-ptrk-1922026",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-2",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। আমরা নিয়মিত তোমাদের প্রতি সাপ্তাহের সকল সাপ্তাহিক চাকরির পত্রিকা আমাদের ওয়েবসাইটে প্রকাশ করে থাকি। সেই ধারাবাহিকতায় আজকে আমি তোমাদের সাপ্তাহিক চাকরির ডাক ১৯ ফেব্রুয়ারি ২০২৬ তোমাদ্রর মাঝে শেয়ার করতেছি। &nbsp;&nbsp;&nbsp; Table Of Co`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMOUH_19tYGvRAg9HtWLG6Sgv0EtFN-YjvD5XFOOZMDzyRQD4kQGp6SGiVvRhyphenhyphenF_lo5IVm285cUA0bRnT7BrlyS5wpaEw5ZtHDXe3qWSzsyg911sQZ-vjxBsKD3bOGCbFya4nUMJtN-Mm7/s1280/IMG_20210217_121907.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১৯ ফেব্রুয়ারি ২০২৬ -চাকরির ডাক পত্রিকা ১৯/২/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMOUH_19tYGvRAg9HtWLG6Sgv0EtFN-YjvD5XFOOZMDzyRQD4kQGp6SGiVvRhyphenhyphenF_lo5IVm285cUA0bRnT7BrlyS5wpaEw5ZtHDXe3qWSzsyg911sQZ-vjxBsKD3bOGCbFya4nUMJtN-Mm7/s16000/IMG_20210217_121907.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১৯ ফেব্রুয়ারি ২০২৬ -চাকরির ডাক পত্রিকা ১৯/২/২০২৬" /></a></div>
 <p></p>
@@ -2469,8 +2518,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10795,
-    title: `বেপজা পাবলিক স্কুল অ্যান্ড কলেজ এ  নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বেপজা-পাবলিক-স্কুল-অ্যান",
+    title: "বেপজা পাবলিক স্কুল অ্যান্ড কলেজ এ  নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bpj-pblk-skl-ojnd-klj-e-nyg-notice-2026",
+    oldSlug: "বেপজা-পাবলিক-স্কুল-অ্যান",
     excerpt: `&nbsp; বেপজা পাবলিক স্কুল অ্যান্ড কলেজ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০৪/০৩ &nbsp;Deadline: 4 Mar 2021 &nbsp;বেপজা পাবলিক স্কুল অ্যান্ড কলেজ এ&nbsp; নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular&nbsp; &nbsp; জব সোর্সঃ দৈনিক ইত্তেফাক- ১২ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2499,8 +2549,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10826,
-    title: `পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিঃ (pgcb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "পাওয়ার-গ্রিড-কোম্পানি-অ",
+    title: "পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিঃ (pgcb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "poyr-grd-kmpn-ob-bangladsh-lh-pgcb-e-nyg-notice-2026",
+    oldSlug: "পাওয়ার-গ্রিড-কোম্পানি-অ",
     excerpt: `&nbsp; ২৭৯ পদে পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিঃ (pgcb) এ নিয়োগ বিজ্ঞপ্তি- ০৭/০৩ &nbsp;Deadline: 7 Mar 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;পাওয়ার গ্রিড কোম্পানি অব বাংলাদেশ লিঃ (pgcb) &nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;২৭৯ টি&nbsp; &nbsp;আবেদন ফীঃ&nbsp;১০০০/- টাকা &nbsp;আবেদন শুরুঃ&nb`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2536,8 +2587,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10855,
-    title: `বসুন্ধরা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বসুন্ধরা-গ্রুপে-নিয়োগ-ব",
+    title: "বসুন্ধরা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bsnr-grp-nyg-notice-2026",
+    oldSlug: "বসুন্ধরা-গ্রুপে-নিয়োগ-ব",
     excerpt: `&nbsp; ১১৯ পদে বসুন্ধরা গ্রুপে নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline: 8 Feb 2021 &nbsp;বসুন্ধরা গ্রুপে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ৩ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2565,8 +2617,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10885,
-    title: `Chakrir khobor 29 Januray 2021.সাপ্তাহিক চাকরির খবর ২৯/১/২০২৬ | সাপ্তাহিক চাকরি খবর পত্রিকা ২৯ জানুয়ারি ২০২৬ PDF`,
-    slug: "chakrir-khobor-29-januray-2021-সাপ্তাহিক-চাকরির-খবর",
+    title: "Chakrir khobor 29 Januray 2021.সাপ্তাহিক চাকরির খবর ২৯/১/২০২৬ | সাপ্তাহিক চাকরি খবর পত্রিকা ২৯ জানুয়ারি ২০২৬ PDF",
+    slug: "chakrir-khobor-29-januray-2021weekly-job-khabor-2912026",
+    oldSlug: "chakrir-khobor-29-januray-2021-সাপ্তাহিক-চাকরির-খবর",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। বন্ধুরা আজকে সাপ্তাহিক চাকরির খবর ২৯ জানুয়ারি ২০২৬ পিডিএফ সহ শেয়ার করতেছি।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির খবর &#8211; ২৯ জানুয়ারি ২০২৬|চাকরি খবর পত্রিকা ২৯ জানুয়ারি ২`,
     content: `<p><span face="Ubuntu, sans-serif"></span></p>
 <div style="clear: both; text-align: center;"><span face="Ubuntu, sans-serif"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5AFsMvmNb5mX_96yJnm8X5H2YqXThGbsiEzlYyOETUNC4xPPRhdFaje_WV6zL4l1QgQJ32fd-LYkGVFOmHQBjj2KtUfXrcgjX_XuuhphN00NP7K7KYEORhK2nN93gLoFKVqFx1L13NxDM/s1280/IMG_20210126_034950.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির খবর - ২৯ জানুয়ারি ২০২৬|চাকরি খবর পত্রিকা ২৯ জানুয়ারি ২০২৬ PDF" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5AFsMvmNb5mX_96yJnm8X5H2YqXThGbsiEzlYyOETUNC4xPPRhdFaje_WV6zL4l1QgQJ32fd-LYkGVFOmHQBjj2KtUfXrcgjX_XuuhphN00NP7K7KYEORhK2nN93gLoFKVqFx1L13NxDM/s16000/IMG_20210126_034950.jpg" title="সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির খবর - ২৯ জানুয়ারি ২০২৬|চাকরি খবর পত্রিকা ২৯ জানুয়ারি ২০২৬ PDF" /></a></span></div>
@@ -2609,8 +2662,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10916,
-    title: `ডেল্টা ফার্মা লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ডেল্টা-ফার্মা-লিমিটেড-এ-ব",
+    title: "ডেল্টা ফার্মা লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dlt-frm-lmtd-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "ডেল্টা-ফার্মা-লিমিটেড-এ-ব",
     excerpt: `&nbsp; ডেল্টা ফার্মা লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;ডেল্টা ফার্মা লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; দৈনিক বাংলাদেশ প্রতিদিন &#8211; ২২ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2637,8 +2691,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10946,
-    title: `চট্টগ্রাম বন্দর কর্তৃপক্ষ (CPA) বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.cpa.gov.bd Job Circular 2021`,
-    slug: "চট্টগ্রাম-বন্দর-কর্তৃপক্",
+    title: "চট্টগ্রাম বন্দর কর্তৃপক্ষ (CPA) বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.cpa.gov.bd Job Circular 2021",
+    slug: "chttgrm-bndr-krtpksh-cpa-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "চট্টগ্রাম-বন্দর-কর্তৃপক্",
     excerpt: `&nbsp; চট্টগ্রাম বন্দর কর্তৃপক্ষ (CPA) বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;নিয়োগ বিজ্ঞপ্তি নং-০১-২০২৬, চট্টগ্রাম বন্দর কর্তৃপক্ষ এ কিছু স্থায়ী পদ পূরণের জন্য নিয়োগ বিজ্ঞপ্তি। &nbsp; Download Circular Apply:&nbsp;http://jobscpa.org/ আবেদন শুরুঃ ২৮ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2669,8 +2724,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10976,
-    title: `বেগম রোকেয়া বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.brur.gov.bd Job Circular 2021`,
-    slug: "বেগম-রোকেয়া-বিশ্ববিদ্য-3",
+    title: "বেগম রোকেয়া বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.brur.gov.bd Job Circular 2021",
+    slug: "bgm-rky-bshbbdjly-e-nyg-notice-2026",
+    oldSlug: "বেগম-রোকেয়া-বিশ্ববিদ্য-3",
     excerpt: `&nbsp; বিভিন্ন পদে বেগম রোকেয়া বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি- ০২/০২ Deadline: 2 Feb 2021 &nbsp; বেগম রোকেয়া বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular&nbsp; Teacher Application form`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2701,8 +2757,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11005,
-    title: `বিনা অভিজ্ঞতায় আবুল খায়ের টোব্যাকো কোম্পানি লি. এ এ্যাসিস্ট্যান্ট মার্কেটিং অফিসার (AMO) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিনা-অভিজ্ঞতায়-আবুল-খায",
+    title: "বিনা অভিজ্ঞতায় আবুল খায়ের টোব্যাকো কোম্পানি লি. এ এ্যাসিস্ট্যান্ট মার্কেটিং অফিসার (AMO) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bn-obhjnty-abl-khyr-tbjk-kmpn-l-e-ejsstjnt-mrktng-ofsr-amo-pd-nyg-notice-2026",
+    oldSlug: "বিনা-অভিজ্ঞতায়-আবুল-খায",
     excerpt: `&nbsp; বিনা অভিজ্ঞতায় আবুল খায়ের টোব্যাকো কোম্পানি লি. এ এ্যাসিস্ট্যান্ট মার্কেটিং অফিসার (AMO) পদে নিয়োগ বিজ্ঞপ্তি- ২০/০১ &nbsp;Deadline: 20 Jan 2021 &nbsp; Download Circular &nbsp; Apply: https://hotjobs.bdjobs.com/jobs/abulkhair/tobacco77.htm`,
     content: `<p>&nbsp;</p>
 <div>
@@ -2729,8 +2786,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11038,
-    title: `বাংলাদেশ ট্যুরিজম বোর্ড (btb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ট্যুরিজম-বোর্ড-btb",
+    title: "বাংলাদেশ ট্যুরিজম বোর্ড (btb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-tjrjm-brd-btb-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ট্যুরিজম-বোর্ড-btb",
     excerpt: `&nbsp; বিভিন্ন পদে বাংলাদেশ ট্যুরিজম বোর্ড (btb) এ নিয়োগ বিজ্ঞপ্তি- ১০/০২ &nbsp;Deadline: 10 Feb 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ ট্যুরিজম বোর্ড👉 পদের নামঃ&nbsp;বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;৬টি👉 আবেদন শুরুঃ&nbsp;১১ জানুয়ারি ২০২৬👉 আবেদনের লিংকঃ&nbsp;http://btb.telet`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2759,8 +2817,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11064,
-    title: `সাপ্তাহিক চাকরির খবর ১/১/২০২৬ | সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ PDF`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-১-১-২",
+    title: "সাপ্তাহিক চাকরির খবর ১/১/২০২৬ | সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ PDF",
+    slug: "weekly-job-khabor-112026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-১-১-২",
     excerpt: `লক্ষ বেকারের প্রিয় পত্রিকা সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ প্রকাশিত হয়েছে সবাই দেখে নিন। Table Of Contents সাপ্তাহিক চাকরির খবর ১/১/২০২৬ | সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ PDF Weekly Job Paper 1 January 2021 Pdf Download | সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ PDF Click Here To Download&nbsp`,
     content: `<p>লক্ষ বেকারের প্রিয় পত্রিকা সাপ্তাহিক চাকরির খবর ১ জানুয়ারি ২০২৬ প্রকাশিত হয়েছে সবাই দেখে নিন।</p>
 <div>
@@ -2789,8 +2848,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11115,
-    title: `বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (reb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পল্লী-বিদ্যুতা-3",
+    title: "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (reb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-pll-bdjtyn-brd-reb-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পল্লী-বিদ্যুতা-3",
     excerpt: `&nbsp; ৮৩ পদে বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (reb) এ নিয়োগ বিজ্ঞপ্তি- ০৭/০১ &nbsp;Deadline:7 Jan 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (বিআরইবি) &nbsp;পদের নামঃ&nbsp; সহকারী জুনিয়র ইঞ্জিনিয়ার (ওএন্ডএম/ইএন্ডসি/ইআরইউ/পিএন্ডএম/জিএস/ইআরসি/এসএন্ডপি) &nbsp;পদ সংখ্যাঃ&nbsp;± ৮৩টি আব`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2820,8 +2880,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11147,
-    title: `বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় যশোর এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-পদে-জেলা-প্রশাসক-2",
+    title: "বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় যশোর এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-pd-jl-prshskr-krjly-jshr-e-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-পদে-জেলা-প্রশাসক-2",
     excerpt: `&nbsp;বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় যশোর এ নিয়োগ বিজ্ঞপ্তি- ১০/০১ Deadline: 10 Jan 2021 সুত্রঃইত্তেফাক ১৫ ডিসেম্বর ২০২৬`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় যশোর এ নিয়োগ বিজ্ঞপ্তি- ১০/০১</span></h2>
 <p dir="ltr">
@@ -2838,8 +2899,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10563,
-    title: `রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "রবীন্দ্র-বিশ্ববিদ্যালয়",
+    title: "রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "rbndr-bshbbdjly-bangladsh-e-nyg-notice-2026",
+    oldSlug: "রবীন্দ্র-বিশ্ববিদ্যালয়",
     excerpt: `&nbsp; রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১১/০৪ &nbsp;Deadline: 11 Apr 2021 &nbsp;রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp;শিক্ষক নিয়োগের ফরম&nbsp; কর্মচারী নিয়োগের ফরম দৈনিক কালের কন্ঠ&nbsp; &#8211; ২২ মার্চ ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2876,8 +2938,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10678,
-    title: `ঢাকা রেসিডেন্সিয়াল মডেল কলেজে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ঢাকা-রেসিডেন্সিয়াল-মডেল",
+    title: "ঢাকা রেসিডেন্সিয়াল মডেল কলেজে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dhk-rsdnsjl-mdl-klj-nyg-notice-2026",
+    oldSlug: "ঢাকা-রেসিডেন্সিয়াল-মডেল",
     excerpt: `&nbsp; ঢাকা রেসিডেন্সিয়াল মডেল কলেজ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২২/০৩ &nbsp;Deadline: 22 Mar 2021 &nbsp;ঢাকা রেসিডেন্সিয়াল মডেল কলেজে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; ইত্তেফাক &#8211; ৯ মার্চ ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2903,8 +2966,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10727,
-    title: `প্রতিরক্ষা মন্ত্রণালয়ের (mod) অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রতিরক্ষা-মন্ত্রণালয়-2",
+    title: "প্রতিরক্ষা মন্ত্রণালয়ের (mod) অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prtrksh-ministryr-mod-on-nyg-notice-2026",
+    oldSlug: "প্রতিরক্ষা-মন্ত্রণালয়-2",
     excerpt: `&nbsp; প্রতিরক্ষা মন্ত্রণালয়ের (mod) অধীনে বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি- ৩১/০৩ &nbsp;Deadline: 31 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;প্রতিরক্ষা মন্ত্রণালয় (mod) এর অধীনে সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;আবেদন ফীঃ&`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -2936,8 +3000,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10769,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১৯ ফেব্রুয়ারি ২০২৬ &#8211; সাপ্তাহিক চাকরির খবর পত্রিকা ১৯/২/২০২৬`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-3",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১৯ ফেব্রুয়ারি ২০২৬ &#8211; সাপ্তাহিক চাকরির খবর পত্রিকা ১৯/২/২০২৬",
+    slug: "job-ptrk-weekly-job-khabor-19-fbrjr-2026-8211-weekly-job-khabor-ptrk-1922026",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-3",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। বন্ধুরা আজকে আমরা তোমাদের ১৯ ফেব্রুয়ারি সাপ্তাহিক চাকরির পত্রিকা শেয়ার করবো।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; সাপ্তাহিক চাকরির খবর পত্রিকা ১৯ ফেব্রুয়ারি ২০২`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVXcTsAPfbNyRRAbOKNP4qGbu-CZ78TY7r6xsZKTlyYqyjNkfOUw8uq55n7Vd4GQ2RMdPKnRtHVxE1JgPwUy4UAuA1w629cem3AyW-ejInFfju7JegfeD_lqHsd7rYpf3zX80e_xRvsmtp/s1280/IMG_20210218_031842.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১৯ ফেব্রুয়ারি ২০২৬ - সাপ্তাহিক চাকরির খবর পত্রিকা ১৯/২/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVXcTsAPfbNyRRAbOKNP4qGbu-CZ78TY7r6xsZKTlyYqyjNkfOUw8uq55n7Vd4GQ2RMdPKnRtHVxE1JgPwUy4UAuA1w629cem3AyW-ejInFfju7JegfeD_lqHsd7rYpf3zX80e_xRvsmtp/s16000/IMG_20210218_031842.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১৯ ফেব্রুয়ারি ২০২৬ - সাপ্তাহিক চাকরির খবর পত্রিকা ১৯/২/২০২৬" /></a></div>
 <p></p>
@@ -2969,8 +3034,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10797,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১২ ফেব্রুয়ারি ২০২৬ | Saptahik Chakrir Dak 12 February 2021 Pdf Download | চাকরির ডাক ১২/২/২০২৬`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-4",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১২ ফেব্রুয়ারি ২০২৬ | Saptahik Chakrir Dak 12 February 2021 Pdf Download | চাকরির ডাক ১২/২/২০২৬",
+    slug: "job-ptrk-weekly-job-dk-12-fbrjr-2026",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-4",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা আমরা প্রতি সাপ্তাহের সাপ্তাহিক চাকরি পত্রিকা আমাদের ওয়েবসাইটে দিয়ে থাকি। সেই ধারাবাহিকতায় চাকরির ডাক ১২ ফেব্রুয়ারি ২০২৬ আমরা আজকে শেয়ার করবো।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; `,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUvC8C-fbLIPkgVuDqSh9obmb8zmrX2ORc2Zhu5beVWIkpt7PRUIj5lqnQGdcgFslOPVz836h3zRZb-lT51BhiLs8beWUAhtXqLor_MAGkMol7YVYo4IPikh6lPg1F1WNGAZ-LAY0lbbqT/s1280/IMG_20210209_035328.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১২ ফেব্রুয়ারি ২০২৬ | Saptahik Chakrir Dak 12 February 2021 Pdf Download | চাকরির ডাক ১২/২/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUvC8C-fbLIPkgVuDqSh9obmb8zmrX2ORc2Zhu5beVWIkpt7PRUIj5lqnQGdcgFslOPVz836h3zRZb-lT51BhiLs8beWUAhtXqLor_MAGkMol7YVYo4IPikh6lPg1F1WNGAZ-LAY0lbbqT/s16000/IMG_20210209_035328.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ১২ ফেব্রুয়ারি ২০২৬ | Saptahik Chakrir Dak 12 February 2021 Pdf Download | চাকরির ডাক ১২/২/২০২৬" /></a></div>
 <p></p>
@@ -3011,8 +3077,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10828,
-    title: `প্রতিদিনের চাকরির খবর ২০২৬ |আজকের চাকরির খবর ২০২৬ | সরকারি চাকরির খবর ২০২৬ |বেসরকারি চাকরির খবর ২০২৬ | চাকরির খবর ২০২৬`,
-    slug: "প্রতিদিনের-চাকরির-খবর-২০",
+    title: "প্রতিদিনের চাকরির খবর ২০২৬ |আজকের চাকরির খবর ২০২৬ | সরকারি চাকরির খবর ২০২৬ |বেসরকারি চাকরির খবর ২০২৬ | চাকরির খবর ২০২৬",
+    slug: "prtdnr-job-khabor-2026",
+    oldSlug: "প্রতিদিনের-চাকরির-খবর-২০",
     excerpt: `প্রতিদিনের চাকরির খবর ২০২৬ |আজকের চাকরির খবর ২০২৬ | সরকারি চাকরির খবর ২০২৬ |বেসরকারি চাকরির খবর ২০২৬ | সাপ্তাহিক চাকরির খবর ২০২৬&nbsp;&nbsp; আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন?আসা করি সবাই ভালো আছেন।আজকে আমরা তোমাদের এই পোস্টে&nbsp;প্রতিদিনের চাকরির খবর ২০২৬&nbsp;সহ&nbsp;আজকের চাকরির খবর ২০২`,
     content: `<div dir="ltr" style="text-align: left;">
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwjVwk6UoxjJT6jLktMNXnJYFkXN68vJf-TfiiT6o6iSB3qj8YBTdUf7dyJoPsCdgBUJsQC06VMm4STN1aRQpak32WHNXfj9OWD9jxFodtsD8yKeUkn8PaYfpNBXwAVbNz4l_Z3i0v3CTY/s1600/IMG_20210207_045543.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="প্রতিদিনের চাকরির খবর ২০২৬ |আজকের চাকরির খবর ২০২৬ | সরকারি চাকরির খবর ২০২৬ |বেসরকারি চাকরির খবর ২০২৬ | চাকরির খবর ২০২৬" border="0" data-original-height="1066" data-original-width="1600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwjVwk6UoxjJT6jLktMNXnJYFkXN68vJf-TfiiT6o6iSB3qj8YBTdUf7dyJoPsCdgBUJsQC06VMm4STN1aRQpak32WHNXfj9OWD9jxFodtsD8yKeUkn8PaYfpNBXwAVbNz4l_Z3i0v3CTY/s16000/IMG_20210207_045543.jpg" title="প্রতিদিনের চাকরির খবর ২০২৬ |আজকের চাকরির খবর ২০২৬ | সরকারি চাকরির খবর ২০২৬ |বেসরকারি চাকরির খবর ২০২৬ | চাকরির খবর ২০২৬" /></a></div>
@@ -3079,8 +3146,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10860,
-    title: `প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষার সময়সূচী ২০২৬-খাগড়াছড়ি পার্বত্য জেলা`,
-    slug: "প্রাথমিক-সহকারী-শিক্ষক-ন-4",
+    title: "প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষার সময়সূচী ২০২৬-খাগড়াছড়ি পার্বত্য জেলা",
+    slug: "primary-shkr-teacher-nyg-prkshr-smysch-2026-khgrchr-prbtj-jl",
+    oldSlug: "প্রাথমিক-সহকারী-শিক্ষক-ন-4",
     excerpt: `&nbsp; প্রাথমিক সহকারী শিক্ষক নিয়োগ পরীক্ষার সময়সূচী প্রকাশ পরীক্ষার তারিখঃ ১৯ ফেব্রুয়ারি ২০২৬ &nbsp;🔴&nbsp;পরীক্ষার নোটিশ&nbsp;🔴👉&nbsp;প্রতিষ্ঠানঃ&nbsp;জেলা প্রাথমিক শিক্ষা অফিস, খাগড়াছড়ি পার্বত্য জেলা👉&nbsp;পদের নামঃ&nbsp;সহকারী শিক্ষক👉&nbsp;পরীক্ষার তারিখঃ&nbsp;১৯ ফেব্রুয়ারি ২০২৬👉&nbsp;পরীক`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3106,8 +3174,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10888,
-    title: `জাতীয় কৃষি প্রশিক্ষণ একাডেমি (নাটা) তে ২০ ক্যাটাগরির বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জাতীয়-কৃষি-প্রশিক্ষণ-এক",
+    title: "জাতীয় কৃষি প্রশিক্ষণ একাডেমি (নাটা) তে ২০ ক্যাটাগরির বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jty-agriculture-prshkshn-ekdm-nt-t-20-kjtgrr-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "জাতীয়-কৃষি-প্রশিক্ষণ-এক",
     excerpt: `&nbsp; জাতীয় কৃষি প্রশিক্ষণ একাডেমি (নাটা) তে ২০ ক্যাটাগরির বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০১/০৩ &nbsp;Deadline: 1 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;জাতীয় কৃষি প্রশিক্ষণ একাডেমি (NATA)👉&nbsp;পদের নামঃ&nbsp;&nbsp;২০ ক্যাটাগরির বিভিন্ন পদ👉&nbsp;আবেদন ফীঃ&nbsp;১`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3136,8 +3205,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10917,
-    title: `প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রমি-এগ্রো-ফুডস-লিঃ-এ-নিয-2",
+    title: "প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prm-egr-fds-lh-e-nyg-notice-2026",
+    oldSlug: "প্রমি-এগ্রো-ফুডস-লিঃ-এ-নিয-2",
     excerpt: `&nbsp; ২৪০ পদে প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;Download Circular&nbsp; &nbsp; দৈনিক বাংলাদেশ প্রতিদিন &#8211; ২২ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3167,8 +3237,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10948,
-    title: `ঢাকা ষ্টক এক্সচেঞ্জ লি: (DSE) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ঢাকা-ষ্টক-এক্সচেঞ্জ-লি-dse-এ",
+    title: "ঢাকা ষ্টক এক্সচেঞ্জ লি: (DSE) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dhk-shtk-ekschnj-l-dse-e-nyg-notice-2026",
+    oldSlug: "ঢাকা-ষ্টক-এক্সচেঞ্জ-লি-dse-এ",
     excerpt: `&nbsp; ঢাকা ষ্টক এক্সচেঞ্জ লি: (DSE) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;ঢাকা ষ্টক এক্সচেঞ্জ লি: (DSE) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3194,8 +3265,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10977,
-    title: `কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কোল-পাওয়ার-জেনারেশন-কোম-2",
+    title: "কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "kl-pojr-jnrshn-kmpn-bangladsh-lmtd-spjsbel-e-nyg-notice-2026",
+    oldSlug: "কোল-পাওয়ার-জেনারেশন-কোম-2",
     excerpt: `&nbsp; কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি- ১৩/০২ &nbsp;Deadline: 13 Feb 2021 &nbsp; কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Download Application Form&nbsp;`,
     content: `<p>&nbsp;</p>
 <div>
@@ -3231,8 +3303,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11006,
-    title: `শাহজালাল ইসলামী ব্যাংক লিমিটেড এ ট্রেইনী সিনিয়র অফিসার (TSO) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "শাহজালাল-ইসলামী-ব্যাংক-ল",
+    title: "শাহজালাল ইসলামী ব্যাংক লিমিটেড এ ট্রেইনী সিনিয়র অফিসার (TSO) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "shhjll-islm-bjngk-lmtd-e-trin-snyr-ofsr-tso-pd-nyg-notice-2026",
+    oldSlug: "শাহজালাল-ইসলামী-ব্যাংক-ল",
     excerpt: `&nbsp; শাহজালাল ইসলামী ব্যাংক লিমিটেড এ ট্রেইনী সিনিয়র অফিসার (TSO) পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp; Download Circular &nbsp; Apply: http://www.bdjobs.com/sjibl/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3259,8 +3332,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11041,
-    title: `বিভাগীয় কমিশনারের কার্যালয় খুনলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.khulnadiv.gov.bd Job Circular 2021`,
-    slug: "বিভাগীয়-কমিশনারের-কার্-2",
+    title: "বিভাগীয় কমিশনারের কার্যালয় খুনলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.khulnadiv.gov.bd Job Circular 2021",
+    slug: "bbhgy-kmshnrr-krjly-khnlt-nyg-notice-2026",
+    oldSlug: "বিভাগীয়-কমিশনারের-কার্-2",
     excerpt: `&nbsp; বিভাগীয় কমিশনারের কার্যালয় খুনলাতে নিয়োগ বিজ্ঞপ্তি- ১৬/০২ Deadline: 16 Feb 2021 &nbsp;বিভাগীয় কমিশনারের কার্যালয় খুনলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.khulnadiv.gov.bd Job Circular 2021 &nbsp; Download Circular &nbsp; Download Application Form&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3290,8 +3364,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11065,
-    title: `ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টার (NTMC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ন্যাশনাল-টেলিকমিউনিকেশন",
+    title: "ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টার (NTMC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "njshnl-tlkmunkshn-mntrng-sntr-ntmc-e-nyg-notice-2026",
+    oldSlug: "ন্যাশনাল-টেলিকমিউনিকেশন",
     excerpt: `&nbsp; ২৭+ পদে ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টার (NTMC) এ নিয়োগ বিজ্ঞপ্তি- ১০/০১ &nbsp;Deadline:&nbsp; 10 Jan 2021 &nbsp;ন্যাশনাল টেলিকমিউনিকেশন মনিটরিং সেন্টার (NTMC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Apply:&nbsp;http://career.ntmc.gov.bd/`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3333,8 +3408,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11116,
-    title: `বঙ্গবন্ধু শেখ মুজিবুর রহমান মেরিটাইম ইউনিভার্সিটি তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বঙ্গবন্ধু-শেখ-মুজিবুর-রহ-3",
+    title: "বঙ্গবন্ধু শেখ মুজিবুর রহমান মেরিটাইম ইউনিভার্সিটি তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bnggbn-shkh-mjbr-rhmn-mrtim-iunbhrst-t-nyg-notice-2026",
+    oldSlug: "বঙ্গবন্ধু-শেখ-মুজিবুর-রহ-3",
     excerpt: `&nbsp; বিভিন্ন পদে বঙ্গবন্ধু শেখ মুজিবুর রহমান মেরিটাইম ইউনিভার্সিটি তে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 Download Job Application Form &nbsp; &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3372,8 +3448,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11148,
-    title: `স্বাস্থ্য অধিদপ্তরের বিভিন্ন পদের নিয়োগ পরীক্ষার সময়সূচী প্রকাশ ১৮-১৯-২০২৬`,
-    slug: "স্বাস্থ্য-অধিদপ্তরের-বিভ",
+    title: "স্বাস্থ্য অধিদপ্তরের বিভিন্ন পদের নিয়োগ পরীক্ষার সময়সূচী প্রকাশ ১৮-১৯-২০২৬",
+    slug: "sbsthj-odptrr-bbhnn-pdr-nyg-prkshr-smysch-prksh-18-19-2026",
+    oldSlug: "স্বাস্থ্য-অধিদপ্তরের-বিভ",
     excerpt: `স্বাস্থ্য অধিদপ্তরের বিভিন্ন পদের নিয়োগ পরীক্ষার সময়সূচী প্রকাশ ১৮-১৯-২০২৬ পরীক্ষার তারিখঃ&nbsp; ১৮ ও ১৯ ডিসেম্বর ২০২৬ &nbsp;পরীক্ষার নোটিশ&nbsp; &nbsp;প্রতিষ্ঠানঃ স্বাস্থ্য অধিদপ্তর &nbsp;পদের নামঃ মেডিক্যাল টেকনিশিয়ান পরীক্ষার তারিখঃ ১৮ ও ১৯ ডিসেম্বর ২০২৬ &nbsp;পরীক্ষার সময়ঃ সকাল ১০.৩০ &#8211; ১২.`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">স্বাস্থ্য অধিদপ্তরের বিভিন্ন পদের নিয়োগ পরীক্ষার সময়সূচী প্রকাশ ১৮-১৯-২০২৬</span></h2>
 <p dir="ltr">
@@ -3397,8 +3474,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10564,
-    title: `বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (bjri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পাট-গবেষণা-ইনস্",
+    title: "বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (bjri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-pt-gbshn-insttut-bjri-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পাট-গবেষণা-ইনস্",
     excerpt: `&nbsp; বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (bjri) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৫/০৪ &nbsp;Deadline: 15 Apr 2021 &nbsp;বিজেআরআই এর রাজস্ব খাতভূক্ত অস্থায়ী শূন্য পদসমূহে (প্রধান বৈজ্ঞানিক কর্মকর্তা এবং ঊর্ধ্বতন বৈজ্ঞানিক কর্মকর্তা) নিয়োগের জন্য নিয়োগ বিজ্ঞপ্তি। Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3424,8 +3502,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10699,
-    title: `কোহিনূর কেমিক্যাল কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কোহিনূর-কেমিক্যাল-কোম্পা",
+    title: "কোহিনূর কেমিক্যাল কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "khnr-kmkjl-kmpn-lh-e-nyg-notice-2026",
+    oldSlug: "কোহিনূর-কেমিক্যাল-কোম্পা",
     excerpt: `&nbsp; কোহিনূর কেমিক্যাল কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি- ১৩/০৩ &nbsp;Deadline: 13 Mar 2021 Download Circular&nbsp; উৎসঃ দৈনিক প্রথম আলো &#8211; ৫ মার্চ ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3450,8 +3529,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10731,
-    title: `সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৬ ফেব্রুয়ারি ২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-পত্রিকা",
+    title: "সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৬ ফেব্রুয়ারি ২০২৬",
+    slug: "weekly-job-ptrkh-job-bkr-8211-26-fbryr-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-পত্রিকা",
     excerpt: `&nbsp; দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৬ ফেব্রুয়ারি ২০২৬ ২০ টি নিয়োগ বিজ্ঞপ্তি &nbsp; বিস্তারিত সকল অংশ পিডিএফ ফাইল ডাউনলোড করে পড়ুন ডাউনলোড চাকরি বাকরি PDF`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3476,8 +3556,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10772,
-    title: `বেগম রোকেয়া বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বেগম-রোকেয়া-বিশ্ববিদ্য-2",
+    title: "বেগম রোকেয়া বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bgm-rky-bshbbdjly-nyg-notice-2026",
+    oldSlug: "বেগম-রোকেয়া-বিশ্ববিদ্য-2",
     excerpt: `&nbsp; বেগম রোকেয়া বিশ্ববিদ্যালয়ে উপ প্রধান-প্রকৌশলী পদে নিয়োগ বিজ্ঞপ্তি- ১০/০৩ &nbsp;Deadline: 10 Mar 2021 &nbsp;বেগম রোকেয়া বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3503,8 +3584,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10798,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১২ ফেব্রুয়ারি ২০২৬ &#8211; Shaptahik Chakrir Khobor 12 February 2021 Pdf Download | সাপ্তাহিক চাকরির খবর পত্রিকা ১২/২/২০২৬`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-5",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১২ ফেব্রুয়ারি ২০২৬ &#8211; Shaptahik Chakrir Khobor 12 February 2021 Pdf Download | সাপ্তাহিক চাকরির খবর পত্রিকা ১২/২/২০২৬",
+    slug: "job-ptrk-weekly-job-khabor-12-fbrjr-2026-8211-shaptahik-chakrir-khobor-12-february-2021-pdf-download",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-5",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। প্রতি সাপ্তাহের মত এই সাপ্তাহে আবার ও তোমাদের মাঝে সাপ্তাহের চাকরির সেরা পত্রিকা -লক্ষ বেকারের প্রিয় পত্রিকা সাপ্তাহিক চাকরির খবর ১২ ফেব্রুয়ারি ২০২৬ নিয়ে হাজির হয়েছি। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&n`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsm-Ij23XtCMlJQR7a4LomhqqcmCh3U4GeARm7VrZolIi8en6Xkn1GHjt11m2iVpYfX0-6X73WNEkl_LM8YWkzkkXaDyvPYzXIWoxC-nzdRF1GkxJr6ph8wh_UsFpK-551RYXSbd-jiQFJ/s1280/IMG_20210210_035934.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১২ ফেব্রুয়ারি ২০২৬ - Shaptahik Chakrir Khobor 12 February 2021 Pdf Download | সাপ্তাহিক চাকরির খবর পত্রিকা ১২/২/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsm-Ij23XtCMlJQR7a4LomhqqcmCh3U4GeARm7VrZolIi8en6Xkn1GHjt11m2iVpYfX0-6X73WNEkl_LM8YWkzkkXaDyvPYzXIWoxC-nzdRF1GkxJr6ph8wh_UsFpK-551RYXSbd-jiQFJ/s16000/IMG_20210210_035934.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির খবর ১২ ফেব্রুয়ারি ২০২৬ - Shaptahik Chakrir Khobor 12 February 2021 Pdf Download | সাপ্তাহিক চাকরির খবর পত্রিকা ১২/২/২০২৬" /></a></div>
 <p></p>
@@ -3542,8 +3624,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10834,
-    title: `ব্র্যাক ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ব্র্যাক-ব্যাংক-লিমিটেড-এ",
+    title: "ব্র্যাক ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "brjk-bjngk-lmtd-e-nyg-notice-2026",
+    oldSlug: "ব্র্যাক-ব্যাংক-লিমিটেড-এ",
     excerpt: `&nbsp; ব্র্যাক ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি- ১০/০২ &nbsp;Deadline: 10 Feb 2021 &nbsp;ব্র্যাক ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; Apply: https://hotjobs.bdjobs.com/jobs/bracbank/bracbank258.htm`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3574,8 +3657,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10861,
-    title: `বরিশাল টেকনিক্যাল স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বরিশাল-টেকনিক্যাল-স্কুল",
+    title: "বরিশাল টেকনিক্যাল স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "brshl-tknkjl-skl-ojnd-klj-e-nyg-notice-2026",
+    oldSlug: "বরিশাল-টেকনিক্যাল-স্কুল",
     excerpt: `&nbsp; বরিশাল টেকনিক্যাল স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি- ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp;বরিশাল টেকনিক্যাল স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ২ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3602,8 +3686,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10889,
-    title: `বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar-VDP) নিয়োগ বিজ্ঞপ্তি ২০২৬ -সাধারন আনসার নিয়োগ ২০২৬`,
-    slug: "বাংলাদেশ-আনসার-ও-গ্রাম-প্",
+    title: "বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar-VDP) নিয়োগ বিজ্ঞপ্তি ২০২৬ -সাধারন আনসার নিয়োগ ২০২৬",
+    slug: "bangladsh-ansr-o-grm-prtrksh-bhn-ansar-vdp-nyg-notice-2026-srn-ansr-job-circular-2026",
+    oldSlug: "বাংলাদেশ-আনসার-ও-গ্রাম-প্",
     excerpt: `&nbsp; বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar-VDP) নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline: 8 Feb 2021 Table Of Contents সাধারন আনসার নিয়োগ ২০২৬ &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar-VDP) &nbsp;পদের নামঃ&nbsp;সাধারণ আনসার আ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3648,8 +3733,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10918,
-    title: `বাংলাদেশ সেনাবাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সেনাবাহিনীতে-নি",
+    title: "বাংলাদেশ সেনাবাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-armyt-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সেনাবাহিনীতে-নি",
     excerpt: `&nbsp; বাংলাদেশ সেনাবাহিনীতে যোগ দিন: ৭৭তম ডিএসএসসি (এএমসি) &#8211; পুরুষ/মহিলা &#8211; ১৩/০২ &nbsp;Deadline: 13 Feb 2021 &nbsp;বাংলাদেশ সেনাবাহিনীতে নিয়োগ বিজ্ঞপ্তি ২০২৬&nbsp; &nbsp; Download Circular &nbsp; Apply:&nbsp;&nbsp;https://joinbangladesharmy.army.mil.bd/ জব সোর্সঃ দৈনিক যুগান্তর &#8211; `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3698,8 +3784,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10949,
-    title: `সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সরকারি-কলেজসমূহে-বিজ্ঞান",
+    title: "সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srkr-kljsmh-bjnn-shkshr-sjg-smprsrn-prklpr-nyg-notice-2026",
+    oldSlug: "সরকারি-কলেজসমূহে-বিজ্ঞান",
     excerpt: `&nbsp;সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি ২০২৬ সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি ২০২৬ চাকরির আবেদন ফরম Click Here To Pdf Download&nbsp;`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি ২০২৬</span></h2>
 <p><span style="font-size: 1em;"><br /></span></p>
@@ -3723,8 +3810,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10980,
-    title: `স্কয়ার টয়লেট্রিজ লি: এ এক্সিকিউটিভ ও সেলস অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "স্কয়ার-টয়লেট্রিজ-লি-এ-এ",
+    title: "স্কয়ার টয়লেট্রিজ লি: এ এক্সিকিউটিভ ও সেলস অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "skyr-tyltrj-l-e-ekskutbh-o-sls-ofsr-pd-nyg-notice-2026",
+    oldSlug: "স্কয়ার-টয়লেট্রিজ-লি-এ-এ",
     excerpt: `&nbsp; স্কয়ার টয়লেট্রিজ লি: এ এক্সিকিউটিভ ও সেলস অফিসার পদে নিয়োগ বিজ্ঞপ্তি- ২৩/০১ &nbsp;Deadline: 23 Jan 2021 &nbsp;স্কয়ার টয়লেট্রিজ লি: এ এক্সিকিউটিভ ও সেলস অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;Download Circular-1 Apply:&nbsp; https://hotjobs.bdjobs.com/jobs/sq.toiletries/sq.toiletries144.htm &nb`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3758,8 +3846,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11008,
-    title: `এফএইচপি (FHP) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "এফএইচপি-fhp-ngo-তে-নিয়োগ-বিজ্ঞ",
+    title: "এফএইচপি (FHP) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "efeichp-fhp-ngo-t-nyg-notice-2026",
+    oldSlug: "এফএইচপি-fhp-ngo-তে-নিয়োগ-বিজ্ঞ",
     excerpt: `&nbsp; ২২০ পদে এফএইচপি (FHP) NGO তে নিয়োগ বিজ্ঞপ্তি- ২১/০১ &nbsp;Deadline: 21 Jan 2021 &nbsp;এফএইচপি (FHP) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬&nbsp; &nbsp; Download Circular`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3785,8 +3874,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11042,
-    title: `সাউথইস্ট ব্যাংক লিমিটেড এর টেলিক্যাশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সাউথইস্ট-ব্যাংক-লিমিটেড",
+    title: "সাউথইস্ট ব্যাংক লিমিটেড এর টেলিক্যাশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "suthist-bjngk-lmtd-er-tlkjsh-e-nyg-notice-2026",
+    oldSlug: "সাউথইস্ট-ব্যাংক-লিমিটেড",
     excerpt: `&nbsp; সাউথইস্ট ব্যাংক লিমিটেড এর টেলিক্যাশ এ নিয়োগ বিজ্ঞপ্তি- ১৫/০১ &nbsp;Deadline: 15 Jan 2021 &nbsp;সাউথইস্ট ব্যাংক লিমিটেড এর টেলিক্যাশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬&nbsp; &nbsp; Download Circular &nbsp; Send your CV to&nbsp;aynul@southeastbank.com.bd &nbsp;or&nbsp; Apply Online: https://tinyurl.com/yc`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3819,8 +3909,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11066,
-    title: `বাংলাদেশ নৌবাহিনী কমিশন্ড অফিসার পদে বি ডিইও ব্যাচে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-নৌবাহিনী-কমিশন্",
+    title: "বাংলাদেশ নৌবাহিনী কমিশন্ড অফিসার পদে বি ডিইও ব্যাচে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-navy-kmshnd-ofsr-pd-b-dio-bjch-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-নৌবাহিনী-কমিশন্",
     excerpt: `&nbsp; বাংলাদেশ নৌবাহিনীতে সরাসরি কমিশন্ড অফিসার পদে ২০২৬-বি ডিইও ব্যাচে যোগ দিন- ৩০/০১ &nbsp;Deadline: 30 Jan 2021 বাংলাদেশ নৌবাহিনী কমিশন্ড অফিসার পদে বি ডিইও ব্যাচে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular 👉&nbsp;আবেদনের লিংকঃ&nbsp;https://www.joinnavy.mil.bd/`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3850,8 +3941,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11117,
-    title: `৩৯ পদে বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "৩৯-পদে-বাংলাদেশ-কেমিক্যা",
+    title: "৩৯ পদে বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "39-pd-bangladsh-kmkjl-indstrj-krprshn-bcic-e-nyg-notice-2026",
+    oldSlug: "৩৯-পদে-বাংলাদেশ-কেমিক্যা",
     excerpt: `৩৯ পদে বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১ &nbsp;Deadline: 14 Jan 2021 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কেমিক্যাল ইন্ডাষ্ট্রিজ কর্পোরেশন (বিসিআইসি) &nbsp;পদের নামঃ&nbsp;৬ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;৩৯টি &nbsp;আবেদন ফীঃ&nbsp;৫০০/- টাকা আবেদন শুরুঃ&nbsp;`,
     content: `<p></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3880,8 +3972,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11150,
-    title: `প্রগতি লাইফ ইন্সুরেন্স লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রগতি-লাইফ-ইন্সুরেন্স-ল",
+    title: "প্রগতি লাইফ ইন্সুরেন্স লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prgt-lif-insrns-lh-e-bbhnn-pd-job-circular-notice-2026",
+    oldSlug: "প্রগতি-লাইফ-ইন্সুরেন্স-ল",
     excerpt: `&nbsp;প্রগতি লাইফ ইন্সুরেন্স লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি&#8211; ২৭/১২ Deadline: 27 Dec 2026`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 16px;">প্রগতি লাইফ ইন্সুরেন্স লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি</span><span style="font-size: 1em;">&#8211; ২৭/১২</span></h2>
 <p dir="ltr"><b><br />
@@ -3899,8 +3992,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10609,
-    title: `সাপ্তাহিক চাকরির খবরঃ চাকরি বাকরি ১৯ মার্চ ২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-খবরঃ-চা",
+    title: "সাপ্তাহিক চাকরির খবরঃ চাকরি বাকরি ১৯ মার্চ ২০২৬",
+    slug: "weekly-job-khaborh-job-bkr-19-mrch-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবরঃ-চা",
     excerpt: `&nbsp; সাপ্তাহিক চাকরির খবরঃ চাকরি বাকরি &#8211; ১৯ মার্চ ২০২৬ &nbsp;চাকরি বাকরি &#8211; ১৯ মার্চ ২০২৬&nbsp; Download All Circular HD`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3926,8 +4020,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10700,
-    title: `এসকেএফ (SKF) ফার্মাসিউটিক্যালস লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০১১`,
-    slug: "এসকেএফ-skf-ফার্মাসিউটিক্যা",
+    title: "এসকেএফ (SKF) ফার্মাসিউটিক্যালস লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০১১",
+    slug: "eskef-skf-frmsutkjls-lmtd-e-nyg-notice-2011",
+    oldSlug: "এসকেএফ-skf-ফার্মাসিউটিক্যা",
     excerpt: `&nbsp; এসকেএফ (SKF) ফার্মাসিউটিক্যালস লিমিটেড এ নিয়োগ বিজ্ঞপ্তি- ১৩/০৩ &nbsp;Deadline: 13 Mar 2021 Download Circular&nbsp; উৎসঃ দৈনিক প্রথম আলো &#8211; ৫ মার্চ ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3953,8 +4048,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10732,
-    title: `স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের অধীনে আউটসোর্সিং পদ্ধতিতে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "স্বাস্থ্য-ও-পরিবার-কল্যা",
+    title: "স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের অধীনে আউটসোর্সিং পদ্ধতিতে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "sbsthj-o-prbr-kljn-ministryr-on-autsrsng-pdtt-nyg-notice-2026",
+    oldSlug: "স্বাস্থ্য-ও-পরিবার-কল্যা",
     excerpt: `&nbsp; স্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের অধীনে আউটসোর্সিং পদ্ধতিতে নিয়োগ বিজ্ঞপ্তি- ২৩/০৩ &nbsp;Deadline: 23 Mar 2021 &nbsp; Download Circular&nbsp; সোর্সঃ দৈনিক প্রথম আলো &#8211; ২৬ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -3979,8 +4075,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10773,
-    title: `খুলনা শিপইয়ার্ড লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "খুলনা-শিপইয়ার্ড-লিঃ-এ-নি",
+    title: "খুলনা শিপইয়ার্ড লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "khln-shpiyrd-lh-e-nyg-notice-2026",
+    oldSlug: "খুলনা-শিপইয়ার্ড-লিঃ-এ-নি",
     excerpt: `&nbsp; খুলনা শিপইয়ার্ড লিঃ এ নিয়োগ বিজ্ঞপ্তি- ০৮/০৩ &nbsp;Deadline: 8 Mar 2021 &nbsp; খুলনা শিপইয়ার্ড লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; দৈনিক বাংলাদেশ প্রতিদিন &#8211; ১৮ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4010,8 +4107,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10799,
-    title: `ব্র্যাক এনজিও নিয়োগ ২০২৬-ব্র্যাক এনজিও নিয়োগ বিজ্ঞপ্তি 2021`,
-    slug: "ব্র্যাক-এনজিও-নিয়োগ-২০২",
+    title: "ব্র্যাক এনজিও নিয়োগ ২০২৬-ব্র্যাক এনজিও নিয়োগ বিজ্ঞপ্তি 2021",
+    slug: "brjk-enjo-job-circular-2026-brjk-enjo-job-circular-notice-2021",
+    oldSlug: "ব্র্যাক-এনজিও-নিয়োগ-২০২",
     excerpt: `&nbsp; ব্র্যাক (BRAC) NGO তে ঋণ কর্মকর্তা পদে নিয়োগ বিজ্ঞপ্তি- ২১/০২ &nbsp;Deadline: 21 Feb 2021 &nbsp;আবেদনের লিঙ্কঃ&nbsp; https://hotjobs.bdjobs.com/jobs/brac/brac1863.htm ব্র্যাক এনজিও নিয়োগ ২০২৬-ব্র্যাক এনজিও নিয়োগ বিজ্ঞপ্তি 2021 Download Circular আবেদনের লিঙ্কঃ&nbsp; https://hotjobs.bdjobs.co`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4043,8 +4141,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10835,
-    title: `রাজামারা আলিয়া মাদ্রাসা তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "রাজামারা-আলিয়া-মাদ্রাসা",
+    title: "রাজামারা আলিয়া মাদ্রাসা তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "rjmr-aly-mdrs-t-nyg-notice-2026",
+    oldSlug: "রাজামারা-আলিয়া-মাদ্রাসা",
     excerpt: `&nbsp; বিভিন্ন পদে রাজামারা আলিয়া মাদ্রাসা তে নিয়োগ বিজ্ঞপ্তি- ১৭/০২ Deadline: 17 Feb 2021 &nbsp;রাজামারা আলিয়া মাদ্রাসা তে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; দৈনিক প্রথম আলো- ২ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4073,8 +4172,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10863,
-    title: `আধুনিক ভাষা ইন্সিটিউট, ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আধুনিক-ভাষা-ইন্সিটিউট-ঢা",
+    title: "আধুনিক ভাষা ইন্সিটিউট, ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "adhunik-bhsh-instut-dhk-bshbbdjly-nyg-notice-2026",
+    oldSlug: "আধুনিক-ভাষা-ইন্সিটিউট-ঢা",
     excerpt: `&nbsp; আধুনিক ভাষা ইন্সিটিউট, ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ২২/০২ &nbsp;Deadline: 22 Feb 2021 &nbsp;আধুনিক ভাষা ইন্সিটিউট, ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; জনকণ্ঠ &#8211; ১ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4105,8 +4205,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10890,
-    title: `সাধারণ বীমা কর্পোরেশন (SBC) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সাধারণ-বীমা-কর্পোরেশন-sbc-এ-ব",
+    title: "সাধারণ বীমা কর্পোরেশন (SBC) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srn-bm-krprshn-sbc-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "সাধারণ-বীমা-কর্পোরেশন-sbc-এ-ব",
     excerpt: `&nbsp; সাধারণ বীমা কর্পোরেশন (SBC) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৩/০২ &nbsp;Deadline: 23 Feb 2021 &nbsp;সাধারণ বীমা কর্পোরেশন (SBC) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ২৮ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4134,8 +4235,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10919,
-    title: `বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-হাই-টেক-পার্ক-কর-2",
+    title: "বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-hi-tk-prk-krtpksh-t-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-হাই-টেক-পার্ক-কর-2",
     excerpt: `&nbsp; বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৩/০২ &nbsp;Deadline: 23 Feb 2021 &nbsp; বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; Apply:&nbsp;http://bhtpa.teletalk.com.bd/ আবেদন শুরুঃ ২৭ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4166,8 +4268,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10950,
-    title: `বিভিন্ন কর্মচারী পদে ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-কর্মচারী-পদে-ঢাক",
+    title: "বিভিন্ন কর্মচারী পদে ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-krmchr-pd-dhk-bshbbdjly-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-কর্মচারী-পদে-ঢাক",
     excerpt: `&nbsp; বিভিন্ন কর্মচারী পদে ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ০৪/০২ &nbsp;Deadline: 4 Feb 2021 &nbsp;বিভিন্ন কর্মচারী পদে ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; দৈনিক বাংলাদেশ প্রতিদিন &#8211; ১৮ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4198,8 +4301,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10985,
-    title: `বাংলাদেশ সেনাবাহিনীতে সৈনিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সেনাবাহিনীতে-সৈ",
+    title: "বাংলাদেশ সেনাবাহিনীতে সৈনিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-armyt-snk-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সেনাবাহিনীতে-সৈ",
     excerpt: `&nbsp; বাংলাদেশ সেনাবাহিনীতে সৈনিক পদে নিয়োগ বিজ্ঞপ্তি- ২১/০১ &nbsp;Deadline: 21 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ সেনাবাহিনী👉 পদের নামঃ&nbsp;সৈনিক👉 পদ সংখ্যাঃ&nbsp;অনির্দিষ্ট👉 আবেদন ফীঃ&nbsp;২০০/- টাকা👉 আবেদন শুরুঃ&nbsp;১৭ জানুয়ারি ২০২৬👉 আবেদনের লিংকঃ&nbsp;ht`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4229,8 +4333,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11009,
-    title: `বাংলাদেশ সেনাবাহিনীতে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সেনাবাহিনীতে-অস",
+    title: "বাংলাদেশ সেনাবাহিনীতে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-armyt-osmrk-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সেনাবাহিনীতে-অস",
     excerpt: `&nbsp; ৮৪০ পদে বাংলাদেশ সেনাবাহিনীতে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি- ০৬/০২ &nbsp;Deadline: 6 Feb 2021 &nbsp;বাংলাদেশ সেনাবাহিনীতে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; &nbsp; Download Circular &nbsp; উৎসঃ দৈনিক বাংলাদেশ প্রতিদিন &#8211; ৬ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4258,8 +4363,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11043,
-    title: `ট্রান্সপারেন্সি ইন্টারন্যাশনাল বাংলাদেশ (TIB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ট্রান্সপারেন্সি-ইন্টারন",
+    title: "ট্রান্সপারেন্সি ইন্টারন্যাশনাল বাংলাদেশ (TIB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "trnsprns-intrnjshnl-bangladsh-tib-e-nyg-notice-2026",
+    oldSlug: "ট্রান্সপারেন্সি-ইন্টারন",
     excerpt: `&nbsp; ১২৭ পদে ট্রান্সপারেন্সি ইন্টারন্যাশনাল বাংলাদেশ (TIB) এ নিয়োগ বিজ্ঞপ্তি- ১৮/০১ &nbsp;Deadline: 18 Jan 2021 &nbsp; &nbsp; শিক্ষাগত ও অন্যান্য যোগ্যতা সহ বিস্তারিত সার্কুলার&nbsp; Apply Online:&nbsp;https://career.ti-bangladesh.org/ &nbsp; দৈনিক প্রথম আলো&nbsp; ৫ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4287,8 +4393,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11067,
-    title: `বুয়েট নিয়োগ বিজ্ঞপ্তি ২০২৬ |বিভিন্ন কর্মকর্তা ও কর্মচারী পদে বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.buet.ac.bd Job Circular 2021`,
-    slug: "বুয়েট-নিয়োগ-বিজ্ঞপ্তি",
+    title: "বুয়েট নিয়োগ বিজ্ঞপ্তি ২০২৬ |বিভিন্ন কর্মকর্তা ও কর্মচারী পদে বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.buet.ac.bd Job Circular 2021",
+    slug: "byt-nyg-notice-2026",
+    oldSlug: "বুয়েট-নিয়োগ-বিজ্ঞপ্তি",
     excerpt: `&nbsp; বিভিন্ন কর্মকর্তা ও কর্মচারী পদে বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি- ২৭/০১ Deadline: 27 Jan 2021 &nbsp; &nbsp; Download Circular&nbsp; Reg-2 Form বুয়েট নিয়োগ বিজ্ঞপ্তি ২০২৬ |বিভিন্ন কর্মকর্তা ও কর্মচারী পদে বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbs`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4330,8 +4437,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11118,
-    title: `প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাষ্ট এ নিয়োগ বিজ্ঞপ্তি -শেষ তারিখ ১৩-০১-২০২৬`,
-    slug: "প্রধানমন্ত্রীর-শিক্ষা-স-2",
+    title: "প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাষ্ট এ নিয়োগ বিজ্ঞপ্তি -শেষ তারিখ ১৩-০১-২০২৬",
+    slug: "prnmntrr-shksh-shyt-trsht-e-nyg-notice-shsh-trkh-13-01-2026",
+    oldSlug: "প্রধানমন্ত্রীর-শিক্ষা-স-2",
     excerpt: `&nbsp; প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাষ্ট এ নিয়োগ বিজ্ঞপ্তি- ১৩/০১ &nbsp;Deadline: 13 Jan 2021 প্রতিষ্ঠানঃ&nbsp;প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাষ্ট পদের নামঃ&nbsp;প্রোগ্রামার &nbsp;আবেদন ফীঃ&nbsp;৭৭৮/- টাকা &nbsp;আবেদন শুরুঃ&nbsp;২৪ ডিসেম্বর ২০২৬ &nbsp;আবেদনের লিংকঃ&nbsp;http://pmeat.teletalk.com`,
     content: `<p>&nbsp;</p>
 <div>
@@ -4361,8 +4469,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11153,
-    title: `ব্র্যাক NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ব্র্যাক-ngo-তে-নিয়োগ-বিজ্ঞপ",
+    title: "ব্র্যাক NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "brjk-ngo-t-nyg-notice-2026",
+    oldSlug: "ব্র্যাক-ngo-তে-নিয়োগ-বিজ্ঞপ",
     excerpt: `&nbsp;ব্র্যাক NGO তে নিয়োগ বিজ্ঞপ্তি- ২ ২০/১২ Career Opportunity BRAC&#8217;s vision is a world free from all forms of exploitation and discrimination where everyone has the opportunity to realise their potential. The organisation was founded in Bangladesh in 1972 and acts as catalyst, creating oppo`,
     content: `<h2 style="text-align: center;">&nbsp;<span face="Ubuntu, sans-serif" style="background-color: #f3f3f3; font-size: 24px;">ব্র্যাক NGO তে নিয়োগ বিজ্ঞপ্তি- ২ ২০/১২</span></h2>
 <div><span style="background-color: #f3f3f3;"><span face="Ubuntu, sans-serif">Career Opportunity BRAC&#8217;s vision is a world free from all forms of exploitation and discrimination where everyone has the opportunity to realise their potential. The organisation was founded in Bangladesh in 1972 and acts as catalyst, creating opportunities for people to transform their lives. BRAC believes in integrity, inclusiveness, effectiveness, BRAC uses an integrated model to change systems of inequity, through social development programmes, humanitarian response, social enterprises, socially responsible investments and a university. It operates in conflict-prone and post-disaster settings in 11 countries across Asia and Africa. BRAC is a global leader in developing cost-effective, evidence-based programmes, and has been ranked the #1 NGO in the world for the last five vears consecutively by NGO Advisor.</span></span></div>
@@ -4382,8 +4491,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10635,
-    title: `সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ ২০২৬ -chakrir Biggapon 19 march 2021`,
-    slug: "সাপ্তাহিক-চাকরির-বিজ্ঞাপ",
+    title: "সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ ২০২৬ -chakrir Biggapon 19 march 2021",
+    slug: "weekly-job-bjnpn-19-mrch-2026-chakrir-biggapon-19-march-2021",
+    oldSlug: "সাপ্তাহিক-চাকরির-বিজ্ঞাপ",
     excerpt: `&nbsp;সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ পত্রিকাটি ডাউনলোড করে নিন। সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ ২০২৬ -chakrir Biggapon 19 march 2021`,
     content: `<div style="text-align: left;">&nbsp;সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ পত্রিকাটি ডাউনলোড করে নিন।</div>
 <h2 style="text-align: center;">সাপ্তাহিক চাকরির বিজ্ঞাপন ১৯ মার্চ ২০২৬ -chakrir Biggapon 19 march 2021</h2>
@@ -4398,8 +4508,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10701,
-    title: `বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (bscic) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির",
+    title: "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (bscic) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-kshdr-o-ktr-shlp-krprshn-bscic-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির",
     excerpt: `&nbsp; ১৩৯ পদে বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (bscic) এ নিয়োগ বিজ্ঞপ্তি- ০৭/০৪ &nbsp;Deadline: 7 Apr 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;১৩৯ টি👉&nbsp;আ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4430,8 +4541,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10736,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ২৬ ফেব্রুয়ারি ২০২৬ PDF Download-Chakir Dak 26 February 2021 |  চাকরির ডাক পত্রিকা ২৬/২/২০২৬`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ২৬ ফেব্রুয়ারি ২০২৬ PDF Download-Chakir Dak 26 February 2021 |  চাকরির ডাক পত্রিকা ২৬/২/২০২৬",
+    slug: "job-ptrk-weekly-job-dk-26-fbryr-2026-pdf-download-chakir-dak-26-february-2021",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি",
     excerpt: `&nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; সাপ্তাহিক চাকরির ডাক ২৬ ফেব্রুয়ারি ২০২৬ PDF Download&nbsp; -চাকরির ডাক পত্রিকা ২৬/২/২০২৬ আসছালামু আলাইকুম প্রিয় শিক্ষার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা আজকে আম`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEjhwDJDY5Fic1BzEJXS1aJIRJ9O-jTDFaTgfoipR9XHQRZ3zcyQNLybKN8hCGcoJs7YE327zYhzSJkX4YId3J8XmLkmus9yHKW3PefD34biZm7GPZ_ymA0mZyOgMN_ShK24_1AEX0UIqw/s1280/IMG_20210223_183020.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ২৬ ফেব্রুয়ারি ২০২৬ PDF Download  -চাকরির ডাক পত্রিকা ২৬/২/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEjhwDJDY5Fic1BzEJXS1aJIRJ9O-jTDFaTgfoipR9XHQRZ3zcyQNLybKN8hCGcoJs7YE327zYhzSJkX4YId3J8XmLkmus9yHKW3PefD34biZm7GPZ_ymA0mZyOgMN_ShK24_1AEX0UIqw/s16000/IMG_20210223_183020.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ২৬ ফেব্রুয়ারি ২০২৬ PDF Download  -চাকরির ডাক পত্রিকা ২৬/২/২০২৬" /></a></div>
 <p></p>
@@ -4463,8 +4575,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10774,
-    title: `নর্থ ওয়েস্ট পাওয়ার জেনারেশন কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "নর্থ-ওয়েস্ট-পাওয়ার-জেন",
+    title: "নর্থ ওয়েস্ট পাওয়ার জেনারেশন কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "nrth-oyst-poyr-jnrshn-kmpn-lh-e-nyg-notice-2026",
+    oldSlug: "নর্থ-ওয়েস্ট-পাওয়ার-জেন",
     excerpt: `&nbsp; নর্থ ওয়েস্ট পাওয়ার জেনারেশন কোম্পানি লিঃ এ বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি- ১০/০৩ &nbsp;Deadline: 10 Mar 2021 &nbsp;নর্থ ওয়েস্ট পাওয়ার জেনারেশন কোম্পানি লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular-1 &nbsp; &nbsp; Download Circular-2 &nbsp; দৈনিক ইত্তেফাক &#8211; ১৮ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4498,8 +4611,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10800,
-    title: `এসিআই (ACI) মটরস এ অ্যাসিস্ট্যান্ট প্রোডাক্ট ম্যানেজার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "এসিআই-aci-মটরস-এ-অ্যাসিস্ট্য",
+    title: "এসিআই (ACI) মটরস এ অ্যাসিস্ট্যান্ট প্রোডাক্ট ম্যানেজার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "esai-aci-mtrs-e-ojsstjnt-prdkt-mjnjr-pd-nyg-notice-2026",
+    oldSlug: "এসিআই-aci-মটরস-এ-অ্যাসিস্ট্য",
     excerpt: `&nbsp; এসিআই (ACI) মটরস এ অ্যাসিস্ট্যান্ট প্রোডাক্ট ম্যানেজার পদে নিয়োগ বিজ্ঞপ্তি- ২১/০২ &nbsp;Deadline: 21 Feb 2021 &nbsp; Download Circular &nbsp; Apply Online: https://hotjobs.bdjobs.com/jobs/aci/aci1308.htm&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4526,8 +4640,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10836,
-    title: `বাংলাদেশ এক্সটেনশন এডুকেশন সার্ভিসেস (BEES) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-এক্সটেনশন-এডুকে",
+    title: "বাংলাদেশ এক্সটেনশন এডুকেশন সার্ভিসেস (BEES) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-ekstnshn-edkshn-srbhss-bees-ngo-t-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-এক্সটেনশন-এডুকে",
     excerpt: `&nbsp; ১০০ পদে বাংলাদেশ এক্সটেনশন এডুকেশন সার্ভিসেস (BEES) NGO তে নিয়োগ বিজ্ঞপ্তি- ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp;বাংলাদেশ এক্সটেনশন এডুকেশন সার্ভিসেস (BEES) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; দৈনিক করতোয়া- ৬ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4555,8 +4670,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10867,
-    title: `ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন (sfdf) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ক্ষুদ্র-কৃষক-উন্নয়ন-ফাউ",
+    title: "ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন (sfdf) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "kshdr-kshk-unnjn-fundshn-sfdf-e-nyg-notice-2026",
+    oldSlug: "ক্ষুদ্র-কৃষক-উন্নয়ন-ফাউ",
     excerpt: `&nbsp; ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন (sfdf) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;ক্ষুদ্র কৃষক উন্নয়ন ফাউন্ডেশন (sfdf) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; দৈনিক ইত্তেফাক &#8211; ১ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4584,8 +4700,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10893,
-    title: `আইএফআইসি (IFIC) ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আইএফআইসি-ific-ব্যাংক-লিমিটেড-2",
+    title: "আইএফআইসি (IFIC) ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "aiefais-ific-bjngk-lmtd-e-nyg-notice-2026",
+    oldSlug: "আইএফআইসি-ific-ব্যাংক-লিমিটেড-2",
     excerpt: `&nbsp; আইএফআইসি (IFIC) ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি- ০৬/০২ &nbsp;Deadline: 6 Feb 2021 &nbsp;আইএফআইসি (IFIC) ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Apply: https://hotjobs.bdjobs.com/jobs/edi/ific50.htm`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4613,8 +4730,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10923,
-    title: `সাপ্তাহিক চাকরির ডাক ২২ জানুয়ারি ২০২৬- চাকরির ডাক ২২/১/২০২৬ | Chakrir Dak potrika  22 January 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-২২-জ",
+    title: "সাপ্তাহিক চাকরির ডাক ২২ জানুয়ারি ২০২৬- চাকরির ডাক ২২/১/২০২৬ | Chakrir Dak potrika  22 January 2021 Pdf Download",
+    slug: "weekly-job-dk-22-jnyr-2026-job-dk-2212026",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-২২-জ",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। আমরা প্রতি সাপ্তাহের পত্রিকা -সাপ্তাহিক চাকরির ডাক আমাদের ওয়েবসাইটে দিয়ে থাকি। আজকে আমরা এই পোস্টে সাপ্তাহিক চাকরি ডাক ২২ জানুয়ারি ২০২৬ তোমাদের মাঝে শেয়ার করবো। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nb`,
     content: `</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyuwWF4uVwSwedrxZihhhs0A4XvGJHil9LPwlzm35djXNP-Rj-laeQjyXKdiUC5MXU0mvNJSHpo4qW7TwNWvxw_bAsEpBxq8godbcAG3Zv4Oje98b6OzoObIGU_fdAbtm9uGqlPZjDQN8B/s1280/IMG_20210119_131624.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির ডাক ২২ জানুয়ারি ২০২৬- চাকরির ডাক ২২/১/২০২৬ | Chakrir Dak potrika  22 January 2021 Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyuwWF4uVwSwedrxZihhhs0A4XvGJHil9LPwlzm35djXNP-Rj-laeQjyXKdiUC5MXU0mvNJSHpo4qW7TwNWvxw_bAsEpBxq8godbcAG3Zv4Oje98b6OzoObIGU_fdAbtm9uGqlPZjDQN8B/s16000/IMG_20210119_131624.jpg" title="সাপ্তাহিক চাকরির ডাক ২২ জানুয়ারি ২০২৬- চাকরির ডাক ২২/১/২০২৬ | Chakrir Dak potrika  22 January 2021 Pdf Download" /></a></div>
@@ -4648,8 +4766,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10951,
-    title: `মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মাধ্যমিক-ও-উচ্চশিক্ষা-অধ",
+    title: "মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mjmk-o-uchchshksh-odptr-e-nyg-notice-2026",
+    oldSlug: "মাধ্যমিক-ও-উচ্চশিক্ষা-অধ",
     excerpt: `&nbsp; মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline:&nbsp; 8 Feb&nbsp; 2021 &nbsp;সরকারি কলেজসমূহে বিজ্ঞান শিক্ষার সুযোগ সম্প্রসারণ প্রকল্পের নিয়োগ বিজ্ঞপ্তি। Download Circular &nbsp; Download Application Form&nbsp;&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4678,8 +4797,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10986,
-    title: `পল্লী উন্নয়ন ও সমবায় বিভাগের অধীনে বঙ্গবন্ধু দারিদ্র্য বিমোচন ও পল্লী উন্নয়ন একাডেমি (বাপার্ড) এ বিভিন্ন পদে নিয়োগ ২০২৬`,
-    slug: "পল্লী-উন্নয়ন-ও-সমবায়-বি",
+    title: "পল্লী উন্নয়ন ও সমবায় বিভাগের অধীনে বঙ্গবন্ধু দারিদ্র্য বিমোচন ও পল্লী উন্নয়ন একাডেমি (বাপার্ড) এ বিভিন্ন পদে নিয়োগ ২০২৬",
+    slug: "pll-unnyn-o-smby-bbhgr-on-bnggbn-drdrj-bmchn-o-pll-unnjn-ekdm-bprd-e-bbhnn-pd-nyg-2026",
+    oldSlug: "পল্লী-উন্নয়ন-ও-সমবায়-বি",
     excerpt: `&nbsp; পল্লী উন্নয়ন ও সমবায় বিভাগের অধীনে বঙ্গবন্ধু দারিদ্র্য বিমোচন ও পল্লী উন্নয়ন একাডেমি (বাপার্ড) এ বিভিন্ন পদে নিয়োগ- ১১/০২ &nbsp;Deadline: 11 Feb 2021 &nbsp; Download Circular &nbsp; চাকুরীর আবেদন ফরম &nbsp; দৈনিক যুগান্তর &#8211; ১৩ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4712,8 +4832,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11022,
-    title: `দীপ্ত টিভিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২১`,
-    slug: "দীপ্ত-টিভিতে-বিভিন্ন-পদে",
+    title: "দীপ্ত টিভিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২১",
+    slug: "dpt-tbht-bbhnn-pd-nyg-notice-2021",
+    oldSlug: "দীপ্ত-টিভিতে-বিভিন্ন-পদে",
     excerpt: `&nbsp; দীপ্ত টিভিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২০/০১ Deadline: 20 Jan 2021 &nbsp;দীপ্ত টিভিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২১ &nbsp; Download Circular&nbsp; &nbsp; উৎসঃ দৈনিক প্রথম আলো &#8211; ৮ জানুয়ারি ২০২১`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4742,8 +4863,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11044,
-    title: `রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.rub.ac.bd Job circular 2021`,
-    slug: "রবীন্দ্র-বিশ্ববিদ্যালয-2",
+    title: "রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.rub.ac.bd Job circular 2021",
+    slug: "rbndr-bshbbdjlj-bangladsh-e-nyg-notice-2026",
+    oldSlug: "রবীন্দ্র-বিশ্ববিদ্যালয-2",
     excerpt: `&nbsp; প্রশাসনিক কর্মকর্তা, হিসাবরক্ষক, প্রকৌশলী, ক্যাশিয়ার, অফিস সহায়ক সহ বিভিন পদে রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি- ২৮/০১ &nbsp;Deadline: 28 Jan 2021 &nbsp;রবীন্দ্র বিশ্ববিদ্যালয়, বাংলাদেশ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.rub.ac.bd Job circular 2021 &nbsp; Download Circular &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4779,8 +4901,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11068,
-    title: `সাপ্তাহিক চাকরির ডাক ১ জানুয়ারি ২০২৬- চাকরির ডাক ১/১/২০২৬ | Chakrir Dak potrika 1 January 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-১-জা",
+    title: "সাপ্তাহিক চাকরির ডাক ১ জানুয়ারি ২০২৬- চাকরির ডাক ১/১/২০২৬ | Chakrir Dak potrika 1 January 2021 Pdf Download",
+    slug: "weekly-job-dk-1-jnyr-2026-job-dk-112026",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-১-জা",
     excerpt: `&nbsp;আসছালামু আলাইকুম প্রিয় পাঠক ২০২৬ সালের প্রথম সাপ্তাহিক পত্রিকা চাকরির ডাক ১ জানুয়ারি ২০২৬ প্রকাশিত হয়েছে সবাই দেখে নেন।&nbsp; আরো পড়ুন নতুন সব সাপ্তাহিক চাকরির খবর দেখতে ক্লিক করুন &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; সাপ্তাহিক চাকরির ডাক ১ জ`,
     content: `<p>&nbsp;আসছালামু আলাইকুম প্রিয় পাঠক ২০২৬ সালের প্রথম সাপ্তাহিক পত্রিকা চাকরির ডাক ১ জানুয়ারি ২০২৬ প্রকাশিত হয়েছে সবাই দেখে নেন।&nbsp;</p>
 <p></p>
@@ -4818,8 +4941,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11119,
-    title: `বাংলাদেশ বিমান বাহিনীতে অফিসার ক্যাডেট পদে নিয়োগ বিজ্ঞপ্তি (৮৫ BAFA কোর্স)-২০২৬`,
-    slug: "বাংলাদেশ-বিমান-বাহিনীতে-3",
+    title: "বাংলাদেশ বিমান বাহিনীতে অফিসার ক্যাডেট পদে নিয়োগ বিজ্ঞপ্তি (৮৫ BAFA কোর্স)-২০২৬",
+    slug: "bangladsh-air-forcet-ofsr-kjdt-pd-nyg-notice-85-bafa-krs-2026",
+    oldSlug: "বাংলাদেশ-বিমান-বাহিনীতে-3",
     excerpt: `&nbsp;বাংলাদেশ বিমান বাহিনীতে অফিসার ক্যাডেট পদে নিয়োগ বিজ্ঞপ্তি (৮৫ BAFA কোর্স)-২০২৬ Deadline: 28 Apr 2021 ওয়েবসাইটঃhttps://joinairforce.baf.mil.bd`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">বাংলাদেশ বিমান বাহিনীতে অফিসার ক্যাডেট পদে নিয়োগ বিজ্ঞপ্তি (৮৫ BAFA কোর্স)-২০২৬</span></h2>
 <p dir="ltr"> Deadline: 28 Apr 2021</p>
@@ -4835,8 +4959,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11154,
-    title: `সাপ্তাহিক চাকরির পত্রিকা-দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত- চাকরি বাকরি &#8211; ১১ ডিসেম্বর ২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-পত্রিক-4",
+    title: "সাপ্তাহিক চাকরির পত্রিকা-দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত- চাকরি বাকরি &#8211; ১১ ডিসেম্বর ২০২৬",
+    slug: "weekly-job-ptrk-dnk-prthm-al-ptrky-prksht-job-bkr-8211-11-dsmbr-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-পত্রিক-4",
     excerpt: `দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকা- চাকরি বাকরি &#8211; ১১ ডিসেম্বর ২০২৬ চাকরি বাকরি ১১ ডিসেম্বর ২০২৬ প্রকাশিতঃ দৈনিক প্রথম আলো চাকরি বাকরি &#8211; ১১ ডিসেম্বর ২০২৬ All Images Download In HD Quality PDF`,
     content: `<h2 style="text-align: left;">
 <p dir="ltr" style="text-align: center;"><span style="font-size: 1.00em;">দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকা- চাকরি বাকরি &#8211; ১১ ডিসেম্বর ২০২৬</span></p>
@@ -4859,8 +4984,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10642,
-    title: `বাংলাদেশ ব্যাংকে অফিসার (জেনারেল) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ব্যাংকে-অফিসার",
+    title: "বাংলাদেশ ব্যাংকে অফিসার (জেনারেল) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-bjngk-ofsr-jnrl-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ব্যাংকে-অফিসার",
     excerpt: `&nbsp; ২০০ পদে বাংলাদেশ ব্যাংকে অফিসার (জেনারেল) পদে নিয়োগ বিজ্ঞপ্তি- ১৩/০৪ &nbsp;Deadline: 13 Apr 2021 🏦&nbsp;ব্যাংক জবস&nbsp;🏦👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ ব্যাংক👉&nbsp;পদের নামঃ&nbsp;&nbsp;অফিসার (সাধারণ)👉&nbsp;পদ সংখ্যাঃ&nbsp;± ২০০টি👉&nbsp;Job ID:&nbsp;234👉&nbsp;আবেদনের লিংকঃ&nbsp;http`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4889,8 +5015,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10704,
-    title: `বাংলাদেশ পরিকল্পনা কমিশন এর অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পরিকল্পনা-কমিশন",
+    title: "বাংলাদেশ পরিকল্পনা কমিশন এর অধীনে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-prklpn-kmshn-er-on-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পরিকল্পনা-কমিশন",
     excerpt: `&nbsp; বাংলাদেশ পরিকল্পনা কমিশন এর অধীনে নিয়োগ বিজ্ঞপ্তি- ২৮/০৩ &nbsp;Deadline: 28 Mar 2021 &nbsp; Download Circular &nbsp; জাতীয় উন্নয়ন প্রশাসন একাডেমি প্রতিষ্ঠা (২য় সংশোধিত)- শীর্ষক প্রকল্পে হিসাব রক্ষক পদে নিয়োগ বিজ্ঞপ্তি`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4919,8 +5046,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10737,
-    title: `২৬ ফেব্রুয়ারি সাপ্তাহিক চাকরির খবর ২০২৬- চাকরির খবর ২৬/২/২০২৬ | Chakrir khobor potrika 26 February 2021 Pdf Download`,
-    slug: "২৬-ফেব্রুয়ারি-সাপ্তাহিক",
+    title: "২৬ ফেব্রুয়ারি সাপ্তাহিক চাকরির খবর ২০২৬- চাকরির খবর ২৬/২/২০২৬ | Chakrir khobor potrika 26 February 2021 Pdf Download",
+    slug: "26-fbryr-weekly-job-khabor-2026-job-khabor-2622026",
+    oldSlug: "২৬-ফেব্রুয়ারি-সাপ্তাহিক",
     excerpt: `&nbsp; চাকরির খবর&nbsp;পত্রিকা:-আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। সাপ্তাহিক চাকরির খবর&nbsp;পত্রিকা যারা খুজতেছেন।তোমাদের জন্য আমরা প্রতি সাপ্তাহের চাকরির পত্রিকা গুলো PDF আকারে আমাদের ওয়েবসাইটে দিয়ে থাকি। এই পোস্টে তোমাদের চাকরির খবর&nbsp;পত্রিকা ২৬ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoRqVPAEtWAc_CElD7-prjiI5-FJDiI_-_20nDQYlVHVC05LlDv7vNinxVjnn0_NmLzLMfmf5wKO2pIEk2hirNz3wiMu_JclhAsWrKoZ6EKg1-_nyfA2ZaOjiMbqu4cQuik92_7nvOeWl/s1280/IMG_20210224_021726.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির খবর ২৬ ফেব্রুয়ারি ২০২৬- চাকরির খবর ২৬/২/২০২৬ | Chakrir khobor potrika 26 February 2021 Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXoRqVPAEtWAc_CElD7-prjiI5-FJDiI_-_20nDQYlVHVC05LlDv7vNinxVjnn0_NmLzLMfmf5wKO2pIEk2hirNz3wiMu_JclhAsWrKoZ6EKg1-_nyfA2ZaOjiMbqu4cQuik92_7nvOeWl/s16000/IMG_20210224_021726.jpg" title="সাপ্তাহিক চাকরির খবর ২৬ ফেব্রুয়ারি ২০২৬- চাকরির খবর ২৬/২/২০২৬ | Chakrir khobor potrika 26 February 2021 Pdf Download" /></a></div>
@@ -4961,8 +5089,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10778,
-    title: `বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (bgdcl) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাখরাবাদ-গ্যাস-ডিস্ট্রিব",
+    title: "বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (bgdcl) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bkhrbd-gjs-dstrbushn-kmpn-lmtd-bgdcl-e-nyg-notice-2026",
+    oldSlug: "বাখরাবাদ-গ্যাস-ডিস্ট্রিব",
     excerpt: `&nbsp; বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (bgdcl) এ নিয়োগ বিজ্ঞপ্তি- ১৫/০৩ &nbsp;Deadline: 15 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি 🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (bgdcl)👉&nbsp;পদের নামঃ&nbsp;৭ ক্যাটাগরির বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৬৫`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -4989,8 +5118,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10802,
-    title: `বাংলাদেশ ভূতাত্ত্বিক জরিপ অধিদপ্তর (gsb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ভূতাত্ত্বিক-জরি",
+    title: "বাংলাদেশ ভূতাত্ত্বিক জরিপ অধিদপ্তর (gsb) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-bhtttbk-jrp-odptr-gsb-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ভূতাত্ত্বিক-জরি",
     excerpt: `&nbsp; ৩২ পদে বাংলাদেশ ভূতাত্ত্বিক জরিপ অধিদপ্তর (gsb) এ নিয়োগ বিজ্ঞপ্তি- ০৫/০৩ &nbsp;Deadline: 5 Mar 2021 🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;পদে বাংলাদেশ ভূতাত্ত্বিক জরিপ অধিদপ্তর (gsb)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৩২টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/-`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5017,8 +5147,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10837,
-    title: `পার্বত্য চট্টগ্রাম উন্নয়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "পার্বত্য-চট্টগ্রাম-উন্নয",
+    title: "পার্বত্য চট্টগ্রাম উন্নয়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prbtj-chttgrm-unnyn-brd-e-nyg-notice-2026",
+    oldSlug: "পার্বত্য-চট্টগ্রাম-উন্নয",
     excerpt: `&nbsp; ১২ ক্যাটাগরির বিভিন্ন পদে পার্বত্য চট্টগ্রাম উন্নয়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি- ২৩/০২ &nbsp;Deadline: 23 Feb 2021 &nbsp;পার্বত্য চট্টগ্রাম উন্নয়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Source: Daily Observer &#8211; 6 February 2021`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5046,8 +5177,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10869,
-    title: `বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন (UGC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-বিশ্ববিদ্যালয়",
+    title: "বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন (UGC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-bshbbdjly-mnjr-kmshn-ugc-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-বিশ্ববিদ্যালয়",
     excerpt: `&nbsp; ২৭ পদে বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন (UGC) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;বাংলাদেশ বিশ্ববিদ্যালয় মঞ্জুরী কমিশন (UGC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5080,8 +5212,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10894,
-    title: `বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বস্ত্র-অধিদপ্তরে-নিয়োগ-2",
+    title: "বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bstr-odptr-nyg-notice-2026",
+    oldSlug: "বস্ত্র-অধিদপ্তরে-নিয়োগ-2",
     excerpt: `&nbsp; ২৩০ পদে বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বস্ত্র অধিদপ্তর (dot)👉&nbsp;পদের নামঃ&nbsp;১৮ ক্যাটাগরির বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;২৩০ টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉&nbsp;আবেদন`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5108,8 +5241,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10924,
-    title: `বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির-3",
+    title: "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-kshdr-o-ktr-shlp-krprshn-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির-3",
     excerpt: `&nbsp; বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;চামড়া শিল্প নগরী, ঢাকা প্রকল্পের আওতায় ব্যবস্থাপনা পরিচালক (এমডি) পদে নিয়োগ বিজ্ঞপ্তি বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5137,8 +5271,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10953,
-    title: `সোনালী ব্যাংক লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | Sunali Bank Job Circular 2021`,
-    slug: "সোনালী-ব্যাংক-লিঃ-এ-নিয়ো",
+    title: "সোনালী ব্যাংক লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | Sunali Bank Job Circular 2021",
+    slug: "snl-bjngk-lh-e-nyg-notice-2026",
+    oldSlug: "সোনালী-ব্যাংক-লিঃ-এ-নিয়ো",
     excerpt: `&nbsp; সোনালী ব্যাংক লিঃ এ নিয়োগ বিজ্ঞপ্তি- ০১/০২ &nbsp;Deadline: 1 Feb 2021 &nbsp;সোনালী ব্যাংক লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | Sunali Bank Job Circular 2021 Apply:&nbsp;https://erecruitment.bb.org.bd/onlineapp/joblist.php &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5164,8 +5299,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10987,
-    title: `বাংলাদেশ সড়ক পরিবহন কর্পোরেশন (brtc) এ বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সড়ক-পরিবহন-কর্",
+    title: "বাংলাদেশ সড়ক পরিবহন কর্পোরেশন (brtc) এ বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-srk-prbhn-krprshn-brtc-e-bbhnn-pd-2t-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সড়ক-পরিবহন-কর্",
     excerpt: `&nbsp; বাংলাদেশ সড়ক পরিবহন কর্পোরেশন (brtc) এ বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি- ০২/০২ &nbsp;Deadline: 2 Feb 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ সড়ক পরিবহন কর্পোরেশন (brtc)👉 পদের নামঃ&nbsp;বিভিন্ন পদ👉 আবেদন ফীঃ&nbsp;৭০০/- ও ৩০০/- টাকা👉 আবেদন শুরুঃ&nbsp;১৪ জানুয়ারি ২০২৬�`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5202,8 +5338,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11023,
-    title: `এনআরবিসি (NRBC) ব্যাংক এ নিয়োগ বিজ্ঞপ্তি ২০২১`,
-    slug: "এনআরবিসি-nrbc-ব্যাংক-এ-নিয়োগ",
+    title: "এনআরবিসি (NRBC) ব্যাংক এ নিয়োগ বিজ্ঞপ্তি ২০২১",
+    slug: "enarbs-nrbc-bjngk-e-nyg-notice-2021",
+    oldSlug: "এনআরবিসি-nrbc-ব্যাংক-এ-নিয়োগ",
     excerpt: `&nbsp; ৩০০ পদে এনআরবিসি (NRBC) ব্যাংক এ নিয়োগ বিজ্ঞপ্তি- ২০/০১ &nbsp;Deadline: 20 Jan 2021 &nbsp;এনআরবিসি (NRBC) ব্যাংক এ নিয়োগ বিজ্ঞপ্তি ২০২১ Download Circular &nbsp; Apply:&nbsp;https://www.nrbcommercialbank.com/career`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5232,8 +5369,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11045,
-    title: `প্রাণিসম্পদ অধিদপ্তর (dls) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রাণিসম্পদ-অধিদপ্তর-dls-এ-ন",
+    title: "প্রাণিসম্পদ অধিদপ্তর (dls) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prnsmpd-odptr-dls-e-nyg-notice-2026",
+    oldSlug: "প্রাণিসম্পদ-অধিদপ্তর-dls-এ-ন",
     excerpt: `&nbsp; প্রাণিসম্পদ অধিদপ্তর (dls) এ নিয়োগ বিজ্ঞপ্তি- ২৪/০১ &nbsp;Deadline: 24 Jan 2021 &nbsp;প্রাণিসম্পদ অধিদপ্তরের সক্ষমতা জোরদারকরণ প্রকল্প এর জনবল নিয়োগের বিজ্ঞপ্তি প্রাণিসম্পদ অধিদপ্তর (dls) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; &nbsp; Download Circular &nbsp; Download Application formhm&nbsp;&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5266,8 +5404,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11069,
-    title: `বাংলাদেশ কপিরাইট অফিসে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.copyrightoffice.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-কপিরাইট-অফিসে-ন",
+    title: "বাংলাদেশ কপিরাইট অফিসে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.copyrightoffice.gov.bd Job Circular 2021",
+    slug: "bangladsh-kprit-ofs-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কপিরাইট-অফিসে-ন",
     excerpt: `&nbsp;বাংলাদেশ কপিরাইট অফিস এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ Deadline: 31 Jan 2021 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কপিরাইট অফিস &nbsp;পদের নামঃ&nbsp;বাংলাদেশ কপিরাইট অফিস &nbsp;পদ সংখ্যাঃ&nbsp;বিভিন্ন পদ &nbsp;আবেদন ফীঃ&nbsp;১১২/- টাকা &nbsp;আবেদনের লিংকঃ&nbsp;http://bco.teletalk.com.bd &nbsp;আবেদনের `,
     content: `<h2 style="text-align: left;"><span style="background-color: white;">&nbsp;</span><span face="Ubuntu, sans-serif" style="background-color: white; font-size: 24px;">বাংলাদেশ কপিরাইট অফিস এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১</span></h2>
 <div style="font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -5302,8 +5441,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11125,
-    title: `শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (SUST) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "শাহজালাল-বিজ্ঞান-ও-প্রযু",
+    title: "শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (SUST) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "shhjll-bjnn-o-prjkt-bshbbdjly-sust-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "শাহজালাল-বিজ্ঞান-ও-প্রযু",
     excerpt: `শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (SUST) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 1. শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় , সিলেট এ বিভিন্ন বিভাগের জন্য নিম্নোক্ত পদে শিক্ষক নিয়োগের লক্ষ্যে বাংলাদেশের প্রকৃত নাগরিকদের কাছ থেকে নির্ধারিত ফরমে দরখাস্থ আহবান করা য`,
     content: `<h2 style="text-align: left;"><span style="background-color: white; font-family: Ubuntu, sans-serif; font-size: 24px;">শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (SUST) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১</span></h2>
 <div style="font-family: Merriweather, Georgia, serif; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -5351,8 +5491,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11157,
-    title: `৩৮ পদে প্রতিরক্ষা মন্ত্রণালয়ে (MOD) নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "৩৮-পদে-প্রতিরক্ষা-মন্ত্র",
+    title: "৩৮ পদে প্রতিরক্ষা মন্ত্রণালয়ে (MOD) নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "38-pd-prtrksh-mntrnlj-mod-nyg-notice-2026",
+    oldSlug: "৩৮-পদে-প্রতিরক্ষা-মন্ত্র",
     excerpt: `&nbsp;৩৮ পদে প্রতিরক্ষা মন্ত্রণালয়ে (MOD) নিয়োগ বিজ্ঞপ্তি- ০৪/০১ Deadline: 4 Jan 2021 &nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp; &nbsp;প্রতিষ্ঠানঃ প্রতিরক্ষা মন্ত্রণালয় (MOD) &nbsp;পদের নামঃ ৬ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ ৩৮টি &nbsp;আবেদন ফীঃ ১১২/- ও ৫৬/- টাকা &nbsp;আবেদন শুরুঃ ১৫ ডিসেম্বর ২০২৬ &nbsp;আ`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৩৮ পদে প্রতিরক্ষা মন্ত্রণালয়ে (MOD) নিয়োগ বিজ্ঞপ্তি- ০৪/০১</span></h2>
 <p dir="ltr"><b><br />
@@ -5379,8 +5520,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10643,
-    title: `বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পল্লী-বিদ্যুতা-2",
+    title: "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-pll-bdjtyn-brd-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পল্লী-বিদ্যুতা-2",
     excerpt: `&nbsp; ৪৬ পদে বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড এ নিয়োগ বিজ্ঞপ্তি &#8211; ৩১/০৩ Deadline: 31 Mar 2021 👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড👉&nbsp;পদের নামঃ&nbsp;সহকারী স্টোর কিপার👉&nbsp;পদ সংখ্যাঃ&nbsp;৪৬টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;১৮ মার্চ ২০২৬👉&n`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5409,8 +5551,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10705,
-    title: `সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬ PDF Download &#8211; সাপ্তাহিক চাকরির খবর ৫/৩/২০২৬ | চাকরির খবর পত্রিকা ৫ মার্চ ২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-৫-মা",
+    title: "সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬ PDF Download &#8211; সাপ্তাহিক চাকরির খবর ৫/৩/২০২৬ | চাকরির খবর পত্রিকা ৫ মার্চ ২০২৬",
+    slug: "weekly-job-khabor-5-mrch-2026-pdf-download-8211-weekly-job-khabor-532026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-৫-মা",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন।আসা করি সবাই ভালো আছেন। বরাবরের মত প্রতি সাপ্তাহের পত্রিকা আমরা আমাদের ওয়েবসাইটের দিতেছি। সেই ধারাবাহিকতায় আজকে আমরা তোমরা সাপ্তাহিক চাকরির খবর পত্রিকা ৫ মার্চ ২০২৬ শেয়ার করবো।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6hRDUbu1vlBduvJj_L4pZt_1w4mbmsIt7Qr89gAedCpzub_TR3rlo8Bw50M4li7umJCM47S1QP5aCJP9Kfn3ikSsR_iQ4a-LnJYeCrIk3bdaJq-nPVp2OuycBtv3xxVMeR8VAO6-2xY3r/s1280/IMG_20210303_021012.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬,সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬ PDF Download,  সাপ্তাহিক চাকরির খবর ৫/৩/২০২৬,Saptahik Chakrir Khobor 5 March 2021" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6hRDUbu1vlBduvJj_L4pZt_1w4mbmsIt7Qr89gAedCpzub_TR3rlo8Bw50M4li7umJCM47S1QP5aCJP9Kfn3ikSsR_iQ4a-LnJYeCrIk3bdaJq-nPVp2OuycBtv3xxVMeR8VAO6-2xY3r/s16000/IMG_20210303_021012.jpg" title="সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬,সাপ্তাহিক চাকরির খবর ৫ মার্চ ২০২৬ PDF Download,  সাপ্তাহিক চাকরির খবর ৫/৩/২০২৬,Saptahik Chakrir Khobor 5 March 2021" /></a></div>
 <p></p>
@@ -5447,8 +5590,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10741,
-    title: `বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (fri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-মৎস্য-গবেষণা-ইন",
+    title: "বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (fri) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-mtsj-gbshn-insttut-fri-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-মৎস্য-গবেষণা-ইন",
     excerpt: `&nbsp; বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (fri) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩০/০৩ &nbsp;Deadline: 30 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ মৎস্য গবেষণা ইনস্টিটিউট (fri)👉&nbsp;পদের নামঃ&nbsp;ঊর্ধ্বতন বৈজ্ঞানিক কর্মকর্তা সহ বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&n`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5473,8 +5617,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10779,
-    title: `কর কমিশনার (আপীল) এর কার্যালয়, কর আপীল অঞ্ছল-৩, ঢাকা তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কর-কমিশনার-আপীল-এর-কার্যা",
+    title: "কর কমিশনার (আপীল) এর কার্যালয়, কর আপীল অঞ্ছল-৩, ঢাকা তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "kr-kmshnr-apl-er-krjly-kr-apl-onchl-3-dhk-t-nyg-notice-2026",
+    oldSlug: "কর-কমিশনার-আপীল-এর-কার্যা",
     excerpt: `&nbsp; কর কমিশনার (আপীল) এর কার্যালয়, কর আপীল অঞ্ছল-৩, ঢাকা তে নিয়োগ বিজ্ঞপ্তি- ০৭/০৩ &nbsp;Deadline: 7 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;কর কমিশনার (আপীল) এর কার্যালয়, কর আপীল অঞ্ছল-৩. ঢাকা👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5499,8 +5644,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10803,
-    title: `আকিজ ফুড অ্যান্ড বেভারেজ লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আকিজ-ফুড-অ্যান্ড-বেভারেজ",
+    title: "আকিজ ফুড অ্যান্ড বেভারেজ লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "akj-fd-ojnd-bbhrj-lh-nyg-notice-2026",
+    oldSlug: "আকিজ-ফুড-অ্যান্ড-বেভারেজ",
     excerpt: `&nbsp; আকিজ ফুড অ্যান্ড বেভারেজ লিঃ এ মাস্টার্স, অনার্স ও HSC পাসে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৯/০২ &nbsp;Deadline: 19 Feb 2021 &nbsp;আকিজ ফুড অ্যান্ড বেভারেজ লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ১১ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5530,8 +5676,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10839,
-    title: `সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি ৫ ফেব্রুয়ারি ২০২৬ -chakri bakri 5 February 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরির-পত্রিক-2",
+    title: "সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি ৫ ফেব্রুয়ারি ২০২৬ -chakri bakri 5 February 2021 Pdf Download",
+    slug: "weekly-job-ptrkh-job-bkr-5-fbryr-2026-chakri-bakri-5-february-2021-pdf-download",
+    oldSlug: "সাপ্তাহিক-চাকরির-পত্রিক-2",
     excerpt: `&nbsp;দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ৫ ফেব্রুয়ারি ২০২৬ চাকরি বাকরি &#8211; ৫ ফেব্রুয়ারি ২০২৬ &nbsp; &nbsp;&nbsp;Table Of Contents&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; সাপ্তাহিক চাকরির পত্রিকাঃ চাকর`,
     content: `<h1 style="text-align: left;">&nbsp;<span face="Ubuntu, sans-serif" style="font-size: 24px;">দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ৫ ফেব্রুয়ারি ২০২৬</span></h1>
 <div style="font-family: Merriweather, Georgia, serif; font-size: 16px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -5564,8 +5711,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10870,
-    title: `শিল্প মন্ত্রণালয়ের অধীনে ডিলার নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "শিল্প-মন্ত্রণালয়ের-অধীন",
+    title: "শিল্প মন্ত্রণালয়ের অধীনে ডিলার নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "shlp-ministryr-on-dlr-nyg-notice-2026",
+    oldSlug: "শিল্প-মন্ত্রণালয়ের-অধীন",
     excerpt: `&nbsp; শিল্প মন্ত্রণালয়ের অধীনে ডিলার নিয়োগ বিজ্ঞপ্তি- ২৭/০২ &nbsp;Deadline: 25 Feb 2021 &nbsp;শিল্প মন্ত্রণালয়ের অধীনে ডিলার নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ৩১ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5592,8 +5740,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10896,
-    title: `বর্ডার গার্ড পাবলিক স্কুল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বর্ডার-গার্ড-পাবলিক-স্কু",
+    title: "বর্ডার গার্ড পাবলিক স্কুল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "brdr-grd-pblk-skl-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "বর্ডার-গার্ড-পাবলিক-স্কু",
     excerpt: `&nbsp; বর্ডার গার্ড পাবলিক স্কুল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৫/০২ Deadline: 15 Feb 2021 &nbsp;বর্ডার গার্ড পাবলিক স্কুল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; কালের কণ্ঠ &#8211; ২৬ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5620,8 +5769,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10925,
-    title: `বনফুল সমাজ কল্যাণমূলক প্রতিষ্ঠান NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বনফুল-সমাজ-কল্যাণমূলক-প্",
+    title: "বনফুল সমাজ কল্যাণমূলক প্রতিষ্ঠান NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bnfl-smj-kljnmlk-prtshthn-ngo-t-nyg-notice-2026",
+    oldSlug: "বনফুল-সমাজ-কল্যাণমূলক-প্",
     excerpt: `&nbsp; বনফুল সমাজ কল্যাণমূলক প্রতিষ্ঠান NGO তে নিয়োগ বিজ্ঞপ্তি- ২৭/০১ &nbsp;Deadline:&nbsp; 25 Jan 2021 &nbsp; Download Circular &nbsp; দৈনিক আজাদী &#8211; ২১ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5650,8 +5800,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10954,
-    title: `কৃষি মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ | Moa.Gov.bd Job Circular 2021`,
-    slug: "কৃষি-মন্ত্রণালয়ে-নিয়োগ",
+    title: "কৃষি মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ | Moa.Gov.bd Job Circular 2021",
+    slug: "agriculture-ministry-nyg-notice-2026",
+    oldSlug: "কৃষি-মন্ত্রণালয়ে-নিয়োগ",
     excerpt: `&nbsp; কৃষি মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি- ১৬/০২ &nbsp;Deadline: 16 Feb 2021 কৃষি মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5676,8 +5827,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10988,
-    title: `সার্কিট হাউস ও জেলা প্রশাসকের কার্যালয় খুলনায় নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সার্কিট-হাউস-ও-জেলা-প্রশা",
+    title: "সার্কিট হাউস ও জেলা প্রশাসকের কার্যালয় খুলনায় নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srkt-hus-o-jl-prshskr-krjly-khlny-nyg-notice-2026",
+    oldSlug: "সার্কিট-হাউস-ও-জেলা-প্রশা",
     excerpt: `&nbsp; বিভিন্ন পদে সার্কিট হাউস ও জেলা প্রশাসকের কার্যালয় খুলনায় নিয়োগ বিজ্ঞপ্তি- ২৮/০১ &nbsp;Deadline: 28 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ জেলা প্রশাসকের কার্যালয় খুলনা👉 পদের নামঃ বিভিন্ন পদ👉 পদ সংখ্যাঃ ২২ টি👉 আবেদন ফীঃ ৫৬/- টাকা&nbsp;👉 আবেদন শুরুঃ ১৪ জানুয়ারি ২০২৬👉 আবেদন`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5707,8 +5859,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11024,
-    title: `বাংলাদেশ বিমান বাহিনীতে বেসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২১`,
-    slug: "বাংলাদেশ-বিমান-বাহিনীতে-2",
+    title: "বাংলাদেশ বিমান বাহিনীতে বেসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২১",
+    slug: "bangladsh-air-forcet-bsmrk-pd-nyg-notice-2021",
+    oldSlug: "বাংলাদেশ-বিমান-বাহিনীতে-2",
     excerpt: `&nbsp; ৩৫০ পদে বাংলাদেশ বিমান বাহিনীতে বেসামরিক পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বিমান বাহিনী সদর দপ্তর👉 পদের নামঃ&nbsp;৪৭ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;৩৫০টি👉 আবেদন ফীঃ&nbsp;১০০/- ও ৫০/- টাকা👉 আবেদন পদ্ধতিঃ&nbsp;অ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5739,8 +5892,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11047,
-    title: `বিভিন্ন পদে একটি স্যাটেলাইট টাউন প্রকল্পে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-পদে-একটি-স্যাটেল",
+    title: "বিভিন্ন পদে একটি স্যাটেলাইট টাউন প্রকল্পে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-pd-ekt-sjtlit-tun-prklp-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-পদে-একটি-স্যাটেল",
     excerpt: `&nbsp; বিভিন্ন পদে একটি স্যাটেলাইট টাউন প্রকল্পে নিয়োগ বিজ্ঞপ্তি- ১১/০১ &nbsp;Deadline: 11 Jan 2021 &nbsp; &nbsp; &nbsp;Download Circular &nbsp;`,
     content: `<p>&nbsp;</p>
 <div>
@@ -5765,8 +5919,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11072,
-    title: `জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (dphe) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dphe.gov.bd Job Circular 2021`,
-    slug: "জনস্বাস্থ্য-প্রকৌশল-অধিদ",
+    title: "জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (dphe) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dphe.gov.bd Job Circular 2021",
+    slug: "jnsbsthj-prkshl-odptr-dphe-e-nyg-notice-2026",
+    oldSlug: "জনস্বাস্থ্য-প্রকৌশল-অধিদ",
     excerpt: `&nbsp; ১২৬ পদে জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (dphe) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;জনস্বাস্থ্য প্রকৌশল অধিদপ্তর (dphe)👉&nbsp;পদ সংখ্যাঃ&nbsp;১২৬ টি👉&nbsp;আবেদন ফীঃ&nbsp;৫৬/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;৫ জানুয়ারি ২০২৬👉&`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5793,8 +5948,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11126,
-    title: `বাংলাদেশ সিভিল সার্ভিস প্রশাসন একেডেমিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-সিভিল-সার্ভিস-প",
+    title: "বাংলাদেশ সিভিল সার্ভিস প্রশাসন একেডেমিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-sbhl-srbhs-prshsn-ekdmt-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-সিভিল-সার্ভিস-প",
     excerpt: `বাংলাদেশ সিভিল সার্ভিস প্রশাসন একেডেমিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৯/০১ Deadline: 19 Jan 2021 &nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp; &nbsp;প্রতিষ্ঠানঃ বাংলাদেশ সিভিল সার্ভিস প্রশাসন একেডেমি পদের নামঃ ৮ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ ১৬টি &nbsp;আবেদন ফীঃ ৫৬/- টাকা &nbsp;আবেদন শুরুঃ ২০ ডিসেম্বর ২০২৬ `,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">বাংলাদেশ সিভিল সার্ভিস প্রশাসন একেডেমিতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৯/০১</span></h2>
 <p dir="ltr">
@@ -5821,8 +5977,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11161,
-    title: `বিভিন্ন বিষয়ে শিক্ষক ও অফিসার পদে মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ২০২৬-২১`,
-    slug: "বিভিন্ন-বিষয়ে-শিক্ষক-ও-অ",
+    title: "বিভিন্ন বিষয়ে শিক্ষক ও অফিসার পদে মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ২০২৬-২১",
+    slug: "bbhnn-bshy-teacher-o-ofsr-pd-moln-bhsn-bjnn-o-prjkt-bshbbdjly-nyg-notice-2026-21",
+    oldSlug: "বিভিন্ন-বিষয়ে-শিক্ষক-ও-অ",
     excerpt: `বিভিন্ন বিষয়ে শিক্ষক ও অফিসার পদে মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ১৩/০১ Deadline: 30 Dec 2026 &amp;&nbsp; Deadline:13 Jan 2021 &nbsp; &nbsp; Download Circular 1 &nbsp; Download Circular 2&nbsp; Recruitment Application Form (Lecturer/Assistant Professor) Recruitment`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">বিভিন্ন বিষয়ে শিক্ষক ও অফিসার পদে মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ১৩/০১</span></h2>
 <p dir="ltr">
@@ -5852,8 +6009,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10650,
-    title: `প্রতিরক্ষা মন্ত্রণালয়ের অধীনে প্রধান প্রশাসনিক কর্মকর্তার কার্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রতিরক্ষা-মন্ত্রণালয়ে",
+    title: "প্রতিরক্ষা মন্ত্রণালয়ের অধীনে প্রধান প্রশাসনিক কর্মকর্তার কার্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prtrksh-ministryr-on-prn-prshsnk-krmkrtr-krjly-nyg-notice-2026",
+    oldSlug: "প্রতিরক্ষা-মন্ত্রণালয়ে",
     excerpt: `&nbsp; প্রতিরক্ষা মন্ত্রণালয়ের অধীনে প্রধান প্রশাসনিক কর্মকর্তার কার্যালয়ে নিয়োগ বিজ্ঞপ্তি- ০২/০৪ &nbsp;Deadline: 2 Apr 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;প্রধান প্রশাসনিক কর্মকর্তার কার্যালয় &nbsp;পদের নামঃ&nbsp; বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;১৪২ &nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা &nbsp;আবেদন শুরুঃ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -5888,8 +6046,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10706,
-    title: `সাপ্তাহিক চাকরির ডাক ৫ মার্চ ২০২৬ PDF Download -চাকরির ডাক ৫/৩/২০২৬ | Chakrir Dak 5 March 2021`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-৫-মা",
+    title: "সাপ্তাহিক চাকরির ডাক ৫ মার্চ ২০২৬ PDF Download -চাকরির ডাক ৫/৩/২০২৬ | Chakrir Dak 5 March 2021",
+    slug: "weekly-job-dk-5-mrch-2026-pdf-download-job-dk-532026",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-৫-মা",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। চাকরি প্রার্থীদের জন্য আমরা প্রতি দিন সকল চাকরির বিজ্ঞপ্তি প্রকাশ করে থাকি। এবং সাপ্তাহিক চাকরির ডাক সহ সকল সাপ্তাহিক পত্রিকা আমাদের ওয়েবসাইটে দিয়ে থাকি। সেই ধারাবাহিকতায় আজকে সাপ্তাহিক চাকরির ডাক পত্রিকা ৫ মার্চ ২০২৬ শেয়ার করবো। &n`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1-VGpXMYxHWzlO13_3nTZ_pxSdIXQcYxmYpxShNvtGCa8dTrPv36xAIKlLOrul4rJnJvughsrvgUJ9Nlgq0I1k4Bv4wAHfwiPDsqvkRb_bArna1XftdVWGJptG2YvC9EfNEp7WDN7HDsD/s1280/IMG_20210303_025204.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির ডাক ৫ মার্চ ২০২৬ PDF Download -চাকরির ডাক ৫/৩/২০২৬ | Chakrir Dak 5 March 2021" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1-VGpXMYxHWzlO13_3nTZ_pxSdIXQcYxmYpxShNvtGCa8dTrPv36xAIKlLOrul4rJnJvughsrvgUJ9Nlgq0I1k4Bv4wAHfwiPDsqvkRb_bArna1XftdVWGJptG2YvC9EfNEp7WDN7HDsD/s16000/IMG_20210303_025204.jpg" title="সাপ্তাহিক চাকরির ডাক ৫ মার্চ ২০২৬ PDF Download -চাকরির ডাক ৫/৩/২০২৬ | Chakrir Dak 5 March 2021" /></a></div>
 <p></p>
@@ -5936,8 +6095,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10743,
-    title: `মার্কেন্টাইল ব্যাংক লি. এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মার্কেন্টাইল-ব্যাংক-লি-এ",
+    title: "মার্কেন্টাইল ব্যাংক লি. এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mrkntil-bjngk-l-e-nyg-notice-2026",
+    oldSlug: "মার্কেন্টাইল-ব্যাংক-লি-এ",
     excerpt: `&nbsp; ম্যানেজমেন্ট ট্রেইনি অফিসার (MTO) পদে মার্কেন্টাইল ব্যাংক লি. এ নিয়োগ বিজ্ঞপ্তি- ১৪/০৩ &nbsp;Deadline: 14 Mar 2021 🏦&nbsp;ব্যাংক জবস&nbsp;🏦👉&nbsp;প্রতিষ্ঠানঃ&nbsp;মার্কেন্টাইল ব্যাংক লি.👉&nbsp;পদের নামঃ&nbsp;ম্যানেজমেন্ট ট্রেইনি অফিসার (MTO)👉&nbsp;আবেদন শুরুঃ&nbsp;২৮ ফেব্রুয়ারি ২০২৬👉&nb`,
     content: `<p>&nbsp;</p>
 <div>
@@ -5970,8 +6130,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10780,
-    title: `জনতা ব্যাংক লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জনতা-ব্যাংক-লিঃ-নিয়োগ-বি",
+    title: "জনতা ব্যাংক লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jnt-bjngk-lh-nyg-notice-2026",
+    oldSlug: "জনতা-ব্যাংক-লিঃ-নিয়োগ-বি",
     excerpt: `&nbsp; জনতা ব্যাংক লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০২/০৩ &nbsp;Deadline: 2 Mar 2021 &nbsp;Invitation online application for 3 posts(Assistant System Administrator, Assistant Network Engineer &amp; Assistant Network Administrator) of JBL &nbsp; &nbsp; &nbsp; &nbsp;Download Circular Apply:&nbsp;htt`,
     content: `<p>&nbsp;</p>
 <div>
@@ -6003,8 +6164,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10804,
-    title: `বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির-2",
+    title: "বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-kshdr-o-ktr-shlp-krprshn-bsk-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-ক্ষুদ্র-ও-কুটির-2",
     excerpt: `&nbsp; বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি &#8211; ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6027,8 +6189,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10841,
-    title: `জীবন বীমা কর্পোরেশন (jbc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জীবন-বীমা-কর্পোরেশন-jbc-এ-নিয",
+    title: "জীবন বীমা কর্পোরেশন (jbc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jbn-bm-krprshn-jbc-e-nyg-notice-2026",
+    oldSlug: "জীবন-বীমা-কর্পোরেশন-jbc-এ-নিয",
     excerpt: `&nbsp; জীবন বীমা কর্পোরেশন (jbc) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;জীবন বীমা কর্পোরেশন (jbc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; দৈনিক বাংলাদেশ প্রতিদিন &#8211; ৫ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6059,8 +6222,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10871,
-    title: `সাইফ পাওয়ারটেক লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সাইফ-পাওয়ারটেক-লিঃ-নিয়",
+    title: "সাইফ পাওয়ারটেক লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "sif-poyrtk-lh-nyg-notice-2026",
+    oldSlug: "সাইফ-পাওয়ারটেক-লিঃ-নিয়",
     excerpt: `&nbsp; সাইফ পাওয়ারটেক লিঃ এ ৩৮ পদে নিয়োগ বিজ্ঞপ্তি- ১১/০২ &nbsp;Deadline: 11 Feb 20221 &nbsp;সাইফ পাওয়ারটেক লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; &nbsp; প্রথম আলো- ৩১ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6086,8 +6250,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10897,
-    title: `স্কয়ার হসপিটালস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "স্কয়ার-হসপিটালস-লিঃ-এ-নি",
+    title: "স্কয়ার হসপিটালস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "skyr-hsptls-lh-e-nyg-notice-2026",
+    oldSlug: "স্কয়ার-হসপিটালস-লিঃ-এ-নি",
     excerpt: `&nbsp; স্কয়ার হসপিটালস লিঃ এ নিয়োগ বিজ্ঞপ্তি- ০৪/০২ &nbsp;Deadline: 4 Feb 2021 &nbsp;স্কয়ার হসপিটালস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Daily New Age &#8211; 25 January 2021`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6115,8 +6280,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10931,
-    title: `প্রবাসী কল্যাণ ব্যাংক (PKB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রবাসী-কল্যাণ-ব্যাংক-pkb-এ-ন",
+    title: "প্রবাসী কল্যাণ ব্যাংক (PKB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prbs-kljn-bjngk-pkb-e-nyg-notice-2026",
+    oldSlug: "প্রবাসী-কল্যাণ-ব্যাংক-pkb-এ-ন",
     excerpt: `২৭৯ পদে প্রবাসী কল্যাণ ব্যাংক (PKB) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০১ &nbsp;Deadline: 28 Jan 2021 &nbsp;🇧🇩 ব্যাংক জবস 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;প্রবাসী কল্যাণ ব্যাংক (PKB)👉 পদের নাম ও পদ সংখ্যাঃ✔️ সিনিয়র অফিসার (সাধারণ)-৮১টি [JOB ID: 10112]✔️ অফিসার (সাধারণ)-১১২টি [JOB ID: 10113]✔️ অফিসার (ক্যাশ)-৮৬টি [JOB `,
     content: `<div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
 <h3 style="font-size: 24px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: normal; margin: 0px;">২৭৯ পদে প্রবাসী কল্যাণ ব্যাংক (PKB) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০১</h3>
@@ -6160,8 +6326,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10955,
-    title: `কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ ২০২৬ | কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ ২০২৬|www.tmed.gov.bd Job Circular 2021`,
-    slug: "কারিগরি-ও-মাদ্রাসা-শিক্ষ",
+    title: "কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ ২০২৬ | কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ ২০২৬|www.tmed.gov.bd Job Circular 2021",
+    slug: "krgr-o-mdrs-shksh-tmed-bbhg-e-nyg-2026",
+    oldSlug: "কারিগরি-ও-মাদ্রাসা-শিক্ষ",
     excerpt: `&nbsp; বিভিন্ন পদে কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ বিজ্ঞপ্তি- ০৬/০২ &nbsp;Deadline: 6 Feb 2021 কারিগরি ও মাদ্রাসা শিক্ষা (tmed) বিভাগ এ নিয়োগ ২০২৬ প্রতিষ্ঠানঃ&nbsp; কারিগরি ও মাদ্রাসা শিক্ষা (tmed) পদের নামঃ&nbsp;বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;১২ টি আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6205,8 +6372,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10991,
-    title: `লংকাবাংলা ফিনান্স লিমিটেড এ রিলেশনশিপ অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "লংকাবাংলা-ফিনান্স-লিমিটে",
+    title: "লংকাবাংলা ফিনান্স লিমিটেড এ রিলেশনশিপ অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "lngkbangla-fnns-lmtd-e-rlshnshp-ofsr-pd-nyg-notice-2026",
+    oldSlug: "লংকাবাংলা-ফিনান্স-লিমিটে",
     excerpt: `&nbsp; লংকাবাংলা ফিনান্স লিমিটেড এ রিলেশনশিপ অফিসার পদে নিয়োগ বিজ্ঞপ্তি- ২৬/০১ &nbsp;Deadline: 26 Jan 2021 &nbsp; লংকাবাংলা ফিনান্স লিমিটেড এ রিলেশনশিপ অফিসার পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6231,8 +6399,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11025,
-    title: `সাপ্তাহিক চাকরির ডাক ৮ জানুয়ারি ২০২১- চাকরির ডাক ৮/১/২০২১ | Chakrir Dak potrika ৮ January 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-৮-জা",
+    title: "সাপ্তাহিক চাকরির ডাক ৮ জানুয়ারি ২০২১- চাকরির ডাক ৮/১/২০২১ | Chakrir Dak potrika ৮ January 2021 Pdf Download",
+    slug: "weekly-job-dk-8-jnyr-2021-job-dk-812021",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-৮-জা",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। প্রতি সাপ্তাহের চাকরির পত্রিকা -চাকরির ডাক ৮ জানুয়ারি ২০২১ প্রকাশিত হয়েছে।তোমরা যারা এখন ও চাকরির ডাক ৮/১/২০২১ পত্রিকা এখন ও দেখেন নাই এই সাপ্তাহের সকল চাকরির খবর এক সাথে দেখে নিন। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; `,
     content: `<div style="clear: both; text-align: center;"></div>
 <p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। প্রতি সাপ্তাহের চাকরির পত্রিকা -চাকরির ডাক ৮ জানুয়ারি ২০২১ প্রকাশিত হয়েছে।তোমরা যারা এখন ও চাকরির ডাক ৮/১/২০২১ পত্রিকা এখন ও দেখেন নাই এই সাপ্তাহের সকল চাকরির খবর এক সাথে দেখে নিন।</p>
@@ -6273,8 +6442,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11048,
-    title: `বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bsc.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-শিপিং-কর্পোরেশন",
+    title: "বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bsc.gov.bd Job Circular 2021",
+    slug: "bangladsh-shpng-krprshn-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-শিপিং-কর্পোরেশন",
     excerpt: `&nbsp; বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৮/০১ &nbsp;Deadline: 18 Jan 2021 &nbsp;বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bsc.gov.bd Job Circular 2021 &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6300,8 +6470,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11077,
-    title: `৬ ব্যাংকে নিয়োগ বিজ্ঞপ্তি ২০২৬ | ৭৬ পদে সমন্বিত ৬ ব্যাংকে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "৬-ব্যাংকে-নিয়োগ-বিজ্ঞপ্",
+    title: "৬ ব্যাংকে নিয়োগ বিজ্ঞপ্তি ২০২৬ | ৭৬ পদে সমন্বিত ৬ ব্যাংকে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "6-bjngk-nyg-notice-2026",
+    oldSlug: "৬-ব্যাংকে-নিয়োগ-বিজ্ঞপ্",
     excerpt: `&nbsp; ৭৬ পদে সমন্বিত ৬ ব্যাংকে নিয়োগ বিজ্ঞপ্তি- ১৪/০১ &nbsp;Deadline: 14 Jan 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;ব্যাংকার্স সিলেকশন কমিটির অধীনে সমন্বিত ৬ ব্যাংক &nbsp;পদের নামঃ&nbsp;সহকারী প্রোগ্রামার &nbsp;পদ সংখ্যাঃ&nbsp;৭৬টি &nbsp;আবেদন ফীঃ&nbsp;২০০/- টাকা &nbsp;আবেদনের লিংকঃ&nbsp;https://erecruitment.`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6344,8 +6515,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11128,
-    title: `প্রথম আলো চাকরি বাকরি ১৮/১২/২০২৬ Pdf Download`,
-    slug: "প্রথম-আলো-চাকরি-বাকরি-১৮-১",
+    title: "প্রথম আলো চাকরি বাকরি ১৮/১২/২০২৬ Pdf Download",
+    slug: "prthm-al-job-bkr-18122026-pdf-download",
+    oldSlug: "প্রথম-আলো-চাকরি-বাকরি-১৮-১",
     excerpt: `&nbsp;দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকা:- &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; চাকরি বাকরি &#8211; ১৮ ডিসেম্বর ২০২৬&nbsp;PDF&nbsp; &nbsp; Chakri Bakri 18/12/2026 pdf Download |&nbsp;প্রথম আলো চাকরি বাকরি ১৮/১২/২০২৬ উপরে পিকচারে উল্লেখিত `,
     content: `<p>&nbsp;<span style="font-size: 1em;">দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকা:-</span></p>
 <div>
@@ -6369,8 +6541,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11162,
-    title: `সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির ডাক – ১১ ডিসেম্বর ২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-পত্রিক-5",
+    title: "সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির ডাক – ১১ ডিসেম্বর ২০২৬",
+    slug: "weekly-job-ptrkh-job-dk",
+    oldSlug: "সাপ্তাহিক-চাকরির-পত্রিক-5",
     excerpt: `সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির ডাক – ১১ ডিসেম্বর ২০২৬ চাকরির ডাক – ১১ ডিসেম্বর ২০২৬ সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির ডাক&nbsp;`,
     content: `<h2 style="text-align: left;"><span style="color: #303030; font-family: &quot;Roboto Condensed&quot;, sans-serif; font-size: 1.5rem; font-weight: inherit;">সাপ্তাহিক চাকরির পত্রিকাঃ চাকরির ডাক – ১১ ডিসেম্বর ২০২৬</span></h2>
 <div style="box-sizing: inherit; color: #303030; font-family: Arial, sans-serif; font-size: 13px; margin-bottom: 10px;"></div>
@@ -6396,8 +6569,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10651,
-    title: `অর্থনৈতিক সম্পর্ক বিভাগ (erd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "অর্থনৈতিক-সম্পর্ক-বিভাগ-erd",
+    title: "অর্থনৈতিক সম্পর্ক বিভাগ (erd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "meaningntk-smprk-bbhg-erd-e-nyg-notice-2026",
+    oldSlug: "অর্থনৈতিক-সম্পর্ক-বিভাগ-erd",
     excerpt: `&nbsp; অর্থনৈতিক সম্পর্ক বিভাগ (erd) এ নিয়োগ বিজ্ঞপ্তি- ০৮/০৪ &nbsp;Deadline: 8 Apr 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;অর্থনৈতিক সম্পর্ক বিভাগ (erd) &nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;৩৫টি &nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা &nbsp;আবেদন শুরুঃ&nbsp;১৬ মার্চ ২০২৬ &nbsp;আবেদনের লিংকঃ&nbs`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6431,8 +6605,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10713,
-    title: `আহমেদ হাসপাতাল লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আহমেদ-হাসপাতাল-লিঃ-এ-নিয়",
+    title: "আহমেদ হাসপাতাল লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ahmd-hsptl-lh-e-nyg-notice-2026",
+    oldSlug: "আহমেদ-হাসপাতাল-লিঃ-এ-নিয়",
     excerpt: `&nbsp; ১৭৬ পদে আহমেদ হাসপাতাল লিঃ এ নিয়োগ বিজ্ঞপ্তি- ১৫/০৩ &nbsp;Deadline: 15 Mar 2021 &nbsp; Download Circular দৈনিক যুগান্তর &#8211; ২ মার্চ ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6456,8 +6631,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10744,
-    title: `অতিরিক্ত জেলা জজ, নড়াইল এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "অতিরিক্ত-জেলা-জজ-নড়াইল-এ",
+    title: "অতিরিক্ত জেলা জজ, নড়াইল এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "otrkt-jl-jj-nril-e-nyg-notice-2026",
+    oldSlug: "অতিরিক্ত-জেলা-জজ-নড়াইল-এ",
     excerpt: `&nbsp; বিভিন্ন পদে অতিরিক্ত জেলা জজ, নড়াইল এ নিয়োগ বিজ্ঞপ্তি- ১৮/০৩ &nbsp;Deadline: 18 Mar 2021 &nbsp; Download&nbsp; বাংলাদেশ প্রতিদিন &#8211; ২৩ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6485,8 +6661,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10786,
-    title: `কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কারিগরি-শিক্ষা-অধিদপ্তর",
+    title: "কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "krgr-shksh-odptr-e-nyg-notice-2026",
+    oldSlug: "কারিগরি-শিক্ষা-অধিদপ্তর",
     excerpt: `&nbsp; ৭৬ পদে কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি- ১৬/০৩ &nbsp;Deadline: 16 Mar 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;&nbsp;কারিগরি শিক্ষা অধিদপ্তর &nbsp;পদের নামঃ&nbsp;১৬ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;৭৬টি &nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা &nbsp;আবেদন শুরুঃ&nbsp;১৫ ফেব্রুয়ারি ২০২৬ &n`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6535,8 +6712,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10807,
-    title: `বাংলাদেশ-চায়না পাওয়ার কোম্পানি (প্রাঃ) লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-চায়না-পাওয়ার",
+    title: "বাংলাদেশ-চায়না পাওয়ার কোম্পানি (প্রাঃ) লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-chjn-pojr-kmpn-prh-lmtd-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-চায়না-পাওয়ার",
     excerpt: `&nbsp; বাংলাদেশ-চায়না পাওয়ার কোম্পানি (প্রাঃ) লিমিটেড এ নিয়োগ বিজ্ঞপ্তি- ০২/০৩ &nbsp;Deadline: 2 Mar 2021 &nbsp;বাংলাদেশ-চায়না পাওয়ার কোম্পানি (প্রাঃ) লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Daily Financial Express &#8211; 10 February 2021&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6565,8 +6743,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10843,
-    title: `সমন্বিত ২ ব্যাংকে সিনিয়র অফিসর (IT) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সমন্বিত-২-ব্যাংকে-সিনিয়",
+    title: "সমন্বিত ২ ব্যাংকে সিনিয়র অফিসর (IT) পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "smnbt-2-bjngk-snyr-ofsr-it-pd-nyg-notice-2026",
+    oldSlug: "সমন্বিত-২-ব্যাংকে-সিনিয়",
     excerpt: `&nbsp; সমন্বিত ২ ব্যাংকে সিনিয়র অফিসর (IT) পদে নিয়োগ বিজ্ঞপ্তি- ১৮/০২ &nbsp;Deadline: 18 Feb 2021 &nbsp;Invitation online application for the post of Senior Officer -IT of Sonali Bank Ltd and Bangladesh Development Bank ltd &nbsp; Download Circular &nbsp; Apply:&nbsp;https://erecruitment.bb.org.bd/o`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6598,8 +6777,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10872,
-    title: `বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-প্রকৌশল-বিশ্ববি",
+    title: "বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-prkshl-bshbbdjly-buet-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-প্রকৌশল-বিশ্ববি",
     excerpt: `&nbsp; বিভিন্ন পদে বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০২ &nbsp;Deadline: 14 Feb 2021 &nbsp;বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (BUET) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular&nbsp; &nbsp; &nbsp;Recruitment QT for Teachers Reg-1 Form`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6633,8 +6813,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10898,
-    title: `এনাম মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "এনাম-মেডিকেল-কলেজ-হাসপাত",
+    title: "এনাম মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ename-mdkl-klj-hsptl-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "এনাম-মেডিকেল-কলেজ-হাসপাত",
     excerpt: `&nbsp; এনাম মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০৪/০২ &nbsp;Deadline: 4 Feb 2021 &nbsp; Download Circular &nbsp; দৈনিক প্রথম আলো- ২৭ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6660,8 +6841,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10935,
-    title: `১০০ পদে চতুর্দশ বাংলাদেশ জুডিশিয়াল সার্ভিস কমিশন (১৪শ বিজেএস) এর নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "১০০-পদে-চতুর্দশ-বাংলাদেশ",
+    title: "১০০ পদে চতুর্দশ বাংলাদেশ জুডিশিয়াল সার্ভিস কমিশন (১৪শ বিজেএস) এর নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "100-pd-chtrdsh-bangladsh-jdshjl-srbhs-kmshn-14sh-bjes-er-nyg-notice-2026",
+    oldSlug: "১০০-পদে-চতুর্দশ-বাংলাদেশ",
     excerpt: `&nbsp; ১০০ পদে চতুর্দশ বাংলাদেশ জুডিশিয়াল সার্ভিস কমিশন (১৪শ বিজেএস) এর নিয়োগ বিজ্ঞপ্তি প্রকাশ &#8211; ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ জুডিশিয়াল সার্ভিস কমিশন (BJS)👉 পদের নামঃ&nbsp; সহকারী জজ👉 পদ সংখ্যাঃ&nbsp;১০০ টি👉 আবেদন ফীঃ&nbsp;১`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6688,8 +6870,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10959,
-    title: `দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.ddm.gov.bd Job Circular 2021`,
-    slug: "দুর্যোগ-ব্যবস্থাপনা-অধিদ",
+    title: "দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.ddm.gov.bd Job Circular 2021",
+    slug: "drjg-bjbsthpn-odptr-ddm-e-nyg-notice-2026",
+    oldSlug: "দুর্যোগ-ব্যবস্থাপনা-অধিদ",
     excerpt: `&nbsp; ১৪০ পদে দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM) এ নিয়োগ বিজ্ঞপ্তি- ৩০/০১ &nbsp;Deadline: 30 Jan 2021 দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;প্রতিষ্ঠানঃ&nbsp;&nbsp;দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM) &nbsp;পদের নামঃ&nbsp;অফিস সহকারী কাম কম্পিউটার মুদ্রাক্ষরিক &nbsp;পদ সংখ্যা`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6730,8 +6913,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10992,
-    title: `সাহাবউদ্দিন মেডিকেল কলেজ ও হাসপাতাল এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সাহাবউদ্দিন-মেডিকেল-কলেজ",
+    title: "সাহাবউদ্দিন মেডিকেল কলেজ ও হাসপাতাল এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "shbuddn-mdkl-klj-o-hsptl-e-nyg-notice-2026",
+    oldSlug: "সাহাবউদ্দিন-মেডিকেল-কলেজ",
     excerpt: `&nbsp; ২০ ক্যাটাগরির বিভিন্ন পদে সাহাবউদ্দিন মেডিকেল কলেজ ও হাসপাতাল এ নিয়োগ বিজ্ঞপ্তি- ২৭/০১ &nbsp;Deadline: 25 Jan 2021 &nbsp;সাহাবউদ্দিন মেডিকেল কলেজ ও হাসপাতাল এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; ইত্তাফাক &#8211; ১২ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6758,8 +6942,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11026,
-    title: `সাপ্তাহিক চাকরি খবর ৮ জানুয়ারি ২০২১-সাপ্তাহিক চাকরির খবর ৮/১/২০২১ | Saptahik Chakrir Khobor Newspaper 08 January 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরি-খবর-৮-জান",
+    title: "সাপ্তাহিক চাকরি খবর ৮ জানুয়ারি ২০২১-সাপ্তাহিক চাকরির খবর ৮/১/২০২১ | Saptahik Chakrir Khobor Newspaper 08 January 2021 Pdf Download",
+    slug: "weekly-job-khabor-8-jnyr-2021-weekly-job-khabor-812021",
+    oldSlug: "সাপ্তাহিক-চাকরি-খবর-৮-জান",
     excerpt: `&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; সাপ্তাহিক চাকরি খবর ৮ জানুয়ারি ২০২১-সাপ্তাহিক চাকরির খবর ৮/১/২০২১ | Saptahik Chakrir Khobor Newspaper 08 January 2021 Pdf Download&nbsp; লক্ষ বেকারের প্রিয় পত্রিকা সাপ্তাহিক চাকরির খবর পত্রিকা- ০৮/০`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="clear: both; text-align: center;"><span style="background-color: white;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXqBgYRXRUaXsTF6tQwkeRCDY1R8RXjTa4942bFDuJudhqrTMadOIOBaH7ikBCtb1yXZs2rpfyxPR6tEe3Q2pe1UQftlpf4HMhowAJ1LWRYJE_iChfJIwtvlhNAxVsnYJlIB-UOSxjIbd/s1280/IMG_20210107_102304.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরি খবর ৮ জানুয়ারি ২০২১-সাপ্তাহিক চাকরির খবর ৮/১/২০২১ | Saptahik Chakrir Khobor Newspaper 08 January 2021 Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXqBgYRXRUaXsTF6tQwkeRCDY1R8RXjTa4942bFDuJudhqrTMadOIOBaH7ikBCtb1yXZs2rpfyxPR6tEe3Q2pe1UQftlpf4HMhowAJ1LWRYJE_iChfJIwtvlhNAxVsnYJlIB-UOSxjIbd/s16000/IMG_20210107_102304.jpg" title="সাপ্তাহিক চাকরি খবর ৮ জানুয়ারি ২০২১-সাপ্তাহিক চাকরির খবর ৮/১/২০২১ | Saptahik Chakrir Khobor Newspaper 08 January 2021 Pdf Download" /></a></span></div>
@@ -6802,8 +6987,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11049,
-    title: `খুলনা বিশ্ববিদ্যালয়ে নিয়োগ ২০২৬`,
-    slug: "খুলনা-বিশ্ববিদ্যালয়ে-নি",
+    title: "খুলনা বিশ্ববিদ্যালয়ে নিয়োগ ২০২৬",
+    slug: "khln-bshbbdjly-nyg-2026",
+    oldSlug: "খুলনা-বিশ্ববিদ্যালয়ে-নি",
     excerpt: `&nbsp; বিভিন্ন কর্মকর্তা পদে খুলনা বিশ্ববিদ্যালয় এ নিয়োগ- ২৭/০১ &nbsp;Deadline: 25 Jan 2021 &nbsp;খুলনা বিশ্ববিদ্যালয়ে নিয়োগ ২০২৬&nbsp; &nbsp; Download Circular &nbsp; Application Form&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6837,8 +7023,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11078,
-    title: `প্রাণ কোম্পানিতে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রাণ-কোম্পানিতে-নিয়োগ",
+    title: "প্রাণ কোম্পানিতে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prn-kmpnt-nyg-notice-2026",
+    oldSlug: "প্রাণ-কোম্পানিতে-নিয়োগ",
     excerpt: `&nbsp; প্রাণ কোম্পানিতে ক্যারিয়ার গড়ুন &#8211; বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি &#8211; ৩১/০১ &nbsp;Deadline: 31 Jan 2021 Download Circular বাংলাদেশ প্রতিদিন &#8211; ৩০ ডিসেম্বর ২০২০&nbsp;`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6863,8 +7050,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11129,
-    title: `বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২`,
-    slug: "বাংলাদেশ-নৌবাহিনী-পরিবার",
+    title: "বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২",
+    slug: "bangladsh-navy-prbr-kljn-sngghr-on-nyg-notice-3112",
+    oldSlug: "বাংলাদেশ-নৌবাহিনী-পরিবার",
     excerpt: `বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২ Deadline: 31 Dec 2026`,
     content: `<h2 style="text-align: left;"><span style="font-size: 1em;">বাংলাদেশ নৌবাহিনী পরিবার কল্যাণ সংঘের অধীনে নিয়োগ বিজ্ঞপ্তি- ৩১/১২</span></h2>
 <p dir="ltr"> Deadline: 31 Dec 2026</p>
@@ -6880,8 +7068,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11178,
-    title: `বিভিন্ন পদে ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (DPDC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-পদে-ঢাকা-পাওয়ার",
+    title: "বিভিন্ন পদে ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (DPDC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-pd-dhk-pojr-dstrbushn-kmpn-lmtd-dpdc-e-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-পদে-ঢাকা-পাওয়ার",
     excerpt: `বিভিন্ন পদে ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (DPDC) এ নিয়োগ বিজ্ঞপ্তি- ২৩/১২ Deadline: 23 Dec 2026 1. Job Circular for Executive Director , ICT &amp; Procurement 2. Job Circular for Executive Director (Technical)`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">বিভিন্ন পদে ঢাকা পাওয়ার ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (DPDC) এ নিয়োগ বিজ্ঞপ্তি- ২৩/১২</span></h2>
 <p dir="ltr"> Deadline: 23 Dec 2026</p>
@@ -6901,8 +7090,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10652,
-    title: `সংস্কৃতি বিষয়ক মন্ত্রণালয় (moca) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সংস্কৃতি-বিষয়ক-মন্ত্রণা",
+    title: "সংস্কৃতি বিষয়ক মন্ত্রণালয় (moca) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "sngskt-bshyk-ministry-moca-e-nyg-notice-2026",
+    oldSlug: "সংস্কৃতি-বিষয়ক-মন্ত্রণা",
     excerpt: `&nbsp; সংস্কৃতি বিষয়ক মন্ত্রণালয় (moca) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০৫/০৪ &nbsp;Deadline: 5 Apr 2021 👉&nbsp;প্রতিষ্ঠানঃ&nbsp;সংস্কৃতি বিষয়ক মন্ত্রণালয় (moca)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৯টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;১৪ মার্চ ২০২৬�`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6927,8 +7117,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10714,
-    title: `পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "পাবনা-বিজ্ঞান-ও-প্রযুক্ত",
+    title: "পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "pbn-bjnn-o-prjkt-bshbbdjly-nyg-notice-2026",
+    oldSlug: "পাবনা-বিজ্ঞান-ও-প্রযুক্ত",
     excerpt: `&nbsp; পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ২১/০৩ &nbsp;Deadline: 21 Mar 2021 &nbsp; Download Circular &nbsp; Source: Daily Observer&nbsp; &#8211; 2 March 2021`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6952,8 +7143,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10745,
-    title: `ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ঢাকা-বিশ্ববিদ্যালয়ে-নিয",
+    title: "ঢাকা বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dhk-bshbbdjly-nyg-notice-2026",
+    oldSlug: "ঢাকা-বিশ্ববিদ্যালয়ে-নিয",
     excerpt: `&nbsp; ঢাকা বিশ্ববিদ্যালয়ে বিভিন্ন পদে ২টি নিয়োগ বিজ্ঞপ্তি- ১৪/০৩ &nbsp;Deadline: 14 Mar 2021 &nbsp; &nbsp; Download Circular-1 &nbsp; &nbsp; Download Circular-2`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -6984,8 +7176,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10788,
-    title: `বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বস্ত্র-অধিদপ্তরে-নিয়োগ",
+    title: "বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bstr-odptr-nyg-notice-2026-1",
+    oldSlug: "বস্ত্র-অধিদপ্তরে-নিয়োগ",
     excerpt: `&nbsp; ১১৬ পদে বস্ত্র অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বস্ত্র অধিদপ্তর (dot)👉&nbsp;পদের নামঃ&nbsp;১৮ ক্যাটাগরির বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;১১৬&nbsp;টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7012,8 +7205,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10811,
-    title: `প্রাইম ব্যাংক লিমিটেড নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রাইম-ব্যাংক-লিমিটেড-নি",
+    title: "প্রাইম ব্যাংক লিমিটেড নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prim-bjngk-lmtd-nyg-notice-2026",
+    oldSlug: "প্রাইম-ব্যাংক-লিমিটেড-নি",
     excerpt: `&nbsp; প্রাইম ব্যাংক লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp; প্রাইম ব্যাংক লিমিটেড নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Apply:&nbsp;https://career.primebank.com.bd/career/joblist.html`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7043,8 +7237,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10844,
-    title: `সমন্বিত ৩ ব্যাংকে Sub-Assistant Engineer পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সমন্বিত-৩-ব্যাংকে-sub-assistant-engineer-পদে-ন",
+    title: "সমন্বিত ৩ ব্যাংকে Sub-Assistant Engineer পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "smnbt-3-bjngk-sub-assistant-engineer-pd-nyg-notice-2026",
+    oldSlug: "সমন্বিত-৩-ব্যাংকে-sub-assistant-engineer-পদে-ন",
     excerpt: `&nbsp; সমন্বিত ৩ ব্যাংকে Sub-Assistant Engineer পদে নিয়োগ বিজ্ঞপ্তি- ২২/০২ &nbsp;Deadline: 22 Feb 2021 &nbsp;Invitation online application for the post of Sub Assistant Engineer (Civil) of Sonali Bank Ltd, Rajshahi Krishi Unnayan and Bangladesh House Building Finance Corporation Download Circular &n`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7075,8 +7270,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10874,
-    title: `সরকারি/বেসরকারি ব্যাংক নিয়োগ বিজ্ঞপ্তি ২০২৬- চলমান ১০টি ব্যাংক জবস`,
-    slug: "সরকারি-বেসরকারি-ব্যাংক-ন",
+    title: "সরকারি/বেসরকারি ব্যাংক নিয়োগ বিজ্ঞপ্তি ২০২৬- চলমান ১০টি ব্যাংক জবস",
+    slug: "srkrbsrkr-bjngk-job-circular-notice-2026-chlmn-10t-bjngk-jbs",
+    oldSlug: "সরকারি-বেসরকারি-ব্যাংক-ন",
     excerpt: `Table Of Contents সরকারি/বেসরকারি ব্যাংক নিয়োগ বিজ্ঞপ্তি ২০২৬- চলমান ১০টি ব্যাংক জবস &nbsp;Deadline: 31 Jan &#8211; 28 Feb 2021 বিঃ দ্রঃ বিজ্ঞপ্তির সংখ্যা কয়েকটি হওয়ায় সবগুলো ছবি Load হতে কিছু সময় নিতে পারে, অনুগ্রহ Load হওয়া পর্যন্ত কিছু সময় অপেক্ষা করুন। সাউথ বাংলা এগ্রিকালচার এন্ড কমার্স (SBAC)&`,
     content: `<div style="-webkit-box-direction: normal; -webkit-box-orient: vertical; box-sizing: border-box; color: var(--font-color); display: flex; flex-direction: column; min-height: 100vh; padding-bottom: 1em;">
 <div style="-webkit-box-flex: 0; color: var(--font-color); flex: 0 0 auto; padding-top: 70px;">
@@ -7326,8 +7522,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10899,
-    title: `ইনস্টিটিউট অব কস্ট এন্ড ম্যানেজমেন্ট অ্যাকাউন্ট্যান্টস অব বাংলাদেশে (ICMAB) তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ইনস্টিটিউট-অব-কস্ট-এন্ড-ম",
+    title: "ইনস্টিটিউট অব কস্ট এন্ড ম্যানেজমেন্ট অ্যাকাউন্ট্যান্টস অব বাংলাদেশে (ICMAB) তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "insttut-ob-kst-end-mjnjmnt-ojkuntjnts-ob-bangladsh-icmab-t-nyg-notice-2026",
+    oldSlug: "ইনস্টিটিউট-অব-কস্ট-এন্ড-ম",
     excerpt: `&nbsp; বিভিন্ন পদে ইনস্টিটিউট অব কস্ট এন্ড ম্যানেজমেন্ট অ্যাকাউন্ট্যান্টস অব বাংলাদেশে (ICMAB) তে নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline: 8 Feb 2021 &nbsp; Download Circular &nbsp; ইত্তাফাক &#8211; ২৭ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7355,8 +7552,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10936,
-    title: `আন্তর্জাতিক টেলিকমিউনিকেশন ইউনিয়ন (ITU) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আন্তর্জাতিক-টেলিকমিউনিক",
+    title: "আন্তর্জাতিক টেলিকমিউনিকেশন ইউনিয়ন (ITU) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "antrjtk-tlkmunkshn-iunjn-itu-e-nyg-notice-2026",
+    oldSlug: "আন্তর্জাতিক-টেলিকমিউনিক",
     excerpt: `&nbsp; আন্তর্জাতিক টেলিকমিউনিকেশন ইউনিয়ন (ITU) এ নিয়োগ বিজ্ঞপ্তি- ২২/০২ &nbsp;Deadline: 22 Feb 2021 &nbsp;আন্তর্জাতিক টেলিকমিউনিকেশন ইউনিয়ন (ITU) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7390,8 +7588,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10960,
-    title: `বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড (bscl) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.bscl.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-স্যাটেলাইট-কোম্",
+    title: "বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড (bscl) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.bscl.gov.bd Job Circular 2021",
+    slug: "bangladsh-sjtlit-kmpn-lmtd-bscl-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-স্যাটেলাইট-কোম্",
     excerpt: `&nbsp; বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড (bscl) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp; বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড (bscl) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.bscl.gov.bd Job Circular 2021 প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ স্যাটেলাইট কোম্পানি লিমিটেড (bscl) পদের নামঃ&nbsp`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7430,8 +7629,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 10993,
-    title: `বাংলাদেশ পরিবার পরিকল্পনা সমিতি (FPAB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পরিবার-পরিকল্পন",
+    title: "বাংলাদেশ পরিবার পরিকল্পনা সমিতি (FPAB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-prbr-prklpn-smt-fpab-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পরিবার-পরিকল্পন",
     excerpt: `&nbsp; বিভিন্ন পদে বাংলাদেশ পরিবার পরিকল্পনা সমিতি (FPAB) এ নিয়োগ বিজ্ঞপ্তি- ২২/০১ &nbsp;Deadline: 22 Jan 2021 &nbsp;বাংলাদেশ পরিবার পরিকল্পনা সমিতি (FPAB) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; ইত্তাফাক &#8211; ১২ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7460,8 +7660,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11028,
-    title: `৫০০+ পদে কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ ২০২৬ | www.Techedu.gov.bd Job Circular 2021`,
-    slug: "৫০০-পদে-কারিগরি-শিক্ষা-অধ",
+    title: "৫০০+ পদে কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ ২০২৬ | www.Techedu.gov.bd Job Circular 2021",
+    slug: "500-pd-krgr-shksh-odptr-e-nyg-2026",
+    oldSlug: "৫০০-পদে-কারিগরি-শিক্ষা-অধ",
     excerpt: `&nbsp; ৫০০+ পদে কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp; কারিগরি শিক্ষা অধিদপ্তর এ নিয়োগ ২০২৬ &nbsp; &nbsp; Download Circular &nbsp; Apply:&nbsp;http://dtev.teletalk.com.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7493,8 +7694,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11051,
-    title: `তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "তথ্য-ও-যোগাযোগ-প্রযুক্তি-4",
+    title: "তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ict-bbhg-e-nyg-notice-2026",
+    oldSlug: "তথ্য-ও-যোগাযোগ-প্রযুক্তি-4",
     excerpt: `&nbsp; তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ এ নিয়োগ বিজ্ঞপ্তি- ২৭/০১ Deadline: 27 Jan 2021 &nbsp;জাতীয় সংসদ সচিবালয়ে আইসিটি অবকাঠামো, মানব সম্পদ ও প্রযুক্তি দক্ষতা উন্নয়ন (২য় সংশোধিত) প্রকল্প এ শূন্য পদে নিয়োগের বিজ্ঞপ্তি Download Circular&nbsp; Apply:&nbsp;https://erecruitment.bcc.gov.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7523,8 +7725,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11079,
-    title: `বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (BINA) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bina.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-পরমাণু-কৃষি-গবে",
+    title: "বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (BINA) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bina.gov.bd Job Circular 2021",
+    slug: "bangladsh-prmn-agriculture-gbshn-insttut-bina-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পরমাণু-কৃষি-গবে",
     excerpt: `&nbsp;বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (BINA) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (বিনা) &nbsp;পদের নামঃ&nbsp;বৈজ্ঞানিক কর্মকর্তা &nbsp;পদ সংখ্যাঃ&nbsp;১৫টি &nbsp;আবেদন ফীঃ&nbsp;১১২/- টাকা &nbsp;আবেদন শুরুঃ&nbsp;৩১ `,
     content: `<h2 style="text-align: left;">&nbsp;<span style="background-color: white; font-family: Ubuntu, sans-serif; font-size: 24px;">বাংলাদেশ পরমাণু কৃষি গবেষণা ইনস্টিটিউট (BINA) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১</span></h2>
 <div style="font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -7553,8 +7756,9 @@ export const JOB_CIRCULAR_POSTS: CategoryPost[] = [
   },
   {
     id: 11130,
-    title: `বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় মৌলভীবাজার এ নিয়োগ বিজ্ঞপ্তি- ১২/০১`,
-    slug: "বিভিন্ন-পদে-জেলা-প্রশাসক",
+    title: "বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় মৌলভীবাজার এ নিয়োগ বিজ্ঞপ্তি- ১২/০১",
+    slug: "bbhnn-pd-jl-prshskr-krjly-mlbhbjr-e-nyg-notice-1201",
+    oldSlug: "বিভিন্ন-পদে-জেলা-প্রশাসক",
     excerpt: `বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় মৌলভীবাজার এ নিয়োগ বিজ্ঞপ্তি- ১২/০১ Deadline: 12 Jan 2021`,
     content: `<h2 style="text-align: left;"><span style="font-size: 1em;">বিভিন্ন পদে জেলা প্রশাসকের কার্যালয় মৌলভীবাজার এ নিয়োগ বিজ্ঞপ্তি- ১২/০১</span></h2>
 <p dir="ltr">
@@ -7571,8 +7775,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11181,
-    title: `ইসলামি আরবি বিশ্ববিদ্যালয়ের নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.iau.edu.bd`,
-    slug: "ইসলামি-আরবি-বিশ্ববিদ্যাল",
+    title: "ইসলামি আরবি বিশ্ববিদ্যালয়ের নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.iau.edu.bd",
+    slug: "islm-arb-bshbbdjlyr-nyg-notice-2026",
+    oldSlug: "ইসলামি-আরবি-বিশ্ববিদ্যাল",
     excerpt: `ইসলামি আরবি বিশ্ববিদ্যালয়ের স্থায়ী শূন্য পদে নিয়োগ বিজ্ঞপ্তি- ২৯/১২ Deadline: 29 Dec 2026 আবেদন শুরুঃ&nbsp;১০ ডিসেম্বর ২০২৬ Apply: http://iau.teletalk.com.bd ইসলামি আরবি বিশ্ববিদ্যালয়ের স্থায়ী শূন্য পদে নিয়োগের লক্ষ্যে বাংলাদেশী স্থায়ী নাগরিকদের নিকট দরখাস্ত আবেদন প্রসঙ্গে। বিস্তারিত নিচে পিকচারে পড়`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">ইসলামি আরবি বিশ্ববিদ্যালয়ের স্থায়ী শূন্য পদে নিয়োগ বিজ্ঞপ্তি- ২৯/১২</span></h2>
 <p dir="ltr"><b><br />
@@ -7599,8 +7804,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10653,
-    title: `চাকরির পত্রিকাঃ চাকরি বাকরি ১২ মার্চ ২০২৬`,
-    slug: "চাকরির-পত্রিকাঃ-চাকরি-বা",
+    title: "চাকরির পত্রিকাঃ চাকরি বাকরি ১২ মার্চ ২০২৬",
+    slug: "job-ptrkh-job-bkr-12-mrch-2026",
+    oldSlug: "চাকরির-পত্রিকাঃ-চাকরি-বা",
     excerpt: `&nbsp; চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ১২ মার্চ ২০২৬ চাকরি বাকরি &#8211; ১২ মার্চ ২০২৬ Download All Circular HD`,
     content: `<p>&nbsp;</p>
 <div>
@@ -7629,8 +7835,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10715,
-    title: `সাধারণ বীমা কর্পোরেশন (sbc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সাধারণ-বীমা-কর্পোরেশন-sbc-এ-ন",
+    title: "সাধারণ বীমা কর্পোরেশন (sbc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srn-bm-krprshn-sbc-e-nyg-notice-2026",
+    oldSlug: "সাধারণ-বীমা-কর্পোরেশন-sbc-এ-ন",
     excerpt: `&nbsp; ১৯৬ পদে সাধারণ বীমা কর্পোরেশন (sbc) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০৩ &nbsp;Deadline: 28 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;সাধারণ বীমা কর্পোরেশন👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;১৯৬ টি👉&nbsp;আবেদন ফীঃ&nbsp;৩০০/- ও ২০০/- টাকা👉&nbsp;আবেদন`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7657,8 +7864,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10746,
-    title: `তিতাস গ্যাস ট্রান্সমিশন এন্ড ডিষ্ট্রিবিউশন কোম্পানী লিমিটেড নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "তিতাস-গ্যাস-ট্রান্সমিশন",
+    title: "তিতাস গ্যাস ট্রান্সমিশন এন্ড ডিষ্ট্রিবিউশন কোম্পানী লিমিটেড নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "tts-gjs-trnsmshn-end-dshtrbushn-kmpn-lmtd-nyg-notice-2026",
+    oldSlug: "তিতাস-গ্যাস-ট্রান্সমিশন",
     excerpt: `&nbsp; তিতাস গ্যাস ট্রান্সমিশন এন্ড ডিষ্ট্রিবিউশন কোম্পানী লিমিটেড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৭/০৩ &nbsp;Deadline: 25 Mar 2021 &nbsp; &nbsp; &nbsp; Download Circular &nbsp; CV Format &nbsp; বাংলাদেশ প্রতিদিন- ২৩ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7693,8 +7901,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10789,
-    title: `KSRM এর অধীনে KSRM পাওয়ার প্লান্ট লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ksrm-এর-অধীনে-ksrm-পাওয়ার-প্লান্",
+    title: "KSRM এর অধীনে KSRM পাওয়ার প্লান্ট লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ksrm-er-on-ksrm-poyr-plnt-lh-e-nyg-notice-2026",
+    oldSlug: "ksrm-এর-অধীনে-ksrm-পাওয়ার-প্লান্",
     excerpt: `&nbsp; KSRM এর অধীনে KSRM পাওয়ার প্লান্ট লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২০/০২ &nbsp;Deadline: 20 Feb 2021 &nbsp; Download Circular &nbsp; সোর্সঃ দৈনিক প্রথম আলো &#8211; ১৪ ফেব্রুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7723,8 +7932,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10812,
-    title: `বাংলাদেশ উন্মক্ত বিশ্ববিদ্যালয় (বাউবি) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬-www.bou.com.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-উন্মক্ত-বিশ্ববি",
+    title: "বাংলাদেশ উন্মক্ত বিশ্ববিদ্যালয় (বাউবি) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬-www.bou.com.bd Job Circular 2021",
+    slug: "bangladsh-unmkt-bshbbdjlj-bub-e-bbhnn-pd-nyg-notice-2026-wwwboucombd-job-circular-2021",
+    oldSlug: "বাংলাদেশ-উন্মক্ত-বিশ্ববি",
     excerpt: `&nbsp; বাংলাদেশ উন্মক্ত বিশ্ববিদ্যালয় (বাউবি) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp; বাংলাদেশ উন্মক্ত বিশ্ববিদ্যালয় (বাউবি) নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; https://www.bou.edu.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7753,8 +7963,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10845,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ৫ ফেব্রুয়ারি ২০২৬-চাকরির ডাক ৫/২/২০২৬ Pdf Download | Saptahik Chakrir Dak 5 February 2021`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-6",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ৫ ফেব্রুয়ারি ২০২৬-চাকরির ডাক ৫/২/২০২৬ Pdf Download | Saptahik Chakrir Dak 5 February 2021",
+    slug: "job-ptrk-weekly-job-dk-5-fbrjr-2026-job-dk-522026-pdf-download",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-6",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন।আসা করি সবাই ভালো আছেন। প্রতি সাপ্তাহের সকল চাকরির পত্রিকা আমরা আমাদের ওয়েবসাইটে দিয়ে থাকি৷ সেই ধারাবাহিকতায় আজকে আমরা তোমাদের জন্য সাপ্তাহিক চাকরির ডাক পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ নিয়ে হাজির হয়েছি। সকল চাকরির বিজ্ঞপ্তি সবার আগে আমাদের এপ্লিকেশন ডাউনলোড করুন`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvXXw-VL6KEkGsB0WWry7LVehv1dL_FdE_RZyHJUDB1bO1rIPrV2AY3cca59YKf-1QRa7K_WfG2IXWgQqXCSgRh3qKdvdWTdFkYgwFlSJHbVN9Yeo4m7wy5cO8Lr2IlId7TE7_u6-oULm4/s1280/IMG_20210201_155210.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ৫ ফেব্রুয়ারি ২০২৬-চাকরির ডাক ৫/২/২০২৬ Pdf Download | Saptahik Chakrir Dak 5 February 2021" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvXXw-VL6KEkGsB0WWry7LVehv1dL_FdE_RZyHJUDB1bO1rIPrV2AY3cca59YKf-1QRa7K_WfG2IXWgQqXCSgRh3qKdvdWTdFkYgwFlSJHbVN9Yeo4m7wy5cO8Lr2IlId7TE7_u6-oULm4/s16000/IMG_20210201_155210.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরির ডাক ৫ ফেব্রুয়ারি ২০২৬-চাকরির ডাক ৫/২/২০২৬ Pdf Download | Saptahik Chakrir Dak 5 February 2021" /></a></div>
 <p></p>
@@ -7792,8 +8003,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10875,
-    title: `সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৯ জানুয়ারি ২০২৬ | প্রথম আলো চাকরি বাকরি  ২৯/১/২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-পত্রিক-3",
+    title: "সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৯ জানুয়ারি ২০২৬ | প্রথম আলো চাকরি বাকরি  ২৯/১/২০২৬",
+    slug: "weekly-job-ptrkh-job-bkr-8211-29-jnyr-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-পত্রিক-3",
     excerpt: `&nbsp; দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৯ জানুয়ারি ২০২৬ &nbsp;চাকরি বাকরি &#8211; ২৯ জানুয়ারি ২০২৬ Table Of Contents &nbsp;সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৯ জানুয়ারি ২০২৬ | প্রথম আলো চাকরি বাকরি&nbsp; ২৯/১/২০২৬ &nbsp; প্রথম আলো চাকরি বাক`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7826,8 +8038,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10900,
-    title: `কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কোল-পাওয়ার-জেনারেশন-কোম",
+    title: "কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "kl-pojr-jnrshn-kmpn-bangladsh-lmtd-spjsbel-e-nyg-notice-2026-1",
+    oldSlug: "কোল-পাওয়ার-জেনারেশন-কোম",
     excerpt: `&nbsp; কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (সিপিজিসিবিএল) এ নিয়োগ বিজ্ঞপ্তি- ২৮/০২ Deadline: 28 Feb 2021 🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;কোল পাওয়ার জেনারেশন কোম্পানী বাংলাদেশ লিমিটেড (cpgcbl)👉 পদের নামঃ&nbsp;বিভিন্ন পদ👉 আবেদন ফীঃ&nbsp;১০০০/- টাকা👉 আবেদন শুরুঃ&nbsp;৩০ জানু`,
     content: `<p>&nbsp;</p>
 <div>
@@ -7864,8 +8077,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10937,
-    title: `কাস্টম বন্ড কমিশনারেট এর অধীনে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কাস্টম-বন্ড-কমিশনারেট-এর",
+    title: "কাস্টম বন্ড কমিশনারেট এর অধীনে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "kstm-bnd-kmshnrt-er-on-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "কাস্টম-বন্ড-কমিশনারেট-এর",
     excerpt: `&nbsp; কাস্টম বন্ড কমিশনারেট এর অধীনে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp;কাস্টম বন্ড কমিশনারেট এর অধীনে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; দৈনিক যুগান্তর &#8211; ১৯ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7894,8 +8108,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10962,
-    title: `প্রধানমন্ত্রীর কার্যালয়ে NSI নিয়োগ গাইড PDF | জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা -nsi নিয়োগ গাইড Pdf Download`,
-    slug: "প্রধানমন্ত্রীর-কার্যালয",
+    title: "প্রধানমন্ত্রীর কার্যালয়ে NSI নিয়োগ গাইড PDF | জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা -nsi নিয়োগ গাইড Pdf Download",
+    slug: "prnmntrr-krjly-nsi-nyg-gid-pdf",
+    oldSlug: "প্রধানমন্ত্রীর-কার্যালয",
     excerpt: `&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; প্রধানমন্ত্রীর কার্যালয়ে NSI নিয়োগ গাইড PDF | জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা গাইড | nsi নিয়োগ গাইড Pdf Download&nbsp; যে পদগুলোর জন্য সহকারী পরিচালক । গবেষণা কর্মকর্তা&nbsp; সহকারী প্রােগ্রামার&nbs`,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD0qyCsbiu3A-lCbGayvadn9mqTz7AuxlzcKVTzcBCfZie-iVNd3ZsVrYYsMe35s0Y7Z0mi052zJr6xLIcO-9O52YzRPOiZ7GtOG_7RPp8Z-fSrRu51M9Xf5v3tOdrnVYNAoPNjIyV4AXh/s1280/IMG_20210116_154951.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="প্রধানমন্ত্রীর কার্যালয়ে NSI নিয়োগ গাইড PDF | জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা -nsi নিয়োগ গাইড Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD0qyCsbiu3A-lCbGayvadn9mqTz7AuxlzcKVTzcBCfZie-iVNd3ZsVrYYsMe35s0Y7Z0mi052zJr6xLIcO-9O52YzRPOiZ7GtOG_7RPp8Z-fSrRu51M9Xf5v3tOdrnVYNAoPNjIyV4AXh/s16000/IMG_20210116_154951.jpg" title="প্রধানমন্ত্রীর কার্যালয়ে NSI নিয়োগ গাইড PDF | জাতীয় নিরাপত্তা গোয়েন্দা সংস্থা -nsi নিয়োগ গাইড Pdf Download" /></a></div>
@@ -7942,8 +8157,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10994,
-    title: `আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬ | দৈনিক পত্রিকা থেকে সংগ্রহীত সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬`,
-    slug: "আজকের-সাধারণ-জ্ঞান-১১-জান",
+    title: "আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬ | দৈনিক পত্রিকা থেকে সংগ্রহীত সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬",
+    slug: "ajkr-srn-jnn-11-jnyr-2026",
+    oldSlug: "আজকের-সাধারণ-জ্ঞান-১১-জান",
     excerpt: `&nbsp;আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬ | দৈনিক পত্রিকা থেকে সংগ্রহীত সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬&nbsp;`,
     content: `<h2 style="text-align: center;">&nbsp;আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬ | দৈনিক পত্রিকা থেকে সংগ্রহীত সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬&nbsp;</h2>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaxcf6MzNdwcIILegUop3UGVuE5dqNelm9cLtt9kgZJiI5NubuslduVNkecq_eM7IQgVk4B_U2lDbo_dveEw2Tn2jqOE7Bx0Z0GLR1WtSxb_vkCydg9GLRCQUuXsJbZQnpQXsbuUgb_Icq/s1797/Daily-GK-Jan-11-1_1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬" border="0" data-original-height="1797" data-original-width="1272" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaxcf6MzNdwcIILegUop3UGVuE5dqNelm9cLtt9kgZJiI5NubuslduVNkecq_eM7IQgVk4B_U2lDbo_dveEw2Tn2jqOE7Bx0Z0GLR1WtSxb_vkCydg9GLRCQUuXsJbZQnpQXsbuUgb_Icq/s16000/Daily-GK-Jan-11-1_1.jpg" title="আজকের সাধারণ জ্ঞান ১১ জানুয়ারি ২০২৬" /></a></div>
@@ -7960,8 +8176,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11029,
-    title: `বিনা অভিজ্ঞতায় ব্র্যাক (BRAC) NGO তে মাঠ পর্যায়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিনা-অভিজ্ঞতায়-ব্র্যাক-brac-n",
+    title: "বিনা অভিজ্ঞতায় ব্র্যাক (BRAC) NGO তে মাঠ পর্যায়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bn-obhjnty-brjk-brac-ngo-t-mth-prjy-nyg-notice-2026",
+    oldSlug: "বিনা-অভিজ্ঞতায়-ব্র্যাক-brac-n",
     excerpt: `&nbsp; বিনা অভিজ্ঞতায় ব্র্যাক (BRAC) NGO তে মাঠ পর্যায়ে নিয়োগ বিজ্ঞপ্তি- ১৪/০১ &nbsp;Deadline: 14 Jan 2021 &nbsp;বিনা অভিজ্ঞতায় ব্র্যাক (BRAC) NGO তে মাঠ পর্যায়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Apply Online:&nbsp;http://careers.brac.net/ &nbsp;or Apply Online: https://hotjobs.bdjobs.co`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -7992,8 +8209,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11053,
-    title: `বাংলাদেশ কোস্ট গার্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-কোস্ট-গার্ড-এ-নি",
+    title: "বাংলাদেশ কোস্ট গার্ড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-kst-grd-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কোস্ট-গার্ড-এ-নি",
     excerpt: `&nbsp; ৬৭ পদে বাংলাদেশ কোস্ট গার্ড এ নিয়োগ বিজ্ঞপ্তি- ০২/০২ &nbsp;Deadline: 2 Feb 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কোস্ট গার্ড &nbsp;পদ সংখ্যাঃ&nbsp;৬৭টি &nbsp;আবেদন ফীঃ&nbsp;১০০/- টাকা &nbsp; আবেদন পদ্ধতিঃ&nbsp;অফলাইনে &#8211; নির্ধারিত দরখাস্ত পূরণের মাধ্যমে &nbsp;আবেদনের শেষ তারিখঃ&nbsp;&nbsp`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8029,8 +8247,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11091,
-    title: `বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.badc.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-কৃষি-উন্নয়ন-কর-2",
+    title: "বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.badc.gov.bd Job Circular 2021",
+    slug: "bangladsh-agriculture-unnyn-krprshn-badc-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কৃষি-উন্নয়ন-কর-2",
     excerpt: `&nbsp;২১০ পদে বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) এ নিয়োগ বিজ্ঞপ্তি- ২৪/০১ &nbsp;Deadline: 24 Jan 2021 🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC)👉&nbsp;পদ সংখ্যাঃ&nbsp;২১০টি👉&nbsp;আবেদন ফীঃ&nbsp;৫০০/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;৩ জানুয়ারি `,
     content: `<h2 style="text-align: left;">&nbsp;<span style="font-family: Ubuntu, sans-serif; font-size: 24px;">২১০ পদে বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) এ নিয়োগ বিজ্ঞপ্তি- ২৪/০১</span></h2>
 <div style="font-family: Merriweather, Georgia, serif; font-size: 16px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -8053,8 +8272,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11131,
-    title: `বিভিন্ন পদে বাংলাদেশ চলচ্চিত্র সেন্সর বোর্ড (BFCB) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১`,
-    slug: "বিভিন্ন-পদে-বাংলাদেশ-চলচ",
+    title: "বিভিন্ন পদে বাংলাদেশ চলচ্চিত্র সেন্সর বোর্ড (BFCB) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১",
+    slug: "bbhnn-pd-bangladsh-chlchchtr-snsr-brd-bfcb-e-nyg-notice-1401",
+    oldSlug: "বিভিন্ন-পদে-বাংলাদেশ-চলচ",
     excerpt: `বিভিন্ন পদে বাংলাদেশ চলচ্চিত্র সেন্সর বোর্ড (BFCB) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১ Deadline: 14 Jan 2021`,
     content: `<h2 style="text-align: left;"><span style="font-size: 1em;">বিভিন্ন পদে বাংলাদেশ চলচ্চিত্র সেন্সর বোর্ড (BFCB) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১</span></h2>
 <p dir="ltr">
@@ -8071,8 +8291,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11190,
-    title: `বিভিন্ন পদে প্রফেসরস প্রকাশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভিন্ন-পদে-প্রফেসরস-প্র",
+    title: "বিভিন্ন পদে প্রফেসরস প্রকাশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhnn-pd-prfsrs-prkshn-e-nyg-notice-2026",
+    oldSlug: "বিভিন্ন-পদে-প্রফেসরস-প্র",
     excerpt: `&nbsp;বিভিন্ন পদে প্রফেসর\`স প্রকাশন এ নিয়োগ বিজ্ঞপ্তি-২০/১২ Deadline: 20 Dec 2026 &nbsp;প্রফেসরস প্রকাশন এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
     content: `<p>&nbsp;<span style="font-size: 1em;">বিভিন্ন পদে প্রফেসর\`স প্রকাশন এ নিয়োগ বিজ্ঞপ্তি-২০/১২</span></p>
 <p dir="ltr">Deadline: 20 Dec 2026</p>
@@ -8091,8 +8312,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10659,
-    title: `নেপচুন ল্যাবরেটরীজ লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "নেপচুন-ল্যাবরেটরীজ-লিঃ-ন",
+    title: "নেপচুন ল্যাবরেটরীজ লিঃ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "npchn-ljbrtrj-lh-nyg-notice-2026",
+    oldSlug: "নেপচুন-ল্যাবরেটরীজ-লিঃ-ন",
     excerpt: `&nbsp; নেপচুন ল্যাবরেটরীজ লিঃ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৩/০৩ &nbsp;Deadline: 23 Mar 2021 &nbsp; Download Circular&nbsp; &nbsp; জব সোর্সঃ দৈনিক প্রথম আলো &#8211; ১২ মার্চ ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8116,8 +8338,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10716,
-    title: `কৃষি বিপণন অধিদপ্তর (dam) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "কৃষি-বিপণন-অধিদপ্তর-dam-এ-নিয",
+    title: "কৃষি বিপণন অধিদপ্তর (dam) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "agriculture-bpnn-odptr-dam-e-nyg-notice-2026",
+    oldSlug: "কৃষি-বিপণন-অধিদপ্তর-dam-এ-নিয",
     excerpt: `&nbsp; কৃষি বিপণন অধিদপ্তর (dam) এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৭/০৩ &nbsp;Deadline: 25 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি 🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;কৃষি বিপণন অধিদপ্তর (dam)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;৪ মার্চ ২০২৬👉&nbsp;আবেদন`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8144,8 +8367,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10750,
-    title: `ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ধর্ম-বিষয়ক-মন্ত্রণালয়-2",
+    title: "ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "rm-bshyk-ministry-e-nyg-notice-2026-1",
+    oldSlug: "ধর্ম-বিষয়ক-মন্ত্রণালয়-2",
     excerpt: `&nbsp; ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি- ২৩/০৩ &nbsp;Deadline: 23 Mar 2021 &nbsp;ধর্ম বিষয়ক মন্ত্রণালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; যুগান্তর &#8211; ২২ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8174,8 +8398,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10790,
-    title: `দিশা NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "দিশা-ngo-তে-নিয়োগ-বিজ্ঞপ্তি",
+    title: "দিশা NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dsh-ngo-t-nyg-notice-2026",
+    oldSlug: "দিশা-ngo-তে-নিয়োগ-বিজ্ঞপ্তি",
     excerpt: `&nbsp; ২০০ পদে ডেভেলপমেন্ট ইনিশিয়েটিভ ফর সোশ্যাল অ্যাডভান্সমেন্টে (দিশা) NGO তে নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp; দিশা NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8200,8 +8425,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10816,
-    title: `ব্যাংক এশিয়া লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ব্যাংক-এশিয়া-লিমিটেড-এ-ন",
+    title: "ব্যাংক এশিয়া লিমিটেড এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bjngk-eshy-lmtd-e-nyg-notice-2026",
+    oldSlug: "ব্যাংক-এশিয়া-লিমিটেড-এ-ন",
     excerpt: `&nbsp; ব্যাংক এশিয়া লিমিটেড এ নিয়োগ বিজ্ঞপ্তি- ২২/০২ &nbsp;Deadline: 22 Feb 2021 🏦&nbsp;ব্যাংক জবস&nbsp;🏦👉&nbsp;প্রতিষ্ঠানঃ&nbsp;ব্যাংক এশিয়া লিমিটেড👉&nbsp;পদের নামঃ&nbsp;এসিসট্যান্ট রিলেশনশীপ অফিসার (ARO)👉&nbsp;মাসিক বেতনঃ&nbsp;২৭,০০০/-+ টাকা👉&nbsp;আবেদনের লিংকঃ&nbsp;https://www.bankasia-bd.c`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8228,8 +8454,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10846,
-    title: `চাকরির পত্রিকা : সাপ্তাহিক চাকরি খবর পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ -চাকরির খবর পত্রিকা ৫/২/২০২৬ | Saptahik Chakrir Khobor Potrika 5 February 2021 Pdf Download`,
-    slug: "চাকরির-পত্রিকা-সাপ্তাহি-7",
+    title: "চাকরির পত্রিকা : সাপ্তাহিক চাকরি খবর পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ -চাকরির খবর পত্রিকা ৫/২/২০২৬ | Saptahik Chakrir Khobor Potrika 5 February 2021 Pdf Download",
+    slug: "job-ptrk-weekly-job-khabor-ptrk-5-fbrjr-2026-job-khabor-ptrk-522026",
+    oldSlug: "চাকরির-পত্রিকা-সাপ্তাহি-7",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা আমরা আমাদের ওয়েবসাইটে প্রতি সাপ্তাহের সকল সাপ্তাহিক পত্রিকা দিয়ে থাকি। সেই ধারাবাহিকতায় আজকে আমরা এই পোস্টে তোমাদের সাপ্তাহিক চাকরি খবর পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ তোমাদের মাঝে শেয়ার করতেছি। আসা করি চাকরি প্রার্থীদের উপকার হব`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ql1NARHSaA9sYIoc0lXji2yhanQGNNrBRnWLWTH1XJf5F0iG-oLJK0tDmxYNTLBQ3PVokh3P36S3fjJY8dTau-OdHxrD7moUWW8Ger_CCUgcPCWVsp1QKVFXB1aBlkb2BBMg9AFDK9Xe/s1280/IMG_20210202_024236.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="চাকরির পত্রিকা : সাপ্তাহিক চাকরি খবর পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ -চাকরির খবর পত্রিকা ৫/২/২০২৬ | Saptahik Chakrir Khobor Potrika 5 February 2021 Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ql1NARHSaA9sYIoc0lXji2yhanQGNNrBRnWLWTH1XJf5F0iG-oLJK0tDmxYNTLBQ3PVokh3P36S3fjJY8dTau-OdHxrD7moUWW8Ger_CCUgcPCWVsp1QKVFXB1aBlkb2BBMg9AFDK9Xe/s16000/IMG_20210202_024236.jpg" title="চাকরির পত্রিকা : সাপ্তাহিক চাকরি খবর পত্রিকা ৫ ফেব্রুয়ারি ২০২৬ -চাকরির খবর পত্রিকা ৫/২/২০২৬ | Saptahik Chakrir Khobor Potrika 5 February 2021 Pdf Download" /></a></div>
 <p></p>
@@ -8269,8 +8496,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10877,
-    title: `আরকাইভস ও গ্রন্থাগার অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আরকাইভস-ও-গ্রন্থাগার-অধি",
+    title: "আরকাইভস ও গ্রন্থাগার অধিদপ্তরে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "arkibhs-o-grnthgr-odptr-nyg-notice-2026",
+    oldSlug: "আরকাইভস-ও-গ্রন্থাগার-অধি",
     excerpt: `&nbsp; আরকাইভস ও গ্রন্থাগার অধিদপ্তর এ ১৩ ক্যাটাগরির বিভিন্ন পদে নিয়োগ- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;আরকাইভস ও গ্রন্থাগার অধিদপ্তর👉&nbsp;পদের নামঃ&nbsp;১৩ ক্যাটাগরির বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;২৩টি👉&nbsp;আবেদন ফীঃ&nbsp;১`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8297,8 +8525,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10905,
-    title: `বাংলাদেশ আর্মি ইউনিভার্সিটি অফ সাইন্স এন্ড টেকনোলজি (BAUST) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-আর্মি-ইউনিভার্স",
+    title: "বাংলাদেশ আর্মি ইউনিভার্সিটি অফ সাইন্স এন্ড টেকনোলজি (BAUST) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-arm-iunbhrst-of-sins-end-tknlj-baust-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-আর্মি-ইউনিভার্স",
     excerpt: `বিভিন্ন পদে বাংলাদেশ আর্মি ইউনিভার্সিটি অফ সাইন্স এন্ড টেকনোলজি (BAUST) এ নিয়োগ বিজ্ঞপ্তি- ১১/০২ Deadline: 11 Feb 2021 &nbsp;বাংলাদেশ আর্মি ইউনিভার্সিটি অফ সাইন্স এন্ড টেকনোলজি (BAUST) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Application Form&nbsp; &nbsp;`,
     content: `<div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
 <h3 style="font-size: 24px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: normal; margin: 0px;">বিভিন্ন পদে বাংলাদেশ আর্মি ইউনিভার্সিটি অফ সাইন্স এন্ড টেকনোলজি (BAUST) এ নিয়োগ বিজ্ঞপ্তি- ১১/০২</h3>
@@ -8331,8 +8560,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10938,
-    title: `হলি ল্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "হলি-ল্যান্ড-কলেজ-এ-নিয়োগ",
+    title: "হলি ল্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "hl-ljnd-klj-e-nyg-notice-2026",
+    oldSlug: "হলি-ল্যান্ড-কলেজ-এ-নিয়োগ",
     excerpt: `&nbsp; বিভিন্ন বিষয়ে শিক্ষক, কর্মকর্তা ও কর্মচারী পদে হলি ল্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline: 8 Feb 2021 &nbsp;হলি ল্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ১৯ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8361,8 +8591,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10970,
-    title: `চাকরি বাকরি ১৫ জানুয়ারি ২০২৬ -প্রথম আলো চাকরি বাকরি ১৫/১/২০২৬`,
-    slug: "চাকরি-বাকরি-১৫-জানুয়ারি",
+    title: "চাকরি বাকরি ১৫ জানুয়ারি ২০২৬ -প্রথম আলো চাকরি বাকরি ১৫/১/২০২৬",
+    slug: "job-bkr-15-jnyr-2026-prthm-al-job-bkr-1512026",
+    oldSlug: "চাকরি-বাকরি-১৫-জানুয়ারি",
     excerpt: `প্রথম আলো ১৫ জানুয়ারি ২০২৬ সাপ্তাহিক চাকরি বাকরি পত্রিকা প্রকাশিত হয়েছে। সবাই ডাউনলোড করে নিন। Table Of Contents চাকরি বাকরি ১৫ জানুয়ারি ২০২৬ -প্রথম আলো চাকরি বাকরি ১৫/১/২০২৬&nbsp; প্রথম আলো সাপ্তাহিক চাকরি বাকরি ১৫ জানুয়ারি ২০২৬ চাকরি বাকরি ১৫ জানুয়ারি ২০২৬ চাকরি বাকরি ১৫/১/২০২৬ Pdf Download | Chak`,
     content: `<p>প্রথম আলো ১৫ জানুয়ারি ২০২৬ সাপ্তাহিক চাকরি বাকরি পত্রিকা প্রকাশিত হয়েছে। সবাই ডাউনলোড করে নিন।</p>
 <p><a name="more" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: initial; background-repeat: initial; background-size: initial; color: blue; font-family: Merriweather, Georgia, serif; font-size: 16px;"></a></p>
@@ -8399,8 +8630,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10996,
-    title: `খনিজ সম্পদ উন্নয়ন ব্যুরো (bomd) তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bomd.gov.bd job circular 2021`,
-    slug: "খনিজ-সম্পদ-উন্নয়ন-ব্যুর",
+    title: "খনিজ সম্পদ উন্নয়ন ব্যুরো (bomd) তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bomd.gov.bd job circular 2021",
+    slug: "khnj-smpd-unnyn-bjr-bomd-t-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "খনিজ-সম্পদ-উন্নয়ন-ব্যুর",
     excerpt: `&nbsp; খনিজ সম্পদ উন্নয়ন ব্যুরো (bomd) তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ৩১/০১ &nbsp;Deadline: 31 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;খনিজ সম্পদ উন্নয়ন ব্যুরো (bomd)👉 পদের নামঃ&nbsp;বিভিন্ন পদ👉 আবেদন ফীঃ&nbsp;১১২/- টাকা👉 আবেদন শুরুঃ&nbsp;১১ জানুয়ারি ২০২৬👉 আবেদনের লিংকঃ&nbsp`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8428,8 +8660,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11031,
-    title: `৭০৯ পদে জনপ্রশাসন মন্ত্রণালয়ের অধীনে সরকারী যানবাহন অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dgt.gov.bd Job Circular 2021`,
-    slug: "৭০৯-পদে-জনপ্রশাসন-মন্ত্র",
+    title: "৭০৯ পদে জনপ্রশাসন মন্ত্রণালয়ের অধীনে সরকারী যানবাহন অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dgt.gov.bd Job Circular 2021",
+    slug: "709-pd-jnprshsn-ministryr-on-srkr-jnbhn-odptr-e-nyg-notice-2026",
+    oldSlug: "৭০৯-পদে-জনপ্রশাসন-মন্ত্র",
     excerpt: `&nbsp; ৭০৯ পদে জনপ্রশাসন মন্ত্রণালয়ের অধীনে সরকারী যানবাহন অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি- ১১/০২ Deadline: 11 Feb 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;সরকারী যানবাহন অধিদপ্তর👉 পদের নামঃ&nbsp;১৪ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;৭০৯টি👉 আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉 আবেদন শ`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8461,8 +8694,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11054,
-    title: `বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.badc.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-কৃষি-উন্নয়ন-কর",
+    title: "বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.badc.gov.bd Job Circular 2021",
+    slug: "bangladsh-agriculture-unnyn-krprshn-badc-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কৃষি-উন্নয়ন-কর",
     excerpt: `&nbsp; ২১০ পদে বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) এ নিয়োগ বিজ্ঞপ্তি- ২৪/০১ &nbsp;Deadline: 24 Jan 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (BADC) &nbsp;পদ সংখ্যাঃ&nbsp;২১০টি &nbsp;আবেদন ফীঃ&nbsp;৫০০/- টাকা &nbsp;আবেদন শুরুঃ&nbsp;৩ জানুয়ারি ২০২৬ &nbsp;আবেদনের লিংকঃ&nbsp;http://ba`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8501,8 +8735,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11095,
-    title: `ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (desco) তে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Desco.org.bd Job Circular 2021`,
-    slug: "ঢাকা-ইলেকট্রিক-সাপ্লাই-ক",
+    title: "ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (desco) তে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.Desco.org.bd Job Circular 2021",
+    slug: "dhk-ilktrk-spli-kmpn-lmtd-desco-t-nyg-notice-2026",
+    oldSlug: "ঢাকা-ইলেকট্রিক-সাপ্লাই-ক",
     excerpt: `ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (desco) তে নিয়োগ বিজ্ঞপ্তি- ১৪/০১ Deadline: 14 Jan 2021`,
     content: `<h2 style="text-align: left;"><span style="font-size: 1em;">ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (desco) তে নিয়োগ বিজ্ঞপ্তি- ১৪/০১</span></h2>
 <p dir="ltr"> Deadline: 14 Jan 2021</p>
@@ -8518,8 +8753,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11132,
-    title: `১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF | Chakrir Dak 18 December 2026 Pdf Download |সাপ্তাহিক চাকরির খবর ১৮/১২/২০২৬`,
-    slug: "১৮-ডিসেম্বর-২০২০-সাপ্তাহ",
+    title: "১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF | Chakrir Dak 18 December 2026 Pdf Download |সাপ্তাহিক চাকরির খবর ১৮/১২/২০২৬",
+    slug: "18-dsmbr-2026-weekly-job-ptrk-job-dk-pdf",
+    oldSlug: "১৮-ডিসেম্বর-২০২০-সাপ্তাহ",
     excerpt: `&nbsp;১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF |সাপ্তাহিক চাকরির খবর ১৮/১২/২০২৬ সাপ্তাহিক চাকরির পত্রিকা চাকরির ডাক Pdf Download&nbsp; Click Here To Download&nbsp;`,
     content: `<h2 style="text-align: center;">&nbsp;১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF |সাপ্তাহিক চাকরির খবর ১৮/১২/২০২৬</h2>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYFZ4UfczUgLGhVJ8QJQ7AgPAtWekRVyaqJ805hV8SMX6KA70WC6fxi3yyqGiKFiXWQK5zegAp4gEc3OaMM-9aJYR7ETiGdWnaBcz8e4427TPjedlF2yVxfVwrwFek9pxwjF_HAfO7anh3/s1797/Chakrir-Dak-18-Dec_1.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF" border="0" data-original-height="1797" data-original-width="1205" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYFZ4UfczUgLGhVJ8QJQ7AgPAtWekRVyaqJ805hV8SMX6KA70WC6fxi3yyqGiKFiXWQK5zegAp4gEc3OaMM-9aJYR7ETiGdWnaBcz8e4427TPjedlF2yVxfVwrwFek9pxwjF_HAfO7anh3/s16000/Chakrir-Dak-18-Dec_1.jpg" title="১৮ ডিসেম্বর ২০২৬-সাপ্তাহিক চাকরির পত্রিকা-চাকরির ডাক PDF" /></a></div>
@@ -8542,8 +8778,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11197,
-    title: `১৫৩ পদে আনোয়ারা চ্যারিটি হসপিটাল এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "১৫৩-পদে-আনোয়ারা-চ্যারিট",
+    title: "১৫৩ পদে আনোয়ারা চ্যারিটি হসপিটাল এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "153-pd-anyr-chjrt-hsptl-e-nyg-notice-2026",
+    oldSlug: "১৫৩-পদে-আনোয়ারা-চ্যারিট",
     excerpt: `&nbsp;১৫৩ পদে আনোয়ারা চ্যারিটি হসপিটাল এ নিয়োগ বিজ্ঞপ্তি- ৩১/১২ Deadline: 31 Dec 2026 অত্র হাসপাতালের জন্য নিম্নোক্ত পদ সমূহে উল্লেখিত সংখ্যক জনবল নিয়ােগ করা হবে । আগ্রহী প্রার্থীদের আগামী ৩১/১২/২০২৬ ইং তারিখের মধ্যে পাসপাের্ট সাইজের রঙ্গিন ছবি -০৩ কপি , জীবন বৃত্তান্ত -০২ কপি , সকল শিক্ষাগত যােগ্য`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">১৫৩ পদে আনোয়ারা চ্যারিটি হসপিটাল এ নিয়োগ বিজ্ঞপ্তি- ৩১/১২</span></h2>
 <p dir="ltr"><b> Deadline</b>: 31 Dec 2026</p>
@@ -8562,8 +8799,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10661,
-    title: `Chakrir Khobor Patrika 12 March 2021 PDF Download | সাপ্তাহিক চাকরির খবর ১২ মার্চ ২০২৬-চাকরির খবর পত্রিকা ১২/৩/২০২৬`,
-    slug: "chakrir-khobor-patrika-12-march-2021-pdf-download-সাপ্তাহিক-চাকরির-খ",
+    title: "Chakrir Khobor Patrika 12 March 2021 PDF Download | সাপ্তাহিক চাকরির খবর ১২ মার্চ ২০২৬-চাকরির খবর পত্রিকা ১২/৩/২০২৬",
+    slug: "chakrir-khobor-patrika-12-march-2021-pdf-download",
+    oldSlug: "chakrir-khobor-patrika-12-march-2021-pdf-download-সাপ্তাহিক-চাকরির-খ",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। আমরা প্রতি সাপ্তাহের সাপ্তাহিক চাকরি খবর পত্রিকা তোমাদের মাঝে শেয়ার করে থাকি। সেই ধারাবাহিকতায় আজকে সাপ্তাহিক চাকরির খবর ১২ মার্চ ২০২৬ শেয়ার করবো।&nbsp; &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbs`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdDGWpFh2-OVL0TrqKb-q3BLKavxvTYeTYsNvcu0Asmbl-PQc6OiLi4fm5h5n7ERc-0wz3_pLrLEKHvlbNaX5-Oe8YHHUvNSWvwynEC7JldXdnHwiSawu25ua7JvS3ZqYq64XiHW2VTAcU/s1280/IMG_20210310_033725.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="Chakrir Khobor Patrika 12 March 2021 PDF Download | সাপ্তাহিক চাকরির খবর ১২ মার্চ ২০২৬-চাকরির খবর পত্রিকা ১২/৩/২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdDGWpFh2-OVL0TrqKb-q3BLKavxvTYeTYsNvcu0Asmbl-PQc6OiLi4fm5h5n7ERc-0wz3_pLrLEKHvlbNaX5-Oe8YHHUvNSWvwynEC7JldXdnHwiSawu25ua7JvS3ZqYq64XiHW2VTAcU/s16000/IMG_20210310_033725.jpg" /></a></div>
 <p></p>
@@ -8605,8 +8843,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10718,
-    title: `ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ঢাকা-দক্ষিণ-সিটি-কর্পোরে",
+    title: "ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dhk-dkshn-st-krprshn-dscc-e-nyg-notice-2026-1",
+    oldSlug: "ঢাকা-দক্ষিণ-সিটি-কর্পোরে",
     excerpt: `&nbsp; ৫৬ পদে ঢাকা দক্ষিণ সিটি কর্পোরেশন (dscc) এ নিয়োগ বিজ্ঞপ্তি- ২৩/০৩ &nbsp;Deadline:23 Mar 2021 🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;দক্ষিণ সিটি কর্পোরেশন (dscc)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৫৬ টি👉&nbsp;আবেদন ফীঃ&nbsp;১,০০০/- ও ৫০০/- টাকা👉&nbsp`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8641,8 +8880,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10753,
-    title: `বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-হাই-টেক-পার্ক-কর",
+    title: "বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-hi-tk-prk-krtpksh-t-bbhnn-pd-nyg-notice-2026-1",
+    oldSlug: "বাংলাদেশ-হাই-টেক-পার্ক-কর",
     excerpt: `&nbsp; বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ তে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ২৩/০২ &nbsp;Deadline: 23 Feb 2021 &nbsp; &nbsp; Download Circular &nbsp; Apply:&nbsp;http://bhtpa.teletalk.com.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8669,8 +8909,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10791,
-    title: `বাংলাদেশ পুলিশ সুপারের কার্যালয় ভোলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-পুলিশ-সুপারের-ক",
+    title: "বাংলাদেশ পুলিশ সুপারের কার্যালয় ভোলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-police-sprr-krjly-bhlt-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-পুলিশ-সুপারের-ক",
     excerpt: `&nbsp; বাংলাদেশ পুলিশ, পুলিশ সুপারের কার্যালয় ভোলাতে নিয়োগ বিজ্ঞপ্তি- ১৫/০৩ &nbsp;Deadline: 15 Mar 2021 &nbsp; &nbsp;বাংলাদেশ পুলিশ সুপারের কার্যালয় ভোলাতে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; দৈনিক যুগান্তর &#8211; ১৪ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8700,8 +8941,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10817,
-    title: `আইএফআইসি (ific) ব্যাংক লিমিটেড এ TSO/TAO পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আইএফআইসি-ific-ব্যাংক-লিমিটেড",
+    title: "আইএফআইসি (ific) ব্যাংক লিমিটেড এ TSO/TAO পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "aiefais-ific-bjngk-lmtd-e-tsotao-pd-nyg-notice-2026",
+    oldSlug: "আইএফআইসি-ific-ব্যাংক-লিমিটেড",
     excerpt: `&nbsp; আইএফআইসি (ific) ব্যাংক লিমিটেড এ TSO/TAO পদে নিয়োগ বিজ্ঞপ্তি- ১৮/০২ &nbsp;Deadline: 18 Feb 2021 🏦&nbsp;ব্যাংক জবস&nbsp;🏦👉&nbsp;প্রতিষ্ঠানঃ&nbsp;আইএফআইসি (ific) ব্যাংক লিমিটেড👉&nbsp;পদের নামঃ&nbsp;ট্রানজেকসন সার্ভিস অফিসার (TSO)👉&nbsp;গ্রেড / র‍্যাঙ্কঃ&nbsp;ট্রেইনী অ্যাসিস্ট্যান্ট অফিসার `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8727,8 +8969,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10847,
-    title: `Recent English Job Solution 2015-2021 pdf Download -রিসেন্ট ইংলিশ জব সলিউশন PDF Download`,
-    slug: "recent-english-job-solution-2015-2021-pdf-download-রিসেন্ট-ইংলিশ-জব-সল",
+    title: "Recent English Job Solution 2015-2021 pdf Download -রিসেন্ট ইংলিশ জব সলিউশন PDF Download",
+    slug: "recent-english-job-solution-2015-2021-pdf-download-rsnt-english-jb-slushn-pdf-download",
+    oldSlug: "recent-english-job-solution-2015-2021-pdf-download-রিসেন্ট-ইংলিশ-জব-সল",
     excerpt: `&nbsp; Table Of Contents Recent English Job Solution pdf download&nbsp; আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা আজকে আমরা তোমাদের জন্য recent English job Solution 2015-2021 বই থেকে ২০২৬ ও ২০২৬ সালে অনুষ্ঠিত সকল পরীক্ষার গণিত অংশের সমাধান নিয়ে হাজির হয়েছি। আসা &hel`,
     content: `<p>&nbsp;</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYxzkY05gG5GFwaBq-OQW_0mxqXkOu1pExBJwpN9xc-DKxP1DrV5HLUjrsKrns1hBziX2Q6wfX0AYzuXNuuDdaF7u0k1ye3OGtJ24mHY6mMWR0knFnK2yF0tgGHjDfH6nZ0afK_GSXhH86/s564/IMG_20210204_155141.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="Recent English Job Solution 2015-2021 pdf দওনলয়াদ-রিসেন্ট ইংলিশ জব সলিউশন PDF Download" border="0" data-original-height="564" data-original-width="518" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYxzkY05gG5GFwaBq-OQW_0mxqXkOu1pExBJwpN9xc-DKxP1DrV5HLUjrsKrns1hBziX2Q6wfX0AYzuXNuuDdaF7u0k1ye3OGtJ24mHY6mMWR0knFnK2yF0tgGHjDfH6nZ0afK_GSXhH86/s16000/IMG_20210204_155141.jpg" title="Recent English Job Solution 2015-2021 pdf দওনলয়াদ-রিসেন্ট ইংলিশ জব সলিউশন PDF Download" /></a></div>
@@ -8755,8 +8998,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10879,
-    title: `ন্যাশনাল আইডিয়াল গার্লস কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ন্যাশনাল-আইডিয়াল-গার্লস",
+    title: "ন্যাশনাল আইডিয়াল গার্লস কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "njshnl-aidyl-grls-klj-e-nyg-notice-2026",
+    oldSlug: "ন্যাশনাল-আইডিয়াল-গার্লস",
     excerpt: `&nbsp; ন্যাশনাল আইডিয়াল গার্লস কলেজ এ নিয়োগ বিজ্ঞপ্তি- ১৩/০২ &nbsp;Deadline: 13 Feb 2021 &nbsp;ন্যাশনাল আইডিয়াল গার্লস কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; সোর্সঃ দৈনিক বাংলাদেশ প্রতিদিন &#8211; ২৯ জানুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8783,8 +9027,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10909,
-    title: `শিক্ষক, কর্মকর্তা, কর্মচারী পদে ক্যানবেরা পাবলিক স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "শিক্ষক-কর্মকর্তা-কর্মচা",
+    title: "শিক্ষক, কর্মকর্তা, কর্মচারী পদে ক্যানবেরা পাবলিক স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "teacher-krmkrt-krmchr-pd-kjnbr-pblk-skl-ojnd-klj-e-nyg-notice-2026",
+    oldSlug: "শিক্ষক-কর্মকর্তা-কর্মচা",
     excerpt: `&nbsp; বিভিন্ন বিষয়ে শিক্ষক, কর্মকর্তা, কর্মচারী পদে ক্যানবেরা পাবলিক স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি- ১৭/০২ &nbsp;Deadline: 17 Feb 2021 &nbsp;শিক্ষক, কর্মকর্তা, কর্মচারী পদে ক্যানবেরা পাবলিক স্কুল অ্যান্ড কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ২৩ জানুয়ার`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8812,8 +9057,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10939,
-    title: `জাজিরা ক্যান্টনমেন্ট পাবলিক স্কুল এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জাজিরা-ক্যান্টনমেন্ট-পাব",
+    title: "জাজিরা ক্যান্টনমেন্ট পাবলিক স্কুল এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jjr-kjntnmnt-pblk-skl-e-nyg-notice-2026",
+    oldSlug: "জাজিরা-ক্যান্টনমেন্ট-পাব",
     excerpt: `&nbsp; বিভিন্ন পদে&nbsp; বিভিন্ন পদে জাজিরা ক্যান্টনমেন্ট পাবলিক স্কুল এ নিয়োগ বিজ্ঞপ্তি-&nbsp; ১০/০২&nbsp; Deadline: 10 Feb 2021 &nbsp;জাজিরা ক্যান্টনমেন্ট পাবলিক স্কুল এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; কালের কণ্ঠ &#8211; ১৯ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8849,8 +9095,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10971,
-    title: `প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্ট এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.pmeat.gov.bd job Circular 2021`,
-    slug: "প্রধানমন্ত্রীর-শিক্ষা-সহ",
+    title: "প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্ট এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.pmeat.gov.bd job Circular 2021",
+    slug: "prnmntrr-shksh-shyt-trst-e-nyg-notice-2026",
+    oldSlug: "প্রধানমন্ত্রীর-শিক্ষা-সহ",
     excerpt: `&nbsp; প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্ট এ নিয়োগ বিজ্ঞপ্তি- ০৪/০২ &nbsp;Deadline:4 Feb 2021 &nbsp;প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্ট এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.pmeat.gov.bd job Circular 2021 &nbsp; Download Circular &nbsp; Download Application Form + Admit Card`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8879,8 +9126,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10997,
-    title: `ঢাকা উত্তর সিটি কর্পোরেশন (dncc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dncc.gov.bd Job Circular 2021`,
-    slug: "ঢাকা-উত্তর-সিটি-কর্পোরেশ",
+    title: "ঢাকা উত্তর সিটি কর্পোরেশন (dncc) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.dncc.gov.bd Job Circular 2021",
+    slug: "dhk-uttr-st-krprshn-dncc-e-nyg-notice-2026",
+    oldSlug: "ঢাকা-উত্তর-সিটি-কর্পোরেশ",
     excerpt: `&nbsp; ৪২ পদে ঢাকা উত্তর সিটি কর্পোরেশন (dncc) এ নিয়োগ বিজ্ঞপ্তি- ০৮/০২ &nbsp;Deadline: 8 Feb 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;ঢাকা উত্তর সিটি কর্পোরেশন (dncc)👉 পদের নামঃ&nbsp;১৯ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;৪২টি👉 আবেদন ফীঃ&nbsp;১১২০/-, ৭৮৪/- ও ৫৬০/- টাকা👉 আবেদন `,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8908,8 +9156,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11032,
-    title: `এইচএম স্টিল এন্ড ইন্ডাস্ট্রি লি: (HM Steel) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "এইচএম-স্টিল-এন্ড-ইন্ডাস্",
+    title: "এইচএম স্টিল এন্ড ইন্ডাস্ট্রি লি: (HM Steel) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "eichem-stl-end-indstr-l-hm-steel-e-nyg-notice-2026",
+    oldSlug: "এইচএম-স্টিল-এন্ড-ইন্ডাস্",
     excerpt: `&nbsp; ১৬৮ পদে এইচএম স্টিল এন্ড ইন্ডাস্ট্রি লি: (HM Steel) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১ &nbsp;Deadline: 14 Jan 2021 &nbsp; Download Circular &nbsp; উৎসঃ দৈনিক প্রথম আলো &#8211; ৬ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -8938,8 +9187,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11055,
-    title: `পল্লী বিদ্যুতায়ন বোর্ড এ বিভিন্ন পদে ৪ টি নিয়োগ বিজ্ঞপ্তি ২০২৬ | পল্লি বিদ্যুৎ বোর্ডে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "পল্লী-বিদ্যুতায়ন-বোর্ড",
+    title: "পল্লী বিদ্যুতায়ন বোর্ড এ বিভিন্ন পদে ৪ টি নিয়োগ বিজ্ঞপ্তি ২০২৬ | পল্লি বিদ্যুৎ বোর্ডে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "pll-bdjtyn-brd-e-bbhnn-pd-4-t-nyg-notice-2026",
+    oldSlug: "পল্লী-বিদ্যুতায়ন-বোর্ড",
     excerpt: `&nbsp; ১৬২ পদে বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০১/০২ &nbsp;Deadline: 1 Feb 2021 &nbsp; ৪টি নিয়োগ বিজ্ঞপ্তি &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; ১। পল্লী বিদ্যুতায়ন বোর্ড এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | পল্লি বিদ্`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9044,8 +9294,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11096,
-    title: `বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.bcic.gov.bd Job Circular 2021`,
-    slug: "বাংলাদেশ-কেমিক্যাল-ইন্ডা",
+    title: "বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি ২০২৬ |www.bcic.gov.bd Job Circular 2021",
+    slug: "bangladsh-kmkjl-indstrj-krprshn-bcic-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-কেমিক্যাল-ইন্ডা",
     excerpt: `&nbsp;৩৯ পদে বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১ Deadline: 14 Jan 2021 &nbsp;প্রতিষ্ঠানঃ বাংলাদেশ কেমিক্যাল ইন্ডাষ্ট্রিজ কর্পোরেশন (বিসিআইসি) পদের নামঃ ৬ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ ৩৯টি &nbsp;আবেদন ফীঃ ৫০০/- টাকা &nbsp;আবেদন শুরুঃ ২৮ ডিসেম্বর ২০২৬ &n`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৩৯ পদে বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০১</span></h2>
 <p dir="ltr">
@@ -9074,8 +9325,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11139,
-    title: `ডাক অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ডাক-অধিদপ্তর-এ-নিয়োগ-বিজ",
+    title: "ডাক অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dk-odptr-e-nyg-notice-2026",
+    oldSlug: "ডাক-অধিদপ্তর-এ-নিয়োগ-বিজ",
     excerpt: `ডাক অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি- ০৭/০১ Deadline: 7 Jan 2021`,
     content: `<h2 style="text-align: left;"><span style="font-size: 1em;">ডাক অধিদপ্তর এ নিয়োগ বিজ্ঞপ্তি- ০৭/০১</span></h2>
 <p><b>Deadline</b>: 7 Jan 2021</p>
@@ -9092,8 +9344,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10662,
-    title: `Chakrir Dak Potrika 12 March 2021 | সাপ্তাহিক চাকরির ডাক পত্রিকা ১২ মার্চ ২০২৬ PDF Download -সাপ্তাহিক চাকরির ডাক ১২ মার্চ ২০২৬`,
-    slug: "chakrir-dak-potrika-12-march-2021-সাপ্তাহিক-চাকরির-ডাক",
+    title: "Chakrir Dak Potrika 12 March 2021 | সাপ্তাহিক চাকরির ডাক পত্রিকা ১২ মার্চ ২০২৬ PDF Download -সাপ্তাহিক চাকরির ডাক ১২ মার্চ ২০২৬",
+    slug: "chakrir-dak-potrika-12-march-2021",
+    oldSlug: "chakrir-dak-potrika-12-march-2021-সাপ্তাহিক-চাকরির-ডাক",
     excerpt: `&nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Chakrir Dak Potrika 12 March 2021 PDF Download&nbsp; আসছালামু আলাইকুম প্রিয় শিক্ষার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।আজকে আমরা তোমাদের সাপ্তাহিক চাকরির ডাক ১২ মার্চ ২০২৬ শেয়ার করবো।&nbsp; সাপ্তাহ`,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRgHOYVLPofYYZU56EVhkNPAPD89rnhDChtgX69BRja4FPWgCsAs57Yh59WGDH4iGxciPSbdZTrs4gDg7Tb-jRb8rhCpkpk7jZXLiOOaIoxLRDfQdwAxjIYn4sDTkqzbpMxZA-eaBxfXRZ/s1280/IMG_20210310_031605.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="Chakrir Dak Potrika 12 March 2021 | সাপ্তাহিক চাকরির ডাক পত্রিকা ১২ মার্চ ২০২৬ PDF Download -সাপ্তাহিক চাকরির ডাক ১২ মার্চ ২০২৬" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRgHOYVLPofYYZU56EVhkNPAPD89rnhDChtgX69BRja4FPWgCsAs57Yh59WGDH4iGxciPSbdZTrs4gDg7Tb-jRb8rhCpkpk7jZXLiOOaIoxLRDfQdwAxjIYn4sDTkqzbpMxZA-eaBxfXRZ/s16000/IMG_20210310_031605.jpg" /></a></div>
 <p></p>
@@ -9125,8 +9378,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10720,
-    title: `মাদ্রাসা শিক্ষা অধিদপ্তর (dme) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মাদ্রাসা-শিক্ষা-অধিদপ্তর",
+    title: "মাদ্রাসা শিক্ষা অধিদপ্তর (dme) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mdrs-shksh-odptr-dme-e-nyg-notice-2026",
+    oldSlug: "মাদ্রাসা-শিক্ষা-অধিদপ্তর",
     excerpt: `&nbsp; মাদ্রাসা শিক্ষা অধিদপ্তর (dme) এ নিয়োগ বিজ্ঞপ্তি- ১৪/০৩ &nbsp;Deadline: 14 Mar 2021 &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9149,8 +9403,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10765,
-    title: `জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "জাহাঙ্গীরনগর-বিশ্ববিদ্-8",
+    title: "জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "jhnggrngr-bshbbdjly-nyg-notice-2026",
+    oldSlug: "জাহাঙ্গীরনগর-বিশ্ববিদ্-8",
     excerpt: `&nbsp; প্রশাসনিক অফিসার পদে জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ১৬/০৩ &nbsp;Deadline: 16 Mar 2021 &nbsp;জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9180,8 +9435,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10792,
-    title: `বাণিজ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাণিজ্য-মন্ত্রণালয়ে-নিয",
+    title: "বাণিজ্য মন্ত্রণালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bnjj-ministry-nyg-notice-2026",
+    oldSlug: "বাণিজ্য-মন্ত্রণালয়ে-নিয",
     excerpt: `&nbsp; বাণিজ্য মন্ত্রণালয়ে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৫/০২ &nbsp;Deadline: 15 Feb 2021 &nbsp; &nbsp; Download Circular &nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9212,8 +9468,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10819,
-    title: `অধ্যাপক &#8211; ইতিহাস বিভাগ, ঢাকা বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "অধ্যাপক-ইতিহাস-বিভাগ-ঢাক",
+    title: "অধ্যাপক &#8211; ইতিহাস বিভাগ, ঢাকা বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "ojpk-8211-history-bbhg-dhk-bshbbdjly-e-nyg-notice-2026",
+    oldSlug: "অধ্যাপক-ইতিহাস-বিভাগ-ঢাক",
     excerpt: `&nbsp; অধ্যাপক &#8211; ইতিহাস বিভাগ, ঢাকা বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি- ২৪/০৩ Deadline: 24 Mar 2021 &nbsp;অধ্যাপক &#8211; ইতিহাস বিভাগ, ঢাকা বিশ্ববিদ্যালয় এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9239,8 +9496,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10849,
-    title: `বিভাগীয় কমিশনারের কার্যালয়, সিলেট এর বিভিন্ন পদের ৩৮ টি শূন্য পদের নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বিভাগীয়-কমিশনারের-কার্য",
+    title: "বিভাগীয় কমিশনারের কার্যালয়, সিলেট এর বিভিন্ন পদের ৩৮ টি শূন্য পদের নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bbhgy-kmshnrr-krjly-slt-er-bbhnn-pdr-38-t-shnj-pdr-nyg-notice-2026",
+    oldSlug: "বিভাগীয়-কমিশনারের-কার্য",
     excerpt: `&nbsp; বিভাগীয় কমিশনারের কার্যালয়, সিলেট এর বিভিন্ন পদের ৩৮ টি শূন্য পদের নিয়োগ বিজ্ঞপ্তি- ১৪/০৩ &nbsp;Deadline: 14 Mar 2021 🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বিভাগীয় কমিশনারের কার্যালয়, সিলেট👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৩৮টি👉&nbsp;আবেদন ফীঃ&nbs`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9268,8 +9526,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10880,
-    title: `প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রমি-এগ্রো-ফুডস-লিঃ-এ-নিয",
+    title: "প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prm-egr-fds-lh-e-nyg-notice-2026-1",
+    oldSlug: "প্রমি-এগ্রো-ফুডস-লিঃ-এ-নিয",
     excerpt: `&nbsp; বিভিন্ন পদে প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি- ১৩/০২ &nbsp;Deadline:&nbsp; 13 Feb 2021 &nbsp;প্রমি এগ্রো ফুডস লিঃ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9295,8 +9554,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10911,
-    title: `সাপ্তাহিক চাকরির খবর ২২ জানুয়ারি ২০২৬ -চাকরির খবর ২২/১/২০২৬ | Weekly Job Newspaper 22 January 2021 Bangladesh`,
-    slug: "সাপ্তাহিক-চাকরির-খবর-২২-জ",
+    title: "সাপ্তাহিক চাকরির খবর ২২ জানুয়ারি ২০২৬ -চাকরির খবর ২২/১/২০২৬ | Weekly Job Newspaper 22 January 2021 Bangladesh",
+    slug: "weekly-job-khabor-22-jnyr-2026-job-khabor-2212026",
+    oldSlug: "সাপ্তাহিক-চাকরির-খবর-২২-জ",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন?আসা করি সবাই ভালো আছেন। আমরা প্রতি সাপ্তাহে সকল প্রকার চাকরির পত্রিকা দিয়ে থাকি। সেই ধারাবাহিকতায় আজকে আমরা লক্ষ বেকারের প্রিয় পত্রিকা -সাপ্তাহিক চাকরির খবর ২২ জানুয়ারি ২০২৬ তোমাদেএ মাঝে শেয়ার করতেছি। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; `,
     content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtcp11lstvCK93LNU5wuB_Wz2f35M6dUtizqAGwUZ549O3XycD10oZ1s1GGQ_laKblEA8Vbxz4MgPrT0WEgaXs5rxZsnDOO8ZSaj_89KGBQ4hWFuFHWGEaWMXxXdLuYZtgckG6RgbVOVXT/s1280/IMG_20210119_151629.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির খবর ১৫ জানুয়ারি ২০২৬ -চাকরির খবর ১৫/১/২০২৬ | Weekly Job Newspaper 22 January 2021 Bangladesh" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtcp11lstvCK93LNU5wuB_Wz2f35M6dUtizqAGwUZ549O3XycD10oZ1s1GGQ_laKblEA8Vbxz4MgPrT0WEgaXs5rxZsnDOO8ZSaj_89KGBQ4hWFuFHWGEaWMXxXdLuYZtgckG6RgbVOVXT/s16000/IMG_20210119_151629.jpg" title="সাপ্তাহিক চাকরির খবর ১৫ জানুয়ারি ২০২৬ -চাকরির খবর ১৫/১/২০২৬ | Weekly Job Newspaper 22 January 2021 Bangladesh" /></a></div>
 <p></p>
@@ -9354,8 +9614,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10940,
-    title: `ডায়াবেটিক এসোসিয়েশন মেডিকেল কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ডায়াবেটিক-এসোসিয়েশন-মে",
+    title: "ডায়াবেটিক এসোসিয়েশন মেডিকেল কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "dybtk-essyshn-mdkl-klj-e-nyg-notice-2026",
+    oldSlug: "ডায়াবেটিক-এসোসিয়েশন-মে",
     excerpt: `&nbsp; বিভিন্ন পদে ডায়াবেটিক এসোসিয়েশন মেডিকেল কলেজ এ নিয়োগ বিজ্ঞপ্তি- ৩১/০১ Deadline: 31 Jan 2021 ডায়াবেটিক এসোসিয়েশন মেডিকেল কলেজ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular&nbsp; &nbsp; বাংলাদেশ প্রতিদিন &#8211; ১৮ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9382,8 +9643,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10972,
-    title: `সাপ্তাহিক চাকরি খবর ১৫ জানুয়ারি ২০২৬| Saptahik Chakrir Khobor Newspaper 15 January 2021 PDF | সাপ্তাহিক চাকরি খবর ১৫-১-২০২৬`,
-    slug: "সাপ্তাহিক-চাকরি-খবর-১৫-জা",
+    title: "সাপ্তাহিক চাকরি খবর ১৫ জানুয়ারি ২০২৬| Saptahik Chakrir Khobor Newspaper 15 January 2021 PDF | সাপ্তাহিক চাকরি খবর ১৫-১-২০২৬",
+    slug: "weekly-job-khabor-15-jnyr-2026",
+    oldSlug: "সাপ্তাহিক-চাকরি-খবর-১৫-জা",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। তোমরা যারা সাপ্তাহিক চাকরি খবর ১৫ জানুয়ারির ২০২৬ এর পত্রিকা&nbsp; খুজতেছো,তোমাদের জন্য এই পোস্টে&nbsp; লক্ষ বেকারের প্রিয় পত্রিকা -সাপ্তাহিক চাকরির খবর ১৫ জানুয়ারি ২০২৬ শেয়ার করতেছি। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp`,
     content: `</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrgNfKufTaMhM-ftJT2gnRrFbdSbdg8qlFP2ICfyGE3-XsAQt0-DyCIJWFbJHLO9E8sBWaBzO_cpvHDO4hp0v9PZYsgzq7ja0gNqZNnyJscDoypy-g4FEcUvFUz6eL3wIG0TiVEgT7p9Ja/s1280/IMG_20210112_133824.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরি খবর ১৫ জানুয়ারি ২০২৬,চাকরি খবর ১৫-১-২০২৬,Saptahik Chakrir Khobor Newspaper 15 January 2021 PDF,Chakrir Khobor Newspaper 15 January 2021" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrgNfKufTaMhM-ftJT2gnRrFbdSbdg8qlFP2ICfyGE3-XsAQt0-DyCIJWFbJHLO9E8sBWaBzO_cpvHDO4hp0v9PZYsgzq7ja0gNqZNnyJscDoypy-g4FEcUvFUz6eL3wIG0TiVEgT7p9Ja/s16000/IMG_20210112_133824.jpg" title="সাপ্তাহিক চাকরি খবর ১৫ জানুয়ারি ২০২৬,চাকরি খবর ১৫-১-২০২৬,Saptahik Chakrir Khobor Newspaper 15 January 2021 PDF,Chakrir Khobor Newspaper 15 January 2021" /></a></div>
@@ -9413,8 +9675,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 10998,
-    title: `ব্যুরো (bmet) তে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bmet.gov.bd Job Circular 2021`,
-    slug: "ব্যুরো-bmet-তে-নিয়োগ-বিজ্ঞপ্",
+    title: "ব্যুরো (bmet) তে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bmet.gov.bd Job Circular 2021",
+    slug: "bjr-bmet-t-nyg-notice-2026",
+    oldSlug: "ব্যুরো-bmet-তে-নিয়োগ-বিজ্ঞপ্",
     excerpt: `&nbsp; জনশক্তি কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো (bmet) তে নিয়োগ বিজ্ঞপ্তি- ২৭/০১ &nbsp;Deadline: 25 Jan 2021 &nbsp;ব্যুরো (bmet) তে নিয়োগ বিজ্ঞপ্তি ২০২৬ | www.bmet.gov.bd Job Circular 2021 &nbsp; Download Circular &nbsp; বাংলাদেশ প্রতিদিন &#8211; ১১ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9442,8 +9705,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11033,
-    title: `সেকশন অফিসার পদে সিলেট মেডিকেল বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সেকশন-অফিসার-পদে-সিলেট-মে",
+    title: "সেকশন অফিসার পদে সিলেট মেডিকেল বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "skshn-ofsr-pd-slt-mdkl-bshbbdjly-nyg-notice-2026",
+    oldSlug: "সেকশন-অফিসার-পদে-সিলেট-মে",
     excerpt: `&nbsp; সেকশন অফিসার পদে সিলেট মেডিকেল বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি- ২০/০১ &nbsp;Deadline: 20 Jan 2021 &nbsp;সেকশন অফিসার পদে সিলেট মেডিকেল বিশ্ববিদ্যালয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; ইত্তাফাক &#8211; ৭ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9473,8 +9737,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11060,
-    title: `প্রতিরক্ষা মন্ত্রণালয়ের (MOD) অধীনে সামরিক চিকিৎসা সার্ভিস মহাপরিদপ্তরে (DGMS ) নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রতিরক্ষা-মন্ত্রণালয়-3",
+    title: "প্রতিরক্ষা মন্ত্রণালয়ের (MOD) অধীনে সামরিক চিকিৎসা সার্ভিস মহাপরিদপ্তরে (DGMS ) নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prtrksh-ministryr-mod-on-smrk-chkts-srbhs-mhprdptr-dgms-job-circular-notice-2026",
+    oldSlug: "প্রতিরক্ষা-মন্ত্রণালয়-3",
     excerpt: `&nbsp; ৪৩ পদে প্রতিরক্ষা মন্ত্রণালয়ের (MOD) অধীনে সামরিক চিকিৎসা সার্ভিস মহাপরিদপ্তরে (DGMS ) নিয়োগ বিজ্ঞপ্তি- ২৭/০১ &nbsp;Deadline: 25 Jan 2021 &nbsp;নিয়োগ বিজ্ঞপ্তি প্রতিষ্ঠানঃ&nbsp;সামরিক চিকিৎসা সার্ভিস মহাপরিদপ্তর &nbsp;পদের নামঃ&nbsp;১৪ ক্যাটাগরির বিভিন্ন পদ পদ সংখ্যাঃ&nbsp;৪৩টি &nbsp;আবেদন ফ`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9512,8 +9777,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11098,
-    title: `মাদ্রাসা শিক্ষা অধিদপ্তর এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মাদ্রাসা-শিক্ষা-অধিদপ্ত-2",
+    title: "মাদ্রাসা শিক্ষা অধিদপ্তর এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mdrs-shksh-odptr-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "মাদ্রাসা-শিক্ষা-অধিদপ্ত-2",
     excerpt: `&nbsp;মাদ্রাসা শিক্ষা অধিদপ্তর এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৭/০১ &nbsp;Deadline: 17 Jan 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;মাদ্রাসা শিক্ষা অধিদপ্তর পদের নামঃ&nbsp;প্রশাসনিক কর্মকর্তা, ব্যক্তিগত সহকারী, স্টোর কিপার, ক্যাশিয়ার সহ ৭ ক্যাটাগরির বিভিন্ন পদ&nbsp; আবেদন ফীঃ&nbsp;১১২/- টাকা&nbsp; আবেদন শুরুঃ&nb`,
     content: `<h2 style="text-align: left;"><span style="background-color: white;">&nbsp;</span><span style="background-color: white; font-family: Ubuntu, sans-serif; font-size: 24px;">মাদ্রাসা শিক্ষা অধিদপ্তর এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১৭/০১</span></h2>
 <div style="font-family: Merriweather, Georgia, serif; font-size: 16px; font-stretch: normal; font-variant-east-asian: normal; font-variant-numeric: normal; line-height: 32px; margin: 0px;">
@@ -9544,8 +9810,9 @@ Deadline: 12 Jan 2021</p>
   },
   {
     id: 11143,
-    title: `প্রোগ্রাম ফর কমিউনিটি ডেভেলপমেন্ট (PCD) NGO তে ৯৭ পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "প্রোগ্রাম-ফর-কমিউনিটি-ডে",
+    title: "প্রোগ্রাম ফর কমিউনিটি ডেভেলপমেন্ট (PCD) NGO তে ৯৭ পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "prgrm-fr-kmunt-dbhlpmnt-pcd-ngo-t-97-pd-nyg-notice-2026",
+    oldSlug: "প্রোগ্রাম-ফর-কমিউনিটি-ডে",
     excerpt: `&nbsp;৯৭ পদে প্রোগ্রাম ফর কমিউনিটি ডেভেলপমেন্ট (PCD) NGO তে নিয়োগ বিজ্ঞপ্তি- ১৪/০১ Deadline: 14 Jan 2021 সুত্রঃদৈনিক প্রথম আলো ১৫ ডিসেম্বর ২০২৬`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৯৭ পদে প্রোগ্রাম ফর কমিউনিটি ডেভেলপমেন্ট (PCD) NGO তে নিয়োগ বিজ্ঞপ্তি- ১৪/০১</span></h2>
 <p dir="ltr"><b><br />
@@ -9562,8 +9829,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10472,
-    title: `সাপ্তাহিক চাকরির ডাক পত্রিকা ২৬ মার্চ ২০২৬ | Saptahik Chakrir Dak 26 March 2021 | সাপ্তাহিক চাকরির ডাক ২৬/৩/২০২৬`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-পত্",
+    title: "সাপ্তাহিক চাকরির ডাক পত্রিকা ২৬ মার্চ ২০২৬ | Saptahik Chakrir Dak 26 March 2021 | সাপ্তাহিক চাকরির ডাক ২৬/৩/২০২৬",
+    slug: "weekly-job-dk-ptrk-26-mrch-2026",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-পত্",
     excerpt: `আসছালামু আলাইকুম প্রিয় শিক্ষার্থী বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই সবাই ভালো আছেন। প্রতি সাপ্তাহের নিয়ায় আজকে আবার ও সাপ্তাহিক চাকরির ডাক পত্রিকা ২৬ মার্চ ২০২৬ শেয়ার করতেছি। &nbsp;&nbsp;&nbsp; Table Of Contents &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; সা`,
     content: `<div style="clear: both; text-align: center;"></div>
 <p></p>
@@ -9606,8 +9874,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10663,
-    title: `বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬-bangladesh railway job circular 2021 &#8211;`,
-    slug: "বাংলাদেশ-রেলওয়ে-নিয়োগ-3",
+    title: "বাংলাদেশ রেলওয়ে নিয়োগ বিজ্ঞপ্তি ২০২৬-bangladesh railway job circular 2021 &#8211;",
+    slug: "bangladsh-rloy-nyg-notice-2026-bangladesh-railway-job-circular-2021-8211",
+    oldSlug: "বাংলাদেশ-রেলওয়ে-নিয়োগ-3",
     excerpt: `&nbsp; বাংলাদেশ রেলওয়েতে বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০১/০৪ &nbsp;Deadline: 1 Apr 2021 &nbsp;👉&nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ রেলওয়ে👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;২৪টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- টাকা👉&nbsp;আবেদন শুরুঃ&nbsp;১৮ মার্চ ২০২৬👉&nbsp;আবেদনের লিংকঃ&nbsp;&nbsp;ht`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9647,8 +9916,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10721,
-    title: `সড়ক ও জনপথ অধিদপ্তর (rhd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "সড়ক-ও-জনপথ-অধিদপ্তর-rhd-এ-নিয",
+    title: "সড়ক ও জনপথ অধিদপ্তর (rhd) এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "srk-o-jnpth-odptr-rhd-e-nyg-notice-2026",
+    oldSlug: "সড়ক-ও-জনপথ-অধিদপ্তর-rhd-এ-নিয",
     excerpt: `&nbsp; ৪০৫ পদে সড়ক ও জনপথ অধিদপ্তর (rhd) এ নিয়োগ বিজ্ঞপ্তি- ৩১/০৩ Deadline: 31 Mar 2021 &nbsp;🇧🇩&nbsp;নিয়োগ বিজ্ঞপ্তি&nbsp;🇧🇩👉&nbsp;প্রতিষ্ঠানঃ&nbsp;সড়ক ও জনপথ অধিদপ্তর (rhd)👉&nbsp;পদের নামঃ&nbsp;বিভিন্ন পদ👉&nbsp;পদ সংখ্যাঃ&nbsp;৪০৫ টি👉&nbsp;আবেদন ফীঃ&nbsp;১১২/- ও ৫৬/- টাকা👉&nbsp;আবেদন শুরু`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9676,8 +9946,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10766,
-    title: `শক্তি ফাউন্ডেশন ফর ডিসঅ্যাডভান্টেজ উইমেন NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "শক্তি-ফাউন্ডেশন-ফর-ডিসঅ্",
+    title: "শক্তি ফাউন্ডেশন ফর ডিসঅ্যাডভান্টেজ উইমেন NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "shkt-fundshn-fr-dsojdbhntj-uimn-ngo-t-nyg-notice-2026",
+    oldSlug: "শক্তি-ফাউন্ডেশন-ফর-ডিসঅ্",
     excerpt: `&nbsp; ৭৮৬ পদে শক্তি ফাউন্ডেশন ফর ডিসঅ্যাডভান্টেজ উইমেন NGO তে নিয়োগ বিজ্ঞপ্তি- ১৮/০৩ &nbsp;Deadline: 18 Mar 2021 &nbsp; &nbsp; Download Circular`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9701,8 +9972,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10793,
-    title: `গ্রাম উন্নয়ন কর্ম (গাক) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "গ্রাম-উন্নয়ন-কর্ম-গাক-ngo-তে",
+    title: "গ্রাম উন্নয়ন কর্ম (গাক) NGO তে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "grm-unnyn-krm-gk-ngo-t-nyg-notice-2026",
+    oldSlug: "গ্রাম-উন্নয়ন-কর্ম-গাক-ngo-তে",
     excerpt: `&nbsp; ৯০১ পদে গ্রাম উন্নয়ন কর্ম (গাক) NGO তে নিয়োগ বিজ্ঞপ্তি- ১১/০৩ &nbsp;Deadline: 11 Mar 2021 &nbsp; &nbsp; Download Circular&nbsp; &nbsp; জব সোর্সঃ দৈনিক প্রথম আলো &#8211; ১২ ফেব্রুয়ারি ২০২৬&nbsp;`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9729,8 +10001,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10821,
-    title: `প্রধানমন্ত্রী ফেলোশিপ বিজ্ঞপ্তি (১ম পর্যায়) ২০২৬-২২`,
-    slug: "প্রধানমন্ত্রী-ফেলোশিপ-বি",
+    title: "প্রধানমন্ত্রী ফেলোশিপ বিজ্ঞপ্তি (১ম পর্যায়) ২০২৬-২২",
+    slug: "prnmntr-flshp-notice-1m-prjy-2026-22",
+    oldSlug: "প্রধানমন্ত্রী-ফেলোশিপ-বি",
     excerpt: `&nbsp; প্রধানমন্ত্রী ফেলোশিপ বিজ্ঞপ্তি ২০২৬-২২ (১ম পর্যায়) &#8211; ০৭/০৪ &nbsp;Deadline: 7 Apr 2021 &nbsp;প্রধানমন্ত্রী ফেলোশিপ বিজ্ঞপ্তি (১ম পর্যায়) ২০২৬-২২ Download Circular &nbsp; Apply:&nbsp;https://pmfellowship.pmo.gov.bd/`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9756,8 +10029,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10853,
-    title: `ম্যানেজমেন্ট ট্রেইনি পদে আবুল খায়ের গ্রুপ এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "ম্যানেজমেন্ট-ট্রেইনি-পদে",
+    title: "ম্যানেজমেন্ট ট্রেইনি পদে আবুল খায়ের গ্রুপ এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mjnjmnt-trin-pd-abl-khyr-grp-e-nyg-notice-2026",
+    oldSlug: "ম্যানেজমেন্ট-ট্রেইনি-পদে",
     excerpt: `&nbsp; ম্যানেজমেন্ট ট্রেইনি পদে আবুল খায়ের গ্রুপ এ নিয়োগ বিজ্ঞপ্তি- ২৮/০২ &nbsp;Deadline: 28 Feb 2021 &nbsp;ম্যানেজমেন্ট ট্রেইনি পদে আবুল খায়ের গ্রুপ এ নিয়োগ বিজ্ঞপ্তি ২০২৬ Download Circular &nbsp; Apply: https://hotjobs.bdjobs.com/jobs/abulkhair/abulkhair163.htm`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9786,8 +10060,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10881,
-    title: `সাপ্তাহিক চাকরির ডাক ২৯ জানুয়ারি ২০২৬- চাকরির ডাক ২৯/১/২০২৬ | Chakrir Dak potrika 29 January 2021 Pdf Download`,
-    slug: "সাপ্তাহিক-চাকরির-ডাক-২৯-জ",
+    title: "সাপ্তাহিক চাকরির ডাক ২৯ জানুয়ারি ২০২৬- চাকরির ডাক ২৯/১/২০২৬ | Chakrir Dak potrika 29 January 2021 Pdf Download",
+    slug: "weekly-job-dk-29-jnyr-2026-job-dk-2912026",
+    oldSlug: "সাপ্তাহিক-চাকরির-ডাক-২৯-জ",
     excerpt: `চাকরির ডাক পত্রিকা:-আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। সাপ্তাহিক চাকরির ডাক পত্রিকা যারা খুজতেছেন।তোমাদের জন্য আমরা প্রতি সাপ্তাহের চাকরির পত্রিকা গুলো PDF আকারে আমাদের ওয়েবসাইটে দিয়ে থাকি। এই পোস্টে তোমাদের চাকরির ডাক পত্রিকা ২৯ জানুয়ারি ২০২৬ পিডিএফ আকারে শেয়ার করবো`,
     content: `</p>
 <div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7dotSQe9KkB3IMDnKXQZRhR9JhGiFR8QJ0Z4TSZVHF6bX3dkxEt48cOIVFgLI5RVME3hy4lGxm8Vtwn889_C_RlJfSwxSOw9kBeOR7P_FPhUiFQOIaPQzsiReoxV9qzN1gBOe72s5Kczb/s1280/IMG_20210111_000239.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="সাপ্তাহিক চাকরির ডাক ১৫ জানুয়ারি ২০২৬- চাকরির ডাক ১৫/১/২০২৬ | Chakrir Dak potrika 15 January 2021 Pdf Download" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7dotSQe9KkB3IMDnKXQZRhR9JhGiFR8QJ0Z4TSZVHF6bX3dkxEt48cOIVFgLI5RVME3hy4lGxm8Vtwn889_C_RlJfSwxSOw9kBeOR7P_FPhUiFQOIaPQzsiReoxV9qzN1gBOe72s5Kczb/s16000/IMG_20210111_000239.jpg" title="সাপ্তাহিক চাকরির ডাক ১৫ জানুয়ারি ২০২৬- চাকরির ডাক ১৫/১/২০২৬ | Chakrir Dak potrika 15 January 2021 Pdf Download" /></a></div>
@@ -9831,8 +10106,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10913,
-    title: `সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (dmlc) তে নিয়োগ ২০২৬`,
-    slug: "সামরিক-ভূমি-ও-ক্যান্টনমে",
+    title: "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (dmlc) তে নিয়োগ ২০২৬",
+    slug: "smrk-bhm-o-kjntnmnt-odptr-dmlc-t-nyg-2026",
+    oldSlug: "সামরিক-ভূমি-ও-ক্যান্টনমে",
     excerpt: `&nbsp; ৭২ পদে সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (dmlc) তে নিয়োগ- ২২/০২ &nbsp;Deadline: 22 Feb 2021 &nbsp;http://dmlc.teletalk.com.bd/ Download Circular &nbsp; &nbsp; &nbsp; &nbsp; Download Circular &nbsp; আবেদনপত্র`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9871,8 +10147,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10941,
-    title: `বাংলাদেশ জাতীয় জাদুঘরে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-জাতীয়-জাদুঘরে",
+    title: "বাংলাদেশ জাতীয় জাদুঘরে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-jty-jdghr-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-জাতীয়-জাদুঘরে",
     excerpt: `&nbsp; বাংলাদেশ জাতীয় জাদুঘর এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ০৭/০২ &nbsp;Deadline: 7 Feb 2021 &nbsp;প্রতিষ্ঠানঃ&nbsp;বাংলাদেশ জাতীয় জাদুঘর &nbsp;পদের নামঃ&nbsp;১৫ ক্যাটাগরির বিভিন্ন পদ &nbsp;পদ সংখ্যাঃ&nbsp;১৭টি &nbsp;আবেদন ফীঃ&nbsp;২২৪/- টাকা আবেদন শুরুঃ&nbsp;১৮ জানুয়ারি ২০২৬ &nbsp;আবেদনের লিংকঃ&nbs`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9911,8 +10188,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10974,
-    title: `বর্ডার গার্ড বাংলাদেশ (BGB) তে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | BGB Job Circular 2021`,
-    slug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-তে",
+    title: "বর্ডার গার্ড বাংলাদেশ (BGB) তে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ | BGB Job Circular 2021",
+    slug: "brdr-grd-bangladsh-bgb-t-osmrk-pd-nyg-notice-2026",
+    oldSlug: "বর্ডার-গার্ড-বাংলাদেশ-bgb-তে",
     excerpt: `&nbsp; ২৪৪ পদে বর্ডার গার্ড বাংলাদেশ (BGB) তে অসামরিক পদে নিয়োগ বিজ্ঞপ্তি- ২২/০১ &nbsp;Deadline: 22 Jan 2021 &nbsp;🇧🇩 নিয়োগ বিজ্ঞপ্তি 🇧🇩👉 প্রতিষ্ঠানঃ&nbsp;বর্ডার গার্ড বাংলাদেশ (BGB)👉 পদের নামঃ&nbsp;১৮ ক্যাটাগরির বিভিন্ন পদ👉 পদ সংখ্যাঃ&nbsp;২৪৪টি👉 আবেদন ফীঃ&nbsp;১৫০/- টাকা👉 আবেদন শুরুঃ&nbsp`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9947,8 +10225,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 10999,
-    title: `বাংলাদেশ মেডিকেল এন্ড ডেন্টাল কাউন্সিল এ নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "বাংলাদেশ-মেডিকেল-এন্ড-ডে",
+    title: "বাংলাদেশ মেডিকেল এন্ড ডেন্টাল কাউন্সিল এ নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "bangladsh-mdkl-end-dntl-kunsl-e-nyg-notice-2026",
+    oldSlug: "বাংলাদেশ-মেডিকেল-এন্ড-ডে",
     excerpt: `&nbsp; বিভিন্ন পদে বাংলাদেশ মেডিকেল এন্ড ডেন্টাল কাউন্সিল এ নিয়োগ বিজ্ঞপ্তি- ১২/০২ &nbsp;Deadline: 12 Feb 2021 &nbsp;বাংলাদেশ মেডিকেল এন্ড ডেন্টাল কাউন্সিল এ নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;Download Circular &nbsp; দৈনিক ইত্তেফাক &#8211; ১১ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -9976,8 +10255,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11036,
-    title: `মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "মেডিকেল-কলেজ-হাসপাতাল-এ-ব",
+    title: "মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "mdkl-klj-hsptl-e-bbhnn-pd-nyg-notice-2026",
+    oldSlug: "মেডিকেল-কলেজ-হাসপাতাল-এ-ব",
     excerpt: `&nbsp; বাংলাদেশ মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- ১২/০১ &nbsp;Deadline: 12 Jan 2021 &nbsp;মেডিকেল কলেজ হাসপাতাল এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp; Download Circular &nbsp; ইত্তাফাক &#8211; ৬ জানুয়ারি ২০২৬`,
     content: `<p>&nbsp;</p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -10006,8 +10286,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11061,
-    title: `আর্মি মেডিকেল কলেজ বগুড়াতে নিয়োগ বিজ্ঞপ্তি ২০২৬`,
-    slug: "আর্মি-মেডিকেল-কলেজ-বগুড়",
+    title: "আর্মি মেডিকেল কলেজ বগুড়াতে নিয়োগ বিজ্ঞপ্তি ২০২৬",
+    slug: "arm-mdkl-klj-bgrt-nyg-notice-2026",
+    oldSlug: "আর্মি-মেডিকেল-কলেজ-বগুড়",
     excerpt: `&nbsp; বিভিন্ন পদে আর্মি মেডিকেল কলেজ বগুড়াতে নিয়োগ বিজ্ঞপ্তি- ২০/০১ &nbsp;Deadline: 20 Jan 2021 &nbsp;আর্মি মেডিকেল কলেজ বগুড়াতে নিয়োগ বিজ্ঞপ্তি ২০২৬&nbsp; &nbsp; Download Circular &nbsp; দৈনিক ইত্তেফাক &#8211; ২ জানুয়ারি ২০২৬`,
     content: `<p><span style="background-color: white;">&nbsp;</span></p>
 <div style="font-family: Ubuntu, sans-serif; font-size: 16px;">
@@ -10036,8 +10317,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11103,
-    title: `চাকরি বাকরি ২৭/১২/২০২৬ | প্রথম আলো চাকরি বাকরি ২৭/১২/২০২৬`,
-    slug: "চাকরি-বাকরি-২৫-১২-২০২০-প্র",
+    title: "চাকরি বাকরি ২৭/১২/২০২৬ | প্রথম আলো চাকরি বাকরি ২৭/১২/২০২৬",
+    slug: "job-bkr-27122026",
+    oldSlug: "চাকরি-বাকরি-২৫-১২-২০২০-প্র",
     excerpt: `&nbsp;দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৭ ডিসেম্বর ২০২৬ চাকরি বাকরি ২৭ ডিসেম্বর ২০২৬ | প্রথম আলো চাকরি বাকরি ২৭/১২/২০২৬`,
     content: `<h2 style="text-align: center;"><span style="background-color: white; font-size: small;">&nbsp;<span style="font-family: Ubuntu, sans-serif;">দৈনিক প্রথম আলো পত্রিকায় প্রকাশিত সাপ্তাহিক চাকরির পত্রিকাঃ চাকরি বাকরি &#8211; ২৭ ডিসেম্বর ২০২৬</span></span></h2>
 <div><span style="background-color: white; font-size: small;"></p>
@@ -10058,8 +10340,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11145,
-    title: `মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের ৪,০৩২ টি পদে নিয়োগ সংক্রান্ত সতর্কীকরণ বিজ্ঞপ্তি সতর্কীকরণ বিজ্ঞপ্তি`,
-    slug: "মাধ্যমিক-ও-উচ্চ-শিক্ষা-অধ-2",
+    title: "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের ৪,০৩২ টি পদে নিয়োগ সংক্রান্ত সতর্কীকরণ বিজ্ঞপ্তি সতর্কীকরণ বিজ্ঞপ্তি",
+    slug: "mjmk-o-uchch-shksh-odptrr-4032-t-pd-nyg-sngkrnt-strkkrn-notice-strkkrn-notice",
+    oldSlug: "মাধ্যমিক-ও-উচ্চ-শিক্ষা-অধ-2",
     excerpt: `মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের ৪,০৩২ টি পদে নিয়োগ সংক্রান্ত সতর্কীকরণ বিজ্ঞপ্তি&nbsp; সতর্কীকরণ বিজ্ঞপ্তি`,
     content: `<h2 style="text-align: center;"><span style="font-size: 1em;">মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের ৪,০৩২ টি পদে নিয়োগ সংক্রান্ত সতর্কীকরণ বিজ্ঞপ্তি&nbsp;</span></h2>
 <p dir="ltr">
@@ -10079,8 +10362,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11245,
-    title: `স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে জননিরাপত্তা বিভাগ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- শেষ তারিখ ২০-১২-২০২৬`,
-    slug: "স্বরাষ্ট্র-মন্ত্রণালয়ে",
+    title: "স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে জননিরাপত্তা বিভাগ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি- শেষ তারিখ ২০-১২-২০২৬",
+    slug: "sbrshtr-ministryr-on-jnnrptt-bbhg-e-bbhnn-pd-nyg-notice-shsh-trkh-20-12-2026",
+    oldSlug: "স্বরাষ্ট্র-মন্ত্রণালয়ে",
     excerpt: `&nbsp;স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে জননিরাপত্তা বিভাগ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২০-১২-২০২৬ Deadline: 20 Dec 2026 নিয়োগ বিজ্ঞপ্তি &nbsp;প্রতিষ্ঠানঃ জননিরাপত্তা বিভাগ &nbsp;পদের নামঃ বিভিন্ন পদ &nbsp;আবেদন ফীঃ ১১২/- টাকা &nbsp;আবেদন শুরুঃ ২ ডিসেম্বর ২০২৬ &nbsp;আবেদনের লিংকঃ http://psd.te`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">স্বরাষ্ট্র মন্ত্রণালয়ের অধীনে জননিরাপত্তা বিভাগ এ বিভিন্ন পদে নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২০-১২-২০২৬</span></h2>
 <p dir="ltr">
@@ -10113,8 +10397,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11246,
-    title: `৬০ পদে রূপালী ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ০২-১২ | Rupali Bank Limited Job Circular 2-12-2026`,
-    slug: "৬০-পদে-রূপালী-ব্যাংক-লিমি",
+    title: "৬০ পদে রূপালী ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ০২-১২ | Rupali Bank Limited Job Circular 2-12-2026",
+    slug: "60-pd-rpl-bjngk-lmtd-e-nyg-notice-shsh-trkh-02-12",
+    oldSlug: "৬০-পদে-রূপালী-ব্যাংক-লিমি",
     excerpt: `ব্যাংকার্স সিলেকশন কমিটির সদস্যভূক্ত&nbsp; রুপালী ব্যাংক লিমিটেড এ নিম্নবর্ণিত সংখ্যক শূন্য পদসমূহ প্রতিযােগিতামূলক পৰীক্ষাৰ মাধ্যমে পুরণ লক্ষ্যে প্রকৃত বাংলাদেশী নাগরিকদের নিকট হতে Online এ দরখাস্ত করার আহবান করা যাচ্ছে । &nbsp;৬০ পদে রূপালী ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ০২-১২ Deadline`,
     content: `<div style="text-align: left;">ব্যাংকার্স সিলেকশন কমিটির সদস্যভূক্ত&nbsp; রুপালী ব্যাংক লিমিটেড এ নিম্নবর্ণিত সংখ্যক শূন্য পদসমূহ প্রতিযােগিতামূলক পৰীক্ষাৰ মাধ্যমে পুরণ লক্ষ্যে প্রকৃত বাংলাদেশী নাগরিকদের নিকট হতে Online এ দরখাস্ত করার আহবান করা যাচ্ছে ।</div>
 <h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৬০ পদে রূপালী ব্যাংক লিমিটেড এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ০২-১২</span></h2>
@@ -10135,8 +10420,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11247,
-    title: `১৬ তম শিক্ষক নিবন্ধন মৌখিক পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি -পরীক্ষার তারিখ-২ ডিসেম্বর ২০২৬ থেকে শুরু`,
-    slug: "১৬-তম-শিক্ষক-নিবন্ধন-মৌখি",
+    title: "১৬ তম শিক্ষক নিবন্ধন মৌখিক পরীক্ষা সংক্রান্ত বিজ্ঞপ্তি -পরীক্ষার তারিখ-২ ডিসেম্বর ২০২৬ থেকে শুরু",
+    slug: "16-tm-teacher-nbnn-mkhk-prksh-sngkrnt-notice-prkshr-trkh-2-dsmbr-2026-thk-shr",
+    oldSlug: "১৬-তম-শিক্ষক-নিবন্ধন-মৌখি",
     excerpt: `এতদ্বারা ১৬ তম শিক্ষক নিবন্ধন লিখিত পরীক্ষায় উত্তীর্ণ মৌখিক পরীক্ষার্থীদের অবগতির জন্য বিশেষভাবে জানানাে যাচ্ছে যে , যে সকল পরীক্ষার্থী কোভিড -১৯ এ আক্রান্ত হওয়ার কারণে নির্দিষ্ট তারিখ ও সময়ে মৌখিক পরীক্ষায় অংশগ্রহণ করতে পারবেন না তাদেরকে কোভিড -১৯ এ আক্রান্ত হওয়ার মেডিক্যাল সনদসহ এনটিআরসিএ কর্`,
     content: `<p>এতদ্বারা ১৬ তম শিক্ষক নিবন্ধন লিখিত পরীক্ষায় উত্তীর্ণ মৌখিক পরীক্ষার্থীদের অবগতির জন্য বিশেষভাবে জানানাে যাচ্ছে যে , যে সকল পরীক্ষার্থী কোভিড -১৯ এ আক্রান্ত হওয়ার কারণে নির্দিষ্ট তারিখ ও সময়ে মৌখিক পরীক্ষায় অংশগ্রহণ করতে পারবেন না তাদেরকে কোভিড -১৯ এ আক্রান্ত হওয়ার মেডিক্যাল সনদসহ এনটিআরসিএ কর্তৃপক্ষকে লিখিতভাবে । ই &#8211; মেইলের মাধ্যমে অবহিত করার জন্য অনুরােধ করা হলাে । পরবর্তীতে মৌখিক পরীক্ষায় অংশগ্রহণের জন্য সুস্থতার স্বপক্ষে কোভিড -১৯ এর নেগেটিভ সনদসহ আবেদন করতে হবে ।&nbsp;</p>
 <p>জরুরী যােগাযােগ : জনাব ফিরােজ আহমেদ , সহকারী পরিচালক ( পমূর্ব -১ ) , ফোন : ০২-৫৫১৩৮৫০৮ , মােবাইল : ০১৫২১৫৬০৬০৪ ।</p>
@@ -10159,8 +10445,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11248,
-    title: `আল-আরাফাহ ইসলামী ব্যাংক লিমিটেড এ ট্রেইনী ফিল্ড সুপারভাইজার পদে নিয়োগ বিজ্ঞপ্তি শেষ তারিখ ১৫-১২-২০২৬`,
-    slug: "আল-আরাফাহ-ইসলামী-ব্যাংক-ল",
+    title: "আল-আরাফাহ ইসলামী ব্যাংক লিমিটেড এ ট্রেইনী ফিল্ড সুপারভাইজার পদে নিয়োগ বিজ্ঞপ্তি শেষ তারিখ ১৫-১২-২০২৬",
+    slug: "al-arfh-islm-bjngk-lmtd-e-trin-fld-sprbhijr-pd-nyg-notice-shsh-trkh-15-12-2026",
+    oldSlug: "আল-আরাফাহ-ইসলামী-ব্যাংক-ল",
     excerpt: `Al Arafah Islami Bank Limited Job Circular 2026 নিয়ােগ বিজ্ঞপ্তি আল &#8211; আরাফাহ্ ইসলামী ব্যাংক লিঃ CMSME কার্যক্রমের আওতায় Al Arafah Rural Development Programme ( ARDP ) বাস্তবায়নের লক্ষ্যে নিম্নোক্ত পদে কিছু সংখ্যক পুরুষ / মহিলা বাংলাদেশী নাগরিক অস্থায়ী ভত্তিতে নিয়ােগ করা হবে ।&nbsp; পদের ন`,
     content: `<h2 style="text-align: center;">Al Arafah Islami Bank Limited Job Circular 2026</h2>
 <p>নিয়ােগ বিজ্ঞপ্তি আল &#8211; আরাফাহ্ ইসলামী ব্যাংক লিঃ CMSME কার্যক্রমের আওতায় Al Arafah Rural Development Programme ( ARDP ) বাস্তবায়নের লক্ষ্যে নিম্নোক্ত পদে কিছু সংখ্যক পুরুষ / মহিলা বাংলাদেশী নাগরিক অস্থায়ী ভত্তিতে নিয়ােগ করা হবে ।&nbsp;</p>
@@ -10188,8 +10475,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11250,
-    title: `দেখে নিন এক্ষনি- ৪৩ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 43th BCS Circular 2026`,
-    slug: "দেখে-নিন-এক্ষনি-৪৩-তম-বিসি",
+    title: "দেখে নিন এক্ষনি- ৪৩ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 43th BCS Circular 2026",
+    slug: "dkh-nn-ekshn-43-tm-bcs-nyg-notice-2026",
+    oldSlug: "দেখে-নিন-এক্ষনি-৪৩-তম-বিসি",
     excerpt: `&nbsp; ৪৩ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 43th BCS Circular 2026 ৪৩ তম বিসিএস পরীক্ষাঃ- ২০২৬&nbsp; পদ সংখ্যাঃ ক) সাধারণ ক্যাডারঃ- ৫৫০ টা।&nbsp; খ) প্রফেশনাল ক্যাডার/টেকনিক্যাল ক্যাডারঃ- ৩১০ টা।&nbsp; &nbsp;গ) বিসিএস সাধারণ শিক্ষা ক্যাডারঃ- ৮৪৩ টা।&nbsp; মোট পদসংখ্যাঃ ১,৮১৪ টা আবেদন শুরুঃ ৩০/১২/২০২৬`,
     content: `<p>&nbsp;</p>
 <h2 style="text-align: center;">৪৩ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | 43th BCS Circular 2026</h2>
@@ -10256,8 +10544,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11251,
-    title: `ডাউনলোড করুন ৪২ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ |৪২ তম বিসিএস পরীক্ষার বিজ্ঞপ্তি প্রকাশ ২০২৬ Pdf Download`,
-    slug: "ডাউনলোড-করুন-৪২-তম-বিসিএস",
+    title: "ডাউনলোড করুন ৪২ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ |৪২ তম বিসিএস পরীক্ষার বিজ্ঞপ্তি প্রকাশ ২০২৬ Pdf Download",
+    slug: "download-krn-42-tm-bcs-nyg-notice-2026",
+    oldSlug: "ডাউনলোড-করুন-৪২-তম-বিসিএস",
     excerpt: `&nbsp;আসছালামু আলাইকুম প্রিয় পাঠক ৪২ তম বিসিএস ভর্তি বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। যারা এখন ও দেখেম নাই দেখে নিন।&nbsp; &nbsp;দেখে নিন ৪২ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | ৪২ তম বিসিএস পরীক্ষার বিজ্ঞপ্তি প্রকাশ ২০২৬ Pdf Download&nbsp; ৪২ তম এবং ৪৩ তম বিসিএস পরীক্ষার বিজ্ঞপ্তি প্রকাশ। ৪২তম (বিশেষ) বি`,
     content: `<p>&nbsp;আসছালামু আলাইকুম প্রিয় পাঠক ৪২ তম বিসিএস ভর্তি বিজ্ঞপ্তি ২০২৬ প্রকাশিত হয়েছে। যারা এখন ও দেখেম নাই দেখে নিন।&nbsp;</p>
 <h2 style="text-align: center;">&nbsp;দেখে নিন ৪২ তম বিসিএস নিয়োগ বিজ্ঞপ্তি ২০২৬ | ৪২ তম বিসিএস পরীক্ষার বিজ্ঞপ্তি প্রকাশ ২০২৬ Pdf Download&nbsp;</h2>
@@ -10298,8 +10587,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11237,
-    title: `বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে পুনঃনিয়োগ বিজ্ঞপ্তি ২০২৬ &#8211; www.Bsc.gov.bd`,
-    slug: "বাংলাদেশ-শিপিং-কর্পোরেশ-2",
+    title: "বাংলাদেশ শিপিং কর্পোরেশন এ বিভিন্ন পদে পুনঃনিয়োগ বিজ্ঞপ্তি ২০২৬ &#8211; www.Bsc.gov.bd",
+    slug: "bangladsh-shpng-krprshn-e-bbhnn-pd-pnhnyg-notice-2026-8211-wwwbscgovbd",
+    oldSlug: "বাংলাদেশ-শিপিং-কর্পোরেশ-2",
     excerpt: `&nbsp;বিভিন্ন পদে বাংলাদেশ শিপিং কর্পোরেশন এ পুনঃনিয়োগ বিজ্ঞপ্তি- ৩১/১২ Deadline: 31 Dec 2026 শিপিং কর্পোরেশন নিয়োগ বিজ্ঞপ্তি ২০২৬ &nbsp;প্রতিষ্ঠানঃ বাংলাদেশ শিপিং কর্পোরেশন (BSC) &nbsp;পদের নামঃ বিভিন্ন পদ &nbsp;আবেদন ফীঃ ৩,৫০০/- টাকা আবেদনের শেষ তারিখঃ&nbsp; ৩১ ডিসেম্বর ২০২৬`,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: medium;">বিভিন্ন পদে বাংলাদেশ শিপিং কর্পোরেশন এ পুনঃনিয়োগ বিজ্ঞপ্তি- ৩১/১২</span></h2>
 <p dir="ltr"><b><br />
@@ -10324,8 +10614,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11238,
-    title: `৬৬ পদে স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED) এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২৭-১২`,
-    slug: "৬৬-পদে-স্বাস্থ্য-প্রকৌশল",
+    title: "৬৬ পদে স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED) এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২৭-১২",
+    slug: "66-pd-sbsthj-prkshl-odptr-hed-e-nyg-notice-shsh-trkh-27-12",
+    oldSlug: "৬৬-পদে-স্বাস্থ্য-প্রকৌশল",
     excerpt: `&nbsp;৬৬ পদে স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED) এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২৭-১২ Deadline: 27 Dec 2026 প্রতিষ্ঠানঃ স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED) পদের নামঃ বিভিন্ন পদ পদ সংখ্যাঃ ৬৬টি &nbsp;আবেদন ফীঃ ১১২/- ও ৫৬/- টাকা &nbsp;আবেদন শুরুঃ ৭ ডিসেম্বর ২০২৬ &nbsp;আবেদনের লিংকঃ http://hed.teletalk.com.bd/ `,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৬৬ পদে স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED) এ নিয়োগ বিজ্ঞপ্তি-শেষ তারিখ ২৭-১২</span></h2>
 <p dir="ltr">
@@ -10361,8 +10652,9 @@ Deadline</b>: 14 Jan 2021</p>
   },
   {
     id: 11242,
-    title: `৫১ পদে জেলা প্রশাসকের কার্যালয় সুনামগঞ্জের অধীনে শুন্য পদে নিয়োগ বিজ্ঞপ্তি-Deadline ৩১-১২-২০২৬`,
-    slug: "৫১-পদে-জেলা-প্রশাসকের-কার",
+    title: "৫১ পদে জেলা প্রশাসকের কার্যালয় সুনামগঞ্জের অধীনে শুন্য পদে নিয়োগ বিজ্ঞপ্তি-Deadline ৩১-১২-২০২৬",
+    slug: "51-pd-jl-prshskr-krjly-snamegnjr-on-shnj-pd-nyg-notice-deadline-31-12-2026",
+    oldSlug: "৫১-পদে-জেলা-প্রশাসকের-কার",
     excerpt: `&nbsp;৫১ পদে জেলা প্রশাসকের কার্যালয় সুনামগঞ্জের অধীনে শুন্য পদে নিয়োগ বিজ্ঞপ্তি&nbsp;২০২৬ Deadline: 31 Dec 2026 জনপ্রশাসন মন্ত্রণালয় এর উদৃত কর্মচারী শাখার ২৬ নভেম্বর ২০২৬ তারিখের ০৫.০০.০০০০.১৬৬.১১.০১১.১৭,২৪৭ নং স্মারকের ছাড়পত্রের প্রেক্ষিতে জেলা প্রশাসকের কার্যালয় , সুনামগঞ্জ এর সাধারণ প্রশাসন `,
     content: `<h2 style="text-align: center;">&nbsp;<span style="font-size: 1em;">৫১ পদে জেলা প্রশাসকের কার্যালয় সুনামগঞ্জের অধীনে শুন্য পদে নিয়োগ বিজ্ঞপ্তি</span><span style="font-size: 1em;">&nbsp;২০২৬</span></h2>
 <p dir="ltr"> Deadline: 31 Dec 2026</p>

@@ -61,3 +61,4 @@ final_extracted_*.json
 # Agent local state
 .commandcode/
 memory.md
+gdrive-service-account.json

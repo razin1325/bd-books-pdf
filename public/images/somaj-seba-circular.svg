@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d90429"/>
+      <stop offset="100%" stop-color="#ef233c"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background White -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+  
+  <!-- Outer Red Border -->
+  <rect x="8" y="8" width="1184" height="614" fill="none" stroke="#d90429" stroke-width="12"/>
+
+  <!-- Top Header Red Section -->
+  <rect x="20" y="20" width="1160" height="260" fill="url(#redGrad)"/>
+  
+  <!-- Top Header Text: সমাজসেবা -->
+  <text x="600" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SolaimanLipi', Arial, sans-serif" font-size="140" font-weight="900" fill="#ffffff" text-anchor="middle" filter="url(#shadow)">সমাজসেবা</text>
+
+  <!-- Middle Section: কার্যালয় বিশাল নিয়োগ -->
+  <g transform="translate(60, 310)">
+    <!-- Government Seal Circle -->
+    <circle cx="85" cy="65" r="55" fill="#d90429"/>
+    <circle cx="85" cy="65" r="46" fill="#ffffff"/>
+    <circle cx="85" cy="65" r="38" fill="#15803d"/>
+    <circle cx="85" cy="65" r="16" fill="#d90429"/>
+    
+    <!-- Text: কার্যালয় বিশাল নিয়োগ -->
+    <text x="175" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SolaimanLipi', Arial, sans-serif" font-size="76" font-weight="900" fill="#000000">কার্যালয় বিশাল নিয়োগ</text>
+    <line x1="170" y1="115" x2="1080" y2="115" stroke="#000000" stroke-width="4.5"/>
+  </g>
+
+  <!-- Bottom Section: সরকারি চাকরি -->
+  <g transform="translate(60, 525)">
+    <text x="320" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SolaimanLipi', Arial, sans-serif" font-size="95" font-weight="900" fill="#d90429">সরকারি</text>
+    <text x="690" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'SolaimanLipi', Arial, sans-serif" font-size="95" font-weight="900" fill="#15803d">চাকরি</text>
+  </g>
+</svg>

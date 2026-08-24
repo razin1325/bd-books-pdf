@@ -5,7 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Breadcrumb from '@/components/Breadcrumb';
 import AdSlot from '@/components/AdSlot';
+import CategoryCard from '@/components/CategoryCard';
 import { getCategoryPostBySlug, getRelatedCategoryPosts, CATEGORY_POSTS } from '@/lib/categories-data';
+import { generateBabyNameSvgImage } from '@/lib/svg-generator';
 import { Calendar, ArrowRight, Sparkles, BookOpen } from 'lucide-react';
 
 // Turbopack dev can deliver the raw percent-encoded segment; decode when needed.
@@ -61,13 +63,18 @@ export default async function CategoryDetailPage({ params }: RouteProps) {
   }
 
   const related = getRelatedCategoryPosts(post.slug, 3);
+  const displayImage =
+    post.image ||
+    (post.categorySlug === 'baby-boy-girl-name'
+      ? generateBabyNameSvgImage(post.title, post.category)
+      : null);
 
   const jsonLdSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
-    image: post.image,
+    image: displayImage,
     datePublished: post.date,
     publisher: {
       '@type': 'Organization',
@@ -113,7 +120,7 @@ export default async function CategoryDetailPage({ params }: RouteProps) {
             </span>
             <span className="flex items-center space-x-1">
               <Sparkles className="w-4 h-4 text-pink-500" />
-              <span>Educationblog24.com</span>
+              <span>BD Edu PDF</span>
             </span>
           </div>
           <div className="flex items-center space-x-2 text-xs font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-lg border border-pink-200">
@@ -122,10 +129,10 @@ export default async function CategoryDetailPage({ params }: RouteProps) {
           </div>
         </div>
 
-        {post.image && (
-          <div className="relative w-full h-56 sm:h-72 rounded-xl overflow-hidden border border-gray-200">
+        {displayImage && (
+          <div className="relative w-full h-56 sm:h-80 rounded-2xl overflow-hidden border border-gray-200 shadow-md">
             <Image
-              src={post.image}
+              src={displayImage}
               alt={post.title}
               fill
               className="object-cover"
@@ -139,51 +146,31 @@ export default async function CategoryDetailPage({ params }: RouteProps) {
 
         {/* Main Article Body HTML rendered with prose CSS */}
         <div
-          className="prose prose-pink max-w-none text-gray-800 space-y-5 leading-relaxed text-sm sm:text-base prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mt-6 prose-h3:text-lg prose-h3:text-pink-950 prose-a:text-pink-700 prose-a:font-semibold prose-strong:text-gray-900 prose-img:rounded-xl prose-img:border prose-img:border-gray-200 prose-table:w-full prose-table:border-collapse"
+          className={`prose prose-pink max-w-none text-gray-800 space-y-5 leading-relaxed text-sm sm:text-base prose-headings:font-bold prose-headings:text-gray-900 prose-h2:text-xl prose-h2:sm:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mt-6 prose-h3:text-lg prose-h3:text-pink-950 prose-a:text-pink-700 prose-a:font-semibold prose-strong:text-gray-900 prose-table:w-full prose-table:border-collapse ${
+            post.categorySlug === 'baby-boy-girl-name' ? 'prose-img:hidden' : 'prose-img:rounded-xl prose-img:border prose-img:border-gray-200'
+          }`}
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
         <AdSlot slotId={`category-${post.id}-bottom`} format="horizontal" />
-
-        <div className="pt-4 border-t border-gray-200">
-          <a
-            href={post.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs sm:text-sm font-semibold text-pink-700 hover:text-pink-800 underline"
-          >
-            মূল উৎসে দেখুন: educationblog24.com
-          </a>
-        </div>
       </article>
 
       {related.length > 0 && (
         <section className="space-y-4 pt-4">
           <div className="flex items-center space-x-2 border-b border-gray-200 pb-3">
             <BookOpen className="w-5 h-5 text-pink-600" />
-            <h3 className="text-xl font-bold text-gray-900">আরও অন্যান্য নামের তালিকাসমূহ:</h3>
+            <h3 className="text-xl font-bold text-gray-900">
+              {post.categorySlug === 'baby-boy-girl-name'
+                ? 'আরও অন্যান্য নামের তালিকাসমূহ:'
+                : post.categorySlug === 'job-circular-news'
+                ? 'আরও অন্যান্য চাকরির সার্কুলারসমূহ:'
+                : 'আরও অন্যান্য পোস্টসমূহ:'}
+            </h3>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {related.map((rel) => (
-              <Link
-                key={rel.id}
-                href={`/category/${rel.categorySlug}/${encodeURIComponent(rel.slug)}`}
-                className="bg-white p-5 rounded-xl border border-gray-200 hover:border-pink-500 hover:shadow-md transition-all space-y-2.5 flex flex-col justify-between group"
-              >
-                <div className="space-y-2">
-                  <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-pink-50 text-pink-700 border border-pink-200">
-                    {rel.category}
-                  </span>
-                  <h4 className="font-bold text-gray-900 group-hover:text-pink-700 text-sm line-clamp-2 leading-snug">
-                    {rel.title}
-                  </h4>
-                </div>
-                <div className="flex items-center justify-between text-xs text-gray-500 pt-2 border-t border-gray-100">
-                  <span>{rel.date}</span>
-                  <ArrowRight className="w-3.5 h-3.5 text-pink-600 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </Link>
+              <CategoryCard key={rel.id} post={rel} />
             ))}
           </div>
         </section>

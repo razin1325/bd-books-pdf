@@ -2,6 +2,7 @@ export interface CategoryPost {
   id: number;
   title: string;
   slug: string;
+  oldSlug?: string;
   excerpt: string;
   content: string;
   image?: string;
@@ -12,116 +13,115 @@ export interface CategoryPost {
 }
 
 import { JOB_CIRCULAR_POSTS } from './job-circular-data';
+import { HSC_HAND_NOTE_POSTS } from './hsc-hand-note-data';
 
 const BABY_NAME_POSTS: CategoryPost[] = [
   {
     id: 787,
-    title: `মেয়েদের নাম: আ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ – A দিয়ে মেয়েদের ইসলামিক নাম | আ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-আ-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো আ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwiCYAmOvoEDMxAJPUdpeWrT_DhcMy2QHKUpn3WTFCKm4VBXXBo_MMms1knxAL2ntMgwuLcKlyra79PdUy0u-KO4Zr0dhBfUws3lXn0L1QJghLoHPwH1uXLgxONHINbBpGSE_dDXU45P8/s1280/20260709_220018.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwiCYAmOvoEDMxAJPUdpeWrT_DhcMy2QHKUpn3WTFCKm4VBXXBo_MMms1knxAL2ntMgwuLcKlyra79PdUy0u-KO4Zr0dhBfUws3lXn0L1QJghLoHPwH1uXLgxONHINbBpGSE_dDXU45P8/s16000/20260709_220018.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">আ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। আ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "মেয়েদের নাম: আ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ – A দিয়ে মেয়েদের ইসলামিক নাম | আ দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-a-diye-meyeder-islamic-name-meaning-2026",
+    oldSlug: "মেয়েদের-নাম-আ-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো আ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">আ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। আ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">আ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">আ<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">আ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;আ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>১.আফিফা – অর্থ – সাধবী</div>
-<div></div>
+
 <div>২.আইদাহ – অর্থ – সাক্ষাৎকারিনী</div>
-<div></div>
+
 <div>৩.আশেয়া – অর্থ – সমৃদ্ধিশীল</div>
-<div></div>
+
 <div>৪.আমিনাহ – অর্থ – বিশ্বাসী</div>
-<div></div>
+
 <div>৫.আনতারা আসীমা – অর্থ – বীরাঙ্গনা সতী নারী</div>
-<div></div>
+
 <div>৬.আনতারা আনিকা – অর্থ – বীরাঙ্গনা সুন্দরী</div>
-<div></div>
+
 <div>৭.আকিলাহ – অর্থ – বুদ্ধিমতী</div>
-<div></div>
+
 <div>৮.আতকিয়া বাশীরাহ – অর্থ – ধার্মিক সুসংবাদ দানকারীনী</div>
-<div></div>
+
 <div>৯.আরজু – অর্থ – আকাঙক্ষা</div>
-<div></div>
+
 <div>১০.আরমানী – অর্থ – আশাবাদী</div>
-<div></div>
+
 <div>১১.আছিয়া – অর্থ – স্তম্ব</div>
-<div></div>
+
 <div>১২.আসমা – অর্থ – নামসমূহ</div>
-<div></div>
+
 <div>১৩.আতেরা – অর্থ – সুগন্ধী</div>
-<div></div>
+
 <div>১৪.আতিকা – অর্থ – সুন্দরী</div>
-<div></div>
+
 <div>১৫.আযহা – অর্থ – উজ্জল</div>
-<div></div>
+
 <div>১৬.আজিজা – অর্থ – সম্মানিতা</div>
-<div></div>
+
 <div>১৭.আজরা – অর্থ – কুমারী</div>
-<div></div>
+
 <div>১৮.আজরা সামিহা &#8211; অর্থ – কুমারী দালশীলা</div>
-<div></div>
+
 <div>১৯.আজরা তাহিরা – অর্থ – সতী কুমারী</div>
-<div></div>
+
 <div>২০.আভা – অর্থ – রশ্মি</div>
 </div>
-<div></div>
-<div></div>
+
+
 <h2 style="text-align: left;">A দিয়ে মেয়েদের ইসলামিক নাম | আ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>1.Anisa &#8211; (আনিসা) &#8211; বন্ধু সুলভ</div>
-<div></div>
+
 <div>2.Aniqa &#8211; (আনিকা) &#8211; রূপসী</div>
-<div></div>
+
 <div>3.Anindita &#8211; (অনিন্দিতা) &#8211; সুন্দরী</div>
-<div></div>
+
 <div>4.Anbar Ulfat &#8211; (আনবার উলফাত) &#8211; সুগন্ধী উপহার</div>
-<div></div>
+
 <div>5.Ananda &#8211; (আনন্দ) &#8211; সুখী</div>
-<div></div>
+
 <div>6.Anamika &#8211; (অনামিকা) &#8211; অপরিচিতা</div>
-<div></div>
+
 <div>7.Anam &#8211; (আনাম) &#8211; পতাকা</div>
-<div></div>
+
 <div>8.Anal &#8211; (অনল) &#8211; আগুন</div>
-<div></div>
+
 <div>9.Aminah &#8211; (আমিনাহ) &#8211; বিশ্বাসী</div>
-<div></div>
+
 <div>10.Aklima &#8211; (আকলিমা) &#8211; সুকন্ঠি</div>
-<div></div>
+
 <div>11.Akhi &#8211; (আঁখি) &#8211; চোখ</div>
-<div></div>
+
 <div>12.Aisha &#8211; (আশেয়া) &#8211; সমৃদ্ধিশীল</div>
-<div></div>
+
 <div>13.Aidah &#8211; (আইদাহ) &#8211; সাক্ষাৎকারিনী</div>
-<div></div>
+
 <div>14.Ahona &#8211; (অহনা) &#8211; উজ্জ্বল</div>
-<div></div>
+
 <div>15.Afia Aisha &#8211; (আফিয়া আয়েশা) &#8211; পুণ্যবতী সমৃদ্ধিশালী</div>
-<div></div>
+
 <div>16.Afia Afifa &#8211; (আফিয়া আফিফা) &#8211; পুণ্যবতী সাধ্বী</div>
-<div></div>
+
 <div>17.Afia Adilah &#8211; (আফিয়া আদিলাহ) &#8211; পুণ্যবতী ন্যায়বিচারক</div>
-<div></div>
+
 <div>18.Afia Adiba &#8211; (আফিয়া আদিবা) &#8211; পুণ্যবতী শিষ্টাচারী</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;আ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp; A দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; আ দিয়ে মেয়ে শিশুর নাম, আ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwiCYAmOvoEDMxAJPUdpeWrT_DhcMy2QHKUpn3WTFCKm4VBXXBo_MMms1knxAL2ntMgwuLcKlyra79PdUy0u-KO4Zr0dhBfUws3lXn0L1QJghLoHPwH1uXLgxONHINbBpGSE_dDXU45P8/s16000/20260709_220018.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpoYg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIEEg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%86-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -129,22 +129,21 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1326,
-    title: `Imo /ইমো আইডির নাম ১০০+ | ছেলেদের / মেয়েদের ইমু আইডির নাম | ইসলামিক ইমু আইডির নাম`,
-    slug: "imo-ইমো-আইডির-নাম-১০০-ছেলেদে",
-    excerpt: `Table Of Contents Imo আইডির নাম ১০০+ আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। আমরা অনেকে`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEikku8qkvCZ-_MMFd7RmUhevp76nVg-z34BLFIFRwEDrpioeMjC5fQ9c_iBfTtFaE_TMCls70JXHrVXEmVkt87f-HEHhQyl6zHZUkrl9zxksbGLeTMcLhExrDhwcRWx_lQ4NBbkSYoRLVbKc4xi7Q2mVEj098p9pfNgNU6XlPZqTKpyuM6TgErHGC2J=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="400" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEikku8qkvCZ-_MMFd7RmUhevp76nVg-z34BLFIFRwEDrpioeMjC5fQ9c_iBfTtFaE_TMCls70JXHrVXEmVkt87f-HEHhQyl6zHZUkrl9zxksbGLeTMcLhExrDhwcRWx_lQ4NBbkSYoRLVbKc4xi7Q2mVEj098p9pfNgNU6XlPZqTKpyuM6TgErHGC2J=s16000" /></a></div>
-<p></p>
-<div>
+    title: "Imo /ইমো আইডির নাম ১০০+ | ছেলেদের / মেয়েদের ইমু আইডির নাম | ইসলামিক ইমু আইডির নাম",
+    slug: "imo-imo-id-name-100",
+    oldSlug: "imo-ইমো-আইডির-নাম-১০০-ছেলেদে",
+    excerpt: `Table Of Contents Imo আইডির নাম ১০০+ আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। আমরা অনেকেই এই ইম`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">Imo আইডির নাম ১০০+&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।</p>
 <p>আমরা অনেকেই এই <b>ইমু আইডির</b> সাথে পরিচিত। আপনারা যারা <b>ইমু আইডির জন্য সুন্দর সুন্দর নাম</b> খোঁজাখোজি করছেন তাদের জন্য আজকে আমরা এই পোস্ট টা নিয়ে আসলাম। এই পোস্টের মাধ্যমে আপনারা জানতে পারবেন <b>ছেলেদের/মেয়েদের ইমু আইডির নাম ও ইসলামিক ইমু আইডির নাম।</b></p>
 <p>আশা করি পোস্টে দেওয়া তথ্যগুলো পেয়ে আপনাদের সকলের অনেক ভালো লাগবে ও কাজে লাগবে।&nbsp;</p>
-<p></p>
+
 </div>
 <h2 style="text-align: left;">ছেলেদের ইমু আইডির নাম&nbsp;&nbsp;</h2>
 <p>★অন্ধকারের প্রতীক,,!!</p>
@@ -177,7 +176,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★অচেনা রাজকুমার,,!!</p>
 <p>★দাগ লাগা মন,,!!</p>
 <p>★বাতিহীন ল্যাম্পপোস্ট,,!!</p>
-<p></p>
+
 <h2 style="text-align: left;">মেয়েদের ইমু আইডির নাম</h2>
 <p>★ঘুমন্ত পরী,,!!</p>
 <p>★রুপবতী রাজকুমারী,,!!</p>
@@ -210,7 +209,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★অ্যালেক্স সানজিদা,,!!</p>
 <p>★মেঘলা আকাশ মেঘলা মন,,!!</p>
 <p>★নীল পরী,,!!</p>
-<p></p>
+
 <h2 style="text-align: left;">ইসলামিক ইমু আইডির নাম</h2>
 <p>★এসো দ্বীনের পথে,,!!</p>
 <p>★ইসলামী কন্যা,,!!</p>
@@ -227,12 +226,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★সত্যের দিশারী,,!!</p>
 <p>★ন্যায়ের সন্ধ্যানে,,!!</p>
 <p>★হযরত মুহাম্মদ (সাঃ) কে ভালোবাসি,,!!</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;Imo আইডির নাম ১০০+ ,&nbsp; ছেলেদের ইমু আইডির নাম, মেয়েদের ইমু আইডির নাম, ইসলামিক ইমু আইডির নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEikku8qkvCZ-_MMFd7RmUhevp76nVg-z34BLFIFRwEDrpioeMjC5fQ9c_iBfTtFaE_TMCls70JXHrVXEmVkt87f-HEHhQyl6zHZUkrl9zxksbGLeTMcLhExrDhwcRWx_lQ4NBbkSYoRLVbKc4xi7Q2mVEj098p9pfNgNU6XlPZqTKpyuM6TgErHGC2J=s16000",
+
+
+
+<p><b>Tag</b>:&nbsp;Imo আইডির নাম ১০০+ ,&nbsp; ছেলেদের ইমু আইডির নাম, মেয়েদের ইমু আইডির নাম, ইসলামিক ইমু আইডির নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5JbW8gL+Cmh+CmruCniyDgpobgpofgpqHgpr/gprAg4Kao4Ka+4KauIOCnp+CnpuCnpis8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+fCDgppvgp4fgprLgp4fgpqbgp4fgprAgLyDgpq7gp4fgp5/gp4fgpqbgp4fgprAg4KaH4Kau4KeBPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmhuCmh+CmoeCmv+CmsCDgpqjgpr7gpq4gfCDgpofgprjgprLgpr7gpq7gpr/gppUg4KaH4Kau4KeBPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/imo-%e0%a6%87%e0%a6%ae%e0%a7%8b-%e0%a6%86%e0%a6%87%e0%a6%a1%e0%a6%bf%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a7%a7%e0%a7%a6%e0%a7%a6-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87.html",
     category: "Baby Boy & Girl Name",
@@ -240,11 +238,12 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1343,
-    title: `ছেলেদের নামের তালিকা ২০০০+ | ছেলেদের নাম অর্থসহ (সকল অক্ষর দিয়ে অর্থ সহ ) -ছেলেদের ইসলামিক নাম অর্থসহ pdf | ছেলে বাবুর ইসলামিক নাম`,
-    slug: "ছেলেদের-নামের-তালিকা-২০০",
+    title: "ছেলেদের নামের তালিকা ২০০০+ | ছেলেদের নাম অর্থসহ (সকল অক্ষর দিয়ে অর্থ সহ ) -ছেলেদের ইসলামিক নাম অর্থসহ pdf | ছেলে বাবুর ইসলামিক নাম",
+    slug: "cheleder-name-list-2000",
+    oldSlug: "ছেলেদের-নামের-তালিকা-২০০",
     excerpt: `Table Of Contents ছেলেদের ইসলামিক নামের তালিকা |ইসলামিক নাম ছেলেদের অর্থসহ শিশুর নামকরণের গুরুত্ব একজন শিশু জন্মগ্রহণ করার পর তার নাম রাখা হয়। শিশুর নামকরণের ক্ষেত্রে কতিপয় বিষয় লক্ষ্য রাখা প্রয়োজন। ১`,
     content: `</p>
-<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgas3O5sHAg0aQ5xdim2ikhV27iKY-mPV9uKEqrpzUKP4jEPWG5bwTUwu9-OzWpWZJHluJrjELuCzDOoeHuGiXSdkFyiVq_kwJpPTdQvYdMYNPrA0GLhmyGLAI1mBGpShJWu-Vzpeto6btS/s1280/IMG_20260130_032928.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="ইসলামিক নাম ছেলেদের অর্থসহ (সকল অক্ষর দিয়ে) -ছেলেদের ইসলামিক নাম অর্থসহ pdf | ছেলেদের ইসলামিক নামের তালিকা-ছেলে বাবুর ইসলামিক নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgas3O5sHAg0aQ5xdim2ikhV27iKY-mPV9uKEqrpzUKP4jEPWG5bwTUwu9-OzWpWZJHluJrjELuCzDOoeHuGiXSdkFyiVq_kwJpPTdQvYdMYNPrA0GLhmyGLAI1mBGpShJWu-Vzpeto6btS/s16000/IMG_20260130_032928.jpg" title="ইসলামিক নাম ছেলেদের অর্থসহ (সকল অক্ষর দিয়ে) -ছেলেদের ইসলামিক নাম অর্থসহ pdf | ছেলেদের ইসলামিক নামের তালিকা-ছেলে বাবুর ইসলামিক নাম" /></a></div>
+
 <p><span style="font-size: 1em;"><br /></span></p>
 <div>
 &nbsp;&nbsp;&nbsp; <button>Table Of Contents</button><br />
@@ -312,7 +311,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <h2 style="text-align: left;"><span style="font-size: 1em;">আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</span></h2>
 <div><span style="font-size: 1em;"></p>
 <div dir="auto" style="background-color: white; box-sizing: inherit; color: #404040; font-family: lato, sans-serif;">আশিকুল ইসলাম = ইসলামের বন্ধু</div>
-<div dir="auto" style="background-color: white; box-sizing: inherit; color: #404040; font-family: lato, sans-serif;"></div>
+
 <p style="background-color: white; box-sizing: inherit; color: #404040; font-family: lato, sans-serif; margin: 0px 0px 1.5em;">2 আব্বাস= সিংহ</p>
 <p style="background-color: white; box-sizing: inherit; color: #404040; font-family: lato, sans-serif; margin: 0px 0px 1.5em;">3 আবদুল্লাহ= আল্লাহর দাস</p>
 <p style="background-color: white; box-sizing: inherit; color: #404040; font-family: lato, sans-serif; margin: 0px 0px 1.5em;">4 আবদুল আলি= মহানের গোলাম</p>
@@ -1169,7 +1168,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <div>লাইস – ইংরেজী – Lais – বাংলা অর্থ – সিংহ</div>
 <div>লাত্বফান / লাতফান – ইংরেজী – Latfan – বাংলা অর্থ – কল্যাণ কারী</div>
 <div>লুবান – ইংরেজী – Loban – বাংলা অর্থ – সুগন্ধি দ্রব্য</div>
-<div></div>
+
 <div>লাযনা – ইংরেজী – Lozna – বাংলা অর্থ – সম্মিলিত হওয়া / বিপ্লব</div>
 <div>লবীদ – ইংরেজী – Labid – বাংলা অর্থ – এক প্রকারের পাখি / বাসিন্দা</div>
 <div>লাবিবুদ্দিন – ইংরেজী – Labibuddin – বাংলা অর্থ – দ্বীনের জ্ঞানী / চিন্তাবিদ</div>
@@ -1215,9 +1214,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <div><a href="https://drive.google.com/file/d/1tIWEAPGuUuu5q17gnxzLD4GR3k0amrEP/view?usp=drivesdk" rel="nofollow noopener" target="_blank"><b>Click Here To Download</b></a>&nbsp;</div>
 <p>Tag:<span style="font-size: 1em;">ইসলামিক নাম ছেলেদের অর্থসহ, ছেলেদের ইসলামিক নাম অর্থসহ pdf, ছেলেদের ইসলামিক নামের তালিকা-ছেলে বাবুর ইসলামিক নাম</span></p>
 <p dir="ltr">
-<span style="font-size: 1em;">,ছেলে বাবুর ইসলামিক নাম,অ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ই দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঈ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,এ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ক দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,খ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,গ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঘ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ছ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ট দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঠ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ড দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঢ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ণ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,থ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ধ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ন দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,প দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ভ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ষ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,</span></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgas3O5sHAg0aQ5xdim2ikhV27iKY-mPV9uKEqrpzUKP4jEPWG5bwTUwu9-OzWpWZJHluJrjELuCzDOoeHuGiXSdkFyiVq_kwJpPTdQvYdMYNPrA0GLhmyGLAI1mBGpShJWu-Vzpeto6btS/s16000/IMG_20260130_032928.jpg",
+<span style="font-size: 1em;">,ছেলে বাবুর ইসলামিক নাম,অ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ই দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঈ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,এ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ক দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,খ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,গ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঘ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ছ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ট দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঠ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ড দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ঢ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ণ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,থ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ধ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ন দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,প দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ভ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,ষ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,</span></p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4Kau4KeH4KawIOCmpOCmvuCmsuCmv+CmleCmvjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6jgp6bgp6bgp6YrIHwg4Kab4KeH4Kay4KeH4Kam4KeH4KawIOCmqOCmvuCmrjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpoXgprDgp43gpqXgprjgprkgKOCmuOCmleCmsiDgpoXgppXgp43gprfgprAg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be-%e0%a7%a8%e0%a7%a6%e0%a7%a6.html",
     category: "Baby Boy & Girl Name",
@@ -1225,18 +1223,17 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1422,
-    title: `বিদেশি মেয়েদের ফেসবুক আইডির নাম | বিদেশি মেয়েদের আইডি`,
-    slug: "বিদেশি-মেয়েদের-ফেসবুক-আ",
-    excerpt: `আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে Educationblog24.Com এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন। প্রিয় পাঠকবৃন্দ বন্ধুরা আজকে আমরা আপনাদের`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfuVv-EbK3gHyhjK19orAPOfMNogkr-E1L2gEJIFcsfDTg1Sb-4ekzDaYRQFuhrAo3kJ16ilMMV5-cbIUBh-jb2VUZSUcQhmkeRET6maB746lCJXJ8jCggFB2puJcddRWT-JDE53r5cMzKlGNRVnzZLTlQKAcWVeYEz8rUPfb8lkYfokSYQxGXIYdQ/s1280/20220512_084851.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="বিদেশি মেয়েদের ফেসবুক আইডির নাম | বিদেশি মেয়েদের আইডি" border="0" data-original-height="550" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfuVv-EbK3gHyhjK19orAPOfMNogkr-E1L2gEJIFcsfDTg1Sb-4ekzDaYRQFuhrAo3kJ16ilMMV5-cbIUBh-jb2VUZSUcQhmkeRET6maB746lCJXJ8jCggFB2puJcddRWT-JDE53r5cMzKlGNRVnzZLTlQKAcWVeYEz8rUPfb8lkYfokSYQxGXIYdQ/s16000/20220512_084851.jpg" title="বিদেশি মেয়েদের ফেসবুক আইডির নাম | বিদেশি মেয়েদের আইডি" /></a></div>
-<p></p>
-<p>আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে&nbsp;<span style="color: #2b00fe;">Educationblog24.Com</span>&nbsp;এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন।</p>
+    title: "বিদেশি মেয়েদের ফেসবুক আইডির নাম | বিদেশি মেয়েদের আইডি",
+    slug: "bdsh-meyeder-fsbk-aidr-name",
+    oldSlug: "বিদেশি-মেয়েদের-ফেসবুক-আ",
+    excerpt: `আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে BD Edu PDF এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন। প্রিয় পাঠকবৃন্দ বন্ধুরা আজকে আমরা আপনাদের মাঝে শেয়`,
+    content: `<p>আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে&nbsp;<span style="color: #2b00fe;">BD Edu PDF</span>&nbsp;এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন।</p>
 <p>প্রিয় পাঠকবৃন্দ বন্ধুরা আজকে আমরা আপনাদের মাঝে শেয়ার করতে যাচ্ছি <b>বিদেশি মেয়েদের কিছু ফেসবুক আয়ডির নাম</b> সম্পর্কে বিস্তারিত তথ্য। তো বন্ধুরা অনেক সময় অনেক খবরে দেখা যায় বিদেশি মেয়েকে ফেসবুকের রিলেশনের মাধ্যমে জড়িয়ে ফেলা হয়। আবার অনেক ক্ষেত্রে দেখা যায় বাংলাদেশি অনেক মানুষ এই বিদেশি মেয়ে প্রতি আসক্ত হয় এবং বিদেশি মেয়েদের সাথে ফেসবুকের মাধ্যমে যোগ হয়ে কথা বলে। আমরা আবার অনেক সময় বিদেশি মেয়েদেরকে ভালো লাগে তাদের সাথে ফ্রেন্ড হওয়ার একমাত্র উপায় হচ্ছে এই ফেসবুক। আপনারা ফেসবুকের সাহায্যে বিদেশি মেয়েদের সাথে কথা বলার সুযোগ পেতে পারেন। আর এই <b>বিদেশি মেয়েদের আয়ডি</b> সচরাচর পাওয়া যায় না। কিন্তু আমরা আপনাদের সুবিধার জন্য এই পোস্টের মাধ্যমে দেখাবো <b>বিদেশি মেয়েদের ফেসবুক আয়ডির নাম।</b></p>
 <p>আপনারা অনেকেই অনেক সময় অনেক রকম ভাবে এই <b>বিদেশি মেয়েদের ফেসবুক আয়ডির নাম</b> সম্পর্কে খোজাখুজি করেন। তাই তাদের জন্য আজকে আমাদের এই পোস্টে থাকছে <b>বিদেশি মেয়েদের ফেসবুক আইডির নাম, বিদেশি মেয়েদের আইডি</b>। আপনারা আমাদের এই পোস্ট থেকে আয়ডির নাম নিয়ে ফেসবুকে সার্চ করলে আয়ডি পেয়ে যাবেন এবং সেই আয়ডিতে ফ্রেন্ড রিকুয়েষ্ট ও পাঠাতে পারবেন। আসুন আমরা নিচে কিছু বিদেশি মেয়েদের ফেসবুক আয়ডির নাম জেনে আসি।&nbsp;</p>
-<p></p>
+
 <div>      <button>Table Of Contents</button>      </p>
 <ul></ul>
-<p>       </p></div>
+</div>
 <h2 style="text-align: left;">বিদেশি মেয়েদের ফেসবুক আইডির নাম&nbsp;&nbsp;</h2>
 <p>★Ida Beshi</p>
 <p>★Idera Bidemi (Adunni Ade)</p>
@@ -1260,7 +1257,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★Blessing Falodi</p>
 <p>★Bunmi Faith</p>
 <p>★Holuwa Bukola</p>
-<p></p>
+
 <h2 style="text-align: left;">বিদেশি মেয়েদের আইডি</h2>
 <p>★American Girl</p>
 <p>★saira Farooq</p>
@@ -1271,10 +1268,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★Shaira SaLa</p>
 <p>★Jusica Subo</p>
 <p>★Arlyn Oma</p>
-<p></p>
-<p><b>Tag</b>:&nbsp;বিদেশি মেয়েদের ফেসবুক আইডির নাম, বিদেশি মেয়েদের আইডি</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfuVv-EbK3gHyhjK19orAPOfMNogkr-E1L2gEJIFcsfDTg1Sb-4ekzDaYRQFuhrAo3kJ16ilMMV5-cbIUBh-jb2VUZSUcQhmkeRET6maB746lCJXJ8jCggFB2puJcddRWT-JDE53r5cMzKlGNRVnzZLTlQKAcWVeYEz8rUPfb8lkYfokSYQxGXIYdQ/s16000/20220512_084851.jpg",
+
+<p><b>Tag</b>:&nbsp;বিদেশি মেয়েদের ফেসবুক আইডির নাম, বিদেশি মেয়েদের আইডি</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqzgpr/gpqbgp4fgprbgpr8g4Kau4KeH4Kav4Ka84KeH4Kam4KeH4KawIOCmq+Cnh+CmuOCmrOCngeCmlTwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpobgpofgpqHgpr/gprAg4Kao4Ka+4KauIHwg4Kas4Ka/4Kam4KeH4Ka24Ka/PC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cmr+CmvOCnh+CmpuCnh+CmsCDgpobgpofgpqHgpr88L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ac%e0%a6%bf%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a6%bf-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%ab%e0%a7%87%e0%a6%b8%e0%a6%ac%e0%a7%81%e0%a6%95-%e0%a6%86.html",
     category: "Baby Boy & Girl Name",
@@ -1282,123 +1278,120 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 772,
-    title: `ছেলেদের নাম: শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- Sh দিয়ে ছেলেদের ইসলামিক নাম | শ দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-শ-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো শ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCz1FG0gM6RsFXy1kZcI6IREFlz3vRT8qWKmc-A618_eI4Gt_Ad7cD_nifjVWLH_LOau9McXLx6sOfTaEkOHP_7ZSvDeo_hBGV_f0f7D9CPFobrW6pOciTneUwixdxSy924NwsupHKGwA/s1280/20260705_162941.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCz1FG0gM6RsFXy1kZcI6IREFlz3vRT8qWKmc-A618_eI4Gt_Ad7cD_nifjVWLH_LOau9McXLx6sOfTaEkOHP_7ZSvDeo_hBGV_f0f7D9CPFobrW6pOciTneUwixdxSy924NwsupHKGwA/s16000/20260705_162941.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">শ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। শ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- Sh দিয়ে ছেলেদের ইসলামিক নাম | শ দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-sh-diye-cheleder-islamic-name-meaning-2026-sh-diye-cheleder-islamic-name",
+    oldSlug: "ছেলেদের-নাম-শ-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো শ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">শ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। শ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">শ<span>&nbsp;</span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">শ দিয়ে ছেলে শিশুর নাম &#8211; শ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম&nbsp;</h2>
 <p>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></p>
 <p>১.শাহীদ – অর্থ – সাক্ষী</p>
-<p></p>
+
 <p>২.শাকীল আহমদ – অর্থ – প্রশংসিত সাফল্য</p>
-<p></p>
+
 <p>৩.শামসুদুর রহমান – অর্থ – দয়াময়ের আলো</p>
-<p></p>
+
 <p>৪.শামিম – অর্থ – অকৃত্রিম / বিশুদ্ধ / সত্য</p>
-<p></p>
+
 <p>৫.শামীম – অর্থ – সুউচ্চ / সুগন্ধযুক্ত / সুগন্ধ</p>
-<p></p>
+
 <p>৬.শাদমান সাকীব – অর্থ – আনন্দিত উজ্জ্বল</p>
-<p></p>
+
 <p>৭.শাদাব সিপার – অর্থ – সবুজ বর্ণ</p>
-<p></p>
+
 <p>৮.শাকিল – অর্থ – সুপুরুষ</p>
-<p></p>
+
 <p>৯.শহিদ – অর্থ – ধর্মের জন্য জীবন উৎসর্গকারী</p>
-<p></p>
+
 <p>১০.শাকিল আনসার – অর্থ – সুপুরুষ বন্ধু</p>
-<p></p>
+
 <p>১১.শাকিল মাহাবুব – অর্থ – সুপুরুষ বন্ধু</p>
-<p></p>
+
 <p>১২.শিতাব যাবী – অর্থ – দ্রুত হরিণ</p>
-<p></p>
+
 <p>১২.শাকিল শাহরিয়ার – অর্থ – সুপুরুষ রাজা</p>
-<p></p>
+
 <p>১৩.শিতাব জুবাব – অর্থ – দ্রুত মৌমাছি</p>
-<p></p>
+
 <p>১৪.শাহাদ – অর্থ – মধু</p>
-<p></p>
+
 <p>১৫.শহীদ – অর্থ – সাক্ষী, মৃত্যুঞ্চয়ী</p>
-<p></p>
+
 <p>১৬.শারেক – অর্থ – উদীয়মান সূর্য</p>
-<p></p>
+
 <p>১৭.শাফে’ – অর্থ – সুপারিশকারী, মধ্যস্থতাকারী</p>
-<p></p>
+
 <p>১৮.শিবলী – অর্থ – ম্বিবল-সিংহ শাবক</p>
-<p></p>
+
 <p>১৯ শাব্বীর &#8211; অর্থ – সাধু, সুন্দর</p>
-<p></p>
+
 <p>২০.শাবী – অর্থ – অধিক তৃপ্তি</p>
-<p></p>
+
 <p>২১.শুজা –&nbsp; অর্থ – বীর</p>
-<p></p>
+
 <p>২২.শুজাআত – অর্থ – বীরত্ব</p>
-<p></p>
+
 <p>২৩.শারাফ (শরফ) – অর্থ – সম্মান, মর্যাদা আভিজাত্য</p>
-<p></p>
+
 <p>২৪.শারীফ (শরীফ) – অর্থ – ভদ্র, অভিজাত</p>
-<p></p>
-<p></p>
+
+
 <h2 style="text-align: left;">Sh দিয়ে ছেলেদের ইসলামিক নাম | শ দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp; &nbsp;<u><b>অর্থ</b></u></div>
 <p>1.শাফকাত – Shafkat – স্নেহ, মমতা</p>
-<p></p>
+
 <p>2.শাফে’য়ী – Shafeye – কৃতজ্ঞা</p>
-<p></p>
+
 <p>3.শাকের – Shaker – অবস্থা, মর্যাদা</p>
-<p></p>
+
 <p>4.শান – Shan – সাক্ষী, প্রত্যক্ষকারী</p>
-<p></p>
+
 <p>5.শাহেদ – Shahed – আগ্রহী</p>
-<p></p>
+
 <p>6.শায়েক – Shayek – সিংহ মাবক সম্বন্ধীয়</p>
-<p></p>
+
 <p>7.শামসুল হক – Shamsul Hok – প্রকৃত ভাস্কর</p>
-<p></p>
+
 <p>8.শামসুল ইসলাম – Shamsul Islam – ইসলামের সাহায্যকারী</p>
-<p></p>
+
 <p>9.শরীফুদ্দীন – Shorifuddin – দ্বীনের প্রশংসিত</p>
-<p></p>
+
 <p>10.শরীফুল হাসান – Shoriful Hasan – সুন্দর প্রশংসিত</p>
-<p></p>
+
 <p>11.শিহাব – Shihab – উজ্জ্বল তারকা বলয়</p>
-<p></p>
+
 <p>12.শিহাবুদ্দীন – Shihabuddin – দ্বীনের তরবারী</p>
-<p></p>
+
 <p>13.শাদমান শাকীব – Shadman Sakib – আনন্দিত উজ্জ্বল</p>
-<p></p>
+
 <p>14.শফীকুল ইসলাম – Shofikul Islam – ইসলামের পথপ্রদর্শক</p>
-<p></p>
+
 <p>15.শফিক – Shofik – দয়ালু</p>
-<p></p>
+
 <p>16.শাকুর – Shakur – কৃতজ্ঞ</p>
-<p></p>
+
 <p>17.শাফায়াত হুসাইন – Shafawat Hussain – সুন্দর ভাগ্যবান</p>
-<p></p>
+
 <p>18.শাফি – Shafi – আরোগ্য দাতা</p>
-<p></p>
+
 <p>19.শফিকুল – Shofikul – ইসলামের প্রিয়</p>
-<p></p>
+
 <p>20.শফীউদ্দীন – Shofiuddin – দ্বীনের সূর্য্য – কৃতজ্ঞান</p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;শ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;Sh দিয়ে ছেলেদের ইসলামিক নাম, শ দিয়ে ছেলে শিশুর নাম,&nbsp;শ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-<p></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCz1FG0gM6RsFXy1kZcI6IREFlz3vRT8qWKmc-A618_eI4Gt_Ad7cD_nifjVWLH_LOau9McXLx6sOfTaEkOHP_7ZSvDeo_hBGV_f0f7D9CPFobrW6pOciTneUwixdxSy924NwsupHKGwA/s16000/20260705_162941.jpg",
+
+
+
+
+<p><b>Tag</b>:&nbsp;শ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;Sh দিয়ে ছেলেদের ইসলামিক নাম, শ দিয়ে ছেলে শিশুর নাম,&nbsp;শ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: শ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgprYg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wtIFNoIOCmpuCmv+Cnn+CnhzwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%b6-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -1406,13 +1399,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 788,
-    title: `র (R) দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ -র দিয়ে ছেলেদের ইসলামিক নামের তালিকা | র দিয়ে ছেলে বাবুর নাম`,
-    slug: "র-r-দিয়ে-ছেলেদের-ইসলামিক-ন",
+    title: "র (R) দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ -র দিয়ে ছেলেদের ইসলামিক নামের তালিকা | র দিয়ে ছেলে বাবুর নাম",
+    slug: "r-r-diye-cheleder-islamic-name-meaning-2026-r-diye-cheleder-islamic-name-list",
+    oldSlug: "র-r-দিয়ে-ছেলেদের-ইসলামিক-ন",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।বন্ধুরা আমাদের অনেক সময় ছেলে মেয়েদের নাম অর্থ সহ প্রয়োজন হয়। অনেক আবার ভিবিন্ন অক্ষর দিয়ে ছেলে শিশুর নাম খুজে থাকেন।তাই আজকে আমরা এই `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4hw4o6kfzvZnbJ41WRqOpcE5rgPFtsIhjqXEFMBdgmGC5UTwmt9PBUQPnxKdFTSLOwcBxD5JeF1FkfyA0Egs71oyJD9jm8vYm3Q4El7BVcsbYQwedxYStKvIOf8qyRmlu0houKfhXcMlu/s1280/IMG_20260222_032958.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="র (R) দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ -র দিয়ে ছেলেদের ইসলামিক নামের তালিকা | র দিয়ে ছেলে বাবুর নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4hw4o6kfzvZnbJ41WRqOpcE5rgPFtsIhjqXEFMBdgmGC5UTwmt9PBUQPnxKdFTSLOwcBxD5JeF1FkfyA0Egs71oyJD9jm8vYm3Q4El7BVcsbYQwedxYStKvIOf8qyRmlu0houKfhXcMlu/s16000/IMG_20260222_032958.jpg" title="র (R) দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ -র, দিয়ে ছেলেদের ইসলামিক নামের তালিকা | র দিয়ে ছেলে বাবুর নাম" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।বন্ধুরা আমাদের অনেক সময় ছেলে মেয়েদের নাম অর্থ সহ প্রয়োজন হয়। অনেক আবার ভিবিন্ন অক্ষর দিয়ে ছেলে শিশুর নাম খুজে থাকেন।তাই আজকে আমরা এই পোস্টে&nbsp;<span style="font-size: 1em;"><u><b>র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</b></u> &#8211;<u><b>র দিয়ে ছেলেদের ইসলামিক নামের তালিকা</b></u> শেয়ার করতেছি।&nbsp;</span></p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।বন্ধুরা আমাদের অনেক সময় ছেলে মেয়েদের নাম অর্থ সহ প্রয়োজন হয়। অনেক আবার ভিবিন্ন অক্ষর দিয়ে ছেলে শিশুর নাম খুজে থাকেন।তাই আজকে আমরা এই পোস্টে&nbsp;<span style="font-size: 1em;"><u><b>র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</b></u> &#8211;<u><b>র দিয়ে ছেলেদের ইসলামিক নামের তালিকা</b></u> শেয়ার করতেছি।&nbsp;</span></p>
 <div>
 &nbsp;&nbsp;&nbsp; <button>Table Of Contents</button><br />
 &nbsp;&nbsp;&nbsp; </p>
@@ -1745,9 +1736,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 </tbody>
 </table>
 <p dir="ltr"><span style="font-size: 1em;"><br /></span></p>
-<p dir="ltr">Tag:<span style="font-size: 16px;">র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,র দিয়ে ছেলেদের ইসলামিক নামের তালিকা, র দিয়ে ছেলে বাবুর নাম,R</span><span style="font-size: 16px;">&nbsp;দিয়ে ছেলেদের নাম অর্থসহ</span></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4hw4o6kfzvZnbJ41WRqOpcE5rgPFtsIhjqXEFMBdgmGC5UTwmt9PBUQPnxKdFTSLOwcBxD5JeF1FkfyA0Egs71oyJD9jm8vYm3Q4El7BVcsbYQwedxYStKvIOf8qyRmlu0houKfhXcMlu/s16000/IMG_20260222_032958.jpg",
+<p dir="ltr">Tag:<span style="font-size: 16px;">র দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,র দিয়ে ছেলেদের ইসলামিক নামের তালিকা, র দিয়ে ছেলে বাবুর নাম,R</span><span style="font-size: 16px;">&nbsp;দিয়ে ছেলেদের নাম অর্থসহ</span></p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprAgKFIpIOCmpuCmv+Cmr+CmvOCnhyDgppvgp4fgprLgp4fgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmriDgpoXgprDgp43gpqXgprjgprkg4Keo4Kem4Keo4KesPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPi3gprAg4Kam4Ka/4Kav4Ka84KeHIOCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppU8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b0-r-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%95-%e0%a6%a8.html",
     category: "Baby Boy & Girl Name",
@@ -1755,20 +1745,19 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1327,
-    title: `দুই অক্ষরের ছেলে শিশুর নাম 500+ | দুই অক্ষরের ছেলেদের ইসলামিক নাম | দুই অক্ষরের ছেলেদের নাম ও অর্থ`,
-    slug: "দুই-অক্ষরের-ছেলে-শিশুর-না-2",
-    excerpt: `Table Of Contents দুই অক্ষরের ছেলে শিশুর নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhJK8JjDHWLN_jXnO5Hjs-qAgDOAQHBIfySaUCe9vn2BIar6H1zA66sQnCgwF179wW6_xRYLeGzwalCaF3ezs7NEBJe7wZ6RuLxQGthOKxzU02kW-zmzKXrb8oDU65GbeJltnsJNfWIs2dZp5K64b9HcDaiSW2f7ArfzDN1pAM2Ku5bnVuW2K5FkGuS=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="600" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEhJK8JjDHWLN_jXnO5Hjs-qAgDOAQHBIfySaUCe9vn2BIar6H1zA66sQnCgwF179wW6_xRYLeGzwalCaF3ezs7NEBJe7wZ6RuLxQGthOKxzU02kW-zmzKXrb8oDU65GbeJltnsJNfWIs2dZp5K64b9HcDaiSW2f7ArfzDN1pAM2Ku5bnVuW2K5FkGuS=s16000" /></a></div>
-<p></p>
-<div>
+    title: "দুই অক্ষরের ছেলে শিশুর নাম 500+ | দুই অক্ষরের ছেলেদের ইসলামিক নাম | দুই অক্ষরের ছেলেদের নাম ও অর্থ",
+    slug: "2-letter-chele-shishur-name-500",
+    oldSlug: "দুই-অক্ষরের-ছেলে-শিশুর-না-2",
+    excerpt: `Table Of Contents দুই অক্ষরের ছেলে শিশুর নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আ`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">দুই অক্ষরের ছেলে শিশুর নাম&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো <b style="background-color: #04ff00;">দুই অক্ষরের ছেলে শিশুর নাম,&nbsp; দুই অক্ষরের ছেলেদের ইসলামিক নাম,&nbsp; দুই অক্ষরের ৩৫+ ছেলেদের নাম&nbsp;ও অর্থ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো <b style="background-color: #04ff00;">দুই অক্ষরের ছেলে শিশুর নাম,&nbsp; দুই অক্ষরের ছেলেদের ইসলামিক নাম,&nbsp; দুই অক্ষরের ৩৫+ ছেলেদের নাম&nbsp;ও অর্থ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
 </div>
 <h2 style="text-align: left;">দুই অক্ষরের ছেলেদের ইসলামিক নাম&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে নামের অর্থ কি বা যারা বলতেছেন জানতে চাই <b>দুই অক্ষরের ছেলেদের নামের বাংলা অর্থ </b>কিংবা যারা <b>দুই অক্ষরের ছেলেদের নাম ও তার অর্থ</b> এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন<b> দুই অক্ষরের অনেক নাম ও ইসলামিক নাম </b>তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নাম ও তার অর্থ জানার জন্য।</p>
@@ -1809,11 +1798,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★অভি — ন্যায়নির্ণয়কারি&nbsp;</p>
 <p>★হাদী — ধার্মিকতা নির্দেশিকা।&nbsp;</p>
 <p>★আদি — বন্ধুত্বপূর্ণ, উদার, মনোযোগী।</p>
-<div></div>
-<p></p>
-<p><b>Tag</b>:&nbsp;দুই অক্ষরের ছেলে শিশুর নাম,&nbsp; দুই অক্ষরের ছেলেদের ইসলামিক নাম,&nbsp; দুই অক্ষরের ৩৫+ ছেলেদের নাম ও অর্থ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEhJK8JjDHWLN_jXnO5Hjs-qAgDOAQHBIfySaUCe9vn2BIar6H1zA66sQnCgwF179wW6_xRYLeGzwalCaF3ezs7NEBJe7wZ6RuLxQGthOKxzU02kW-zmzKXrb8oDU65GbeJltnsJNfWIs2dZp5K64b9HcDaiSW2f7ArfzDN1pAM2Ku5bnVuW2K5FkGuS=s16000",
+
+
+<p><b>Tag</b>:&nbsp;দুই অক্ষরের ছেলে শিশুর নাম,&nbsp; দুই অক্ষরের ছেলেদের ইসলামিক নাম,&nbsp; দুই অক্ষরের ৩৫+ ছেলেদের নাম ও অর্থ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqbgp4Hgpocg4KaF4KaV4KeN4Ka34Kaw4KeH4KawIOCmm+Cnh+CmsuCnhyDgprbgpr/gprbgp4HgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4KauIDUwMCsgfCDgpqbgp4Hgpocg4KaF4KaV4KeN4Ka34Kaw4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauIHw8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%a6%e0%a7%81%e0%a6%87-%e0%a6%85%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87-%e0%a6%b6%e0%a6%bf%e0%a6%b6%e0%a7%81%e0%a6%b0-%e0%a6%a8%e0%a6%be-2.html",
     category: "Baby Boy & Girl Name",
@@ -1821,13 +1809,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1344,
-    title: `৩০০+ অদ্ভুত নামের তালিকা | কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের`,
-    slug: "৩০০-অদ্ভুত-নামের-তালিকা-ক",
+    title: "৩০০+ অদ্ভুত নামের তালিকা | কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের",
+    slug: "300-odbht-name-list",
+    oldSlug: "৩০০-অদ্ভুত-নামের-তালিকা-ক",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন আসা। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। আজকে আমরা এই পোস্টে তোমাদের অদ্ভুত নামের তালিকা শেয়ার করবো। যারা অদ্ভুত নামের তালিকা – কাব্যিক নাম সমূহ ছেল`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP368gU8LZ8N8wUPIYGaCW4Rc86tAQcQVu4KYD_98tsWFtMkIN0Z2ZZJw842rgRuLd1nzbOdhBJiC9jVPBtgVKD4e4JOknHL4hwktsHuX2tP5-DYFLmVlN8ICNntVlPtXfuhWx_R-to8VtdDI8DrQmjcl2KyUe7DiLw1pA5H3F-qJv1aoD7EgqplGeAA/s1280/IMG_20220511_190539.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="অদ্ভুত নামের তালিকা, কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের, কাব্যিক নাম সমূহ ছেলেদের,কাব্যিক নাম সমূহ মেয়েদের" border="0" data-original-height="520" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP368gU8LZ8N8wUPIYGaCW4Rc86tAQcQVu4KYD_98tsWFtMkIN0Z2ZZJw842rgRuLd1nzbOdhBJiC9jVPBtgVKD4e4JOknHL4hwktsHuX2tP5-DYFLmVlN8ICNntVlPtXfuhWx_R-to8VtdDI8DrQmjcl2KyUe7DiLw1pA5H3F-qJv1aoD7EgqplGeAA/s16000/IMG_20220511_190539.jpg" title="অদ্ভুত নামের তালিকা, কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের, কাব্যিক নাম সমূহ ছেলেদের,কাব্যিক নাম সমূহ মেয়েদের" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন আসা। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। আজকে আমরা এই পোস্টে তোমাদের অদ্ভুত নামের তালিকা শেয়ার করবো। যারা <u><b style="background-color: #fcff01;">অদ্ভুত নামের তালিকা &#8211; কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের&nbsp; </b></u>খুজতেছেন। আজকের পোস্টটি তোমাদের জন্য। আসা করি আমাদের দেওয়া <u><b>অদ্ভুত নামের তালিকা -কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের&nbsp; </b>গুলো তোমাদের ভালো লাগবে।</u></p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন আসা। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। আজকে আমরা এই পোস্টে তোমাদের অদ্ভুত নামের তালিকা শেয়ার করবো। যারা <u><b style="background-color: #fcff01;">অদ্ভুত নামের তালিকা &#8211; কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের&nbsp; </b></u>খুজতেছেন। আজকের পোস্টটি তোমাদের জন্য। আসা করি আমাদের দেওয়া <u><b>অদ্ভুত নামের তালিকা -কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের&nbsp; </b>গুলো তোমাদের ভালো লাগবে।</u></p>
 <div>  &nbsp;&nbsp;&nbsp; <button>Table Of Contents</button>  &nbsp;&nbsp;&nbsp; </p>
 <ul></ul>
 <p>   &nbsp;&nbsp;&nbsp; </p></div>
@@ -1913,10 +1899,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li>নিষ্পাপ</li>
 <li>নীল কাব্য</li>
 </ul>
-<p></p>
-<p>Tag:অদ্ভুত নামের তালিকা, কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের, কাব্যিক নাম সমূহ ছেলেদের,কাব্যিক নাম সমূহ মেয়েদের&nbsp;</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP368gU8LZ8N8wUPIYGaCW4Rc86tAQcQVu4KYD_98tsWFtMkIN0Z2ZZJw842rgRuLd1nzbOdhBJiC9jVPBtgVKD4e4JOknHL4hwktsHuX2tP5-DYFLmVlN8ICNntVlPtXfuhWx_R-to8VtdDI8DrQmjcl2KyUe7DiLw1pA5H3F-qJv1aoD7EgqplGeAA/s16000/IMG_20220511_190539.jpg",
+
+<p>Tag:অদ্ভুত নামের তালিকা, কাব্যিক নাম সমূহ ছেলেদের/মেয়েদের, কাব্যিক নাম সমূহ ছেলেদের,কাব্যিক নাম সমূহ মেয়েদের&nbsp;</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6ngp6bgp6YrIOCmheCmpuCnjeCmreCngeCmpCDgpqjgpr7gpq7gp4fgprAg4Kak4Ka+4Kay4Ka/4KaV4Ka+PC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPnwg4KaV4Ka+4Kas4KeN4Kav4Ka/4KaVIOCmqOCmvuCmriDgprjgpq7gp4Lgprk8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kab4KeH4Kay4KeH4Kam4KeH4KawL+CmruCnh+Cnn+Cnh+CmpuCnh+CmsDwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%a9%e0%a7%a6%e0%a7%a6-%e0%a6%85%e0%a6%a6%e0%a7%8d%e0%a6%ad%e0%a7%81%e0%a6%a4-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf%e0%a6%95%e0%a6%be-%e0%a6%95.html",
     category: "Baby Boy & Girl Name",
@@ -1924,16 +1909,15 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1423,
-    title: `২০০+ বিদেশি মেয়েদের নাম | বিদেশি নাম`,
-    slug: "২০০-বিদেশি-মেয়েদের-নাম-ব",
-    excerpt: `আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আজকে আমরা আপনাদের মাঝে শেয়ার করবো বিদেশ`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjJqlIQyanwKfpgjUEoCrhGTLs7BP_QIzysxxZwxZ9gS9s_NAgMwQ18csJ7OvoRSjPe-JkUF7Yn-NsWJMa7dZLWELoOUSsrdT7_QpainyeZHwFdlVGJFQ8oCHVVwycBuHaq0XeQ01CkHU_JPPJVQaVYorkpWWfEOZgeKaIfZduKtvX6P4EXMEwkfnSx=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="450" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEjJqlIQyanwKfpgjUEoCrhGTLs7BP_QIzysxxZwxZ9gS9s_NAgMwQ18csJ7OvoRSjPe-JkUF7Yn-NsWJMa7dZLWELoOUSsrdT7_QpainyeZHwFdlVGJFQ8oCHVVwycBuHaq0XeQ01CkHU_JPPJVQaVYorkpWWfEOZgeKaIfZduKtvX6P4EXMEwkfnSx=s16000" /></a></div>
-<p></p>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+    title: "২০০+ বিদেশি মেয়েদের নাম | বিদেশি নাম",
+    slug: "200-bdsh-meyeder-name",
+    oldSlug: "২০০-বিদেশি-মেয়েদের-নাম-ব",
+    excerpt: `আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আজকে আমরা আপনাদের মাঝে শেয়ার করবো বিদেশি মেয়েদ`,
+    content: `<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
 <p>বন্ধুরা আজকে আমরা আপনাদের মাঝে শেয়ার করবো <b>বিদেশি&nbsp;মেয়েদের&nbsp;নামের তালিকা অর্থসহ</b>। আপনারা অনেকেই <b>বিদেশি&nbsp;নাম</b>&nbsp;জানতে আগ্রহী তাই আমরা আপনাদের সুবিধার জন্য নিয়ে আসলাম <b>বিদেশি মেয়েদের নাম, বিদেশি নাম</b>। আশা করি আমাদের পোস্টে দেওয়া নামগুলো পেয়ে আপনাদের উপকার হবে।&nbsp;</p>
-<p></p>
+
 </div>
 <div>
     <button>Table Of Contents</button> </p>
@@ -1966,7 +1950,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★জেসিকা — শক্তিশালী,,!! উচ্চতর,,!!</p>
 <p>★পামেলা — মধুর হিসাবে মিষ্টি,,!!</p>
 <p>★ভিক্টোরিয়া — বিজয়,,,!!</p>
-<p></p>
+
 <h2 style="text-align: left;">বিদেশি নাম</h2>
 <p>&nbsp; &nbsp; ★<b>নাম</b>★&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;★<b>অর্থ</b>★</p>
 <p>★হেমাঙ্গিনী — একটি সুবর্ণ ত্বকযুক্ত মেয়ে,,!!</p>
@@ -1991,13 +1975,12 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★সোহা — একটি সঙ্গীতময় সৃষ্টি,,!!</p>
 <p>★সোফিয়া — বিজ্ঞতার সঙ্গে ভরা একটি মেয়ে জন্য একটি জনপ্রিয় খ্রিস্টান নাম,,!!</p>
 <p>★তানিস্ক — সোনা থেকে সৃষ্ট দেবী,,!!</p>
-<p></p>
-<p></p>
+
+
 <p><b>Tag</b>:&nbsp;বিদেশি মেয়েদের নাম,&nbsp; বিদেশি নাম</p>
 <div></p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEjJqlIQyanwKfpgjUEoCrhGTLs7BP_QIzysxxZwxZ9gS9s_NAgMwQ18csJ7OvoRSjPe-JkUF7Yn-NsWJMa7dZLWELoOUSsrdT7_QpainyeZHwFdlVGJFQ8oCHVVwycBuHaq0XeQ01CkHU_JPPJVQaVYorkpWWfEOZgeKaIfZduKtvX6P4EXMEwkfnSx=s16000",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6jgp6bgp6YrIOCmrOCmv+CmpuCnh+CmtuCmvyDgpq7gp4fgpq/gprzgp4fgpqbgp4fgprAg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM0NSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPnwg4Kas4Ka/4Kam4KeH4Ka24Ka/IOCmqOCmvuCmrjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%a8%e0%a7%a6%e0%a7%a6-%e0%a6%ac%e0%a6%bf%e0%a6%a6%e0%a7%87%e0%a6%b6%e0%a6%bf-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%ac.html",
     category: "Baby Boy & Girl Name",
@@ -2005,92 +1988,90 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 773,
-    title: `ছেলেদের নাম: য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- Z দিয়ে ছেলেদের ইসলামিক নাম | য দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-য-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো য দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-hVISu1Pib2gWp40cYijHFhjVpaGkWxCtuqbmEld3d-tmxts9fAk49edB8QMpouyDQrNnxpugJ8pFfBVhXdOm3kDGFD-gKqfhd5Oy3QiWR4pgcqOHDc2MIqD3FIIjEutHdQxL_3dYq0/s1280/20260705_151516.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-hVISu1Pib2gWp40cYijHFhjVpaGkWxCtuqbmEld3d-tmxts9fAk49edB8QMpouyDQrNnxpugJ8pFfBVhXdOm3kDGFD-gKqfhd5Oy3QiWR4pgcqOHDc2MIqD3FIIjEutHdQxL_3dYq0/s16000/20260705_151516.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">য দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। য দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- Z দিয়ে ছেলেদের ইসলামিক নাম | য দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-j-diye-cheleder-islamic-name-meaning-2026-z-diye-cheleder-islamic-name",
+    oldSlug: "ছেলেদের-নাম-য-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো য দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">য দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। য দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">য</span><span style="background-color: #fcff01;"><span><span>&nbsp;</span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">য দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;য দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <p>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></p>
 <p>১.যাকের &#8211; অর্থ &#8211; সত্য সাহায্যকারী&nbsp;</p>
-<p></p>
+
 <p>২. যায়েক &#8211; অর্থ &#8211; স্মরণকারী&nbsp;</p>
-<p></p>
+
 <p>৩. যুবাব &#8211; অর্থ &#8211; আস্বাদনকারী&nbsp;</p>
-<p></p>
+
 <p>৪. যাবর &#8211; অর্থ &#8211; মাছি , মৌমাছি&nbsp;</p>
-<p></p>
+
 <p>৫. যাবীহ &#8211; অর্থ &#8211; লেখা&nbsp;</p>
-<p></p>
+
 <p>৬. যাখখার &#8211; অর্থ &#8211; উৎসর্গিত , হযরত&nbsp; ঈসমাইল ( আঃ ) -এর উপাধি&nbsp;</p>
-<p></p>
+
 <p>৭. যারি &#8211; অর্থ &#8211; অধিক সঞ্চয় কারী&nbsp;</p>
-<p></p>
+
 <p>৮. যাররাফ &#8211; অর্থ &#8211; দ্রুতগামী , উপায় , মাধ্যম</p>
-<p></p>
+
 <p>৯.যুলফিকার &#8211; অর্থ &#8211; এর তরবারী&nbsp;</p>
-<p></p>
+
 <p>১০. যমীর &#8211; অর্থ &#8211; সম্মানিত&nbsp;</p>
-<p></p>
+
 <p>১১. যাহীন &#8211; অর্থ &#8211; প্রতিভাধর , বুদ্ধিমান&nbsp;</p>
-<p></p>
+
 <p>১২. যুল ইয়াদাইন &#8211; অর্থ &#8211; দুইহাত বিশিষ্ট , একজন সাহাবীর উপাধি&nbsp;</p>
-<p></p>
+
 <p>১৩. যামের &#8211; অর্থ &#8211; ভীতি প্রদর্শন জ্ঞানী&nbsp;</p>
-<p></p>
+
 <p>১৪. যাবির &#8211; অর্থ &#8211; অত্যন্ত জ্ঞানী ইউনূহ ( আঃ )</p>
-<p></p>
+
 <p>১৫.যামিল &#8211; অর্থ &#8211; বন্ধু, সহকর্মী&nbsp;</p>
-<p></p>
+
 <p>১৬.যামান &#8211; অর্থ &#8211; যুগ, যামানা</p>
-<p></p>
+
 <p>১৭.যাইন &#8211; অর্থ &#8211; শোভা সুন্দর&nbsp;</p>
-<p></p>
+
 <h2 style="text-align: left;">Z দিয়ে ছেলেদের ইসলামিক নাম | য দিয়ে ছেলে শিশুর নাম</h2>
 <p>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></p>
 <p>1.যাকের &#8211; Zaker &#8211; সত্য সাহায্যকারী&nbsp;</p>
-<p></p>
+
 <p>2. যায়েক &#8211; Zaiq &#8211; স্মরণকারী&nbsp;</p>
-<p></p>
+
 <p>3. যুবাব &#8211; Zubab &#8211; আস্বাদনকারী&nbsp;</p>
-<p></p>
+
 <p>4. যাবর &#8211; Zabr &#8211; মাছি , মৌমাছি&nbsp;</p>
-<p></p>
+
 <p>5. যাবীহ &#8211; Zabih &#8211; লেখা&nbsp;</p>
-<p></p>
+
 <p>6. যাখখার &#8211; Zakkhar &#8211; উৎসর্গিত , হযরত&nbsp; ঈসমাইল ( আঃ ) -এর উপাধি&nbsp;</p>
-<p></p>
+
 <p>7. যারি &#8211; Zari &#8211; অধিক সঞ্চয় কারী&nbsp;</p>
-<p></p>
+
 <p>8. যাররাফ &#8211; Zarraf &#8211; দ্রুতগামী , উপায় , মাধ্যম</p>
-<p></p>
+
 <p>9.যুলফিকার &#8211; Zulfikar &#8211; এর তরবারী&nbsp;</p>
-<p></p>
+
 <p>10. যমীর &#8211; Zamir &#8211; সম্মানিত&nbsp;</p>
-<p></p>
+
 <p>11. যাহীন &#8211; Zaheen &#8211; প্রতিভাধর , বুদ্ধিমান&nbsp;</p>
-<p></p>
+
 <p>12. যুল ইয়াদাইন &#8211; Zul yadain &#8211; দুইহাত বিশিষ্ট , একজন সাহাবীর উপাধি&nbsp;</p>
-<p></p>
+
 <p>13. যামের &#8211; Jamir &#8211; ভীতি প্রদর্শন জ্ঞানী&nbsp;</p>
-<p></p>
+
 <p>14. জাবির &#8211; Zabir &#8211; অত্যন্ত জ্ঞানী, ইউনূহ ( আঃ )</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;য দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;Z দিয়ে ছেলেদের ইসলামিক নাম, য দিয়ে ছেলে শিশুর নাম, য দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-hVISu1Pib2gWp40cYijHFhjVpaGkWxCtuqbmEld3d-tmxts9fAk49edB8QMpouyDQrNnxpugJ8pFfBVhXdOm3kDGFD-gKqfhd5Oy3QiWR4pgcqOHDc2MIqD3FIIjEutHdQxL_3dYq0/s16000/20260705_151516.jpg",
+
+
+
+<p><b>Tag</b>:&nbsp;য দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;Z দিয়ে ছেলেদের ইসলামিক নাম, য দিয়ে ছেলে শিশুর নাম, য দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: য দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpq8g4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wtIFog4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%af-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -2098,25 +2079,24 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 789,
-    title: `100+ ছেলেদের আনকমন নামের তালিকা ২০২৬ | ছেলেদের নাম অর্থসহ | আধুনিক নামের তালিকা ছেলেদের | আনকমন নামের তালিকা অর্থসহ ৮০+`,
-    slug: "100-ছেলেদের-আনকমন-নামের-তালি",
-    excerpt: `Table Of Contents ছেলেদের আনকমন নামের তালিকা আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhJAS5w0QreYmHsGjrQXfuKTdwsaW3oCMn0oben73kX4zjIVgN2elZ-4ofowAh_zcA3lA1wU-GJUG9SgCKDA6qq9FNykTsVh6hMU1DoDpnwZOLvtlXkRT6PTMc8OOp8FnF_cJap4fjjTrOyIKWoulK0QAJwBq9AyXI6ggPOSjt7McnTngKvvP9zbV3L=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEhJAS5w0QreYmHsGjrQXfuKTdwsaW3oCMn0oben73kX4zjIVgN2elZ-4ofowAh_zcA3lA1wU-GJUG9SgCKDA6qq9FNykTsVh6hMU1DoDpnwZOLvtlXkRT6PTMc8OOp8FnF_cJap4fjjTrOyIKWoulK0QAJwBq9AyXI6ggPOSjt7McnTngKvvP9zbV3L=s16000" /></a></div>
-<p></p>
-<div>
+    title: "100+ ছেলেদের আনকমন নামের তালিকা ২০২৬ | ছেলেদের নাম অর্থসহ | আধুনিক নামের তালিকা ছেলেদের | আনকমন নামের তালিকা অর্থসহ ৮০+",
+    slug: "100-cheleder-ankmn-name-list-2026",
+    oldSlug: "100-ছেলেদের-আনকমন-নামের-তালি",
+    excerpt: `Table Of Contents ছেলেদের আনকমন নামের তালিকা আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আ`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ছেলেদের আনকমন নামের তালিকা&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #fcff01;">ছেলেদের আনকমন নামের তালিকা,&nbsp; ছেলেদের নাম অর্থসহ,&nbsp; আধুনিক নামের তালিকা ছেলেদের,&nbsp; আনকমন নামের তালিকা অর্থসহ ৮০+</b> দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #fcff01;">ছেলেদের আনকমন নামের তালিকা,&nbsp; ছেলেদের নাম অর্থসহ,&nbsp; আধুনিক নামের তালিকা ছেলেদের,&nbsp; আনকমন নামের তালিকা অর্থসহ ৮০+</b> দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">ছেলেদের নাম অর্থসহ&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে&nbsp;<b>নামের অর্থ কি</b>&nbsp;বা যারা বলতেছেন জানতে চাই <b>ছেলেদের আনকমন নামের তালিকা&nbsp;</b>কিংবা যারা <b>ছেলেদের নাম অর্থসহ</b> এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন<b>&nbsp;আধুনিক নামের তালিকা ছেলেদের, আনকমন নামের তালিকা অর্থসহ</b> তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নাম ও তার অর্থ জানার জন্য।</p>
-<p></p>
+
 <h2 style="text-align: left;">আনকমন নামের তালিকা অর্থসহ ৮০+</h2>
 <p>&nbsp;★<b>নাম</b>★&nbsp; &nbsp; &nbsp; &nbsp; ★<b>অর্থ</b>★</p>
 <p>★হান্নান — অর্থ — অতি দয়ালু।</p>
@@ -2198,13 +2178,12 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★আলতাফ — অর্থ — দয়ালু।</p>
 <p>★সামছুদ্দীন — অর্থ — দ্বীনের উচ্চতর</p>
 <p>★সিরাজুল ইসলাম — অর্থ — ইসলামের বিশিষ্ট ব্যক্তি</p>
-<p></p>
+
 <h2 style="text-align: left;">আধুনিক নামের তালিকা ছেলেদের</h2>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;ছেলেদের আনকমন নামের তালিকা,&nbsp; ছেলেদের নাম অর্থসহ,&nbsp; আধুনিক নামের তালিকা ছেলেদের,&nbsp; আনকমন নামের তালিকা অর্থসহ ৮০+</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEhJAS5w0QreYmHsGjrQXfuKTdwsaW3oCMn0oben73kX4zjIVgN2elZ-4ofowAh_zcA3lA1wU-GJUG9SgCKDA6qq9FNykTsVh6hMU1DoDpnwZOLvtlXkRT6PTMc8OOp8FnF_cJap4fjjTrOyIKWoulK0QAJwBq9AyXI6ggPOSjt7McnTngKvvP9zbV3L=s16000",
+
+
+<p><b>Tag</b>:&nbsp;ছেলেদের আনকমন নামের তালিকা,&nbsp; ছেলেদের নাম অর্থসহ,&nbsp; আধুনিক নামের তালিকা ছেলেদের,&nbsp; আনকমন নামের তালিকা অর্থসহ ৮০+</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj4xMDArIOCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpobgpqjgppXgpq7gpqgg4Kao4Ka+4Kau4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmpOCmvuCmsuCmv+CmleCmviDgp6jgp6bgp6jgp6wgfCDgppvgp4fgprLgp4fgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4KauIOCmheCmsOCnjeCmpeCmuOCmuSB8IOCmhuCmp+CngeCmqOCmv+CmlTwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/100-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%a8%e0%a6%95%e0%a6%ae%e0%a6%a8-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf.html",
     category: "Baby Boy & Girl Name",
@@ -2212,19 +2191,18 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1328,
-    title: `সাফওয়ান নামের বাংলা, আরবি/ইসলামিক অর্থ কি – সাফওয়ান নামের অর্থ কি | Safwan Meaning in the name Bengali, Arabic/Islamic`,
-    slug: "সাফওয়ান-নামের-বাংলা-আরব",
-    excerpt: `Table Of Contents সাফওয়ান নামের অর্থ কি | সাফওয়ান নামের বাংলা অর্থ কি Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের স`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvocqJ0wpSVfELMarV847dGwVxlkoyHIMV0Fge7xH9d4WkeTevo6UV9y-GEWnb_g36o_S1lUtF3EebHMURAPBwDG2Ut4AS5ZEBv-8gHqvpweMEjlv8Pp6Y7q3xcIVx_lvI3SJuBeyQvDY/s1280/20260610_142631.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="Safwan name meaning in Bengali, সাফওয়ান নামের অর্থ কি, সাফওয়ান নামের বাংলা অর্থ কি, সাফওয়ান নামের ইসলামিক অর্থ কি, সাফওয়ান কি ইসলামিক /আরবি নাম" border="0" data-original-height="408" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvocqJ0wpSVfELMarV847dGwVxlkoyHIMV0Fge7xH9d4WkeTevo6UV9y-GEWnb_g36o_S1lUtF3EebHMURAPBwDG2Ut4AS5ZEBv-8gHqvpweMEjlv8Pp6Y7q3xcIVx_lvI3SJuBeyQvDY/s16000/20260610_142631.jpg" title="Safwan name meaning in Bengali, সাফওয়ান নামের অর্থ কি, সাফওয়ান নামের বাংলা অর্থ কি, সাফওয়ান নামের ইসলামিক অর্থ কি, সাফওয়ান কি ইসলামিক /আরবি নাম" /></a></div>
-<p></p>
-<div>
+    title: "সাফওয়ান নামের বাংলা, আরবি/ইসলামিক অর্থ কি – সাফওয়ান নামের অর্থ কি | Safwan Meaning in the name Bengali, Arabic/Islamic",
+    slug: "sfoyn-name-bangla-arbislamic-meaning-k",
+    oldSlug: "সাফওয়ান-নামের-বাংলা-আরব",
+    excerpt: `Table Of Contents সাফওয়ান নামের অর্থ কি | সাফওয়ান নামের বাংলা অর্থ কি BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থে`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">সাফওয়ান নামের অর্থ কি | সাফওয়ান নামের বাংলা অর্থ কি</h2>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে <u>সাফওয়ান নামের অর্থ কি</u> বা যারা বলতেছেন জানতে চাই <u>সাফওয়ান নামের বাংলা অর্থ</u> কিংবা যারা <u>Safwan name meaning in Bengali</u> বলে খুজতেছেন এবং <u>সাফওয়ান নামের অর্থ</u> এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন <u>সাফওয়ান কি ইসলামিক নাম</u> তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নামের অর্থ জানার জন্য।আপনারা এই পুরো পোস্ট পড়লে <u>সাফওয়ান নামের অর্থ, সাফওয়ান নামের বাংলা অর্থ, সাফওয়ান নামের ইসলামিক অর্থ</u> জানতে পারবেন।</p>
-<p></p>
+
 <h2 style="text-align: left;">সাফওয়ান নামের ইসলামিক অর্থ কি | Safwan name meaning in Bengali&nbsp;</h2>
 <p><b>সাফওয়ান</b> নামটি সাধারণত ছেলেদের নাম রাখা হয়। <b>সাফওয়ান</b> নামটি সুন্দর একটা নাম।<b>সাফওয়ান</b> নামের মতো <b>সাফওয়ান</b> নামের অর্থটা খুব সুন্দর।&nbsp;</p>
 <p><span style="background-color: #01ffff;">সাফওয়ান নামের অর্থ হচ্ছে শুদ্ধ, পরিষ্কার, উজ্জ্বল।</span></p>
@@ -2254,13 +2232,12 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p><i>সাফওয়ান নোমানী</i></p>
 <p><i>সাফওয়ান আহনাফ</i></p>
 <p><i>সাফওয়ান হাওলাদার&nbsp;</i></p>
-<p></p>
+
 <h2 style="text-align: left;">সাফওয়ান কি ইসলামিক / আরবি নাম</h2>
 <p><b>জি হ্যাঁ সাফওয়ান নামটি ইসলামিক নাম।&nbsp;</b></p>
-<p></p>
-<p><b>Tag</b>: Safwan name meaning in Bengali, সাফওয়ান নামের অর্থ কি, সাফওয়ান নামের বাংলা অর্থ কি, সাফওয়ান নামের ইসলামিক অর্থ কি, সাফওয়ান কি ইসলামিক /আরবি নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvocqJ0wpSVfELMarV847dGwVxlkoyHIMV0Fge7xH9d4WkeTevo6UV9y-GEWnb_g36o_S1lUtF3EebHMURAPBwDG2Ut4AS5ZEBv-8gHqvpweMEjlv8Pp6Y7q3xcIVx_lvI3SJuBeyQvDY/s16000/20260610_142631.jpg",
+
+<p><b>Tag</b>: Safwan name meaning in Bengali, সাফওয়ান নামের অর্থ কি, সাফওয়ান নামের বাংলা অর্থ কি, সাফওয়ান নামের ইসলামিক অর্থ কি, সাফওয়ান কি ইসলামিক /আরবি নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgpr7gpqvgppPgp5/gpr7gpqgg4Kao4Ka+4Kau4KeH4KawIOCmrOCmvuCmguCmsuCmviw8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4KaG4Kaw4Kas4Ka/L+Cmh+CmuOCmsuCmvuCmruCmv+CmlSDgpoXgprDgp43gpqUg4KaV4Ka/IOKAkzwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgpr7gpqvgppPgp5/gpr7gpqgg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgppXgpr8gfDwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b8%e0%a6%be%e0%a6%ab%e0%a6%93%e0%a6%af%e0%a6%bc%e0%a6%be%e0%a6%a8-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%ac%e0%a6%be%e0%a6%82%e0%a6%b2%e0%a6%be-%e0%a6%86%e0%a6%b0%e0%a6%ac.html",
     category: "Baby Boy & Girl Name",
@@ -2268,13 +2245,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1345,
-    title: `৫০০+ স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ (নতুন) | S, স দিয়ে ছেলেদের নামের তালিকা | স দিয়ে ছেলেদের নাম`,
-    slug: "৫০০-স-দিয়ে-ছেলেদের-ইসলাম",
+    title: "৫০০+ স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ (নতুন) | S, স দিয়ে ছেলেদের নামের তালিকা | স দিয়ে ছেলেদের নাম",
+    slug: "500-s-diye-cheleder-islamic-name-meaning-ntn",
+    oldSlug: "৫০০-স-দিয়ে-ছেলেদের-ইসলাম",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।আসা কর সবাই ভালো আছেন। আজকে আমরা তোমাদের স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ শেয়ার করবো। স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ : `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzssZZXlXEleNFPJAi6y4lJN2AfcWU4zV_T2IFfgZiDdtFVRmNbJiKVOMX2UUdIgnzHctSuJMn-8ZYUkuZ2VvWVXsatc98I5YOkr0yAuKZT-YBFjSQ_4bSHS5aRbDt4SABL3CZs3lIT8sE/s1280/IMG_20260221_154700.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="ছেলেদের নাম : স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ (১৫০+) -s দিয়ে ছেলেদের ইসলামিক নাম | স দিয়ে ছেলে শিশুর নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzssZZXlXEleNFPJAi6y4lJN2AfcWU4zV_T2IFfgZiDdtFVRmNbJiKVOMX2UUdIgnzHctSuJMn-8ZYUkuZ2VvWVXsatc98I5YOkr0yAuKZT-YBFjSQ_4bSHS5aRbDt4SABL3CZs3lIT8sE/s16000/IMG_20260221_154700.jpg" title="ছেলেদের নাম : স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ (১৫০+) -s দিয়ে ছেলেদের ইসলামিক নাম | স দিয়ে ছেলে শিশুর নাম" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।আসা কর সবাই ভালো আছেন। আজকে আমরা তোমাদের&nbsp;<u><b>স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ </b></u>শেয়ার করবো।</p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক বন্ধুরা সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন।আসা কর সবাই ভালো আছেন। আজকে আমরা তোমাদের&nbsp;<u><b>স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ </b></u>শেয়ার করবো।</p>
 <p><u><b>স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</b></u> : অনেকে আছেন। যারা স দিয়ে ছেলেদের ইসলামিক নাম খুজে থাকেন।অনেকের স দিয়ে ছেলেদের নাম প্রয়োজন হয়। <u><b>স দিয়ে ছেলেদের ইসলামিক নাম</b></u>&nbsp; অনেক&nbsp; আছে। তার মধ্য থেকে সব থেকে বেস্ট নাম গুলো আমি তোমাদের শেয়ার করবো।</p>
 <div>
 &nbsp;&nbsp;&nbsp; <button>Table Of Contents</button><br />
@@ -3091,10 +3066,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 </table>
 </div>
 <div style="text-align: justify;"><span style="font-family: shree;"><br /></span></div>
-<p>Tag:<span style="font-size: 1em;">স দিয়ে ছেলেদের ইসলামিক নামের তালিকা,স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,স দিয়ে ছেলেদের ইসলামিক নাম,s দিয়ে ছেলেদের ইসলামিক নাম,স দিয়ে ছেলে শিশুর নাম,</span>স দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</p>
-<p></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzssZZXlXEleNFPJAi6y4lJN2AfcWU4zV_T2IFfgZiDdtFVRmNbJiKVOMX2UUdIgnzHctSuJMn-8ZYUkuZ2VvWVXsatc98I5YOkr0yAuKZT-YBFjSQ_4bSHS5aRbDt4SABL3CZs3lIT8sE/s16000/IMG_20260221_154700.jpg",
+<p>Tag:<span style="font-size: 1em;">স দিয়ে ছেলেদের ইসলামিক নামের তালিকা,স দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ,স দিয়ে ছেলেদের ইসলামিক নাম,s দিয়ে ছেলেদের ইসলামিক নাম,স দিয়ে ছেলে শিশুর নাম,</span>স দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6vgp6bgp6YrIOCmuCDgpqbgpr/gpq/gprzgp4cg4Kab4KeH4Kay4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4g4KaF4Kaw4KeN4Kal4Ka44Ka5PC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPijgpqjgpqTgp4HgpqgpIHwgUywg4Ka4IOCmpuCmv+Cmr+CmvOCnhzwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%ab%e0%a7%a6%e0%a7%a6-%e0%a6%b8-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae.html",
     category: "Baby Boy & Girl Name",
@@ -3102,14 +3075,13 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 774,
-    title: `ছেলেদের নাম: ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- M দিয়ে ছেলেদের ইসলামিক নাম | ম দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-ম-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ম দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjycWsK5Gs2h3aSyrq55CvkppDUE3j5myTjioRykvBUvXjxuwBYoVQERWJckqAYbvGqxE4z5SayTwnz1TwfwJmtF1tsuElZVJMID2veS6aE-UEB5HsZ5XIUzs1uY9LOcMsrxezf7kNrx3g/s1280/20260705_131300.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjycWsK5Gs2h3aSyrq55CvkppDUE3j5myTjioRykvBUvXjxuwBYoVQERWJckqAYbvGqxE4z5SayTwnz1TwfwJmtF1tsuElZVJMID2veS6aE-UEB5HsZ5XIUzs1uY9LOcMsrxezf7kNrx3g/s16000/20260705_131300.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ম দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ম দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- M দিয়ে ছেলেদের ইসলামিক নাম | ম দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-m-diye-cheleder-islamic-name-meaning-2026-m-diye-cheleder-islamic-name",
+    oldSlug: "ছেলেদের-নাম-ম-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ম দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ম দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ম দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
@@ -3119,94 +3091,93 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <h2 style="text-align: left;">ম দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;ম দিয়ে ছেলেদের ইসলামিক সুন্দর নাম&nbsp;</h2>
 <div>&nbsp; &nbsp; &nbsp; নাম&nbsp; &nbsp; &nbsp; &nbsp; অর্থ</div>
 <p>১.মাজেদ &#8211; অর্থ &#8211; সম্মানিত , অভিজ্ঞ&nbsp;</p>
-<p></p>
+
 <p>২. মাদেহ &#8211; অর্থ &#8211; প্রশংসাকারী&nbsp;&nbsp;</p>
-<p></p>
+
 <p>৩.মাযেহ &#8211; অর্থ &#8211; কৌতুককারী&nbsp;&nbsp;</p>
-<p></p>
+
 <p>৪.মােশাররফ &#8211; অর্থ &#8211; সম্মানিত&nbsp;</p>
-<p></p>
+
 <p>৫. মুশফিক &#8211; অর্থ &#8211; দয়ালু , স্নেহশীল&nbsp;</p>
-<p></p>
+
 <p>৬. মাশহুদ &#8211; অর্থ &#8211; বর্তমান , স্বরণীয়&nbsp;</p>
 <p>৭. মুস্তাফা &#8211; অর্থ &#8211; নির্বাচিত , মনােনীত&nbsp;</p>
-<p></p>
+
 <p>৮. মিসবাহ &#8211; অর্থ &#8211; প্রদীপ&nbsp;</p>
-<p></p>
+
 <p>৯.মুসলেহ &#8211; অর্থ &#8211; সংস্কারক&nbsp;</p>
-<p></p>
+
 <p>১০. মুসাদ্দেক &#8211; অর্থ &#8211; প্রত্যয়নকারী&nbsp;</p>
-<p></p>
+
 <p>১১. মুসাররেফ &#8211; অর্থ &#8211; রূপান্তরকারী</p>
-<p></p>
+
 <p>১২.মুকাররাম &#8211; অর্থ &#8211; সম্মানিত , মর্যাদাবান মনােনাত ,&nbsp;</p>
-<p></p>
+
 <p>১৩. মুমতাজ &#8211; অর্থ &#8211; চমৎকার&nbsp;</p>
-<p></p>
+
 <p>১৪. মামদূহ &#8211; অর্থ &#8211; প্রশংসিত&nbsp;</p>
-<p></p>
+
 <p>১৫.মুন্তাসির &#8211; অর্থ &#8211; বিজয় অর্জনকারী আল্লাহর নাম ,&nbsp;</p>
-<p></p>
+
 <p>১৬. মান্নান &#8211; অর্থ &#8211; অত্যন্ত অনুগ্রহকারি&nbsp;</p>
-<p></p>
+
 <p>১৭. মুনয়িম &#8211; অর্থ &#8211; দানকারী , কল্যাণদাতা&nbsp;</p>
-<p></p>
+
 <p>১৮. মনসুর &#8211; অর্থ &#8211; বিজয়ী&nbsp;</p>
-<p></p>
+
 <p>১৯. মুনির &#8211; অর্থ &#8211; দ্বীপ্তিমান উজ্জ্বল ,&nbsp;</p>
-<p></p>
+
 <p>২০. মুনাওয়ার &#8211; অর্থ &#8211; আলােকিত&nbsp;</p>
-<p></p>
+
 <p>২১. মায়মুন &#8211; অর্থ &#8211; সৌভাগ্যবান</p>
-<p></p>
+
 <h2 style="text-align: left;">M দিয়ে ছেলেদের ইসলামিক নাম | ম দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;নাম&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name&nbsp; &nbsp; &nbsp;অর্থ</div>
 <p>1.মাজেদ &#8211; Majed &#8211; সম্মানিত , অভিজ্ঞ&nbsp;</p>
-<p></p>
+
 <p>2. মাদেহ &#8211; Madeh &#8211; প্রশংসাকারী&nbsp;&nbsp;</p>
-<p></p>
+
 <p>3.মাযেহ &#8211; Mazeh &#8211; কৌতুককারী&nbsp;&nbsp;</p>
-<p></p>
+
 <p>4.মােশাররফ &#8211; Musharraf &#8211; সম্মানিত&nbsp;</p>
-<p></p>
+
 <p>5. মুশফিক &#8211; Mushfeq &#8211; দয়ালু , স্নেহশীল&nbsp;</p>
-<p></p>
+
 <p>6. মাশহুদ &#8211; Mashhud &#8211; বর্তমান , স্বরণীয়&nbsp;</p>
 <p>7. মুস্তাফা &#8211; Mustafa &#8211; নির্বাচিত , মনােনীত&nbsp;</p>
-<p></p>
+
 <p>8. মিসবাহ &#8211; Mesbah &#8211; প্রদীপ&nbsp;</p>
-<p></p>
+
 <p>9.মুসলেহ &#8211; Musleh &#8211; সংস্কারক&nbsp;</p>
-<p></p>
+
 <p>10. মুসাদ্দেক &#8211; Musaddeq &#8211; প্রত্যয়নকারী&nbsp;</p>
-<p></p>
+
 <p>11. মুসাররেফ &#8211; Musarref &#8211; রূপান্তরকারী</p>
-<p></p>
+
 <p>12.মুকাররাম &#8211; Mukarram &#8211; সম্মানিত , মর্যাদাবান মনােনাত ,&nbsp;</p>
-<p></p>
+
 <p>13. মুমতাজ &#8211; Mumtaz &#8211; চমৎকার&nbsp;</p>
-<p></p>
+
 <p>14. মামদূহ &#8211; Mamduh &#8211; প্রশংসিত&nbsp;</p>
-<p></p>
+
 <p>15.মুন্তাসির &#8211; Muntaser &#8211; বিজয় অর্জনকারী আল্লাহর নাম ,&nbsp;</p>
-<p></p>
+
 <p>16. মান্নান &#8211; Mannan &#8211; অত্যন্ত অনুগ্রহকারি&nbsp;</p>
-<p></p>
+
 <p>17. মুনয়িম &#8211; Munem &#8211; দানকারী , কল্যাণদাতা&nbsp;</p>
-<p></p>
+
 <p>18. মনসুর &#8211; Mansur &#8211; বিজয়ী&nbsp;</p>
-<p></p>
+
 <p>19. মুনির &#8211; Munir &#8211; দ্বীপ্তিমান উজ্জ্বল ,&nbsp;</p>
-<p></p>
+
 <p>20. মুনাওয়ার &#8211; Munawwar &#8211; আলােকিত&nbsp;</p>
-<p></p>
+
 <p>21. মায়মুন &#8211; Maimun &#8211; সৌভাগ্যবান</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag:</b>&nbsp;ম দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;M দিয়ে ছেলেদের ইসলামিক নাম | ম দিয়ে ছেলে শিশুর নাম, ম দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;&nbsp;ছেলেদের নাম: ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjycWsK5Gs2h3aSyrq55CvkppDUE3j5myTjioRykvBUvXjxuwBYoVQERWJckqAYbvGqxE4z5SayTwnz1TwfwJmtF1tsuElZVJMID2veS6aE-UEB5HsZ5XIUzs1uY9LOcMsrxezf7kNrx3g/s16000/20260705_131300.jpg",
+
+
+
+<p><b>Tag:</b>&nbsp;ম দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;M দিয়ে ছেলেদের ইসলামিক নাম | ম দিয়ে ছেলে শিশুর নাম, ম দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;&nbsp;ছেলেদের নাম: ম দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpq4g4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wtIE0g4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%ae-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -3214,20 +3185,18 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 790,
-    title: `শীর্ষ 1000 ফেসবুক নাম সমূহ ছেলেদের ২০২৬ | ছেলেদের ফেসবুক আইডির নাম ইংরেজি,বাংলা,ইসলামিক | ছেলেদের কষ্টের ফেসবুক আইডির নাম`,
-    slug: "শীর্ষ-1000-ফেসবুক-নাম-সমূহ-ছেল",
+    title: "শীর্ষ 1000 ফেসবুক নাম সমূহ ছেলেদের ২০২৬ | ছেলেদের ফেসবুক আইডির নাম ইংরেজি,বাংলা,ইসলামিক | ছেলেদের কষ্টের ফেসবুক আইডির নাম",
+    slug: "shrsh-1000-fsbk-name-smh-cheleder-2026",
+    oldSlug: "শীর্ষ-1000-ফেসবুক-নাম-সমূহ-ছেল",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যব`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgucxhxox1NCT12C2Hk3NcYbWyF5IxnbLfRWNZnDcs7gsXaESr7QzlGGKpTMiliuGSFSM5Nkn7KQNMour1qz5FCwFoKPgL1uYEG0s3o7Eu8s1oYHRAG5lXLaDiomQgQS2O68FoS_7dfUkHSZnHajx-XneZ1tndvTHMXI5EDP_6rfZ1ZbsrCilnd-swqig/s1280/IMG_20220511_132113.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="ছেলেদের ফেসবুক আইডির নাম  | ছেলেদের ফেসবুক আইডির নাম ইংরেজি | ছেলেদের কষ্টের ফেসবুক আইডির নাম" border="0" data-original-height="520" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgucxhxox1NCT12C2Hk3NcYbWyF5IxnbLfRWNZnDcs7gsXaESr7QzlGGKpTMiliuGSFSM5Nkn7KQNMour1qz5FCwFoKPgL1uYEG0s3o7Eu8s1oYHRAG5lXLaDiomQgQS2O68FoS_7dfUkHSZnHajx-XneZ1tndvTHMXI5EDP_6rfZ1ZbsrCilnd-swqig/s16000/IMG_20220511_132113.jpg" title="ছেলেদের ফেসবুক আইডির নাম  | ছেলেদের ফেসবুক আইডির নাম ইংরেজি | ছেলেদের কষ্টের ফেসবুক আইডির নাম" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যবহারে পারদর্শী এখন। দিন দিন ফেসবুক ব্যবহারকারীর সংখ্যা বারতে চলেছে। অনেকে ফেসবুক আইডির নাম নিজের নাম ছাড়া ভিন্ন নাম দিয়ে রাখতে চায়৷ তাই আজকে আমরা <b style="background-color: #fcff01;"><u>ছেলেদের ফেসবুক আইডির নাম&nbsp; &#8211; ছেলেদের ফেসবুক আইডির নাম ইংরেজি -ছেলেদের কষ্টের ফেসবুক আইডির নাম</u></b> কিছু শেয়ার করবো। আসা করি তোমাদের ভালো লাগবে।</p>
-<p></p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যবহারে পারদর্শী এখন। দিন দিন ফেসবুক ব্যবহারকারীর সংখ্যা বারতে চলেছে। অনেকে ফেসবুক আইডির নাম নিজের নাম ছাড়া ভিন্ন নাম দিয়ে রাখতে চায়৷ তাই আজকে আমরা <b style="background-color: #fcff01;"><u>ছেলেদের ফেসবুক আইডির নাম&nbsp; &#8211; ছেলেদের ফেসবুক আইডির নাম ইংরেজি -ছেলেদের কষ্টের ফেসবুক আইডির নাম</u></b> কিছু শেয়ার করবো। আসা করি তোমাদের ভালো লাগবে।</p>
+
 <div>  &nbsp;&nbsp;&nbsp; <button>Table Of Contents</button>  &nbsp;&nbsp;&nbsp; </p>
 <ul></ul>
 <p>   &nbsp;&nbsp;&nbsp; </p></div>
 <h2 style="text-align: left;">শীর্ষ 1000 ফেসবুক নাম সমূহ ছেলেদের</h2>
 <p>প্রিয় পাঠক <u><b>ছেলেদের ফেসবুক আইডির জনপ্রিয় কিছু</b></u> নাম শেয়ার করা হলো। যারা <span style="background-color: #fcff01;"><b><u>ছেলেদের ফেসবুক আইডির নাম</u></b></span> খুজতেছেন। এখান থেকে সংগ্রহ করে নিবে।&nbsp;</p>
-<p></p>
+
 </p>
 <ul style="text-align: left;">
 <li><span face="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, &quot;Open Sans&quot;, sans-serif" style="background-color: white; font-size: 16px; text-align: justify;">জ্বীনের বাদশা</span></li>
@@ -3324,9 +3293,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li>Bodro soytan</li>
 </ul>
 <h2 style="text-align: left;">ছেলেদের কষ্টের ফেসবুক আইডির নাম</h2>
-<p></p>
+
 <p>প্রিয় পাঠক বন্ধুরা তোমাদের মাঝে অনেকে আছে যারা&nbsp;<b><u style="background-color: #fcff01;">ছেলেদের কস্টের ফেসবুক আইডির নাম ইংরেজি</u></b>&nbsp;খুজে থাকেন তোমাদের জন্য নিচে কিছু&nbsp;<span style="background-color: #fcff01;"><b>ছেলেদের কস্টের ফেসবুক আইডি নাম ইংরেজি&nbsp;</b></span>দেওয়া হলো</p>
-<p></p>
+
 <ol style="background-color: white; box-sizing: inherit; color: rgba(41, 41, 41, 0.9); font-family: &quot;Noto Serif Bengali&quot;, sans-serif; font-size: 18px; list-style-type: var(--listStyleType,decimal); margin-bottom: var(--contentSpacing); margin-left: 25px; overflow-wrap: break-word; padding: 0px 0px 0px 20px; word-break: break-word;">
 <li style="box-sizing: inherit; font-size: 1em; letter-spacing: 0.1px; line-height: 2; margin-bottom: 7px; padding-left: 5px; position: relative;"><span style="box-sizing: inherit; font-size: 1em;">ভাঙ্গা&nbsp;</span><span style="box-sizing: inherit; font-size: 1em;">মোবাইল</span></li>
 <li style="box-sizing: inherit; font-size: 1em; letter-spacing: 0.1px; line-height: 2; margin-bottom: 7px; padding-left: 5px; position: relative;">হিমাদ্রি তুষার</li>
@@ -3377,9 +3346,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li style="box-sizing: inherit; font-size: 1em; letter-spacing: 0.1px; line-height: 2; margin-bottom: 7px; padding-left: 5px; position: relative;">শড়তের শেষ</li>
 <li style="box-sizing: inherit; font-size: 1em; letter-spacing: 0.1px; line-height: 2; margin-bottom: 7px; padding-left: 5px; position: relative;">কালো মেঘ</li>
 </ol>
-<p>Tag:-১০০+ ছেলেদের ফেসবুক আইডির নাম, ছেলেদের ফেসবুক আইডির নাম ইংরেজি,&nbsp; ছেলেদের কষ্টের ফেসবুক আইডির নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgucxhxox1NCT12C2Hk3NcYbWyF5IxnbLfRWNZnDcs7gsXaESr7QzlGGKpTMiliuGSFSM5Nkn7KQNMour1qz5FCwFoKPgL1uYEG0s3o7Eu8s1oYHRAG5lXLaDiomQgQS2O68FoS_7dfUkHSZnHajx-XneZ1tndvTHMXI5EDP_6rfZ1ZbsrCilnd-swqig/s16000/IMG_20220511_132113.jpg",
+<p>Tag:-১০০+ ছেলেদের ফেসবুক আইডির নাম, ছেলেদের ফেসবুক আইডির নাম ইংরেজি,&nbsp; ছেলেদের কষ্টের ফেসবুক আইডির নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprbgp4DgprDgp43gprcgMTAwMCDgpqvgp4fgprjgpqzgp4HgppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmuOCmruCnguCmuSDgppvgp4fgprLgp4fgpqbgp4fgprAg4Keo4Kem4Keo4KesIHw8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kab4KeH4Kay4KeH4Kam4KeH4KawIOCmq+Cnh+CmuOCmrOCngeCmlSDgpobgpofgpqHgpr/gprAg4Kao4Ka+4KauPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b6%e0%a7%80%e0%a6%b0%e0%a7%8d%e0%a6%b7-1000-%e0%a6%ab%e0%a7%87%e0%a6%b8%e0%a6%ac%e0%a7%81%e0%a6%95-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%b8%e0%a6%ae%e0%a7%82%e0%a6%b9-%e0%a6%9b%e0%a7%87%e0%a6%b2.html",
     category: "Baby Boy & Girl Name",
@@ -3387,23 +3355,22 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1329,
-    title: `সৌদি ছেলেদের ইসলামিক নাম | সৌদি ছেলেদের নাম অর্থসহ ৫৫০+ | আরবি ছেলেদের নাম`,
-    slug: "সৌদি-ছেলেদের-ইসলামিক-নাম",
-    excerpt: `Table Of Contents সৌদি ছেলেদের নাম অর্থসহ ৫৫০+ আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiDyhvCCRnAJrehsPQmzAndMNzVo-AHK5nqvsi1sQNSjUllo5snpym_y72xXsByfPZf7x7Vu6POSHhuv6uVqoLuXUnJcvkm2Ts0LSTGq_dtrG3EVI-lTuFeZua1VcF6WMEAPvRFMfceLP45PJqbhUz3b_Y5eKd8qTUjCKUkFNyIAo8C3jyQHA2O-SuF=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="450" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEiDyhvCCRnAJrehsPQmzAndMNzVo-AHK5nqvsi1sQNSjUllo5snpym_y72xXsByfPZf7x7Vu6POSHhuv6uVqoLuXUnJcvkm2Ts0LSTGq_dtrG3EVI-lTuFeZua1VcF6WMEAPvRFMfceLP45PJqbhUz3b_Y5eKd8qTUjCKUkFNyIAo8C3jyQHA2O-SuF=s16000" /></a></div>
-<p></p>
-<div>
+    title: "সৌদি ছেলেদের ইসলামিক নাম | সৌদি ছেলেদের নাম অর্থসহ ৫৫০+ | আরবি ছেলেদের নাম",
+    slug: "sd-cheleder-islamic-name",
+    oldSlug: "সৌদি-ছেলেদের-ইসলামিক-নাম",
+    excerpt: `Table Of Contents সৌদি ছেলেদের নাম অর্থসহ ৫৫০+ আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">সৌদি ছেলেদের নাম অর্থসহ ৫৫০+</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
 <p>বন্ধুরা আপনাদের মাঝে অনেকেই আছেন যারা <b>ছেলেদের</b>&nbsp;<b>আরবী নাম</b>&nbsp;রাখার জন্য ইন্টারনেটের মাধ্যমে নাম খোজার চেষ্টা করছেন। তাদের জন্য আমরা <b>ছেলেদের আরবী নামের তালিকা সহ নামের অর্থ</b> নিয়ে আসলাম।&nbsp;</p>
 <p>আমরা এই পোস্টের মাধ্যমে আপনাদের মাঝে শেয়ার করবো <b>সৌদি ছেলেদের ইসলামিক নাম,&nbsp; সৌদি ছেলেদের নাম অর্থসহ ৫৫০+, আরবি ছেলেদের নাম</b>।&nbsp;</p>
 <p>আশা করি আমাদের এই পোস্টে দেওয়া নামগুলো পেয়ে আপনাদের উপকার হবে ।</p>
-<p></p>
+
 </div>
 <h2 style="text-align: left;">সৌদি ছেলেদের ইসলামিক নাম&nbsp;&nbsp;</h2>
 <p>&nbsp; ★নাম★&nbsp; &nbsp; &nbsp; ★অর্থ★</p>
@@ -3465,7 +3432,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★ফুয়াদ — অর্থ — অন্তর,,!!</p>
 <p>★ফাইয়ায — অর্থ — অনুগ্রহকারি,,!!&nbsp;</p>
 <p>★কাসসাম — অর্থ — বন্টনকারী,,!!&nbsp;</p>
-<div></div>
+
 <h2 style="text-align: left;">আরবি ছেলেদের নাম</h2>
 <p>&nbsp; &nbsp;★নাম★&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ★অর্থ★</p>
 <p>★আ’ওয়ান — শক্তিশালী,,!!বিজয়ী,,!!</p>
@@ -3540,11 +3507,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★কাদের — অর্থ — সক্ষম,,!!</p>
 <p>★জারিফ — অর্থ — বুদ্ধিমান,,!!</p>
 <p>★মামুন — অর্থ =সুরক্ষিত,,!!</p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;সৌদি ছেলেদের ইসলামিক নাম,&nbsp; সৌদি ছেলেদের নাম অর্থসহ ৫৫০+,&nbsp; আরবি ছেলেদের নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEiDyhvCCRnAJrehsPQmzAndMNzVo-AHK5nqvsi1sQNSjUllo5snpym_y72xXsByfPZf7x7Vu6POSHhuv6uVqoLuXUnJcvkm2Ts0LSTGq_dtrG3EVI-lTuFeZua1VcF6WMEAPvRFMfceLP45PJqbhUz3b_Y5eKd8qTUjCKUkFNyIAo8C3jyQHA2O-SuF=s16000",
+
+
+<p><b>Tag</b>:&nbsp;সৌদি ছেলেদের ইসলামিক নাম,&nbsp; সৌদি ছেলেদের নাম অর্থসহ ৫৫০+,&nbsp; আরবি ছেলেদের নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgp4zgpqbgpr8g4Kab4KeH4Kay4KeH4Kam4KeH4KawIOCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq48L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+fCDgprjgp4zgpqbgpr8g4Kab4KeH4Kay4KeH4Kam4KeH4KawIOCmqOCmvuCmrjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpoXgprDgp43gpqXgprjgprkg4Ker4Ker4KemKyB8IOCmhuCmsOCmrOCmvzwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b8%e0%a7%8c%e0%a6%a6%e0%a6%bf-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%95-%e0%a6%a8%e0%a6%be%e0%a6%ae.html",
     category: "Baby Boy & Girl Name",
@@ -3552,107 +3518,105 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1409,
-    title: `মেয়েদের নাম: ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – B দিয়ে মেয়েদের ইসলামিক নাম | ব দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-ব-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ব দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqXSfjolqJDOzpOradOq21k_ysPmkLpM02SlUuQvaEn1gfbd5jHo1Une5IizZS31h0YU-wd65Bemi90zpXYYWSPvtL3gEeWJ6_QMorUi5lPK7eLIdrq2FB39QhqqASO-Bv0y6VeV0ESeU/s1280/20260709_094059.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqXSfjolqJDOzpOradOq21k_ysPmkLpM02SlUuQvaEn1gfbd5jHo1Une5IizZS31h0YU-wd65Bemi90zpXYYWSPvtL3gEeWJ6_QMorUi5lPK7eLIdrq2FB39QhqqASO-Bv0y6VeV0ESeU/s16000/20260709_094059.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ব দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ব দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "মেয়েদের নাম: ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – B দিয়ে মেয়েদের ইসলামিক নাম | ব দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-b-diye-meyeder-islamic-name-meaning",
+    oldSlug: "মেয়েদের-নাম-ব-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ব দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ব দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ব দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">ব<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">ব দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;ব দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>১.বিলকীস / বিলকিস – অর্থ – দেশের রাণী</div>
-<div></div>
+
 <div>২.বাহীজা – অর্থ – সুন্দরী চিত্তা কর্ষক</div>
-<div></div>
+
 <div>৩.বাহার – অর্থ – বসন্ত কাল</div>
-<div></div>
+
 <div>৪.বারীরা – অর্থ – উপকারী / সাহাবীয়ার নাম</div>
-<div></div>
+
 <div>৫.বারীয়া – অর্থ – নির্দোষ / নিরপরাধ</div>
-<div></div>
+
 <div>৬.বাশীরাহ – অর্থ – উজ্জ্বল</div>
-<div></div>
+
 <div>৭.বাশা-শাত – অর্থ – প্রানোচ্ছেলতা</div>
-<div></div>
+
 <div>৮.বাসীমাহ – অর্থ – হাস্যোজ্জল</div>
-<div></div>
+
 <div>৯.বুছাইনা – অর্থ – সুন্দরী স্ত্রীলোক</div>
-<div></div>
+
 <div>১০.বাশাশাত শামা &#8211; অর্থ – প্রানোচ্ছল প্রদীপ</div>
-<div></div>
+
 <div>১১.বাসীমাহ মারইয়াম &#8211; অর্থ – হাস্যোজ্জল কুমারী</div>
-<div></div>
+
 <div>১২.বারীয়া তাহসীন – অর্থ – উপকারী সুন্দর</div>
-<div></div>
+
 <div>১৩.বৈশাখী &#8211; অর্থ &#8211; বিশাখা নক্ষত্র যুক্ত পূর্ণিমা</div>
-<div></div>
+
 <div>১৪.বিপাশা &#8211; অর্থ &#8211; পাঞ্জাবের একটি নদীর নাম</div>
-<div></div>
+
 <div>১৫.বন্যা &#8211; অর্থ &#8211; প্রবল স্রোতের জলপ্লাবন, বান</div>
-<div></div>
+
 <div>১৬.বৃষ্টি &#8211; অর্থ &#8211; মেঘ থেকে জলবর্ষণ</div>
-<div></div>
+
 <div>১৭.বেলা &#8211; অর্থ &#8211; সুগন্ধি ফুল বিশেষ, সময়</div>
-<div></div>
+
 <div>১৮.বর্ণালী &#8211; অর্থ &#8211; সূর্যের সাত রঙ</div>
-<div></div>
+
 <div>১৯.বারিহা &#8211; অর্থ &#8211; শ্রেষ্ঠতর</div>
-<div></div>
+
 <div>২০.বাহিরা &#8211; অর্থ &#8211; অসাধারণ, দুর্দান্ত, দীপ্তমান</div>
 </div>
-<div></div>
-<div></div>
+
+
 <h2 style="text-align: left;">B দিয়ে মেয়েদের ইসলামিক নাম | ব দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1.বদরুন্নেসা – Badarun naisa – পূর্ণিমার চাঁদ তূল্য মহিলা</div>
-<div></div>
+
 <div>2.বদরুন নাহার – Badarun nahar – চাঁদের আলোর দিন</div>
-<div></div>
+
 <div>3.বাহা – Baha – আলো</div>
-<div></div>
+
 <div>4.বকুল – Bakul – ফুলের নাম</div>
-<div></div>
+
 <div>5.বিনি– Bini – বিনা</div>
-<div></div>
+
 <div>6.বিনত – Binoth – বালিকা</div>
-<div></div>
+
 <div>7.বিপাশা – Bipasha – নদী</div>
-<div></div>
+
 <div>8.বিভা – Biva – আলো</div>
-<div></div>
+
 <div>9.বিনিতা – Binita – বিনয়ন্বতি</div>
-<div></div>
+
 <div>10.বিজলী / বিজলি – Bijli – বিদ্যুৎ / আলো</div>
-<div></div>
+
 <div>11.বাসেরা – Baserah – দৃষ্টি শক্তি / প্রথ্যক্ষ কারিনী</div>
-<div></div>
+
 <div>12.বুবায়রা – Buraira – সাহাবীয়ার নাম / পুণ্যবতী</div>
-<div></div>
+
 <div>13.বসীরত – Basirat – সূক্ষ্ম দৃষ্টি শক্তি</div>
-<div></div>
+
 <div>14.বালীগা – Baligah – প্রাঞ্জল ভাষিণী</div>
-<div></div>
+
 <div>বাসন্তী &#8211; Basonti &#8211; একটি রঙ বিশেষ, বসন্তকালীন</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
+
 <div><b>Tag</b>:&nbsp;ব দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;B দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; ব দিয়ে মেয়ে শিশুর নাম, ব দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqXSfjolqJDOzpOradOq21k_ysPmkLpM02SlUuQvaEn1gfbd5jHo1Une5IizZS31h0YU-wd65Bemi90zpXYYWSPvtL3gEeWJ6_QMorUi5lPK7eLIdrq2FB39QhqqASO-Bv0y6VeV0ESeU/s16000/20260709_094059.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpqwg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgQiDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%ac-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -3660,105 +3624,101 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 775,
-    title: `ছেলেদের নাম: ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- L দিয়ে ছেলেদের ইসলামিক নাম | ল দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-ল-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ল দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitq1W-dTRXhevdafHZHSUjfdkF951IKOlIcf5WXIqrHQU8QK7GZlpavpUKR4ph5lfH9NwpsLAjcRXRU8Xsz_gCo3OdgJHlvKFg6PBu0HyAYftVsHGqYVopRbSJXfErQBibQNKxHcAcwwM/s1280/20260705_154157.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitq1W-dTRXhevdafHZHSUjfdkF951IKOlIcf5WXIqrHQU8QK7GZlpavpUKR4ph5lfH9NwpsLAjcRXRU8Xsz_gCo3OdgJHlvKFg6PBu0HyAYftVsHGqYVopRbSJXfErQBibQNKxHcAcwwM/s16000/20260705_154157.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ল দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ল দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬- L দিয়ে ছেলেদের ইসলামিক নাম | ল দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-l-diye-cheleder-islamic-name-meaning-2026-l-diye-cheleder-islamic-name",
+    oldSlug: "ছেলেদের-নাম-ল-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ল দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ল দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ল দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">ল&nbsp;</span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">ল দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;ল দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;নাম&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; অর্থ</div>
 <p>১.লাবীব / লাবিব – অর্থ – জ্ঞানী / বুদ্ধিমান</p>
-<p></p>
+
 <p>২.লায়েক – অর্থ – যোগ্য / দক্ষ</p>
-<p></p>
+
 <p>৩.লুতফ – অর্থ – কবি / করুণা / সৌন্দর্য</p>
-<p></p>
+
 <p>৪.লাতিফ – অর্থ – পবিত্র / নমনীয় / সূক্ষু</p>
-<p></p>
+
 <p>৫.লাতাফত – অর্থ – নমনীয়তা</p>
-<p></p>
+
 <p>৬.লা’ল – অর্থ&nbsp; – মুক্তা</p>
-<p></p>
+
 <p>৭.লাফীয – অর্থ – বাক পটু</p>
-<p></p>
+
 <p>৮.লেকা – অর্থ – সাক্ষাৎ / মিলন</p>
-<p></p>
+
 <p>৯.লুকমান – অর্থ – কুরআনে উল্লিখিত একজন জ্ঞানী ব্যক্তির নাম</p>
-<p></p>
+
 <p>১০.লায়ীক – অর্থ – দক্ষতা / যোগ্যতা</p>
-<p></p>
+
 <p>১১.লিয়াকত – অর্থ&nbsp; – দক্ষতা / যোগ্যতা</p>
-<p></p>
+
 <p>১২.লাইস – অর্থ – সিংহ</p>
-<p></p>
+
 <p>১৩.লাত্বফান / লাতফান – অর্থ – কল্যাণ কারী</p>
-<p></p>
+
 <p>১৪.লুবান – অর্থ&nbsp; – সুগন্ধি দ্রব্য</p>
-<p></p>
+
 <p>১৫.লাযনা – অর্থ – সম্মিলিত হওয়া / বিপ্লব</p>
-<p></p>
+
 <p>১৬.লবীদ – অর্থ&nbsp; – এক প্রকারের পাখি / বাসিন্দা</p>
-<p></p>
+
 <p>১৭.লাবিবুদ্দিন – অর্থ – দ্বীনের জ্ঞানী / চিন্তাবিদ</p>
-<p></p>
+
 <p>১৮.লুতফুল্লাহ – অর্থ – আল্লাহর সৌন্দর্য</p>
-<p></p>
+
 <p>১৯.লিয়াকত আলী – অর্থ – উন্নত / উৎকৃষ্ট যোগ্যতা</p>
-<p></p>
+
 <p>২০.লোকমান হোসাইন – Loakman Hossain – অভিজ্ঞ সুন্দর জ্ঞানী</p>
-<p></p>
+
 <p>২১.লুৎফুর রহমান – অর্থ – করুণাময়ের শোভা</p>
-<p></p>
-<p></p>
+
+
 <h2 style="text-align: left;">L দিয়ে ছেলেদের ইসলামিক নাম | ল দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; নাম&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; অর্থ</div>
 <p>1.লুবান মুকাদ্দাস – Loban mokaddas – সুগন্ধি দ্রব্য পাক পবিত্র</p>
-<p></p>
+
 <p>2.লুবান মাহফুজ – Loban mahfuz – সুগন্ধি দ্রব্য সংরক্ষিত</p>
-<p></p>
+
 <p>3.লুবান মিহদা – Loban mihda – – সুগন্ধি দ্রব্য উপহার পাত্র</p>
-<p></p>
+
 <p>4.লাত্বীফ মাহমুদ – Latif mahmud – অনুগ্রহ পরায়ণ প্রশংসনীয়</p>
-<p></p>
+
 <p>5.লোকমান হাসান – Lokman hasan – সুন্দর জ্ঞানী</p>
-<p></p>
+
 <p>6.লোকমান মাওদূদ – Lokman moudud&nbsp; – জ্ঞানী প্রিয়পাত্র</p>
-<p></p>
+
 <p>7.লোকনাথ &#8211; Loknath &#8211; পালনকর্তা&nbsp;</p>
-<p></p>
+
 <p>8. লালন<span style="white-space: pre;">	</span> &#8211; Lalon &#8211;&nbsp; প্রতিপালক, স্বযত্নে পালনকারী, সৃষ্টিকারী</p>
-<p></p>
+
 <p>9.লালমোহন<span style="white-space: pre;">	</span> &#8211; Lalmohon &#8211; এক প্রকার লাল রঙা পাখি</p>
-<p></p>
+
 <p>10.লিখন &#8211; Likhon &#8211; লিপি, ন্যায়পরায়ণতা</p>
-<p></p>
+
 <p>11.লিটন<span style="white-space: pre;">	</span>&#8211; Liton &#8211; পাহাড়ের উপর বসবাসকারী</p>
-<p></p>
+
 <p>12. লাকি &#8211; Lucky&nbsp; &#8211; সৌভাগ্যবান</p>
-<p></p>
+
 <p>13.লাহাম<span style="white-space: pre;">	</span>&#8211;&nbsp; Laham &#8211; অভিজ্ঞতা</p>
-<p></p>
+
 <p>14. লামিস<span style="white-space: pre;">	</span>&#8211; Lamis &#8211; কোমল</p>
-<p></p>
+
 <p>15.লাদেন<span style="white-space: pre;">	</span> &#8211; Laden &#8211;&nbsp; সুগন্ধ, ফুল, মঞ্জরী</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;ল দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;L দিয়ে ছেলেদের ইসলামিক নাম, ল দিয়ে ছেলে শিশুর নাম,&nbsp;ল দিয়ে ছেলেদের ইসলামিক৷ সুন্দর নাম,&nbsp;ছেলেদের নাম: ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-<p></p>
-<p></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitq1W-dTRXhevdafHZHSUjfdkF951IKOlIcf5WXIqrHQU8QK7GZlpavpUKR4ph5lfH9NwpsLAjcRXRU8Xsz_gCo3OdgJHlvKFg6PBu0HyAYftVsHGqYVopRbSJXfErQBibQNKxHcAcwwM/s16000/20260705_154157.jpg",
+
+
+
+<p><b>Tag</b>:&nbsp;ল দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;L দিয়ে ছেলেদের ইসলামিক নাম, ল দিয়ে ছেলে শিশুর নাম,&nbsp;ল দিয়ে ছেলেদের ইসলামিক৷ সুন্দর নাম,&nbsp;ছেলেদের নাম: ল দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgprIg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wtIEwg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%b2-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -3766,19 +3726,17 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 791,
-    title: `মহিলা সাহাবীদের নাম অর্থসহ-মহিলা সাহাবীদের নামের তালিকা-মহিলা সাহাবীবর্গের নাম ২০২৬`,
-    slug: "মহিলা-সাহাবীদের-নাম-অর্থ",
+    title: "মহিলা সাহাবীদের নাম অর্থসহ-মহিলা সাহাবীদের নামের তালিকা-মহিলা সাহাবীবর্গের নাম ২০২৬",
+    slug: "mhl-sahabider-name-meaning-mhl-sahabider-name-list-mhl-shbbrgr-name-2026",
+    oldSlug: "মহিলা-সাহাবীদের-নাম-অর্থ",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা অনেকে ছোট মেয়েদের নাম রাখার সময় মহিলা সাহাবীদের নাম রাখতে চান। মহিলা সাহাবিদের নাম না জানার কারনে গুগল থেকে খুজে বের করতে হয়`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwIhrKbiyVaGTZlMM4RIU2-3sIXaZj9e9nuJZINQN9urchpw_EjJqphZUXDdVPi9GMFg1Xa29kgkFnmZYLGgqLqLv5WxnJMcvUW-Qd11fspJZ_UIGnkq1tsvJ1QViV-7EPPygeeWlq0Bsa/s1280/IMG_20260713_045404.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="মহিলা সাহাবীদের নাম অর্থসহ-মহিলা সাহাবীদের নামের তালিকা-মহিলা সাহাবীবর্গের নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwIhrKbiyVaGTZlMM4RIU2-3sIXaZj9e9nuJZINQN9urchpw_EjJqphZUXDdVPi9GMFg1Xa29kgkFnmZYLGgqLqLv5WxnJMcvUW-Qd11fspJZ_UIGnkq1tsvJ1QViV-7EPPygeeWlq0Bsa/s16000/IMG_20260713_045404.jpg" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা অনেকে ছোট মেয়েদের নাম রাখার সময় মহিলা সাহাবীদের নাম রাখতে চান। মহিলা সাহাবিদের নাম না জানার কারনে গুগল থেকে খুজে বের করতে হয়। আজকে আমরা তোমাদের&nbsp;মহিলা সাহাবীদের নাম অর্থসহ শেয়ার করবো। যেখান থেকে আপনি ভালো একটা নাম বেচে নিতে পারেন।</p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন। আসা করি সবাই ভালো আছেন। বন্ধুরা অনেকে ছোট মেয়েদের নাম রাখার সময় মহিলা সাহাবীদের নাম রাখতে চান। মহিলা সাহাবিদের নাম না জানার কারনে গুগল থেকে খুজে বের করতে হয়। আজকে আমরা তোমাদের&nbsp;মহিলা সাহাবীদের নাম অর্থসহ শেয়ার করবো। যেখান থেকে আপনি ভালো একটা নাম বেচে নিতে পারেন।</p>
 <div>
     <button>Table Of Contents</button><br />
     </p>
 <ul></ul>
-<p>    </p></div>
-<p>    </p>
+</div>
+
 <h2 style="text-align: left;"><span style="font-size: 1em;">মহিলা সাহাবীদের নাম অর্থসহ</span></h2>
 <p dir="ltr"><b><u>মহিলা সাহাবীঃ</u></b>-মহিলা সাহাবী বলা হয় ঐ সকল মহিলাদের যারা রাসুল সাঃ এর যুগে নবীজিকে স্ব-চোখে দেখে ইসলাম গ্রহণ করছেন। এবং ইমানের সাথে মৃত্যু বরন করেছেন।</p>
 <h2 style="text-align: left;">মহিলা সাহাবীদের নামের তালিকা&nbsp;</h2>
@@ -3982,10 +3940,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p dir="ltr"></p>
 <p dir="ltr">Tag:মহিলা সাহাবীদের নাম অর্থসহ,মহিলা সাহাবীদের নামের তালিকা,মহিলা সাহাবীবর্গের নাম</p>
 <p dir="ltr"></p>
-<p></p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwIhrKbiyVaGTZlMM4RIU2-3sIXaZj9e9nuJZINQN9urchpw_EjJqphZUXDdVPi9GMFg1Xa29kgkFnmZYLGgqLqLv5WxnJMcvUW-Qd11fspJZ_UIGnkq1tsvJ1QViV-7EPPygeeWlq0Bsa/s16000/IMG_20260713_045404.jpg",
+
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gprngpr/gprLgpr4g4Ka44Ka+4Ka54Ka+4Kas4KeA4Kam4KeH4KawIOCmqOCmvuCmrjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpoXgprDgp43gpqXgprjgprkt4Kau4Ka54Ka/4Kay4Ka+IOCmuOCmvuCmueCmvuCmrOCngOCmpuCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqjgpr7gpq7gp4fgprAg4Kak4Ka+4Kay4Ka/4KaV4Ka+LeCmruCmueCmv+CmsuCmvjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a6%b9%e0%a6%bf%e0%a6%b2%e0%a6%be-%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%ac%e0%a7%80%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%85%e0%a6%b0%e0%a7%8d%e0%a6%a5.html",
     category: "Baby Boy & Girl Name",
@@ -3993,16 +3950,14 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1330,
-    title: `২০০+ স্টাইলিশ ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা`,
-    slug: "২০০-স্টাইলিশ-ফেসবুক-আইডি",
+    title: "২০০+ স্টাইলিশ ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা",
+    slug: "200-stylish-fsbk-aidr-name",
+    oldSlug: "২০০-স্টাইলিশ-ফেসবুক-আইডি",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যব`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1sX0n88DThFWQGDgZG1MruJ9mu26oLNwzYw6q6TAJqVa59W1uvqbTqzi3otvRj6cFTzeeAz4gs3Kf-gE8hpGDtRuKrRLVbMUn-Y5wVnze1bKK-20RJcJ5_XkEbD858D75wW2_NGiczJwFmNvfVabkVpFaXNk0QKrOb6RuKYSkpRK-lkx20zbXF6m6g/s1280/IMG_20220511_140249.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="স্টাইলিশ ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা" border="0" data-original-height="520" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1sX0n88DThFWQGDgZG1MruJ9mu26oLNwzYw6q6TAJqVa59W1uvqbTqzi3otvRj6cFTzeeAz4gs3Kf-gE8hpGDtRuKrRLVbMUn-Y5wVnze1bKK-20RJcJ5_XkEbD858D75wW2_NGiczJwFmNvfVabkVpFaXNk0QKrOb6RuKYSkpRK-lkx20zbXF6m6g/s16000/IMG_20220511_140249.jpg" title="স্টাইলিশ ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম | ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যবহারে পারদর্শী এখন। দিন দিন ফেসবুক ব্যবহারকারীর সংখ্যা বারতে চলেছে। অনেকে ফেসবুক আইডির নাম নিজের নাম ছাড়া স্টাইলিশ,স্মার্ট&nbsp; নাম দিয়ে রাখতে চায়৷ তাই আজকে আমরা <span style="background-color: #fcff01;"><b><u>স্টাইলিশ ফেসবুক আইডির নাম &#8211; ছেলেদের স্মার্ট ফেসবুক আইডির নাম &#8211; ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা</u></b></span> কিছু শেয়ার করবো। আসা করি তোমাদের ভালো লাগবে।</p>
+    content: `<p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন। আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠক বর্তমান সময়ে ফেসবুক ব্যবহার করে না এমন ছেলে মেয়ে পাওয়া যাবে না। যুবক থেকে নিয়ে বয়স্করা ও ফেসবুক ব্যবহারে পারদর্শী এখন। দিন দিন ফেসবুক ব্যবহারকারীর সংখ্যা বারতে চলেছে। অনেকে ফেসবুক আইডির নাম নিজের নাম ছাড়া স্টাইলিশ,স্মার্ট&nbsp; নাম দিয়ে রাখতে চায়৷ তাই আজকে আমরা <span style="background-color: #fcff01;"><b><u>স্টাইলিশ ফেসবুক আইডির নাম &#8211; ছেলেদের স্মার্ট ফেসবুক আইডির নাম &#8211; ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা</u></b></span> কিছু শেয়ার করবো। আসা করি তোমাদের ভালো লাগবে।</p>
 <div>      <button>Table Of Contents</button>      </p>
 <ul></ul>
-<p>       </p></div>
+</div>
 <h2 style="text-align: left;">স্টাইলিশ ফেসবুক আইডির নাম</h2>
 <ul style="color: #333333; font-family: lato, serif; margin: 0px; padding: 0px 0px 25px;">
 <li style="background-attachment: initial; background-clip: initial; background-image: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;); background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; font-size: 13px; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;"><span style="font-size: 12pt;">tєг๓เภคt๏г</span></li>
@@ -4083,7 +4038,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li style="background-attachment: initial; background-clip: initial; background-color: initial; background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; background: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;) left top no-repeat; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;">Tʜɘ ɱʌstɘʀ Mʌʆɩʌ</li>
 </ul>
 <h2 style="text-align: left;">ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা</h2>
-<p></p>
+
 <ul style="background-color: white; color: #333333; font-family: lato, serif; font-size: 16px; margin: 0px; padding: 0px 0px 25px;">
 <li style="background-attachment: initial; background-clip: initial; background-color: initial; background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; background: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;) left top no-repeat; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;">†εrα ßααp hu šααﾚα</li>
 <li style="background-attachment: initial; background-clip: initial; background-color: initial; background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; background: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;) left top no-repeat; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;">тнє ∂αяк нυитєя</li>
@@ -4150,9 +4105,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li style="background-attachment: initial; background-clip: initial; background-color: initial; background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; background: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;) left top no-repeat; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;">иαиι ραяι</li>
 <li style="background-attachment: initial; background-clip: initial; background-color: initial; background-origin: initial; background-position: 0% 0%; background-repeat: no-repeat; background-size: initial; background: url(&quot;/wp-content/themes/eleven40-2/images/list.png&quot;) left top no-repeat; list-style-type: none; margin: 0px 0px 5px 20px; overflow-wrap: break-word; padding: 0px 0px 0px 15px;">CʜocʞʟʌTy Gııʀʟ</li>
 </ul>
-<p>&nbsp;টাগঃ স্টাইলিশ ফেসবুক আইডির নাম, ছেলেদের স্মার্ট ফেসবুক আইডির নাম,ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu1sX0n88DThFWQGDgZG1MruJ9mu26oLNwzYw6q6TAJqVa59W1uvqbTqzi3otvRj6cFTzeeAz4gs3Kf-gE8hpGDtRuKrRLVbMUn-Y5wVnze1bKK-20RJcJ5_XkEbD858D75wW2_NGiczJwFmNvfVabkVpFaXNk0QKrOb6RuKYSkpRK-lkx20zbXF6m6g/s16000/IMG_20220511_140249.jpg",
+<p>&nbsp;টাগঃ স্টাইলিশ ফেসবুক আইডির নাম, ছেলেদের স্মার্ট ফেসবুক আইডির নাম,ছেলেদের স্মার্ট ফেসবুক আইডির নাম ইংরেজি,বাংলা</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6jgp6bgp6YrIOCmuOCnjeCmn+CmvuCmh+CmsuCmv+CmtiDgpqvgp4fgprjgpqzgp4HgppU8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4KaG4KaH4Kah4Ka/4KawIOCmqOCmvuCmriB8IOCmm+Cnh+CmsuCnh+CmpuCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgp43gpq7gpr7gprDgp43gpp8g4Kar4KeH4Ka44Kas4KeB4KaVIOCmhuCmh+CmoeCmv+CmsCDgpqjgpr7gpq48L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%a8%e0%a7%a6%e0%a7%a6-%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%87%e0%a6%b2%e0%a6%bf%e0%a6%b6-%e0%a6%ab%e0%a7%87%e0%a6%b8%e0%a6%ac%e0%a7%81%e0%a6%95-%e0%a6%86%e0%a6%87%e0%a6%a1%e0%a6%bf.html",
     category: "Baby Boy & Girl Name",
@@ -4160,105 +4114,103 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1410,
-    title: `মেয়েদের নাম: প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – P দিয়ে মেয়েদের ইসলামিক নাম | প দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-প-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো প দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilCTdre62hzw0mXpqIYOzaS0kI8O3nLWRrSu8gX73cIxlviQTIH9z0hKeuWnMY5OUnloPbmod1r7-fb8uwsQrxDEH-TUayYGp88nAlgQA-attB34l_7qY-ZNB1cneZkFWI1czShDYFOOs/s1280/20260708_220415.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="428" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilCTdre62hzw0mXpqIYOzaS0kI8O3nLWRrSu8gX73cIxlviQTIH9z0hKeuWnMY5OUnloPbmod1r7-fb8uwsQrxDEH-TUayYGp88nAlgQA-attB34l_7qY-ZNB1cneZkFWI1czShDYFOOs/s16000/20260708_220415.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">প দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। প দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "মেয়েদের নাম: প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – P দিয়ে মেয়েদের ইসলামিক নাম | প দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-p-diye-meyeder-islamic-name-meaning",
+    oldSlug: "মেয়েদের-নাম-প-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো প দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">প দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। প দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">প<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">প দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;প দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>১.প্রিয়া – অর্থ – ভালোবাসার পাত্রী</div>
-<div></div>
+
 <div>২.প্রীতি – অর্থ – ভালবাসা / প্রেম / দয়া / আদর / স্নেহ</div>
-<div></div>
+
 <div>৩.পুষ্প – অর্থ – ফুল</div>
-<div></div>
+
 <div>৪.পুষ্পা – অর্থ – ফুল</div>
-<div></div>
+
 <div>৫.পুষ্পিতা – অর্থ – ফুল</div>
-<div></div>
+
 <div>৬.পূর্ণিমা – অর্থ – পরিপূর্ণ চাঁদ</div>
-<div></div>
+
 <div>৭.পূর্ণাপূর্ণা – অর্থ – পরিপূর্ণ / যাতে কোনো ঘাটতি নেই।</div>
-<div></div>
+
 <div>৮.পূরবী / পুরবী – অর্থ – সঙ্গীত</div>
-<div></div>
+
 <div>৯.পল্লবী &#8211; অর্থ &#8211; গাছের নতুন পাতা, কুঁড়ি</div>
-<div></div>
+
 <div>১০.পাবনী &#8211; অর্থ &#8211; যার স্পর্শ কোনো কিছুকে পবিত্র করে দেয়</div>
-<div></div>
+
 <div>১১.প্রিয়াংশী &#8211; অর্থ &#8211; চিন্তাশীল, অভিব্যক্তিপূর্ণ, কার্যকর, আধ্যাত্মিক</div>
-<div></div>
+
 <div>১২.পিঙ্কি &#8211; অর্থ &#8211; সবচেয়ে সুন্দর, সবচেয়ে ছোট আঙুল, গোলাপী রঙ, মিষ্টি, গোলাপী</div>
-<div></div>
+
 <div>১৩.পিউলী &#8211; অর্থ &#8211; প্রিয় বন্ধু, মিষ্টি / পবিত্র জল</div>
-<div></div>
+
 <div>১৪.পিয়াংকা &#8211; অর্থ &#8211; সুন্দর, লাভজনক নিয়ম, সৌন্দর্যের প্রতীক</div>
-<div></div>
+
 <div>১৫.পূবালী &#8211; অর্থ &#8211; পূর্ব দিকের বাতাস, প্রাচ্যের প্রথম সূর্যালোক</div>
-<div></div>
+
 <div>১৬. পূর্ণিমা &#8211; অর্থ &#8211; যে রাতে সম্পূর্ণ চাঁদ দেখা যায়, তিথি</div>
-<div></div>
+
 <div>১৭.পবিত্রা &#8211; অর্থ &#8211; শুদ্ধ, পবিত্র, নির্দোষ</div>
-<div></div>
+
 <div>১৮.প্রতিভা &#8211; অর্থ &#8211; জাঁকজমক, মেধা, বুদ্ধি, উজ্জ্বলতা</div>
-<div></div>
+
 <div>১৯.পান্না &#8211; অর্থ &#8211; একটি মূল্যবান রত্ন</div>
-<div></div>
+
 <div>২০.পরমিতা &#8211; অর্থ &#8211; জ্ঞান, প্রতিভা</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">P দিয়ে মেয়েদের ইসলামিক নাম | প দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; <b><u>Name</u></b>&nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1.পলা – Pola – লাল রং</div>
-<div></div>
+
 <div>2.পারভীন – Parvin – দ্বীপ্তিময় তারা</div>
-<div></div>
+
 <div>3.পলি – Poli – নরম মাটির স্তর</div>
-<div></div>
+
 <div>4.পরী – Pori – অতিসুন্দরী নারী / নিঁখুত সুন্দরী নারী</div>
-<div></div>
+
 <div>5.পরমা – Porma – উৎকৃষ্ট / উত্তম</div>
-<div></div>
+
 <div>6.প্রভাতী – Provati – সকাল</div>
-<div></div>
+
 <div>7.প্রভা – Prova – আলো / উজ্জ্বল</div>
-<div></div>
+
 <div>8.প্রত্যাশা – Protasha – আশা / কামনা</div>
-<div></div>
+
 <div>9.পপি – Popi – পোস্তদানা / এক ধরনের ফুল / আফিম গাছ</div>
-<div></div>
+
 <div>10.প্রেমা – Prema – ভালোবাসা / প্রেম / স্নেহ</div>
-<div></div>
+
 <div>11.পাপিয়া – Papiya – নাইটিংগল / কোকিল জাতীয় সুকন্ঠ পাখী</div>
-<div></div>
+
 <div>12.পাপড়ি – Papri – পাতার মত ফুলের কোমল অংশ / চোখের পাতা</div>
-<div></div>
+
 <div>13.পায়েল – Payel – নূপুর / ঘুঙুর</div>
-<div></div>
+
 <div>14.পিয়া – Piya – ভালোবাসার পাত্রী</div>
-<div></div>
+
 <div>15.পিয়ালি – Piyali – এক ধরনের গাছ</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;প দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;P দিয়ে মেয়েদের ইসলামিক নাম, প দিয়ে মেয়ে শিশুর নাম,&nbsp;প দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilCTdre62hzw0mXpqIYOzaS0kI8O3nLWRrSu8gX73cIxlviQTIH9z0hKeuWnMY5OUnloPbmod1r7-fb8uwsQrxDEH-TUayYGp88nAlgQA-attB34l_7qY-ZNB1cneZkFWI1czShDYFOOs/s16000/20260708_220415.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpqog4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgUCDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%aa-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -4266,98 +4218,96 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 776,
-    title: `ছেলেদের নাম: হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – H দিয়ে ছেলেদের ইসলামিক নাম | হ দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-হ-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো হ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQOWZsw14aP0GFXwsH9Y4FfZSruSxeA5pHi0ljg3NrsqMhKdUaRENrUUHZgt74XxtCPdexB5V93SjLF3hN8vi-Dg7Krn1iqGqr6TTSmMnKZXQR-RNe7NRQHw_wYaRNxJW63z_CulogaSY/s1280/20260705_195255.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQOWZsw14aP0GFXwsH9Y4FfZSruSxeA5pHi0ljg3NrsqMhKdUaRENrUUHZgt74XxtCPdexB5V93SjLF3hN8vi-Dg7Krn1iqGqr6TTSmMnKZXQR-RNe7NRQHw_wYaRNxJW63z_CulogaSY/s16000/20260705_195255.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">হ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। হ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – H দিয়ে ছেলেদের ইসলামিক নাম | হ দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-h-diye-cheleder-islamic-name-meaning-2026",
+    oldSlug: "ছেলেদের-নাম-হ-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো হ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">হ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। হ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">হ<span><span>&nbsp;</span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">হ দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;হ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<u><b>অর্থ</b></u></div>
 <p>১.হানুন &#8211; অর্থ &#8211; সহানুভূতিশীল, স্হেনশীল</p>
-<p></p>
+
 <p>২. হানান &#8211; অর্থ &#8211; অনুগ্রহ, ভালোবাসা&nbsp;</p>
-<p></p>
+
 <p>৩.হাদীছ &#8211; অর্থ &#8211; কথা, বাণী,&nbsp; নতুন</p>
-<p></p>
+
 <p>৪.হাবীব &#8211; অর্থ &#8211; বন্ধু, প্রিয়তম, প্রেমিক</p>
-<p></p>
+
 <p>৫.হারিস &#8211; অর্থ &#8211; প্রহরী, অভিভাবক</p>
-<p></p>
+
 <p>৬.হারিস &#8211; অর্থ &#8211; কৃষক&nbsp;</p>
-<p></p>
+
 <p>৭.হাযেম &#8211; অর্থ &#8211; দৃঢ়সংকল্লপ, বিচক্ষণ&nbsp;</p>
-<p></p>
+
 <p>৮.হাযির &#8211; অর্থ &#8211; সতর্ক, সচেতন&nbsp;</p>
-<p></p>
+
 <p>৯.হাযিক &#8211; অর্থ &#8211; অভিজ্ঞ</p>
-<p></p>
+
 <p>১০.হামেদ &#8211; অর্থ &#8211; প্রশংসনীয়&nbsp;</p>
-<p></p>
+
 <p>১১.হায়াত &#8211; অর্থ &#8211; জীবন, প্রাণ&nbsp;</p>
-<p></p>
+
 <p>১২.হায়দার &#8211; অর্থ &#8211; সিংহ, শক্তিশালী</p>
-<p></p>
+
 <p>১৩.হামিদুর&nbsp; &#8211; অর্থ &#8211; দয়াময়&nbsp;</p>
-<p></p>
+
 <p>১৪.হামযাহ্ &#8211; অর্থ &#8211; শক্তিমান</p>
-<p></p>
+
 <p>১৫.হামীম &#8211; অর্থ &#8211; অন্তরঙ্গ বন্ধু&nbsp;</p>
-<p></p>
+
 <p>১৬.হামীস &#8211; অর্থ &#8211; উতসাহী, সাহসী&nbsp;</p>
-<p></p>
+
 <p>১৭.হামুল &#8211; অর্থ &#8211; ধৈর্যশীল, ভদ্র&nbsp;</p>
-<p></p>
+
 <p>১৮.হামীদুল্লাহ &#8211; অর্থ &#8211; আল্লাহর প্রশংসিত বান্দা</p>
-<p></p>
+
 <h2 style="text-align: left;">H দিয়ে ছেলেদের ইসলামিক নাম | হ দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <p>1.হাইবত &#8211; Haibat &#8211; ভয়-ভীতি, ত্রাস</p>
-<p></p>
+
 <p>2.হাকাম &#8211; Hakam &#8211; বিচারক</p>
-<p></p>
+
 <p>3.​হাকিম &#8211; Hakim &#8211; আদেশকারী,&nbsp; বিচারক</p>
-<p></p>
+
 <p>4.হাকীম &#8211; Hakim &#8211; অর্থ &#8211; বিচক্ষণ, দার্শনিক</p>
-<p></p>
+
 <p>5.​হাদিব &#8211; Hadib &#8211; অর্থ &#8211; মায়াময়, সহানুভূতিশীল&nbsp;</p>
-<p></p>
+
 <p>6.হাদী &#8211; Hadi &#8211; অর্থ &#8211; উটচালক, কাফেলার নেতা</p>
-<p></p>
+
 <p>7.হাতিম &#8211; Hatim &#8211; অর্থ &#8211; অনিবার্য,&nbsp; বিক্ষাতো দাতা</p>
-<p></p>
+
 <p>8.​হাছিল &#8211; Hasil &#8211; অর্থ &#8211; অর্জিত, প্রাপ্ত, ফসল, ফল</p>
-<p></p>
+
 <p>9.হাজ্জাজ &#8211; Hajjaj &#8211; অর্থ &#8211; প্রমাণকারী</p>
-<p></p>
+
 <p>10.হাতেম &#8211;&nbsp; হাতেম &#8211; অর্থ &#8211; বিচারক, বিক্ষাতো দানবীর</p>
-<p></p>
+
 <p>11.হাফিজ &#8211; Hafiz &#8211; অর্থ &#8211; রক্ষক</p>
-<p></p>
+
 <p>12.হাফিজ &#8211; Hafiz &#8211; অর্থ &#8211; হেফাজতকারী, সংরক্ষিত&nbsp;</p>
-<p></p>
+
 <p>13.হাফ্স &#8211; Hafs &#8211; অর্থ &#8211; সিংহ</p>
-<p></p>
+
 <p>14.হাফিদ &#8211; Hafid &#8211; অর্থ &#8211; খাদেম, দ্রুতগামী</p>
-<p></p>
+
 <p>15.হান্না &#8211; Hanna &#8211; অর্থ &#8211; মেহেদি&nbsp;</p>
-<p></p>
+
 <p>16.হান্নান &#8211; Hannan &#8211; অর্থ &#8211; দয়ালু, সহানুভূতিশীল</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag:</b>&nbsp;হ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;H দিয়ে ছেলেদের ইসলামিক নাম | হ দিয়ে ছেলে শিশুর নাম,&nbsp;হ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQOWZsw14aP0GFXwsH9Y4FfZSruSxeA5pHi0ljg3NrsqMhKdUaRENrUUHZgt74XxtCPdexB5V93SjLF3hN8vi-Dg7Krn1iqGqr6TTSmMnKZXQR-RNe7NRQHw_wYaRNxJW63z_CulogaSY/s16000/20260705_195255.jpg",
+
+
+
+<p><b>Tag:</b>&nbsp;হ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;H দিয়ে ছেলেদের ইসলামিক নাম | হ দিয়ে ছেলে শিশুর নাম,&nbsp;হ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: হ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgprkg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIEgg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%b9-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -4365,22 +4315,21 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 792,
-    title: `মেয়েদের আনকমন নামের তালিকা ২০২৬ | মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম | মেয়েদের আনকমন নাম`,
-    slug: "মেয়েদের-আনকমন-নামের-তাল",
-    excerpt: `Table Of Contents মেয়েদের আনকমন নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আপন`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgB_Y-a46EpoSf_GssQLoeSy0lKkfdjjoGBd93hIvvOmP4vXn82Llcm4Btf4NpfknEbcug_JurVQS6H70coYFblI_VLvU3K9hWOgXOlHyfcEK1javHthaXTgSheExbDHlwesO6ulhkeQJ1p4s4itibJ46yjfJsCeQiuiXpPaMgRlxsFeAyAnzExNqwr=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="400" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEgB_Y-a46EpoSf_GssQLoeSy0lKkfdjjoGBd93hIvvOmP4vXn82Llcm4Btf4NpfknEbcug_JurVQS6H70coYFblI_VLvU3K9hWOgXOlHyfcEK1javHthaXTgSheExbDHlwesO6ulhkeQJ1p4s4itibJ46yjfJsCeQiuiXpPaMgRlxsFeAyAnzExNqwr=s16000" /></a></div>
-<p></p>
-<div>
+    title: "মেয়েদের আনকমন নামের তালিকা ২০২৬ | মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম | মেয়েদের আনকমন নাম",
+    slug: "meyeder-ankmn-name-list-2026",
+    oldSlug: "মেয়েদের-আনকমন-নামের-তাল",
+    excerpt: `Table Of Contents মেয়েদের আনকমন নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আপনাদের মা`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2>মেয়েদের আনকমন নাম</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
 <p>বন্ধুরা আপনাদের মাঝে অনেকেই আছেন যারা <b>মেয়েদের নতুন নাম</b> রাখার জন্য ইন্টারনেটের মাধ্যমে নাম খোজার চেষ্টা করছেন। আজকে আমরা তাদের জন্য এই পোস্টের মাধ্যমে আপনাদের মাঝে শেয়ার করবো <b>মেয়েদের আনকমন নামের তালিকা, মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম এবং মেয়েদের কিছু আনকমন নাম।</b></p>
 <p>আশা করি আমাদের এই পোস্টে দেওয়া নামগুলো পেয়ে আপনাদের উপকার হবে ।&nbsp;</p>
-<p></p>
+
 </div>
 <h2 style="text-align: left;">মেয়েদের আনকমন নামের তালিকা ১২০+&nbsp;&nbsp;</h2>
 <p>&nbsp; &nbsp;★<b>নাম</b>★&nbsp; &nbsp; &nbsp; &nbsp; ★<b>অর্থ</b>★</p>
@@ -4441,7 +4390,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★সালমা — অর্থ — প্রশন্ত,,!!</p>
 <p>★তাসনিম — অর্থ — বেহশতী ঝর্ণা,,!!</p>
 <p>★হুমায়রা — অর্থ — রূপসী,,!!</p>
-<p></p>
+
 <h2 style="text-align: left;">মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম&nbsp;&nbsp;</h2>
 <p style="text-align: left;">&nbsp; &nbsp; &nbsp; &nbsp;★<b>নাম</b>★&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;★<b>অর্থ</b>★</p>
 <p>★ফাইরুজ গওহর — অর্থ — সমৃদ্ধিশীলা মুক্তা,,!!</p>
@@ -4496,11 +4445,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★ফওজিয়া আফিয়া — অর্থ – সফর পূণ্যবতী,,!!</p>
 <p>★ফওজিয়া ফারিহা — অর্থ — সফল সুখী,,!!</p>
 <p>★ফাইরুজ আনিকা — অর্থ — সমৃদ্ধিশীল সুন্দরী,,!!</p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;মেয়েদের আনকমন নামের তালিকা ১২০+,&nbsp; মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম,&nbsp; মেয়েদের আনকমন নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEgB_Y-a46EpoSf_GssQLoeSy0lKkfdjjoGBd93hIvvOmP4vXn82Llcm4Btf4NpfknEbcug_JurVQS6H70coYFblI_VLvU3K9hWOgXOlHyfcEK1javHthaXTgSheExbDHlwesO6ulhkeQJ1p4s4itibJ46yjfJsCeQiuiXpPaMgRlxsFeAyAnzExNqwr=s16000",
+
+
+<p><b>Tag</b>:&nbsp;মেয়েদের আনকমন নামের তালিকা ১২০+,&nbsp; মেয়েদের ইসলামিক পূর্ণাঙ্গ নাম,&nbsp; মেয়েদের আনকমন নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgpq/gprzgp4fgpqbgp4fgprAg4KaG4Kao4KaV4Kau4KaoIOCmqOCmvuCmruCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqTgpr7gprLgpr/gppXgpr4g4Keo4Kem4Keo4KesIHwg4Kau4KeH4Kav4Ka84KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqrgp4LgprDgp43gpqPgpr7gppngp43gppcg4Kao4Ka+4KauIHw8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%a8%e0%a6%95%e0%a6%ae%e0%a6%a8-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2.html",
     category: "Baby Boy & Girl Name",
@@ -4508,66 +4456,64 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1331,
-    title: `সকল নবীদের স্ত্রীদের নামের তালিকা | নবীজীর স্ত্রীদের নামের তালিকা | নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা`,
-    slug: "সকল-নবীদের-স্ত্রীদের-নাম",
-    excerpt: `Table Of Contents সকল নবীদের স্ত্রীদের নামের তালিকা আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjWgP5Ug44piRjkoiW0z-S6RxHobWndMBHuYTgLc98huHjrWsNanBCgyu3x7pstVQKWXG4N4otxbOKbtkKLNt12Toc2yixahiL1lKJu7L4GSZhvSyPd_ribCX-uVcFlXSUY0hpfgIN5ZycZocTAJKtYqec5mtcytByZVdN3qxH3q3nhlXfcqIx_iwXL=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="600" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEjWgP5Ug44piRjkoiW0z-S6RxHobWndMBHuYTgLc98huHjrWsNanBCgyu3x7pstVQKWXG4N4otxbOKbtkKLNt12Toc2yixahiL1lKJu7L4GSZhvSyPd_ribCX-uVcFlXSUY0hpfgIN5ZycZocTAJKtYqec5mtcytByZVdN3qxH3q3nhlXfcqIx_iwXL=s16000" /></a></div>
-<p></p>
-<div>
+    title: "সকল নবীদের স্ত্রীদের নামের তালিকা | নবীজীর স্ত্রীদের নামের তালিকা | নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা",
+    slug: "all-nbdr-strdr-name-list",
+    oldSlug: "সকল-নবীদের-স্ত্রীদের-নাম",
+    excerpt: `Table Of Contents সকল নবীদের স্ত্রীদের নামের তালিকা আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">সকল নবীদের স্ত্রীদের নামের তালিকা&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো <b style="background-color: #04ff00;">সকল নবীদের স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা</b>&nbsp;দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো <b style="background-color: #04ff00;">সকল নবীদের স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা</b>&nbsp;দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">নবীজীর স্ত্রীদের নামের তালিকা&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে&nbsp;<b>নামের অর্থ কি</b>&nbsp;বা যারা বলতেছেন জানতে চাই <b>নবীজীর স্ত্রীদের নামের তালিকা&nbsp;</b>কিংবা যারা&nbsp;সকল <b>নবীদের স্ত্রীদের নামের তালিকা</b> এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন<b>&nbsp;নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা&nbsp;</b>তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নাম ও তার অর্থ জানার জন্য।</p>
-<p></p>
+
 <h2 style="text-align: left;">নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা</h2>
 <p>★খাদিজাহ — অর্থ — অসম্পূর্ণ&nbsp;</p>
 <p><b>পূর্ণ নাম</b> — খাদিজা বিনতে খুওয়াইলিদ</p>
-<p></p>
+
 <p>★সাওদাহ —অর্থ — খেজুর গাছের পূর্ণভূমি</p>
 <p><b>পূর্ণ নাম</b> —সাওদাহ বিনতে জামআ</p>
-<p></p>
+
 <p>★আয়িশাহ — অর্থ — জীবন্ত</p>
 <p><b>পূর্ণ নাম</b> — আয়িশা বিনতে আবু বক্কর</p>
-<p></p>
+
 <p>★হাফসাহ — অর্থ — একত্রিত&nbsp;</p>
 <p><b>পূর্ণ নাম</b> — হাফসা বিনতে ওমর</p>
-<p></p>
+
 <p>★জয়নব — অর্থ — সুগন্ধি&nbsp;</p>
 <p><b>পূর্ণ নাম</b> — জয়নব বিনতে খুযায়মা&nbsp;</p>
-<p></p>
+
 <p>★জুওয়াইরিয়া — অর্থ — প্রবাহিত ধারা</p>
 <p><b>পূর্ণ নাম</b> — জুওয়াইরিয়া বিনতে আল হারিস</p>
-<p></p>
+
 <p>★মাইমুনা — অর্থ — বারকাত প্রাপ্তা</p>
 <p><b>পূর্ণ নাম</b> — মাইমুনা বিনতে আল হারিস আল হিলালিয়াহ</p>
-<p></p>
+
 <p>★সাফিয়া — অর্থ — ছাটাইকৃত</p>
 <p><b>পূর্ণ নাম</b> — সাফিয়া বিনতে হুওয়াই</p>
-<p></p>
+
 <p>★মারিয়া — অর্থ — বাছুরওয়ালি গাভী</p>
 <p><b>পূর্ণ নাম</b> — অর্থ — মারিয়া আল কিবতিয়া</p>
-<p></p>
+
 <p>★রায়হানা — অর্থ — ফুলের তোড়া</p>
 <p><b>পূর্ণ নাম</b> — রায়হানা বিনতে যায়েদ</p>
-<p></p>
+
 <p>★উম্মে সালমাহ — অর্থ — নরম হাত-পা ওয়ালী মা&nbsp;</p>
 <p><b>পূর্ণ নাম</b> — উম্মে সালমাহ বিনতে হিন্দ বিনতে আবি উমাইয়া</p>
-<p></p>
+
 <p>★উম্মে হাবিবাহ — অর্থ — প্রিয় পাত্রীর মা</p>
 <p><b>পূর্ণ নাম</b> — রামালাহ বিনতে আবি সুফিয়ান&nbsp;</p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;সকল নবীদের স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEjWgP5Ug44piRjkoiW0z-S6RxHobWndMBHuYTgLc98huHjrWsNanBCgyu3x7pstVQKWXG4N4otxbOKbtkKLNt12Toc2yixahiL1lKJu7L4GSZhvSyPd_ribCX-uVcFlXSUY0hpfgIN5ZycZocTAJKtYqec5mtcytByZVdN3qxH3q3nhlXfcqIx_iwXL=s16000",
+
+
+<p><b>Tag</b>:&nbsp;সকল নবীদের স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের নামের তালিকা,&nbsp; নবীজীর স্ত্রীদের পূর্ণ নাম ও নামের অর্থসহ তালিকা</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgppXgprIg4Kao4Kas4KeA4Kam4KeH4KawIOCmuOCnjeCmpOCnjeCmsOCngOCmpuCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqjgpr7gpq7gp4fgprAg4Kak4Ka+4Kay4Ka/4KaV4Ka+IHwg4Kao4Kas4KeA4Kac4KeA4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmuOCnjeCmpOCnjeCmsOCngOCmpuCnh+CmsCDgpqjgpr7gpq7gp4fgprAg4Kak4Ka+4Kay4Ka/4KaV4Ka+IHw8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b8%e0%a6%95%e0%a6%b2-%e0%a6%a8%e0%a6%ac%e0%a7%80%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a7%8d%e0%a6%b0%e0%a7%80%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae.html",
     category: "Baby Boy & Girl Name",
@@ -4575,126 +4521,124 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1411,
-    title: `মেয়েদের নাম: হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – H দিয়ে মেয়েদের ইসলামিক নাম | হ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-হ-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো হ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIF9SD_fdFYZaFxc_fA0atMpUaXFiIZG-2dhEgDjhyphenhyphendotR29TPuhHSglRmbga0MYTAxqZQ8q5nlmmMgBCOoPwyLmWQGmEQzgaCNaGxwtFWFbUzMrtKU86W4Q3yK2ZidlmdvsM1sB_rClQ/s1280/20260709_155821.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIF9SD_fdFYZaFxc_fA0atMpUaXFiIZG-2dhEgDjhyphenhyphendotR29TPuhHSglRmbga0MYTAxqZQ8q5nlmmMgBCOoPwyLmWQGmEQzgaCNaGxwtFWFbUzMrtKU86W4Q3yK2ZidlmdvsM1sB_rClQ/s16000/20260709_155821.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">হ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। হ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "মেয়েদের নাম: হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – H দিয়ে মেয়েদের ইসলামিক নাম | হ দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-h-diye-meyeder-islamic-name-meaning",
+    oldSlug: "মেয়েদের-নাম-হ-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো হ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">হ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। হ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">হ<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">হ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;হ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>১.হামনা &#8211; অর্থ &#8211; আঙ্গুর, সাহাবীর নাম</div>
-<div></div>
+
 <div>২.হাসিনা &#8211; অর্থ &#8211; সুন্দরী, রুপসী, রুপবতী</div>
-<div></div>
+
 <div>৩. হিশমা &#8211; অর্থ &#8211; লাজুকতা, শালীনতা&nbsp;</div>
-<div></div>
+
 <div>৪.হামুদা &#8211; অর্থ &#8211; প্রশংসনীয়, প্রশংসিত</div>
-<div></div>
+
 <div>৫.হামরা &#8211; অর্থ &#8211; লাল, রক্তিম বর্ণ</div>
-<div></div>
+
 <div>৬.হামদা &#8211; অর্থ &#8211; প্রশংসা&nbsp;</div>
-<div></div>
+
 <div>৭.হুর &#8211; অর্থ &#8211; বেহেশতের সুন্দরী কুমারী</div>
-<div></div>
+
 <div>৮.হাফীযা &#8211; অর্থ &#8211; পাহারদ্বার, রক্ষক</div>
-<div></div>
+
 <div>৯.হানিয়া &#8211; অর্থ &#8211; সুখী, তৃপ্ত, খুশী</div>
-<div></div>
+
 <div>১০.হামীমা &#8211; অর্থ &#8211; অন্তরঙ্গ বান্ধবী&nbsp;</div>
-<div></div>
+
 <div>১১.হাসানা &#8211; অর্থ &#8211; সুন্দর, সুকর্ম</div>
-<div></div>
+
 <div>১২.হাবীবা &#8211; অর্থ &#8211; প্রিয়, প্রিয়তমা, সাহাবীর নাম</div>
-<div></div>
+
 <div>১৩.হুমাইরা &#8211; অর্থ &#8211; লাল রঙের পাখি</div>
-<div></div>
+
 <div>১৪.হাফেজা &#8211; অর্থ &#8211; সংরক্ষণকারিণী, কোরান হেফজকারিণী</div>
-<div></div>
+
 <div>১৫.হারিয়া &#8211; অর্থ &#8211; যোগ্য, উপযোগী&nbsp;</div>
-<div></div>
+
 <div>১৬.হামিয়া &#8211; অর্থ &#8211; তেজ, উদ্দীপনা&nbsp;</div>
-<div></div>
+
 <div>১৭.হামিসা &#8211; অর্থ &#8211; উত্সাহী, সাহসী</div>
-<div></div>
+
 <div>১৮.হামিদা &#8211; অর্থ &#8211; প্রশংসাকারীণী</div>
-<div></div>
+
 <div>১৯.হালিমা &#8211; অর্থ &#8211; ধৈর্যশালী, রাসূলুল্লাহর (সা) দুধ</div>
-<div></div>
+
 <div>২০.হিসবা &#8211; অর্থ &#8211; প্রতিদান, পুরষ্কার</div>
-<div></div>
+
 <div>২১.হিমা &#8211; অর্থ &#8211; রক্ষা, আশ্রয়, আশ্রয় স্থল</div>
-<div></div>
+
 <div>২২.হামিদা &#8211; অর্থ &#8211; প্রশংসিত,&nbsp; উত্তম, নিরাপদ</div>
-<div></div>
+
 <div>২৩.হামীসা &#8211; অর্থ &#8211; সাহসিনী&nbsp;</div>
-<div></div>
+
 <div>২৪.হামেদা &#8211; অর্থ &#8211; প্রশংসাকারিনী, কৃতজ্ঞ</div>
-<div></div>
+
 <div>২৭.হালীলা &#8211; অর্থ &#8211; সঙ্গীনী, সখী, সহচরী&nbsp;</div>
 </div>
-<div></div>
-<div></div>
+
+
 <h2 style="text-align: left;">H দিয়ে মেয়েদের ইসলামিক নাম | হ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; <b><u>Name</u></b>&nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1.হেন্না (হেনা) &#8211; Henna &#8211; মেহেদী&nbsp;</div>
-<div></div>
+
 <div>2.হানা &#8211; Hana &#8211; সুখ সাচ্ছন্দ্য,&nbsp; আনন্দ&nbsp;</div>
-<div></div>
+
 <div>3.হান্না &#8211; Hanna &#8211; হযরত মরিয়মের মাতার নাম</div>
-<div></div>
+
 <div>4.হান্নানা &#8211; Hannana &#8211; দয়ালু</div>
-<div></div>
+
 <div>5.হাদিয়া &#8211; Hadia &#8211; হেদায়েতকারিণী, নির্দেশিকা</div>
-<div></div>
+
 <div>6.হুসাইনা &#8211; Husaina &#8211; সেরা, সুন্দরী</div>
-<div></div>
+
 <div>7.হানিন &#8211; Hanin &#8211; খাতুন, বেগম</div>
-<div></div>
+
 <div>8.হাদিসা &#8211; Hadisa &#8211; নতুন, অল্প বয়সী</div>
-<div></div>
+
 <div>9.হাফসা &#8211; Hafsa &#8211; মনোরম, কোমল</div>
-<div></div>
+
 <div>10.হানীফা &#8211; Hanifa &#8211; খাঁটি বিশ্বাসিণী</div>
-<div></div>
+
 <div>11.হুসনা &#8211; Husna &#8211; ভালো কাজ, সেরা সুন্দরী&nbsp;</div>
-<div></div>
+
 <div>12.হুযাফা &#8211; Huzafa &#8211; অবশিষ্টাংশ</div>
-<div></div>
+
 <div>13.হাসিবা &#8211; Hasiba &#8211; হিসাবকারিণী</div>
-<div></div>
+
 <div>14.হুশাইমা &#8211; Hushaima &#8211; হালকা, লজ্জা, ভদ্রতা</div>
-<div></div>
+
 <div>15.হুজ্জা &#8211; Huzza &#8211; প্রমাণ,&nbsp; দলীল</div>
-<div></div>
+
 <div>16.হানজালা &#8211; Hajala &#8211; সাহাবীর নাম,</div>
-<div></div>
+
 <div>17.হামায়না &#8211; Hamayana &#8211; রুপসী,&nbsp; সুন্দরী&nbsp;</div>
-<div></div>
+
 <div>18.হাসনা &#8211; Hasna &#8211; সুন্দরী, রুপসী, রূপবতী&nbsp;</div>
-<div></div>
+
 <div>19.হামামা &#8211; Humama &#8211; কবুতর, সাহাবীর নাম</div>
-<div></div>
+
 <div>20.হুররা &#8211; Hurra &#8211; স্বাধীন মহিলা</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;হ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp; H দিয়ে মেয়েদের ইসলামিক নাম, হ দিয়ে মেয়ে শিশুর নাম, হ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIF9SD_fdFYZaFxc_fA0atMpUaXFiIZG-2dhEgDjhyphenhyphendotR29TPuhHSglRmbga0MYTAxqZQ8q5nlmmMgBCOoPwyLmWQGmEQzgaCNaGxwtFWFbUzMrtKU86W4Q3yK2ZidlmdvsM1sB_rClQ/s16000/20260709_155821.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgprkg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgSCDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%b9-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -4702,22 +4646,21 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 777,
-    title: `ছেলেদের নাম: চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – C দিয়ে ছেলেদের ইসলামিক নাম | চ দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-চ-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো চ দিয়ে ছেলেদের ইসলামিক ন`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHYbpKbKbbVL49NrUf099TCp90I4U_XdvG_GNs-PQf5quQi0QFQhUjbpAhsqCJ3LNs2GZwN7IW7jzpgfNt4qkCpNlRo2xKwFW-12rs4o13yOE5n76-AXhryWl2WLrEgpA2Oc9H6q14nbk/s1280/20260703_142058.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="632" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHYbpKbKbbVL49NrUf099TCp90I4U_XdvG_GNs-PQf5quQi0QFQhUjbpAhsqCJ3LNs2GZwN7IW7jzpgfNt4qkCpNlRo2xKwFW-12rs4o13yOE5n76-AXhryWl2WLrEgpA2Oc9H6q14nbk/s16000/20260703_142058.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">চ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। চ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – C দিয়ে ছেলেদের ইসলামিক নাম | চ দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-ch-diye-cheleder-islamic-name-meaning-2026",
+    oldSlug: "ছেলেদের-নাম-চ-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো চ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্র`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">চ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। চ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য চ দিয়ে নিচে ছেলেদের নামের তালিকা দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">চ দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;চ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
-<div></div>
+
 <div>&nbsp; &nbsp; &nbsp; <b>নাম&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; অর্থ</b></div>
 <div>
 <p dir="ltr">১. চঞ্চল &#8211; অর্থ &#8211; ছটফটে </p>
@@ -4732,7 +4675,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p dir="ltr">১১. চাহান &#8211; অর্থ &#8211; বাগানের ফুল</p>
 <p></div>
 <h2 style="text-align: left;">C দিয়ে ছেলেদের ইসলামিক নাম |&nbsp;চ দিয়ে ছেলে শিশুর নাম</h2>
-<div></div>
+
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>নাম</u>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <u>অর্থ</u></b></div>
 <div>
 <p dir="ltr">১. (Chanchol) চঞ্চল &#8211; অর্থ &#8211; ছটফটে </p>
@@ -4748,9 +4691,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p dir="ltr"></p>
 <p dir="ltr"></p>
 <p dir="ltr"><b>Tag</b>:&nbsp;চ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;C দিয়ে ছেলেদের ইসলামিক নাম,&nbsp;চ দিয়ে ছেলে শিশুর নাম, চ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: চ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-<p></p></div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHYbpKbKbbVL49NrUf099TCp90I4U_XdvG_GNs-PQf5quQi0QFQhUjbpAhsqCJ3LNs2GZwN7IW7jzpgfNt4qkCpNlRo2xKwFW-12rs4o13yOE5n76-AXhryWl2WLrEgpA2Oc9H6q14nbk/s16000/20260703_142058.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgppog4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIEMg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%9a-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -4758,16 +4700,15 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 793,
-    title: `তিন অক্ষরের মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ | তিন অক্ষরে মেয়েদের নাম ৬৫০+`,
-    slug: "তিন-অক্ষরের-মেয়েদের-ইসল",
-    excerpt: `আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। প্রিয় পাঠক-পাঠিকাবৃন্দ আপনারা অনেকেই ইন্টারনেট `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEg8rBIt5CJOufuvsYjVpcFKfiwsmczDY_yCoVKN-apbP78qj0TgN4LlZcUibQlzja7StygqpseIbSwnVht7yM6f1UIXoNG15pV0GJofeiu5CpxcB6wtW11jVrLQJG6Zj1N1gTGAhVgZcH_0gcnaTOWDZAVN_0xFcWW2lLlUWQAw1MHRKGvvmivU28nF=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="450" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEg8rBIt5CJOufuvsYjVpcFKfiwsmczDY_yCoVKN-apbP78qj0TgN4LlZcUibQlzja7StygqpseIbSwnVht7yM6f1UIXoNG15pV0GJofeiu5CpxcB6wtW11jVrLQJG6Zj1N1gTGAhVgZcH_0gcnaTOWDZAVN_0xFcWW2lLlUWQAw1MHRKGvvmivU28nF=s16000" /></a></div>
-<p></p>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+    title: "তিন অক্ষরের মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ | তিন অক্ষরে মেয়েদের নাম ৬৫০+",
+    slug: "3-letter-meyeder-islamic-name-meaning-2026",
+    oldSlug: "তিন-অক্ষরের-মেয়েদের-ইসল",
+    excerpt: `আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। প্রিয় পাঠক-পাঠিকাবৃন্দ আপনারা অনেকেই ইন্টারনেট সাহায্য`,
+    content: `<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
 <p>প্রিয় পাঠক-পাঠিকাবৃন্দ আপনারা অনেকেই ইন্টারনেট সাহায্যে অনেক ভাবে <b>মেয়েদের তিন অক্ষরের ইসলামিক নাম</b> খোঁজাখোজি করতেছেন। তাই এই পোস্টের মাধ্যমে আমরা শুধু আপনাদের সুবিধার জন্য শেয়ার করবো <b>তিন অক্ষরের মেয়েদের ইসলামিক নাম অর্থসহ,&nbsp; তিন অক্ষরে মেয়েদের নাম ৬৫০+</b>। আশা করি আমাদের দেওয়া তথ্য থেকে আপনারা উপকৃত হবেন।&nbsp;</p>
-<p></p>
+
 </div>
 <div>
     <button>Table Of Contents</button> </p>
@@ -4832,7 +4773,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★তহুরা — অর্থ — পবিত্রা,,!!</p>
 <p>★তুরফা — অর্থ — বিরল বস্তু,,!!</p>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">তিন অক্ষরে মেয়েদের নাম ৬৫০+</h2>
 <p>&nbsp; ★<b>নাম</b>★&nbsp; &nbsp; &nbsp;★<b>অর্থ</b>★</p>
 <p>★লতিফা — অর্থ — ঠাট্টা</p>
@@ -4902,11 +4843,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <div>★আছীর‌ ‌— অর্থ — পছন্দনীয়,,!!</div>
 <div>★হিতাশা — অর্থ — যে সবার ভালো চায়,,!! মঙ্গলকামনা,,!!</div>
 </div>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;তিন অক্ষরের মেয়েদের ইসলামিক নাম অর্থসহ,&nbsp; তিন অক্ষরে মেয়েদের নাম ৬৫০+</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEg8rBIt5CJOufuvsYjVpcFKfiwsmczDY_yCoVKN-apbP78qj0TgN4LlZcUibQlzja7StygqpseIbSwnVht7yM6f1UIXoNG15pV0GJofeiu5CpxcB6wtW11jVrLQJG6Zj1N1gTGAhVgZcH_0gcnaTOWDZAVN_0xFcWW2lLlUWQAw1MHRKGvvmivU28nF=s16000",
+
+
+<p><b>Tag</b>:&nbsp;তিন অক্ষরের মেয়েদের ইসলামিক নাম অর্থসহ,&nbsp; তিন অক্ষরে মেয়েদের নাম ৬৫০+</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqTgpr/gpqgg4KaF4KaV4KeN4Ka34Kaw4KeH4KawIOCmruCnh+Cmr+CmvOCnh+CmpuCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauIOCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6w8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+fCDgpqTgpr/gpqgg4KaF4KaV4KeN4Ka34Kaw4KeHIOCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpqjgpr7gpq48L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%a4%e0%a6%bf%e0%a6%a8-%e0%a6%85%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2.html",
     category: "Baby Boy & Girl Name",
@@ -4914,27 +4854,26 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1332,
-    title: `৫০+ উম্মে দিয়ে মেয়েদের ইসলামিক নাম | উম্মে নামের অর্থ কি | মেয়েদের ইসলামিক নাম অর্থসহ উম্মে দিয়ে`,
-    slug: "৫০-উম্মে-দিয়ে-মেয়েদের-ই",
-    excerpt: `Table Of Contents উম্মে দিয়ে মেয়েদের ইসলামিক নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjbcOU-lnEWg6N2yb66eW4RTJafXQdKRaMNe26zJroBI8xl5rS1CHpYhOwb7em92Nq6XGLsz0WrSm9Reiz2D4Tsc4VnirLUWacXAakNFAsnpK5Zc4XPN_Y5BJgwzjaLNSBK5j1H9IhqmRLZdM73yuf3y5LwHZ3q5GXuVrvC84xFjSaI6lEhc5ErwEQ0=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="600" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEjbcOU-lnEWg6N2yb66eW4RTJafXQdKRaMNe26zJroBI8xl5rS1CHpYhOwb7em92Nq6XGLsz0WrSm9Reiz2D4Tsc4VnirLUWacXAakNFAsnpK5Zc4XPN_Y5BJgwzjaLNSBK5j1H9IhqmRLZdM73yuf3y5LwHZ3q5GXuVrvC84xFjSaI6lEhc5ErwEQ0=s16000" /></a></div>
-<p></p>
-<div>
+    title: "৫০+ উম্মে দিয়ে মেয়েদের ইসলামিক নাম | উম্মে নামের অর্থ কি | মেয়েদের ইসলামিক নাম অর্থসহ উম্মে দিয়ে",
+    slug: "50-umm-diye-meyeder-islamic-name",
+    oldSlug: "৫০-উম্মে-দিয়ে-মেয়েদের-ই",
+    excerpt: `Table Of Contents উম্মে দিয়ে মেয়েদের ইসলামিক নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধু`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">উম্মে দিয়ে মেয়েদের ইসলামিক নাম&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো <b style="background-color: #fcff01;">উম্মে দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; উম্মে নামের অর্থ কি,&nbsp; মেয়েদের ইসলামিক নাম অর্থসহ উম্মে</b> দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো <b style="background-color: #fcff01;">উম্মে দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; উম্মে নামের অর্থ কি,&nbsp; মেয়েদের ইসলামিক নাম অর্থসহ উম্মে</b> দিয়ে এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">উম্মে নামের অর্থ কি&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে&nbsp;<b>নামের অর্থ কি</b>&nbsp;বা যারা বলতেছেন জানতে চাই <b>উম্মে দিয়ে&nbsp;মেয়েদের নামের বাংলা অর্থ&nbsp;</b>কিংবা যারা&nbsp;<b>মেয়েদের ইসলামিক নাম ও তার অর্থ</b>&nbsp;<b>উম্মে দিয়ে</b> এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন <b>উম্মে দিয়ে&nbsp;মেয়েদের আরবী&nbsp;অনেক নাম ও ইসলামিক নাম&nbsp;</b>তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নাম ও তার অর্থ জানার জন্য।</p>
-<p></p>
+
 <h2 style="text-align: left;">মেয়েদের ইসলামিক নাম অর্থসহ উম্মে দিয়ে</h2>
-<p></p>
+
 <p>★উম্মে ফারজানা — অর্থ — জ্ঞানী</p>
 <p>★উম্মে পাপিয়া — অর্থ — সুকণ্ঠি নারী</p>
 <p>★উম্মে নাসরিন — অর্থ — সাহায্যকারী</p>
@@ -4968,11 +4907,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★উম্মে দারদা — অর্থ — দন্তবিহীন&nbsp;</p>
 <p>★উম্মে আম্মারা — অর্থ — একজন সাহাবীর নাম দীর্ঘজীবী</p>
 <p>★উম্মে সালমা — অর্থ — শান্তির মা</p>
-<div></div>
-<p></p>
-<p><b>Tag</b>:&nbsp;উম্মে দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; উম্মে নামের অর্থ কি,&nbsp; মেয়েদের ইসলামিক নাম অর্থসহ উম্মে দিয়ে</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEjbcOU-lnEWg6N2yb66eW4RTJafXQdKRaMNe26zJroBI8xl5rS1CHpYhOwb7em92Nq6XGLsz0WrSm9Reiz2D4Tsc4VnirLUWacXAakNFAsnpK5Zc4XPN_Y5BJgwzjaLNSBK5j1H9IhqmRLZdM73yuf3y5LwHZ3q5GXuVrvC84xFjSaI6lEhc5ErwEQ0=s16000",
+
+
+<p><b>Tag</b>:&nbsp;উম্মে দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; উম্মে নামের অর্থ কি,&nbsp; মেয়েদের ইসলামিক নাম অর্থসহ উম্মে দিয়ে</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6vgp6YrIOCmieCmruCnjeCmruCnhyDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4gfCDgpongpq7gp43gpq7gp4c8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgppXgpr8gfCDgpq7gp4fgp5/gp4fgpqbgp4fgprA8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%ab%e0%a7%a6-%e0%a6%89%e0%a6%ae%e0%a7%8d%e0%a6%ae%e0%a7%87-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87.html",
     category: "Baby Boy & Girl Name",
@@ -4980,118 +4918,116 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1412,
-    title: `ছেলেদের নাম: আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – A দিয়ে ছেলেদের ইসলামিক নাম | আ দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-আ-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো আ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHtCFBEAdXqeCb0aKaFINsyn6ATtrn_-kN-IaG9V8wJBToQQr_8Uw6G3qyvL38Y2jzOZHfeeRMUUHMlcdyiDHtnm1YEw6dQxFTAsDrttNtC6l6lgYqfB4N2q0CulwdzUOCQyjx1U6CB3A/s1280/20260705_230922.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="448" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHtCFBEAdXqeCb0aKaFINsyn6ATtrn_-kN-IaG9V8wJBToQQr_8Uw6G3qyvL38Y2jzOZHfeeRMUUHMlcdyiDHtnm1YEw6dQxFTAsDrttNtC6l6lgYqfB4N2q0CulwdzUOCQyjx1U6CB3A/s16000/20260705_230922.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">আ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। আ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – A দিয়ে ছেলেদের ইসলামিক নাম | আ দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-a-diye-cheleder-islamic-name-meaning",
+    oldSlug: "ছেলেদের-নাম-আ-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো আ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">আ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। আ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">আ<span><span><span><span>&nbsp;</span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">আ দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;আ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম&nbsp;</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <p>১.আরমান &#8211; অর্থ &#8211; পুরুষ সেনা</p>
-<p></p>
+
 <p>২. আতিক &#8211; অর্থ &#8211; অভিজাত</p>
 <p>&nbsp;</p>
 <p>৩. আরহাম &#8211; অর্থ &#8211; জ্ঞানী</p>
-<p></p>
+
 <p>৪. আজহার &#8211; অর্থ &#8211; সর্বত্তম</p>
-<p></p>
+
 <p>৫. আরিফ &#8211; অর্থ &#8211; সাহসী</p>
-<p></p>
+
 <p>৬. আরফান &#8211; অর্থ &#8211; দয়ালু</p>
-<p></p>
+
 <p>৭. আনিস &#8211; অর্থ &#8211; তারকা</p>
-<p></p>
+
 <p>৮. আরিব &#8211; অর্থ &#8211; বন্ধু</p>
-<p></p>
+
 <p>৯. আমির &#8211; অর্থ &#8211; বিশ্বাসী</p>
-<p></p>
+
 <p>১০. আকরাম &#8211; অর্থ &#8211; বুদ্ধিমান</p>
-<p></p>
+
 <p>১১. আইদ &#8211; অর্থ &#8211; কল্যাণ</p>
-<p></p>
+
 <p>১২. আহনাফ &#8211; অর্থ &#8211; সর্বত্তম</p>
-<p></p>
+
 <p>১৩. আজমল &#8211; অর্থ &#8211; মহৎ</p>
-<p></p>
+
 <p>১৪. আফতাব &#8211; অর্থ &#8211; সর্বোচ্চ</p>
-<p></p>
+
 <p>১৫. আল্লাম &#8211; অর্থ &#8211; জ্ঞানী</p>
-<p></p>
+
 <p>১৬. আলী &#8211; অর্থ &#8211; উন্নত</p>
-<p></p>
+
 <p>১৭. আফীফ &#8211; অর্থ &#8211; সৎপুন্যবান</p>
-<p></p>
+
 <p>১৮. আতুফ &#8211; অর্থ &#8211; দয়ালু</p>
-<p></p>
+
 <p>১৯. আতিক &#8211; অর্থ &#8211; সন্মানিত</p>
-<p></p>
+
 <p>২০. আবীর &#8211; অর্থ &#8211; সুগন্ধি</p>
-<p></p>
+
 <p>২১. আব্বাস &#8211; অর্থ &#8211; সিংহ</p>
-<p></p>
+
 <p>২২. আকিব &#8211; অর্থ &#8211; অনুগামী</p>
-<p></p>
+
 <p>২৩. আমরুদ &#8211; অর্থ &#8211; পেয়ারা</p>
-<p></p>
+
 <p>২৪. আইমান &#8211; অর্থ &#8211; সৌভাগ্যবান</p>
-<p></p>
+
 <p>২৭. আনোয়ার &#8211; অর্থ &#8211; উজ্জ্বল</p>
-<p></p>
+
 <h2 style="text-align: left;">A দিয়ে ছেলেদের ইসলামিক নাম | আ দিয়ে ছেলে শিশুর নাম</h2>
 <p>&nbsp; &nbsp; <u><b>নাম</b></u>&nbsp; &nbsp; &nbsp; &nbsp; <u><b>Name</b></u>&nbsp; &nbsp; &nbsp; &nbsp;<u><b>অর্থ</b></u></p>
 <p>1.আব্দুল &#8211; Abdul &#8211; নিরাপত্তা দাতা</p>
-<p></p>
+
 <p>2.আবিদ &#8211; Abid &#8211; এবাদতকারী</p>
-<p></p>
+
 <p>3. আমের &#8211; Amer &#8211; শাসক</p>
-<p></p>
+
 <p>4. আহনাফ &#8211; Ahnaf &#8211; ধার্মিক</p>
-<p></p>
+
 <p>5.আনিস &#8211; Anis &#8211; বন্ধু</p>
-<p></p>
+
 <p>6.আনুজম &#8211; Anujm &#8211; তারা</p>
-<p></p>
+
 <p>7.আতেফ &#8211; Atef &#8211; দয়ালু</p>
-<p></p>
+
 <p>8. আবসার &#8211; Absar -দৃষ্টি</p>
-<p></p>
+
 <p>9. আদিল &#8211; Adil &#8211; ন্যায়পরায়ণতা</p>
-<p></p>
+
 <p>10. আখলাক &#8211; Akhlak &#8211; চারিত্রিক</p>
-<p></p>
+
 <p>11. আশহাব &#8211; Ashab -বীর</p>
-<p></p>
+
 <p>12. আসেফ &#8211; Asef &#8211; শাসক</p>
-<p></p>
+
 <p>13. আনসার &#8211; Ansar &#8211; বন্ধু</p>
-<p></p>
+
 <p>14. আখতার &#8211; Akhtar &#8211; তারা</p>
-<p></p>
+
 <p>15. আমজাদ &#8211; Amjad &#8211; সন্মানিত</p>
-<p></p>
+
 <p>16.আশিক &#8211; Ashik &#8211; মহৎ, প্রেমিক</p>
-<p></p>
+
 <p>17. আহমাদ &#8211; Ahmad &#8211; প্রশংসাকারী</p>
-<p></p>
+
 <p>18. আবরার &#8211; Abrar &#8211; ধার্মিক</p>
-<p></p>
+
 <p>19. আজমল &#8211; Ajmol &#8211; অতি সুন্দর</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;আ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;A দিয়ে ছেলেদের ইসলামিক নাম | আ দিয়ে ছেলে শিশুর নাম, আ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHtCFBEAdXqeCb0aKaFINsyn6ATtrn_-kN-IaG9V8wJBToQQr_8Uw6G3qyvL38Y2jzOZHfeeRMUUHMlcdyiDHtnm1YEw6dQxFTAsDrttNtC6l6lgYqfB4N2q0CulwdzUOCQyjx1U6CB3A/s16000/20260705_230922.jpg",
+
+
+
+<p><b>Tag</b>:&nbsp;আ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;A দিয়ে ছেলেদের ইসলামিক নাম | আ দিয়ে ছেলে শিশুর নাম, আ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: আ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpoYg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgQSDgpqbgpr/gp5/gp4cg4Kab4KeH4Kay4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%86-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -5099,99 +5035,97 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 778,
-    title: `ছেলেদের নাম: দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – D দিয়ে ছেলেদের ইসলামিক নাম | দ দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-দ-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো দ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY_u9rsquZ5o0THGtgctKiewzKv3p10hdCeDvPkvKKPFvRETDIZTf8T5VdPAJXswD5NUhfJIIagI5ca6yd0l-HUpv9lLvvf47Qp-Hry_hKdwe54YsyXq8XneUjAprC_V6gzo0iUSyzJ2Y/s1280/20260704_114520.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="632" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY_u9rsquZ5o0THGtgctKiewzKv3p10hdCeDvPkvKKPFvRETDIZTf8T5VdPAJXswD5NUhfJIIagI5ca6yd0l-HUpv9lLvvf47Qp-Hry_hKdwe54YsyXq8XneUjAprC_V6gzo0iUSyzJ2Y/s16000/20260704_114520.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">দ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। দ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "ছেলেদের নাম: দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – D দিয়ে ছেলেদের ইসলামিক নাম | দ দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-d-diye-cheleder-islamic-name-meaning-2026",
+    oldSlug: "ছেলেদের-নাম-দ-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো দ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">দ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। দ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">দ<span><span>&nbsp;</span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">দ দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;দ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>১. দাবির &#8211; অর্থ &#8211; মূল</div>
-<div></div>
+
 <div>২. দানিস &#8211; অর্থ &#8211; জ্ঞানী</div>
-<div></div>
+
 <div>৩. দাবুর &#8211; অর্থ &#8211; সকালের বায়ু</div>
-<div></div>
+
 <div>৪. দাফিফ &#8211; অর্থ &#8211; সক্রিয়</div>
-<div></div>
+
 <div>৫. দাফিস &#8211; অর্থ &#8211; ব্যাখ্যাকারি</div>
-<div></div>
+
 <div>৬. দাযার &#8211; অর্থ &#8211; খোলা জায়গা</div>
-<div></div>
+
 <div>৭. দাজফাল &#8211; অর্থ &#8211; ভালো</div>
-<div></div>
+
 <div>৮. দাহাব &#8211; অর্থ &#8211; সোনা</div>
-<div></div>
+
 <div>৯. দাহাক &#8211; অর্থ &#8211; যে হাসে বেশি</div>
-<div></div>
+
 <div>১০. দাইব &#8211; অর্থ &#8211; শিক্ষা</div>
-<div></div>
+
 <div>১১. দাউদ &#8211; অর্থ &#8211; একজন নবীর নাম</div>
-<div></div>
+
 <div>১২. দবীর &#8211; অর্থ &#8211; চিন্তাবিদ</div>
-<div></div>
+
 <div>১৩. দাখেল &#8211; অর্থ &#8211; অভ্যন্তর</div>
-<div></div>
+
 <div>১৪. দেলোয়ার &#8211; অর্থ &#8211; সাহসী</div>
-<div></div>
+
 <div>১৫. দাহীর &#8211; অর্থ &#8211; সুপ্রশ্বস্থ, লম্বা</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">D দিয়ে ছেলেদের ইসলামিক নাম |&nbsp;দ দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp;&nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>1. Dalil ( দলিল ) &#8211; অর্থ &#8211; আদর্শ</div>
-<div></div>
+
 <div>2. Dana ( দানা ) &#8211; অর্থ &#8211; জ্ঞানী</div>
-<div></div>
+
 <div>3. Danim ( দানিম ) &#8211; অর্থ &#8211; রাজা</div>
-<div></div>
+
 <div>4. Danif ( দানিফ ) &#8211; অর্থ &#8211; কাছে থাকা&nbsp;</div>
-<div></div>
+
 <div>5. Danish ( দানিশ ) &#8211; অর্থ &#8211; জাগ্রত হবে</div>
-<div></div>
+
 <div>6. Denial ( দেনিয়াল ) &#8211; অর্থ &#8211; দয়ালু</div>
-<div></div>
+
 <div>7. Darash ( দাঁড়াশ ) &#8211; অর্থ &#8211; চাঁদ</div>
-<div></div>
+
 <div>8. Dalim ( দলিম ) &#8211; অর্থ &#8211; নামতা</div>
-<div></div>
+
 <div>9. Darmal ( দর্মাল ) &#8211; অর্থ &#8211; ঔষধ</div>
-<div></div>
+
 <div>10. Darman ( ডারমন ) &#8211; অর্থ &#8211; আরোগ্য</div>
-<div></div>
+
 <div>11. Darak &#8211; ( দারাক )&nbsp; &#8211; অর্থ&nbsp; &#8211; বুদ্ধি</div>
-<div></div>
+
 <div>12. Darvesh &#8211; ( দরবেশ ) &#8211; সুখী মানুষ&nbsp;</div>
-<div></div>
+
 <div>13. Daryab &#8211; ( দারিয়াব ) &#8211; সমুদ্র</div>
-<div></div>
+
 <div>14. Dawdi &#8211; ( দওদী ) &#8211; ফুল</div>
-<div></div>
+
 <div>15. Daulat &#8211; ( দওলত ) &#8211; সুসম্পর্ক</div>
-<div></div>
+
 <div>16. Dawd &#8211;&nbsp; ( দাউদ ) &#8211; একজন নবীর নাম</div>
-<div></div>
+
 <div>17. Dabeer &#8211; ( দবীর) &#8211; চিন্তাবিদ</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;দ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;D দিয়ে ছেলেদের ইসলামিক নাম, দ দিয়ে ছেলে শিশুর নাম,&nbsp;দ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: দ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY_u9rsquZ5o0THGtgctKiewzKv3p10hdCeDvPkvKKPFvRETDIZTf8T5VdPAJXswD5NUhfJIIagI5ca6yd0l-HUpv9lLvvf47Qp-Hry_hKdwe54YsyXq8XneUjAprC_V6gzo0iUSyzJ2Y/s16000/20260704_114520.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpqYg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIEQg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%a6-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -5199,15 +5133,14 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 794,
-    title: `মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ) | স্টাইলিশ নামের তালিকা ২০২৬`,
-    slug: "মেয়েদের-স্টাইলিশ-নামের",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো Boy / Baby / Girl নামের `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigISN-_OR2DQ_unUAPsaKGlkoIW9flAAKDkALwOohQ4Garw4Kzo7A_e3MmYKfa1aJ9t0A2zIpOlZ5JsadOn_SsE72pWBic7OhQDpG-NJ6vcb06cYTtKaglnWCNyChfvI2sjSfpHuAHML-K2imR9KD4yb2pp_vRp5M6X9JSPxWeuW2ZACJbfE0lswLU/s1280/20220525_143928.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ)" border="0" data-original-height="480" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigISN-_OR2DQ_unUAPsaKGlkoIW9flAAKDkALwOohQ4Garw4Kzo7A_e3MmYKfa1aJ9t0A2zIpOlZ5JsadOn_SsE72pWBic7OhQDpG-NJ6vcb06cYTtKaglnWCNyChfvI2sjSfpHuAHML-K2imR9KD4yb2pp_vRp5M6X9JSPxWeuW2ZACJbfE0lswLU/s16000/20220525_143928.jpg" title="মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ)" /></a></div>
-<p></p>
-<p><span style="color: #2b00fe;">Educationblog24.com</span>&nbsp;এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য&nbsp;<span style="color: #2b00fe;">Educationblog24.com</span>&nbsp;নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ ও নাম। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন। সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ) | স্টাইলিশ নামের তালিকা ২০২৬",
+    slug: "meyeder-stylish-name-list-meaning",
+    oldSlug: "মেয়েদের-স্টাইলিশ-নামের",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ ও `,
+    content: `<p><span style="color: #2b00fe;">BD Edu PDF</span>&nbsp;এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য&nbsp;<span style="color: #2b00fe;">BD Edu PDF</span>&nbsp;নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ ও নাম। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন। সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <p>প্রিয় পাঠকবৃন্দ বন্ধুরা আপনারা যারা ইন্টারনেটের মাধ্যমে অনেক জায়গায় অনেক ভাবে <b>মেয়েদের স্টাইলিশ&nbsp;নামের তালিক</b>&nbsp;সম্পর্কে খোজাখুজি করছেন। তাই আজকে আপনাদের সুবিধার জন্য আমরা এই পোস্টের মাধ্যমে আপনাদের মাঝে নিয়ে হাজির হলাম&nbsp;মেয়েদের স্টাইলিশ<b>&nbsp;নামের তালিকা,ও মেয়েদের সুন্দর নামের তালিকা</b>&nbsp;সম্পর্কে বিস্তারিত সব গুরুত্বপূর্ণ তথ্য ও নাম।&nbsp;</p>
 <p>বন্ধুরা আপনারা আজকের এই পোস্টের দ্বারা&nbsp;<b>মেয়েদের স্টাইলিশ নামের তালিকা&nbsp;</b>দেখতে পারবেন। এবং আপনি চাইলে মুসলিম ধর্মে এই নামগুলো রাখতে পারেন। এই নাম গুলোর মতো এই নামের অর্থগুলো অনেক সুন্দর নিচে আমরা<b>&nbsp;মেয়েদের</b>&nbsp;<b>স্টাইলিশ ইসলামিক&nbsp;নামের তালিকা</b>&nbsp;আপনাদের মাঝে শেয়ার করতেছি। আশা করি এই পোস্টে দেওয়া <b>মেয়েদের&nbsp;নামের তালিকা&nbsp;</b>পেয়ে আপনাদের অনেক উপকার হবে।</p>
-<p></p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
@@ -5319,11 +5252,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★আনিসা — কুমারী,,!!</p>
 <p>★আনিফা — রূপসী,,!!</p>
 <p>★আনওয়ার — জ্যোতিকাল,,!!</p>
-<p></p>
-<p></p>
-<p>Tag:&nbsp;মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ)</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigISN-_OR2DQ_unUAPsaKGlkoIW9flAAKDkALwOohQ4Garw4Kzo7A_e3MmYKfa1aJ9t0A2zIpOlZ5JsadOn_SsE72pWBic7OhQDpG-NJ6vcb06cYTtKaglnWCNyChfvI2sjSfpHuAHML-K2imR9KD4yb2pp_vRp5M6X9JSPxWeuW2ZACJbfE0lswLU/s16000/20220525_143928.jpg",
+
+
+<p>Tag:&nbsp;মেয়েদের স্টাইলিশ নামের তালিকা (অর্থ সহ)</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgpq/gprzgp4fgpqbgp4fgprAg4Ka44KeN4Kaf4Ka+4KaH4Kay4Ka/4Ka2IOCmqOCmvuCmruCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqTgpr7gprLgpr/gppXgpr4gKOCmheCmsOCnjeCmpSDgprjgprkpIHw8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Ka44KeN4Kaf4Ka+4KaH4Kay4Ka/4Ka2IOCmqOCmvuCmruCnh+CmsCDgpqTgpr7gprLgpr/gppXgpr48L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%b8%e0%a7%8d%e0%a6%9f%e0%a6%be%e0%a6%87%e0%a6%b2%e0%a6%bf%e0%a6%b6-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0.html",
     category: "Baby Boy & Girl Name",
@@ -5331,25 +5263,24 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1333,
-    title: `কোরআন থেকে ছেলেদের নাম | ইসলামিক ছেলেদের নাম| কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+`,
-    slug: "কোরআন-থেকে-ছেলেদের-নাম-ইস",
-    excerpt: `Table Of Contents কোরআন থেকে ছেলেদের নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুর`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgfmIQaXt5EME9XdLdv2Zyxd5ARpnG9jxt1ZxzapSLBFhvOjNGa4jrNo1QkMxPGpvXENfywF4FsB6j-tUOA70dTi3bZfvXATR95F652HxqIu-lKNIs4rnbgL-xrJmmWncO2nBJkx8dvK5sNcEOHNtb7wJWty7q2egTajRnB5adiAq3kopl2v3vY31eo=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="600" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEgfmIQaXt5EME9XdLdv2Zyxd5ARpnG9jxt1ZxzapSLBFhvOjNGa4jrNo1QkMxPGpvXENfywF4FsB6j-tUOA70dTi3bZfvXATR95F652HxqIu-lKNIs4rnbgL-xrJmmWncO2nBJkx8dvK5sNcEOHNtb7wJWty7q2egTajRnB5adiAq3kopl2v3vY31eo=s16000" /></a></div>
-<p></p>
-<div>
+    title: "কোরআন থেকে ছেলেদের নাম | ইসলামিক ছেলেদের নাম| কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+",
+    slug: "quran-theke-cheleder-name",
+    oldSlug: "কোরআন-থেকে-ছেলেদের-নাম-ইস",
+    excerpt: `Table Of Contents কোরআন থেকে ছেলেদের নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আজকে `,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">কোরআন থেকে ছেলেদের নাম&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো <b style="background-color: #01ffff;">কোরআন থেকে ছেলেদের নাম,&nbsp; মুসলিম ছেলেদের নাম,&nbsp; কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+, আরবী নামের অর্থসহ তালিকা</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো <b style="background-color: #01ffff;">কোরআন থেকে ছেলেদের নাম,&nbsp; মুসলিম ছেলেদের নাম,&nbsp; কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+, আরবী নামের অর্থসহ তালিকা</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">মুসলিম ছেলেদের নাম&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে&nbsp;<b>নামের অর্থ কি</b>&nbsp;বা যারা বলতেছেন জানতে চাই&nbsp;<b>কোরআন থেকে&nbsp;ছেলেদের নামের বাংলা অর্থ&nbsp;</b>কিংবা যারা <b>ছেলেদের ইসলামিক নাম ও তার অর্থ</b>&nbsp;এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন&nbsp;<b>কোরআন থেকে ছেলেদের আরবী&nbsp;অনেক নাম ও ইসলামিক নাম&nbsp;</b>তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে নাম ও তার অর্থ জানার জন্য।</p>
-<p></p>
+
 <h2 style="text-align: left;"><span style="font-size: 1em;">ইসলামিক ছেলেদের নাম</span>&nbsp;১৫০+&nbsp;</h2>
 <div>
 <div>★নাম★&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ★অর্থ★</div>
@@ -5503,12 +5434,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <div>★রাইহান — অর্থ — জান্নাতী ফুল</div>
 <div>★আমীন — বিশ্বস্ত, আমানতদার</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">আরবী নামের অর্থসহ তালিকা</h2>
-<p></p>
-<p><b>Tag</b>:&nbsp;কোরআন থেকে ছেলেদের নাম,&nbsp; মুসলিম ছেলেদের নাম,&nbsp; কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+, আরবী নামের অর্থসহ তালিকা</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEgfmIQaXt5EME9XdLdv2Zyxd5ARpnG9jxt1ZxzapSLBFhvOjNGa4jrNo1QkMxPGpvXENfywF4FsB6j-tUOA70dTi3bZfvXATR95F652HxqIu-lKNIs4rnbgL-xrJmmWncO2nBJkx8dvK5sNcEOHNtb7wJWty7q2egTajRnB5adiAq3kopl2v3vY31eo=s16000",
+
+<p><b>Tag</b>:&nbsp;কোরআন থেকে ছেলেদের নাম,&nbsp; মুসলিম ছেলেদের নাম,&nbsp; কোরআন থেকে ছেলেদের নামের তালিকা ১৫০+, আরবী নামের অর্থসহ তালিকা</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppXgp4vgprDgpobgpqgg4Kal4KeH4KaV4KeHIOCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpqjgpr7gpq4gfDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpofgprjgprLgpr7gpq7gpr/gppUg4Kab4KeH4Kay4KeH4Kam4KeH4KawIOCmqOCmvuCmrnw8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4KaV4KeL4Kaw4KaG4KaoIOCmpeCnh+CmleCnhyDgppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4Kau4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%95%e0%a7%8b%e0%a6%b0%e0%a6%86%e0%a6%a8-%e0%a6%a5%e0%a7%87%e0%a6%95%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%87%e0%a6%b8.html",
     category: "Baby Boy & Girl Name",
@@ -5516,13 +5446,12 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1413,
-    title: `500+ ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – B দিয়ে ছেলেদের ইসলামিক নাম | ব দিয়ে ছেলে শিশুর নামের তালিকা`,
-    slug: "500-ব-দিয়ে-ছেলেদের-ইসলামিক-ন",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ব দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBLKj4y9N0NK5jCCdF8G8R1GZ0svqh39vEHwYHgcJGfRN4wZ_KUJ-lgOJm2qF6pUXALwL0Dbthyphenhyphen7VGzjEit-PQY-jUmbzzoggGgk5PG7LbwOEVeQxHvJ3e1U8PaOwdg0Jqh1hKEOnUeU8/s1280/20260705_104641.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="437" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBLKj4y9N0NK5jCCdF8G8R1GZ0svqh39vEHwYHgcJGfRN4wZ_KUJ-lgOJm2qF6pUXALwL0Dbthyphenhyphen7VGzjEit-PQY-jUmbzzoggGgk5PG7LbwOEVeQxHvJ3e1U8PaOwdg0Jqh1hKEOnUeU8/s16000/20260705_104641.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ব দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ব দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "500+ ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – B দিয়ে ছেলেদের ইসলামিক নাম | ব দিয়ে ছেলে শিশুর নামের তালিকা",
+    slug: "500-b-diye-cheleder-islamic-name-meaning",
+    oldSlug: "500-ব-দিয়ে-ছেলেদের-ইসলামিক-ন",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ব দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ব দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ব দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
@@ -5533,76 +5462,75 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <h2 style="text-align: left;">ব দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;ব দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <p>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></p>
 <p>১.বাকের &#8211; অর্থ &#8211; বিদ্বান , একজন ইমামের নাম&nbsp;</p>
-<p></p>
+
 <p>২. বাকী &#8211; অর্থ &#8211; স্থায়ী&nbsp;</p>
-<p></p>
+
 <p>৩. বখতিয়ার &#8211; অর্থ &#8211; সৌভাগ্যবান&nbsp;</p>
-<p></p>
+
 <p>৪. বাদী&#8217;উ &#8211; অর্থ &#8211; অভিনব , আশ্চর্য&nbsp;</p>
-<p></p>
+
 <p>৫. বাদীল &#8211; অর্থ &#8211; বিকল্প বাজল&nbsp;</p>
-<p></p>
+
 <p>৬. বজলু &#8211; অর্থ &#8211; দান , অনুগ্রহ &#8211; ব্যয় করা&nbsp;</p>
-<p></p>
+
 <p>৭. বুরাগ &#8211; অর্থ &#8211; স্বাচ্ছন্দ্য জীবন&nbsp;</p>
-<p></p>
+
 <p>৮. বুরাক &#8211; অর্থ &#8211; মহানবী ( সা ) এর মি&#8217;রাজবাহন&nbsp;</p>
-<p></p>
+
 <p>৯. বারক &#8211; অর্থ &#8211; বিদ্যুৎ</p>
-<p></p>
+
 <p>১০. বুরহান &#8211; অর্থ &#8211; দলিল , প্রমাণ একজন সাহাবীর&nbsp;</p>
-<p></p>
+
 <p>১১. বারা &#8216; &#8211; অর্থ&nbsp; &#8211; সফর মাসের প্রথম রাত&nbsp;</p>
-<p></p>
+
 <p>১২. বরকত &#8211;&nbsp; অর্থ &#8211; সৌভাগ্য , মীলাদ</p>
-<p></p>
+
 <p>১৩.বাহার &#8211; অর্থ &#8211; ঋতুরাজ বসন্ত&nbsp;</p>
-<p></p>
+
 <p>১৪. বুশরা &#8211; অর্থ &#8211; শুভ নিদর্শন&nbsp;</p>
-<p></p>
+
 <p>১৫. বাদল &#8211; অর্থ &#8211; মেঘ&nbsp;&nbsp;</p>
-<p></p>
+
 <p>১৬. বদরুদ্দীন &#8211; অর্থ &#8211; ধর্মের পূর্ণচন্দ্রিমা&nbsp;</p>
-<p></p>
+
 <h2 style="text-align: left;">B দিয়ে ছেলেদের ইসলামিক নাম | ব দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <p>1.বাকের &#8211; Bakir ( Baqir ) &#8211; বিদ্বান , একজন ইমামের নাম&nbsp;</p>
-<p></p>
+
 <p>2. বাকী &#8211; Baqi &#8211; স্থায়ী&nbsp;</p>
-<p></p>
+
 <p>3. বখতিয়ার &#8211; Bakhtiar &#8211; সৌভাগ্যবান&nbsp;</p>
-<p></p>
+
 <p>4. বাদী&#8217;উ &#8211; Badiu &#8211; অভিনব , আশ্চর্য&nbsp;</p>
-<p></p>
+
 <p>5. বাদীল &#8211; Badil &#8211; বিকল্প বাজল&nbsp;</p>
-<p></p>
+
 <p>6. Bazal &#8211; দান , অনুগ্রহ &#8211; ব্যয় করা ( বজলু )&nbsp;</p>
-<p></p>
+
 <p>7. বুরাগ &#8211; Burag &#8211; স্বাচ্ছন্দ্য জীবন&nbsp;</p>
-<p></p>
+
 <p>8. বুরাক &#8211; Burak &#8211; মহানবী ( সা ) এর মি&#8217;রাজবাহন&nbsp;</p>
-<p></p>
+
 <p>8. বারক &#8211; Bark &#8211; বিদ্যুৎ</p>
-<p></p>
+
 <p>9. বুরহান &#8211; Burhan &#8211; দলিল , প্রমাণ একজন সাহাবীর&nbsp;</p>
-<p></p>
+
 <p>10. বারা &#8216; &#8211; Bara&nbsp; &#8211; সফর মাসের প্রথম রাত&nbsp;</p>
-<p></p>
+
 <p>11. বরকত &#8211;&nbsp; Barkat &#8211; সৌভাগ্য , মীলাদ</p>
-<p></p>
+
 <p>12.বাহার &#8211; Bahar &#8211; ঋতুরাজ বসন্ত&nbsp;</p>
-<p></p>
+
 <p>13. বুশরা &#8211; Boshra &#8211; শুভ নিদর্শন&nbsp;</p>
-<p></p>
+
 <p>14. বাদল &#8211; Badol &#8211; মেঘ&nbsp;&nbsp;</p>
-<p></p>
+
 <p>15. বদরুদ্দীন &#8211; Badaruddin &#8211; ধর্মের পূর্ণচন্দ্রিমা&nbsp;</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;ব দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;B দিয়ে ছেলেদের ইসলামিক নাম | ব দিয়ে ছেলে শিশুর নাম, ব দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBLKj4y9N0NK5jCCdF8G8R1GZ0svqh39vEHwYHgcJGfRN4wZ_KUJ-lgOJm2qF6pUXALwL0Dbthyphenhyphen7VGzjEit-PQY-jUmbzzoggGgk5PG7LbwOEVeQxHvJ3e1U8PaOwdg0Jqh1hKEOnUeU8/s16000/20260705_104641.jpg",
+
+
+
+<p><b>Tag</b>:&nbsp;ব দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;B দিয়ে ছেলেদের ইসলামিক নাম | ব দিয়ে ছেলে শিশুর নাম, ব দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: ব দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj41MDArIOCmrCDgpqbgpr/gp5/gp4cg4Kab4KeH4Kay4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4g4KaF4Kaw4KeN4Kal4Ka44Ka5IOKAkyBCPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmpuCmv+Cnn+CnhyDgppvgp4fgprLgp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmrjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/500-%e0%a6%ac-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%95-%e0%a6%a8.html",
     category: "Baby Boy & Girl Name",
@@ -5610,128 +5538,126 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 779,
-    title: `ছেলেদের নাম: ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – T দিয়ে ছেলেদের ইসলামিক নাম | ত দিয়ে ছেলে শিশুর নাম`,
-    slug: "ছেলেদের-নাম-ত-দিয়ে-ছেলেদ",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ত দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0Ac_1hiqTw3mSVrqmn_Zz9dlOibHkBXEL-BR5WFkRJvzGKERkfayBS6_UgKSsqg3_3O9N7gCp0948xUHMBQbvvtj3IfVFmN4itKDn2-YQIpsj-OoS2KbHq-9uIeVlk_FyDkCAZK590E/s1280/20260704_111554.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="632" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0Ac_1hiqTw3mSVrqmn_Zz9dlOibHkBXEL-BR5WFkRJvzGKERkfayBS6_UgKSsqg3_3O9N7gCp0948xUHMBQbvvtj3IfVFmN4itKDn2-YQIpsj-OoS2KbHq-9uIeVlk_FyDkCAZK590E/s16000/20260704_111554.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ত দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ত দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "ছেলেদের নাম: ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ ২০২৬ – T দিয়ে ছেলেদের ইসলামিক নাম | ত দিয়ে ছেলে শিশুর নাম",
+    slug: "cheleder-name-t-diye-cheleder-islamic-name-meaning-2026",
+    oldSlug: "ছেলেদের-নাম-ত-দিয়ে-ছেলেদ",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ত দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ত দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ত দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">ত<span>&nbsp;</span></span><span style="background-color: #fcff01;">দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">ত দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;ত দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <p>১.তারিক &#8211; অর্থ – রাতের আগন্তুক</p>
-<p></p>
+
 <p>২.তাহমিদ – অর্থ – প্রতিনিয়ত</p>
-<p></p>
+
 <p>৩.তামীম – অর্থ – পরিপূর্ণ</p>
-<p></p>
+
 <p>৪.তাক্বী – অর্থ – সতর্কতা অবলম্বনকারী</p>
-<p></p>
+
 <p>৫.তারীখ – অর্থ – ইতিহাস</p>
-<p></p>
+
 <p>৬.তাহসিন – অর্থ – কৃতজ্ঞতা / জয়ধ্বনি বা উচ্চস্বরে প্রশংশা করা</p>
-<p></p>
+
 <p>৭.তাহির – অর্থ – পবিত্র</p>
-<p></p>
+
 <p>৮.তানভীর – অর্থ – জ্ঞানগর্ভ / বোধক বা আলোকিত করা</p>
-<p></p>
+
 <p>৯.তাহির – অর্থ – বিশুদ্ধ / পবিত্র</p>
-<p></p>
+
 <p>১০.তালিব – অর্থ – অনুসন্ধানকার</p>
-<p></p>
+
 <p>১১.তওকীর – অর্থ – সম্মান / শ্রদ্ধা</p>
-<p></p>
+
 <p>১২.তওফীক – অর্থ – সামর্থ্য</p>
-<p></p>
+
 <p>১৩.তকী – অর্থ – ধার্মিক</p>
-<p></p>
+
 <p>১৪.তাসাওয়ার – অর্থ – চিন্তা / ধ্যান</p>
-<p></p>
+
 <p>১৫.তসলীম – অর্থ – অভিবাদন</p>
-<p></p>
+
 <p>১৬.তাহাম্মুল – অর্থ – ধৈর্য</p>
-<p></p>
+
 <p>১৭.তাহমীদ – অর্থ – সর্বক্ষণ আল্লাহর প্রশংসাকারী</p>
-<p></p>
+
 <p>১৮.তাজাম্মুল – অর্থ – মর্যাদা</p>
-<p></p>
+
 <p>১৯.তাজওয়ার – অর্থ – রাজা</p>
-<p></p>
+
 <p>২০.তালাল – অর্থ – চমৎকার / প্রশংসনীয়</p>
-<p></p>
+
 <p>২১.তাসকীন – নামের অর্থ – অর্থ শান্তিদান।</p>
-<p></p>
+
 <p>২২.তাসলীম – নামের অর্থ – অর্থ সালাম, সমর্পণ।</p>
-<p></p>
+
 <p>২৩.তাজাম্মল – নামের অর্থ – অর্থ শোভা, সৌন্দর্য।</p>
-<p></p>
+
 <p>২৪.তাজ – নামের অর্থ – অর্থ মুকুট</p>
-<p></p>
+
 <h2 style="text-align: left;">T দিয়ে ছেলেদের ইসলামিক নাম |&nbsp;ত দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>নাম</u>&nbsp; &nbsp; <u>অর্থ</u>&nbsp; &nbsp; &nbsp; &nbsp;<u>Name</u></b></div>
 <div>
 <div>1.তাহির&nbsp;&nbsp;&#8211; পবিত্র&nbsp; &#8211;&nbsp; Tahir</div>
-<div></div>
+
 <div>2.<span style="white-space: pre;">	</span>তাহমিদ &#8211; <span style="white-space: pre;">	</span>আল্লাহর অনুগতকারি&nbsp; &#8211;&nbsp; Tahmid</div>
-<div></div>
+
 <div>3.<span style="white-space: pre;">	</span>তাসকিন&nbsp; &#8211;&nbsp; নির্মলতা&nbsp; &#8211; Taskin</div>
-<div></div>
+
 <div>4.<span style="white-space: pre;">	</span>তাহিম&nbsp; &#8211;<span style="white-space: pre;">	</span>বিশুদ্ধ&nbsp; &#8211;<span style="white-space: pre;"> </span>Tahim</div>
-<div></div>
+
 <div>5.<span style="white-space: pre;">	</span>তাজউদ্দিন &#8211; ধর্মীয় মুকুট &#8211; Tajuddin</div>
-<div></div>
+
 <div>6.<span style="white-space: pre;">	</span>তালিব &#8211; <span style="white-space: pre;">	</span>ছাত্র&nbsp; &#8211; Talib</div>
-<div></div>
+
 <div>7.<span style="white-space: pre;">	</span>তামিম&nbsp; &#8211;<span style="white-space: pre;">	</span>নিখুত&nbsp; &#8211; <span style="white-space: pre;">	</span>Tamim</div>
-<div></div>
+
 <div>8.<span style="white-space: pre;">	</span>তমিজ&nbsp; &#8211;<span style="white-space: pre;">	</span>অনুভূতি&nbsp; &#8211;<span style="white-space: pre;">	</span>Tamiz</div>
-<div></div>
+
 <div>9.<span style="white-space: pre;">	</span>তানভির&nbsp; &#8211;<span style="white-space: pre;">	</span>আলোর কিরন &#8211; Tanvir</div>
-<div></div>
+
 <div>10<span style="white-space: pre;">	</span>তানিম&nbsp; &#8211;<span style="white-space: pre;">	</span>সমুদ্রের ঢেউ&nbsp; &#8211;<span style="white-space: pre;">	</span>Tanim</div>
-<div></div>
+
 <div>11.<span style="white-space: pre;">	</span>তউফিক&nbsp; &#8211; নেতৃত্ব&nbsp; &#8211;<span style="white-space: pre;">	</span>Tawfiq</div>
-<div></div>
+
 <div>12.<span style="white-space: pre;">	</span>তাসলিম<span style="white-space: pre;">	</span>&nbsp; &#8211; শান্তিপ্রিয়&nbsp;&nbsp;&#8211; Taslim</div>
-<div></div>
+
 <div>13.<span style="white-space: pre;">	</span>তউসিফ<span style="white-space: pre;">	</span> &#8211; প্রশংসা<span style="white-space: pre;">	</span> &#8211; Tawsif</div>
-<div></div>
+
 <div>14.<span style="white-space: pre;">	</span>তৈমুর&nbsp;&nbsp;&#8211; সাহসি&nbsp; &#8211; Taimur</div>
-<div></div>
+
 <div>15.<span style="white-space: pre;">	</span>তাজিম&nbsp; &#8211;<span style="white-space: pre;">	</span>সম্মান&nbsp; &#8211;<span style="white-space: pre;">	</span>Tazim</div>
-<div></div>
+
 <div>16.<span style="white-space: pre;">	</span>তফাজ্জল&nbsp; &#8211;&nbsp; গুন&nbsp;&nbsp;&#8211; Tafazzal</div>
-<div></div>
+
 <div>17.<span style="white-space: pre;">	</span>তাবিশ &#8211;<span style="white-space: pre;">	</span>বুদ্ধিমত্তা&nbsp; &nbsp;&#8211;&nbsp; Tabish</div>
-<div></div>
+
 <div>18.<span style="white-space: pre;">	</span>তোরাব&nbsp; &#8211;<span style="white-space: pre;">	</span>মাঠ&nbsp; &#8211; Torab</div>
-<div></div>
+
 <div>19.<span style="white-space: pre;">	</span>তাবদার<span style="white-space: pre;">	</span> &#8211; আলো<span style="white-space: pre;">	</span> &#8211; Tabdar</div>
-<div></div>
+
 <div>20.<span style="white-space: pre;">	</span>তাবিদ<span style="white-space: pre;">	</span> -উজ্জ্বলতা&nbsp; &#8211; Tabid</div>
-<div></div>
+
 <div>21.<span style="white-space: pre;">	</span>তাবিন<span style="white-space: pre;">	</span> -অনুসারি&nbsp; &#8211; Tabin</div>
-<div></div>
+
 <div>22.<span style="white-space: pre;">	</span>তাফিম&nbsp; &#8211;<span style="white-space: pre;">	</span>বুদ্ধিমান&nbsp; &#8211;<span style="white-space: pre;">	</span>Tafim</div>
-<div></div>
+
 <div>23.<span style="white-space: pre;">	</span>তাবির&nbsp; &#8211;<span style="white-space: pre;">	</span>সুন্দর করা&nbsp;&nbsp;-Tabir</div>
-<div></div>
+
 <div>24.<span style="white-space: pre;">	</span>তাহের&nbsp; &#8211;<span style="white-space: pre;">	</span>শুদ্ধ&nbsp; &#8211; Taher</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;ত দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;T দিয়ে ছেলেদের ইসলামিক নাম,&nbsp;ত দিয়ে ছেলে শিশুর নাম,&nbsp;ত দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: ত দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0Ac_1hiqTw3mSVrqmn_Zz9dlOibHkBXEL-BR5WFkRJvzGKERkfayBS6_UgKSsqg3_3O9N7gCp0948xUHMBQbvvtj3IfVFmN4itKDn2-YQIpsj-OoS2KbHq-9uIeVlk_FyDkCAZK590E/s16000/20260704_111554.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpqQg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIFQg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%a4-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6.html",
     category: "Baby Boy & Girl Name",
@@ -5739,25 +5665,24 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1318,
-    title: `সকল সাহাবীদের নামের তালিকা | কোরআনে বর্ণিত সাহাবীর নাম | পুরুষ সাহাবীদের নাম`,
-    slug: "সকল-সাহাবীদের-নামের-তালি",
-    excerpt: `Table Of Contents সকল সাহাবীদের নামের তালিকা আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiS1tItzKlfrWU9GNHMgeTfKdwCxqdGbOBS4Eac3NnMUCTKW-Xabh8QSy8L0AtmHq30Up9JIIH3LmKO05jze4HzOnZYEXUCP8fVQoJweUEhaufiTx08tAu-XTbZk6M9jFQGUxjDQiRgp62lkCsvh2mMx1lwx2Tz31l00ACdQ_pkCabOWUGiGopSQnSD=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEiS1tItzKlfrWU9GNHMgeTfKdwCxqdGbOBS4Eac3NnMUCTKW-Xabh8QSy8L0AtmHq30Up9JIIH3LmKO05jze4HzOnZYEXUCP8fVQoJweUEhaufiTx08tAu-XTbZk6M9jFQGUxjDQiRgp62lkCsvh2mMx1lwx2Tz31l00ACdQ_pkCabOWUGiGopSQnSD=s16000" /></a></div>
-<p></p>
-<div>
+    title: "সকল সাহাবীদের নামের তালিকা | কোরআনে বর্ণিত সাহাবীর নাম | পুরুষ সাহাবীদের নাম",
+    slug: "all-sahabider-name-list",
+    oldSlug: "সকল-সাহাবীদের-নামের-তালি",
+    excerpt: `Table Of Contents সকল সাহাবীদের নামের তালিকা আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আ`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">সকল সাহাবীদের নামের তালিকা&nbsp;&nbsp;</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #fcff01;">সকল সাহাবীদের নামের তালিকা,&nbsp; কোরআনে বর্ণিত সাহাবীর নাম,&nbsp; পুরুষ সাহাবীদের নাম, ম দিয়ে সাহাবীদের নাম অর্থসহ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #fcff01;">সকল সাহাবীদের নামের তালিকা,&nbsp; কোরআনে বর্ণিত সাহাবীর নাম,&nbsp; পুরুষ সাহাবীদের নাম, ম দিয়ে সাহাবীদের নাম অর্থসহ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">কোরআনে বর্ণিত সাহাবীর নাম&nbsp;&nbsp;</h2>
 <p>প্রিয় পাঠক -পাঠিকা বন্ধু আপনারা যারা প্রতি নিয়ত ইন্টারনেটের সাহায্যে&nbsp;<b>নামের অর্থ কি</b>&nbsp;বা যারা বলতেছেন জানতে চাই <b>সকল সাহাবীদের নামের তালিকা&nbsp;</b>কিংবা যারা&nbsp;&nbsp;এভাবেও লিখে সার্চ করতেছেন এবং ইন্টারনেটের মাধ্যমে জানতে চাইতেছেন<b>&nbsp;পুরুষ সাহাবীদের নাম&nbsp;</b>তাদের জন্য বলবাে, এই পােষ্টটি আজ তাদের জন্য করা হয়েছে। পুরো পোস্ট টা পড়লে আশা করি আপনাদের উপকার হবে ।</p>
-<p></p>
+
 <h2 style="text-align: left;">পুরুষ সাহাবীদের নাম</h2>
 <p>★আকিল ইবনে আবি তালিব (রা)</p>
 <p>★ আদি ইবনে আয্ যাগ্বা (রা)</p>
@@ -5928,7 +5853,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★হিশাম ইবনুল আস (রা)</p>
 <p>★হুযাইফা ইবনুল ইয়ামান (রা)</p>
 <p>★হোসাইন ইবনে আলি (রা)</p>
-<p></p>
+
 <h2 style="text-align: left;">ম দিয়ে সাহাবীদের নাম অর্থসহ</h2>
 <p>★মাআন ইবনে আদি&nbsp;</p>
 <p>★মাজমা ইবনে জারিয়া&nbsp;</p>
@@ -5956,12 +5881,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★মুহাম্মাদ ইবনে আবি বকর&nbsp;</p>
 <p>★মুহাইয়াসা ইবনে মাসউদ&nbsp;</p>
 <p>★মুহাম্মদ ইবনে মাসলামা</p>
-<p></p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;সকল সাহাবীদের নামের তালিকা,&nbsp; কোরআনে বর্ণিত সাহাবীর নাম,&nbsp; পুরুষ সাহাবীদের নাম, ম দিয়ে সাহাবীদের নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEiS1tItzKlfrWU9GNHMgeTfKdwCxqdGbOBS4Eac3NnMUCTKW-Xabh8QSy8L0AtmHq30Up9JIIH3LmKO05jze4HzOnZYEXUCP8fVQoJweUEhaufiTx08tAu-XTbZk6M9jFQGUxjDQiRgp62lkCsvh2mMx1lwx2Tz31l00ACdQ_pkCabOWUGiGopSQnSD=s16000",
+
+
+
+<p><b>Tag</b>:&nbsp;সকল সাহাবীদের নামের তালিকা,&nbsp; কোরআনে বর্ণিত সাহাবীর নাম,&nbsp; পুরুষ সাহাবীদের নাম, ম দিয়ে সাহাবীদের নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprjgppXgprIg4Ka44Ka+4Ka54Ka+4Kas4KeA4Kam4KeH4KawIOCmqOCmvuCmruCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqTgpr7gprLgpr/gppXgpr4gfCDgppXgp4vgprDgpobgpqjgp4cg4Kas4Kaw4KeN4Kaj4Ka/4KakPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmuOCmvuCmueCmvuCmrOCngOCmsCDgpqjgpr7gpq4gfCDgpqrgp4HgprDgp4Hgprc8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b8%e0%a6%95%e0%a6%b2-%e0%a6%b8%e0%a6%be%e0%a6%b9%e0%a6%be%e0%a6%ac%e0%a7%80%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%a4%e0%a6%be%e0%a6%b2%e0%a6%bf.html",
     category: "Baby Boy & Girl Name",
@@ -5969,24 +5893,25 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1334,
-    title: `৪০০+ মুসলিম ছেলেদের আধুনিক নাম | ছেলেদের আধুনিক নামের তালিকা অর্থ সহ | আধুনিক নাম`,
-    slug: "৪০০-মুসলিম-ছেলেদের-আধুনি",
+    title: "৪০০+ মুসলিম ছেলেদের আধুনিক নাম | ছেলেদের আধুনিক নামের তালিকা অর্থ সহ | আধুনিক নাম",
+    slug: "400-muslim-cheleder-adhunik-name",
+    oldSlug: "৪০০-মুসলিম-ছেলেদের-আধুনি",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন? আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠকবৃন্ধ আজকে আমরা তোমাদের মুসলিম ছেলেদের আধুনিক নাম – ছেলেদের আধুনিক নামের তালিকা অর্থ সহ শেয়ার করবো। আ`,
     content: `<p>&nbsp;</p>
-<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrtx09WoSfrZkhfWpZB_0CLK_Rv_vVP4qNUERhvU2imS0g2RMuudP05Zb86MmbhW4BfCvZ2adAm2s5T2qccXuAv3W7ZR1yUh67rVsrdbPR-WnOy1j2oSc2RhfNuE_9K2mXx6aFIcR15pqRWZGVU7HkE7u8gsmZ1IM4b0WvhHNx3CQNIFE1wCdLXaWtxw/s1280/IMG_20220524_142506.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="মুসলিম ছেলেদের আধুনিক নাম | ছেলেদের আধুনিক নামের তালিকা অর্থ সহ | আধুনিক নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrtx09WoSfrZkhfWpZB_0CLK_Rv_vVP4qNUERhvU2imS0g2RMuudP05Zb86MmbhW4BfCvZ2adAm2s5T2qccXuAv3W7ZR1yUh67rVsrdbPR-WnOy1j2oSc2RhfNuE_9K2mXx6aFIcR15pqRWZGVU7HkE7u8gsmZ1IM4b0WvhHNx3CQNIFE1wCdLXaWtxw/s16000/IMG_20220524_142506.jpg" title="মুসলিম ছেলেদের আধুনিক নাম | ছেলেদের আধুনিক নামের তালিকা অর্থ সহ | আধুনিক নাম" /></a></div>
-<p></p>
+
+
 <p>আসছালামু আলাইকুম প্রিয় পাঠক পাঠিকা সবাই কেমন আছেন? আসা করি সবাই আল্লাহর রহমতে ভালো আছেন। প্রিয় পাঠকবৃন্ধ আজকে আমরা তোমাদের মুসলিম ছেলেদের আধুনিক নাম &#8211; ছেলেদের আধুনিক নামের তালিকা অর্থ সহ শেয়ার করবো। আপনি যদি আপনার ছেলের জন্য আধুনিক নাম খুজে থাকেন তাহলে আজকের পোস্টটি আপনার জন্য গুরুত্বপূর্ণ। আমাদের সাথে থাকুন এবং সম্পূর্ণ আর্টিকেল ভালো ভাবে পড়ে নিজের শিশুদের আধুনিক নাম বাচাই করে নিন।</p>
-<p></p>
+
 <div>
     <button>Table Of Contents</button><br />
     </p>
 <ul></ul>
-<p>    </p></div>
+</div>
 <h2 style="text-align: left;">আধুনিক নাম</h2>
-<p></p>
+
 <p>আধুনিক নামঃ- আধুনিক শব্দের অর্থ হলো, বর্তমান যুগ বা সময়ের সাথে উপযোগী। তাই আমাদের ইসলামের সাথে সামঞ্জস্য রেখে ছেলেদের আধুনিক নাম রাখতে হবে। এই পোস্টে তোমাদের সেই রকম কিছু&nbsp; &nbsp;</p>
 <p>মুসলিম ছেলেদের আধুনিক নামের তালিকা অর্থ সহ শেয়ার করার চেষ্টা করেছি।</p>
-<p></p>
+
 <h2 style="text-align: left;">মুসলিম ছেলেদের আধুনিক নাম</h2>
 <p style="box-sizing: border-box; font-family: SolaimanLipiNormal; text-align: center;"></p>
 <table style="border-collapse: collapse; color: black; font-family: SolaimanLipiNormal; width: 383.091px;">
@@ -8038,11 +7963,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 </tr>
 </tbody>
 </table>
-<p>Tag:২৭০+ মুসলিম ছেলেদের আধুনিক নাম,&nbsp; ছেলেদের আধুনিক নামের তালিকা অর্থ সহ, আধুনিক নাম</p>
-<p></p>
-<p></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrtx09WoSfrZkhfWpZB_0CLK_Rv_vVP4qNUERhvU2imS0g2RMuudP05Zb86MmbhW4BfCvZ2adAm2s5T2qccXuAv3W7ZR1yUh67rVsrdbPR-WnOy1j2oSc2RhfNuE_9K2mXx6aFIcR15pqRWZGVU7HkE7u8gsmZ1IM4b0WvhHNx3CQNIFE1wCdLXaWtxw/s16000/IMG_20220524_142506.jpg",
+<p>Tag:২৭০+ মুসলিম ছেলেদের আধুনিক নাম,&nbsp; ছেলেদের আধুনিক নামের তালিকা অর্থ সহ, আধুনিক নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6rgp6bgp6YrIOCmruCngeCmuOCmsuCmv+CmriDgppvgp4fgprLgp4fgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4KaG4Kan4KeB4Kao4Ka/4KaVIOCmqOCmvuCmriB8IOCmm+Cnh+CmsuCnh+CmpuCnh+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpobgpqfgp4Hgpqjgpr/gppUg4Kao4Ka+4Kau4KeH4KawIOCmpOCmvuCmsuCmv+CmleCmviDgpoXgprDgp43gpqU8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%aa%e0%a7%a6%e0%a7%a6-%e0%a6%ae%e0%a7%81%e0%a6%b8%e0%a6%b2%e0%a6%bf%e0%a6%ae-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%86%e0%a6%a7%e0%a7%81%e0%a6%a8%e0%a6%bf.html",
     category: "Baby Boy & Girl Name",
@@ -8050,117 +7972,115 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1414,
-    title: `মেয়েদের নাম: দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – d দিয়ে মেয়েদের ইসলামিক নাম | দ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-দ-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো দ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCZJkcnV3FHDlhVjYaSq8g8gjlzEBNcXcEEZ-RM4clTAA-CsfScY2dZKFRbXpJN7nD6gHq58P-3PLN5vwRrVpYXA6aMigNo2dw_edSX8Qf9UB0kU4KiNCPCfCV5U0upGvw_zno0kSJWO8/s1280/20260708_173253.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="428" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCZJkcnV3FHDlhVjYaSq8g8gjlzEBNcXcEEZ-RM4clTAA-CsfScY2dZKFRbXpJN7nD6gHq58P-3PLN5vwRrVpYXA6aMigNo2dw_edSX8Qf9UB0kU4KiNCPCfCV5U0upGvw_zno0kSJWO8/s16000/20260708_173253.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">দ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। দ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "মেয়েদের নাম: দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – d দিয়ে মেয়েদের ইসলামিক নাম | দ দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-d-diye-meyeder-islamic-name-meaning",
+    oldSlug: "মেয়েদের-নাম-দ-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো দ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">দ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। দ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">দ<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">দ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;&nbsp;দ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>১.দময়ন্তী – অর্থ – নলের স্ত্রী</div>
-<div></div>
+
 <div>২.দয়া – অর্থ – করুণা / অন্যের দুঃখ মোচনের প্রবৃত্তি</div>
-<div></div>
+
 <div>৩. দয়িতা – অর্থ – প্রণয়ী</div>
-<div></div>
+
 <div>৪.দামিনী – অর্থ – বিদ্যুৎ</div>
-<div></div>
+
 <div>৫.দিয়ালা – অর্থ – শিশুর স্বপ্নের খেলা</div>
-<div></div>
+
 <div>৬.দিয়ালী – অর্থ – দেওয়ালির কথ্যরূপ</div>
-<div></div>
+
 <div>৭.দীপা – অর্থ – বাতি</div>
-<div></div>
+
 <div>৮.দীপান্বিতা – অর্থ – দেওয়ালি</div>
-<div></div>
+
 <div>৯.দীপালি – অর্থ – দেওয়ালি / দীপান্বিতা অমাবস্যা / দীপশ্রেণী</div>
-<div></div>
+
 <div>১০.দীপিকা – অর্থ – প্রদীপ / জ্যোৎস্না</div>
-<div></div>
+
 <div>১১.দীপ্তি – অর্থ – আলোক</div>
-<div></div>
+
 <div>১২.দৃশী, দৃশি – অর্থ – চক্ষু / শাস্ত্র</div>
-<div></div>
+
 <div>১৩.দৃষ্টি – অর্থ – দেখার ক্ষমতা</div>
-<div></div>
+
 <div>১৪.দেয়ালী – অর্থ – দেওয়ালির কথ্যরূপ</div>
-<div></div>
+
 <div>১৫.দেবকি – অর্থ – কৃষ্ণের মাতা</div>
-<div></div>
+
 <div>১৬.দেবিতৃ – অর্থ – ক্রীড়কিনী</div>
-<div></div>
+
 <div>১৭.দেহলী – অর্থ – গৃহ</div>
-<div></div>
+
 <div>১৮.দোয়েল – অর্থ – এক রকমের পাখী</div>
-<div></div>
+
 <div>১৯.দোলনচাঁপা – অর্থ – ফুলবিশেষ</div>
-<div></div>
+
 <div>২০.দোলিকা – অর্থ – নলক মুক্তা</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">d দিয়ে মেয়েদের ইসলামিক নাম | দ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<u><b>নাম</b></u>&nbsp; &nbsp; &nbsp; <b><u>Name</u></b>&nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1. দরিয়া &#8211; Daria &#8211; সাগর&nbsp;</div>
-<div></div>
+
 <div>2. দাহিয়া &#8211; Dahiya &#8211; শহরতলী&nbsp;</div>
-<div></div>
+
 <div>3. দাইফা &#8211; Daifa &#8211; মেহমান ।&nbsp;</div>
-<div></div>
+
 <div>4. দাওয়াত &#8211; Dawat &#8211; আহব্বান&nbsp;</div>
-<div></div>
+
 <div>5. দাকীকা &#8211; Daqiqa &#8211; মিনিট&nbsp;</div>
-<div></div>
+
 <div>6. দাফিরা &#8211; Dafira &#8211; সাহাযকারিণী&nbsp;</div>
-<div></div>
+
 <div>7. দারীম &#8211; Darim &#8211; প্রেমিক&nbsp;</div>
-<div></div>
+
 <div>8. দাহিকা &#8211; Dahika &#8211; হাসিখুশি&nbsp;</div>
-<div></div>
+
 <div>9. দিল আফরোজ &#8211; Dil afroz &#8211; মনােমহন</div>
-<div></div>
+
 <div>10. দিলরুবা &#8211; Dilruba &#8211; প্রিয়া&nbsp;</div>
-<div></div>
+
 <div>11. দিলারা &#8211; Dilara &#8211; মনােহর&nbsp;</div>
-<div></div>
+
 <div>12. দুজাইন &#8211; Dujain &#8211; প্রবল বৃষ্টি&nbsp;</div>
-<div></div>
+
 <div>13. দুজাজা &#8211; Dujaja &#8211; সাহাবীর নাম&nbsp;</div>
-<div></div>
+
 <div>14. দুমইয়া &#8211; Dumai &#8211; পুতুল&nbsp;</div>
-<div></div>
+
 <div>15. দোলা &#8211; Dola &#8211; দোল খাওয়া</div>
-<div></div>
+
 <div>16. দুরবা &#8211; Durba &#8211; সাহস&nbsp;</div>
-<div></div>
+
 <div>17. দামিনী &#8211; Damini &#8211; বিদ্যুতের ঝলক</div>
-<div></div>
+
 <div>18. দিশানী &#8211; Dishani &#8211; চর্তুদিকের রানী, দিক নিদেশনাকারী</div>
-<div></div>
+
 <div>19. দুরায়রা &#8211; Duraira &#8211; ছােট মুক্তা&nbsp;</div>
-<div></div>
+
 <div>20 . দুলালী &#8211; Dulali &#8211; আদরিণী&nbsp;</div>
-<div></div>
+
 <div>21. দময়ন্তী &#8211; Damayanti &#8211; নলের স্ত্রী , প্রশংসন ও বশীভূত</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;দ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;d দিয়ে মেয়েদের ইসলামিক নাম, দ দিয়ে মেয়ে শিশুর নাম, দ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCZJkcnV3FHDlhVjYaSq8g8gjlzEBNcXcEEZ-RM4clTAA-CsfScY2dZKFRbXpJN7nD6gHq58P-3PLN5vwRrVpYXA6aMigNo2dw_edSX8Qf9UB0kU4KiNCPCfCV5U0upGvw_zno0kSJWO8/s16000/20260708_173253.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpqYg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgZCDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%a6-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -8168,104 +8088,102 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 780,
-    title: `মেয়েদের নাম: ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ – K দিয়ে মেয়েদের ইসলামিক নাম | ক দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-ক-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ক দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbqjylLEY8S3D4mgOAh7XvHAUIF93CAOKeURr3d1s81kkBodV4EcYTwbU83f6XxDKoVS9Xv4meo3n4-X4u2tpwCU2I1nezIVUab6OUqG8Dk1Hh6DESzu74t19hWwT-2uJQgt7yHjiZSIo/s1280/20260707_110038.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="420" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbqjylLEY8S3D4mgOAh7XvHAUIF93CAOKeURr3d1s81kkBodV4EcYTwbU83f6XxDKoVS9Xv4meo3n4-X4u2tpwCU2I1nezIVUab6OUqG8Dk1Hh6DESzu74t19hWwT-2uJQgt7yHjiZSIo/s16000/20260707_110038.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ক দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ক দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "মেয়েদের নাম: ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬ – K দিয়ে মেয়েদের ইসলামিক নাম | ক দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-k-diye-meyeder-islamic-name-meaning-2026",
+    oldSlug: "মেয়েদের-নাম-ক-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ক দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ক দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ক দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">ক<span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">ক দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;ক দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <p>১.কলিকা &#8211; অর্থ &#8211; কলি, ফুলের কুঁড়ি</p>
-<p></p>
+
 <p>২.কায়রা &#8211; অর্থ &#8211; শান্তিপূর্ণ, অদ্বিতীয়</p>
-<p></p>
+
 <p>৩.কিঞ্জল &#8211; অর্থ &#8211; নদীর তীর, জ্ঞানের গঙ্গা</p>
-<p></p>
+
 <p>৪.কোমলা &#8211; অর্থ &#8211; নমনীয়, সুন্দর</p>
-<p></p>
+
 <p>৫.কবিতা<span style="white-space: pre;">	</span> &#8211; অর্থ &#8211; কবির রচনা</p>
-<p></p>
+
 <p>৬.কাজল &#8211; অর্থ &#8211; চোখের কাজল, কালো বর্ণ</p>
-<p></p>
+
 <p>৭.কিয়ারা &#8211; অর্থ &#8211; স্পষ্ট, উজ্জ্বল</p>
-<p></p>
+
 <p>৮.কুসুমিতা &#8211; অর্থ &#8211; ফুটেছে এমন ফুল</p>
-<p></p>
+
 <p>৯.কুনিকা &#8211; অর্থ &#8211;&nbsp; ফুল</p>
-<p></p>
+
 <p>১০.কান্তা &#8211; অর্থ &#8211; সুন্দর, কান্ত রূপ যার</p>
-<p></p>
+
 <p>১১.কায়া<span style="white-space: pre;">	</span>&#8211; অর্থ &#8211; শরীর, বড় বোন</p>
-<p></p>
+
 <p>১২.কামদা<span style="white-space: pre;">	</span>&#8211; অর্থ &#8211; উদার, ত্যাগী</p>
-<p></p>
+
 <p>১৩.কৌশিকা &#8211; অর্থ &#8211; ভালোবাসা ও স্নেহের ভাবনা</p>
-<p></p>
+
 <p>১৪.কল্পনা &#8211; অর্থ &#8211; চিন্তা, কল্পনা করা</p>
-<p></p>
+
 <p>১৫.কামিনী &#8211; অর্থ &#8211; সুন্দর মহিলা</p>
-<p></p>
+
 <p>১৬.কোহিনূর &#8211; অর্থ &#8211;<span style="white-space: pre;">	</span>সুন্দর, বিখ্যাত হীরা</p>
-<p></p>
+
 <p>১৭.কাশফি &#8211; অর্থ &#8211; উন্মোচন করা</p>
-<p></p>
+
 <p>১৮.কাশভি &#8211; অর্থ &#8211; জ্বলজ্বল করা, সুন্দর</p>
-<p></p>
+
 <p>১৯.কোয়েল&nbsp;&#8211; অর্থ &#8211; কোকিল</p>
-<p></p>
+
 <p>২০.কোকিলা &#8211; অর্থ &#8211; কোকিল, যার গলার স্বর মিষ্টি</p>
-<p></p>
+
 <h2 style="text-align: left;">K দিয়ে মেয়েদের ইসলামিক নাম | ক দিয়ে মেয়ে শিশুর নাম</h2>
 <p>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; <u><b>Name</b></u>&nbsp; &nbsp; &nbsp; <u><b>অর্থ</b></u></p>
 <p>1. কারিমা &#8211; Karima &#8211; উচ্চমনা</p>
-<p></p>
+
 <p>2. কালিমা &#8211; Kalima &#8211; কথোপকথন কারিণী&nbsp;</p>
-<p></p>
+
 <p>3. কিসমত &#8211; Kismat &#8211; ভাগ্য&nbsp;</p>
-<p></p>
+
 <p>4. কুবরা &#8211; Kubra &#8211; বড়ো মুক্তা&nbsp;</p>
-<p></p>
+
 <p>5. কুলছুম &#8211; Kulsum &#8211; দানশীল&nbsp;</p>
-<p></p>
+
 <p>6. কাসীদা &#8211; Kasida &#8211; গীত / কবিতা</p>
-<p></p>
+
 <p>7. কাদিমা &#8211; Kadima &#8211; অগ্রসর / আগত</p>
-<p></p>
+
 <p>8. কাদীরা &#8211; Kadira &#8211; শক্তিশালী&nbsp;</p>
-<p></p>
+
 <p>9. কাসিমাতুন &#8211; Kasimatun &#8211; পরিচ্ছন্ন&nbsp;</p>
-<p></p>
+
 <p>10. কামেলা&nbsp; &#8211; Kamela &#8211; পরিপূর্ণ</p>
-<p></p>
+
 <p>11. কাসীবা&nbsp; &#8211; Kasiba &#8211; উপার্জনকারী</p>
-<p></p>
+
 <p>12. কামরা &#8211; Kamra &#8211; জোৎনা</p>
-<p></p>
+
 <p>13. করিনা &#8211; Korina &#8211; সঙ্গিনী</p>
-<p></p>
+
 <p>14. কুদরত &#8211; Kudrat &#8211; শক্তি/ ক্ষমতা</p>
-<p></p>
+
 <p>15. কাদিরা &#8211; Kadira &#8211; শক্তিশালী</p>
-<p></p>
+
 <p>16.কানিজ &#8211; Kaniz &#8211;&nbsp; অনুগত্য</p>
-<p></p>
+
 <p>17.কুহল &#8211; Kuhol &#8211; সুরমা</p>
-<p></p>
+
 <p>18.কায়েদা &#8211; Kayeda &#8211; নেত্রী / প্রধান</p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;ক দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;K দিয়ে মেয়েদের ইসলামিক নাম, ক দিয়ে মেয়ে শিশুর নাম, ক দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbqjylLEY8S3D4mgOAh7XvHAUIF93CAOKeURr3d1s81kkBodV4EcYTwbU83f6XxDKoVS9Xv4meo3n4-X4u2tpwCU2I1nezIVUab6OUqG8Dk1Hh6DESzu74t19hWwT-2uJQgt7yHjiZSIo/s16000/20260707_110038.jpg",
+
+
+<p><b>Tag</b>:&nbsp;ক দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;K দিয়ে মেয়েদের ইসলামিক নাম, ক দিয়ে মেয়ে শিশুর নাম, ক দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgppUg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wg4oCTIEsg4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%95-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -8273,16 +8191,14 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1319,
-    title: `150+ জান্নাত দিয়ে মেয়েদের নাম | জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ | জান্নাত দিয়ে মেয়েদের নামের তালিকা ম`,
-    slug: "150-জান্নাত-দিয়ে-মেয়েদের-ন",
+    title: "150+ জান্নাত দিয়ে মেয়েদের নাম | জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ | জান্নাত দিয়ে মেয়েদের নামের তালিকা ম",
+    slug: "150-jannat-diye-meyeder-name",
+    oldSlug: "150-জান্নাত-দিয়ে-মেয়েদের-ন",
     excerpt: `আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাই কেমন আছেন? আসা করি সবাই ভালো আছেন। প্রিয় পাঠক অনেকে আছেন যারা জান্নাত দিয়ে মেয়েদের ইসলামিক নাম খুজে থাকেন ছোট্ট সোনামণিদের জন্য। তাই আজকে আমরা জান্নাত দিয়ে `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5L1hvaCkFXnxh3Og1s8AbEnWMJD-Cn9teIiY8PXelhuKNPsS0sjsQrBScmp3TFoZWHf4C6Jnn1n-aGjQiRIgQydy3C4RuQCvXh7TgyRyzhrNjtYQIPWjnada4six8BAmDdS7WwmNF0Ox4hqI4YZUd5aVH4Uo9i6Fz601WaaKngcOq7c842GiguqnVCg/s1280/IMG_20220904_142733.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="150+ জান্নাত দিয়ে মেয়েদের নাম | জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ | জান্নাত দিয়ে মেয়েদের নামের তালিকা" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5L1hvaCkFXnxh3Og1s8AbEnWMJD-Cn9teIiY8PXelhuKNPsS0sjsQrBScmp3TFoZWHf4C6Jnn1n-aGjQiRIgQydy3C4RuQCvXh7TgyRyzhrNjtYQIPWjnada4six8BAmDdS7WwmNF0Ox4hqI4YZUd5aVH4Uo9i6Fz601WaaKngcOq7c842GiguqnVCg/s16000/IMG_20220904_142733.jpg" title="150+ জান্নাত দিয়ে মেয়েদের নাম | জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ | জান্নাত দিয়ে মেয়েদের নামের তালিকা" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাই কেমন আছেন? আসা করি সবাই ভালো আছেন। প্রিয় পাঠক অনেকে আছেন যারা জান্নাত দিয়ে মেয়েদের ইসলামিক নাম খুজে থাকেন ছোট্ট সোনামণিদের জন্য। তাই আজকে আমরা <u><b><a href="https://www.educationblog24.com/2022/09/jannat-namer-sate-miliye-name.html" rel="nofollow" target="_blank">জান্নাত দিয়ে মেয়েদের ইসলামিক নাম</a></b></u> কিছু শেয়ার করতেছি। আসা করি তোমাদের নাম গুলো পছন্দ হবে।</p>
+    content: `<p>আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ সবাই কেমন আছেন? আসা করি সবাই ভালো আছেন। প্রিয় পাঠক অনেকে আছেন যারা জান্নাত দিয়ে মেয়েদের ইসলামিক নাম খুজে থাকেন ছোট্ট সোনামণিদের জন্য। তাই আজকে আমরা <u><b></b></u> কিছু শেয়ার করতেছি। আসা করি তোমাদের নাম গুলো পছন্দ হবে।</p>
 <div> <button>Table Of Contents</button>      </p>
 <ul></ul>
-<p>       </p></div>
+</div>
 <h2 style="text-align: left;">জান্নাত দিয়ে মেয়েদের ইসলামিক নাম</h2>
 <p>প্রিয় পাঠক জান্নাত একটি সুন্দর নাম এই নামের সাথে যে কোন নাম যুক্ত করা যায়। নিচে আমরা জান্নাত নামের সাথে মিলিয়ে দারুন কিছু নাম শেয়ার করতেছি। আপনি চাইলে এই নামগুলি আপনার সোনামণিদের জন্য রাখতে পারেন।</p>
 <ul style="background-color: white; box-sizing: border-box; color: #353535; font-family: Georgia, &quot;Times New Roman&quot;, Times, serif; margin: 0px 0px 1em 1em; padding: 0px;">
@@ -8380,7 +8296,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li>তাইয়েবা জান্নাত</li>
 </ul>
 </ul>
-<p></p>
+
 <h2 style="text-align: left;"><span style="color: #353535; font-family: Georgia, &quot;Times New Roman&quot;, Times, serif;">জান্নাত দিয়ে মেয়েদের নামের তালিকা&nbsp;</span></h2>
 </p>
 <ul style="text-align: left;">
@@ -8396,9 +8312,8 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <li>মুনতাহা জান্নাত রাফি</li>
 <li>তাইবা জান্নাত</li>
 </ul>
-<p>Tag:জান্নাত দিয়ে মেয়েদের নাম,জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ, জান্নাত দিয়ে মেয়েদের নামের তালিকা&nbsp;</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5L1hvaCkFXnxh3Og1s8AbEnWMJD-Cn9teIiY8PXelhuKNPsS0sjsQrBScmp3TFoZWHf4C6Jnn1n-aGjQiRIgQydy3C4RuQCvXh7TgyRyzhrNjtYQIPWjnada4six8BAmDdS7WwmNF0Ox4hqI4YZUd5aVH4Uo9i6Fz601WaaKngcOq7c842GiguqnVCg/s16000/IMG_20220904_142733.jpg",
+<p>Tag:জান্নাত দিয়ে মেয়েদের নাম,জান্নাত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ, জান্নাত দিয়ে মেয়েদের নামের তালিকা&nbsp;</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj4xNTArIOCmnOCmvuCmqOCnjeCmqOCmvuCmpCDgpqbgpr/gp5/gp4c8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kau4KeH4Kef4KeH4Kam4KeH4KawIOCmqOCmvuCmriB8IOCmnOCmvuCmqOCnjeCmqOCmvuCmpDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawIOCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq48L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/150-%e0%a6%9c%e0%a6%be%e0%a6%a8%e0%a7%8d%e0%a6%a8%e0%a6%be%e0%a6%a4-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8.html",
     category: "Baby Boy & Girl Name",
@@ -8406,21 +8321,20 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1335,
-    title: `পাকিস্তানি মুসলিম ছেলেদের নাম 100+| পাকিস্তানি ছেলেদের নাম`,
-    slug: "পাকিস্তানি-মুসলিম-ছেলেদে",
-    excerpt: `Table Of Contents পাকিস্তানি ছেলেদের নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। প্রিয় `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEj7UMpl7EMRRlkZUh0UCEKKjKjFKGPSaNtWYVNCGY3F0U2tVcMLAJPxrrANlTBaeufbouCbQeC0LzwMuA8mDsI02qkkMQFF_EO295Wb6luI9BbuSo_A7Y2yUcwKmDaw8kIY4d5NfX56Wci3OGakcp9oieYvEPJ5arXJQ2KS9NzaxQ8GLVqcW-0IABUT=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="450" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEj7UMpl7EMRRlkZUh0UCEKKjKjFKGPSaNtWYVNCGY3F0U2tVcMLAJPxrrANlTBaeufbouCbQeC0LzwMuA8mDsI02qkkMQFF_EO295Wb6luI9BbuSo_A7Y2yUcwKmDaw8kIY4d5NfX56Wci3OGakcp9oieYvEPJ5arXJQ2KS9NzaxQ8GLVqcW-0IABUT=s16000" /></a></div>
-<p></p>
-<div>
+    title: "পাকিস্তানি মুসলিম ছেলেদের নাম 100+| পাকিস্তানি ছেলেদের নাম",
+    slug: "pakistani-muslim-cheleder-name-100",
+    oldSlug: "পাকিস্তানি-মুসলিম-ছেলেদে",
+    excerpt: `Table Of Contents পাকিস্তানি ছেলেদের নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। প্রিয় পাঠক-পা`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2>পাকিস্তানি ছেলেদের নাম</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
 <p>প্রিয় পাঠক-পাঠিকাবৃন্দ আপনারা অনেকেই ইন্টারনেট সাহায্যে অনেক ভাবে <b>পাকিস্তানি মুসলিম ছেলেদের নাম ও অর্থ</b>&nbsp;খোঁজাখোজি করতেছেন। তাই এই পোস্টের মাধ্যমে আমরা শুধু আপনাদের সুবিধার জন্য শেয়ার করবো <b>পাকিস্তানি মুসলিম ছেলেদের নাম,&nbsp; পাকিস্তানি ছেলেদের নাম</b>। আশা করি আমাদের দেওয়া তথ্য থেকে আপনারা উপকৃত হবেন।&nbsp;</p>
-<p></p>
+
 </div>
 <h2 style="text-align: left;">পাকিস্তানি মুসলিম ছেলেদের নাম&nbsp;&nbsp;</h2>
 <p>&nbsp; ★<b>নাম</b>★&nbsp; &nbsp; &nbsp; ★<b>অর্থ</b>★</p>
@@ -8480,11 +8394,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★চার্লেশ — গোত্রের প্রধান,,!!</p>
 <p>★চশিদা — একজন অভিজ্ঞ মানুষ,,!!</p>
 <p>★চাউইশ — গোত্রের নেতা,,!!</p>
-<div></div>
-<p></p>
-<p><b>Tag</b>:&nbsp;পাকিস্তানি মুসলিম ছেলেদের নাম,&nbsp; পাকিস্তানি ছেলেদের নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEj7UMpl7EMRRlkZUh0UCEKKjKjFKGPSaNtWYVNCGY3F0U2tVcMLAJPxrrANlTBaeufbouCbQeC0LzwMuA8mDsI02qkkMQFF_EO295Wb6luI9BbuSo_A7Y2yUcwKmDaw8kIY4d5NfX56Wci3OGakcp9oieYvEPJ5arXJQ2KS9NzaxQ8GLVqcW-0IABUT=s16000",
+
+
+<p><b>Tag</b>:&nbsp;পাকিস্তানি মুসলিম ছেলেদের নাম,&nbsp; পাকিস্তানি ছেলেদের নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqrgpr7gppXgpr/gprjgp43gpqTgpr7gpqjgpr8g4Kau4KeB4Ka44Kay4Ka/4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpqjgpr7gpq4gMTAwK3w8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kaq4Ka+4KaV4Ka/4Ka44KeN4Kak4Ka+4Kao4Ka/IOCmm+Cnh+CmsuCnh+CmpuCnh+CmsCDgpqjgpr7gpq48L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%aa%e0%a6%be%e0%a6%95%e0%a6%bf%e0%a6%b8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%a8%e0%a6%bf-%e0%a6%ae%e0%a7%81%e0%a6%b8%e0%a6%b2%e0%a6%bf%e0%a6%ae-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87.html",
     category: "Baby Boy & Girl Name",
@@ -8492,102 +8405,100 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1415,
-    title: `১৮০+ ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – F দিয়ে ছেলেদের ইসলামিক নাম | ফ দিয়ে ছেলে শিশুর নাম`,
-    slug: "১৮০-ফ-দিয়ে-ছেলেদের-ইসলাম",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো ফ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWySX5G-I3aHObnmcZCBfrrGklox4PEkafrgSMN58jJmIEBX_c-NQ88FeGcFJlBjjK6xwmq9nT6NBVwrVSE8cN-zqnyzXGKH02AYJjn4w996Zac1hJfI28D4uNssHe_TRUzHwrTPwn68I/s1280/20260705_102704.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="437" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWySX5G-I3aHObnmcZCBfrrGklox4PEkafrgSMN58jJmIEBX_c-NQ88FeGcFJlBjjK6xwmq9nT6NBVwrVSE8cN-zqnyzXGKH02AYJjn4w996Zac1hJfI28D4uNssHe_TRUzHwrTPwn68I/s16000/20260705_102704.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">ফ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ফ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "১৮০+ ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – F দিয়ে ছেলেদের ইসলামিক নাম | ফ দিয়ে ছেলে শিশুর নাম",
+    slug: "180-f-diye-cheleder-islamic-name-meaning",
+    oldSlug: "১৮০-ফ-দিয়ে-ছেলেদের-ইসলাম",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো ফ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">ফ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। ফ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">ফ</span><span style="background-color: #fcff01;">&nbsp;দিয়ে নিচে ছেলেদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">ফ দিয়ে ছেলে শিশুর নাম &#8211;&nbsp;ফ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>১.ফায়েক &#8211; অর্থ &#8211; উচ্চ , উত্তম&nbsp;</div>
-<div></div>
+
 <div>২. ফুয়াদ &#8211; অর্থ &#8211;&nbsp; হৃদয় , অন্তর&nbsp;</div>
-<div></div>
+
 <div>৩. ফাহাদ &#8211; অর্থ &#8211; সিংহ&nbsp;</div>
-<div></div>
+
 <div>৪. ফাহীম &#8211; অর্থ &#8211; বুদ্ধিমান&nbsp;</div>
-<div></div>
+
 <div>৫. ফায়সাল &#8211; অর্থ &#8211; বিচারক&nbsp;</div>
-<div></div>
+
 <div>৬. ফাইয়াজ &#8211; অর্থ &#8211; অনুগ্রহকারী , দানশীল&nbsp;</div>
-<div></div>
+
 <div>৭. ফাওয়ায় &#8211; অর্থ &#8211; অত্যন্ত কামিয়াব&nbsp;</div>
-<div></div>
+
 <div>৮. ফাত্তাহ &#8211; অর্থ &#8211;&nbsp; কৃতকার্য , উপকারি&nbsp;</div>
-<div></div>
+
 <div>৯. ফিদা &#8211; অর্থ &#8211; উৎসর্গ&nbsp;</div>
-<div></div>
+
 <div>১০. ফারহান &#8211; অর্থ &#8211;&nbsp; প্রফুল্ল&nbsp;</div>
-<div></div>
+
 <div>১১. ফারহাত &#8211; অর্থ &#8211; আনন্দ , উল্লাস ।&nbsp;</div>
-<div></div>
+
 <div>১২. ফুরকান &#8211; অর্থ &#8211; সত্য মিথ্যার পার্থক্যকারী</div>
-<div></div>
+
 <div>১৩.ফখর &#8211; অর্থ &#8211; গর্ভ উদ্যান , শ্রেষ্ঠ&nbsp;</div>
-<div></div>
+
 <div>১৪. ফেরদাউস &#8211; অর্থ &#8211; বেহেশত&nbsp;</div>
-<div></div>
+
 <div>১৫. ফরীদ &#8211; অর্থ &#8211; অনুপম&nbsp;</div>
-<div></div>
+
 <div>১৬. ফাসাহাত &#8211; অর্থ &#8211; বিশুদ্ধ ভাষণ , বাক চাতুর্থ&nbsp;</div>
-<div></div>
+
 <div>১৭. ফাসীহ &#8211; অর্থ &#8211; বিশুদ্ধভাষী , বাকপটু ফাদল&nbsp;</div>
-<div></div>
+
 <div>১৮. ফাদিল &#8211; অর্থ &#8211; অনুগ্রহ ( ফযলু )&nbsp;</div>
-<div></div>
+
 <div>১৯. ফাতীন &#8211; অর্থ &#8211; বুদ্ধিমান , সুচতুর&nbsp;</div>
-<div></div>
+
 <div>২০. ফুদায়ল &#8211; অর্থ &#8211; সাহাবীর নাম , জ্ঞানী&nbsp;</div>
-<div></div>
+
 <div>২১. ফুরাদ&nbsp; &#8211; অর্থ &#8211; অতুলনীয় , অন্যান্য</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">F দিয়ে ছেলেদের ইসলামিক নাম | ফ দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1. ফায়েক &#8211; Faek &#8211; উচ্চ , উত্তম&nbsp;</div>
-<div></div>
+
 <div>2. ফুয়াদ &#8211; Fuad &#8211; হৃদয় , অন্তর</div>
-<div></div>
+
 <div>3.ফাহাদ &#8211; Fahad &#8211; সিংহ&nbsp;</div>
-<div></div>
+
 <div>4. ফাহীম &#8211; Fahim &#8211; বুদ্ধিমান&nbsp;</div>
-<div></div>
+
 <div>5. ফায়সাল &#8211; Faisal &#8211; বিচারক&nbsp;</div>
-<div></div>
+
 <div>6. ফাইয়াজ &#8211; Faiaz &#8211; অনুগ্রহকারী , দানশীল&nbsp;</div>
-<div></div>
+
 <div>7. ফাওয়ায &#8211; Fawaz &#8211; অত্যন্ত কামিয়াব&nbsp;</div>
-<div></div>
+
 <div>8. ফাত্তাহ &#8211; Fattah &#8211; কৃতকার্য , উপকারি&nbsp;</div>
-<div></div>
+
 <div>9. ফিদা &#8211; Fida &#8211; উৎসর্গ&nbsp;</div>
-<div></div>
+
 <div>10. ফারহান &#8211; Farhan &#8211; প্রফুল্ল&nbsp;</div>
-<div></div>
+
 <div>11. ফারহাত &#8211; Farhat &#8211; আনন্দ , উল্লাস ।&nbsp;</div>
-<div></div>
+
 <div>12. ফুরকান &#8211; Furkan &#8211;&nbsp; সত্য মিথ্যার পার্থক্যকারী</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
+
 <div><b>Tag</b>:&nbsp;ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;F দিয়ে ছেলেদের ইসলামিক নাম, ফ দিয়ে ছেলে শিশুর নাম, ফ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: ফ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWySX5G-I3aHObnmcZCBfrrGklox4PEkafrgSMN58jJmIEBX_c-NQ88FeGcFJlBjjK6xwmq9nT6NBVwrVSE8cN-zqnyzXGKH02AYJjn4w996Zac1hJfI28D4uNssHe_TRUzHwrTPwn68I/s16000/20260705_102704.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6fgp67gp6YrIOCmqyDgpqbgpr/gp5/gp4cg4Kab4KeH4Kay4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4g4KaF4Kaw4KeN4Kal4Ka44Ka5IOKAkyBGPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmpuCmv+Cnn+CnhyDgppvgp4fgprLgp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmrjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%a7%e0%a7%ae%e0%a7%a6-%e0%a6%ab-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae.html",
     category: "Baby Boy & Girl Name",
@@ -8595,19 +8506,17 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 781,
-    title: `ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম ২০২৬ | ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ`,
-    slug: "ম-দিয়ে-দুই-অক্ষরের-মেয়ে",
+    title: "ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম ২০২৬ | ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ",
+    slug: "m-diye-2-letter-meyeder-islamic-name-2026",
+    oldSlug: "ম-দিয়ে-দুই-অক্ষরের-মেয়ে",
     excerpt: `আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ আসা করি সবাই ভালো আছেন। আমরা ও ভালো আছি। বন্ধুরা আমরা সবাই ছোট নাম পছন্দ করি। তাই অনেকে ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম খুজে থাকেন। তাই আজকে দারুন কিছু ম দ`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheRZcGfOfP5fAq-WU8XesPyau-YQKbQriCTVUefvHuqNn-pj8gpZMW6zuCmdloZoCT4zAMmGYPSf1FmcGF9L08qalbGXhxDNKZNdQk10s7KeKzrY2PkxgXuqjMfqXIVui_nNqNzkL2hZ3A5Riw-467xlhEKwUESVuoJHPQXkexiXLmYYd-DEADHcU5HA/s1280/IMG_20220825_210022.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম | ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheRZcGfOfP5fAq-WU8XesPyau-YQKbQriCTVUefvHuqNn-pj8gpZMW6zuCmdloZoCT4zAMmGYPSf1FmcGF9L08qalbGXhxDNKZNdQk10s7KeKzrY2PkxgXuqjMfqXIVui_nNqNzkL2hZ3A5Riw-467xlhEKwUESVuoJHPQXkexiXLmYYd-DEADHcU5HA/s16000/IMG_20220825_210022.jpg" title="ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম | ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ" /></a></div>
-<p></p>
-<p></p>
-<p>আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ আসা করি সবাই ভালো আছেন। আমরা ও ভালো আছি। বন্ধুরা আমরা সবাই ছোট নাম পছন্দ করি। তাই অনেকে <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক</u></b> নাম খুজে থাকেন। তাই আজকে দারুন কিছু <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক</u></b> নাম শেয়ার করতেছি। আসা করি নামগুলো তোমাদের ভালো লাগবে। ছোট্ট সোনামণিদের <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম অর্থ সহ </u></b>দেখে রাখতে পারেন।</p>
-<p></p>
+    content: `<p>আসছালামু আলাইকুম সম্মানিত পাঠকবৃন্দ আসা করি সবাই ভালো আছেন। আমরা ও ভালো আছি। বন্ধুরা আমরা সবাই ছোট নাম পছন্দ করি। তাই অনেকে <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক</u></b> নাম খুজে থাকেন। তাই আজকে দারুন কিছু <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক</u></b> নাম শেয়ার করতেছি। আসা করি নামগুলো তোমাদের ভালো লাগবে। ছোট্ট সোনামণিদের <b><u>ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম অর্থ সহ </u></b>দেখে রাখতে পারেন।</p>
+
 <div> <button>Table Of Contents</button>      </p>
 <ul></ul>
-<p>       </p></div>
+</div>
 <h2 style="text-align: left;">ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম</h2>
-<p></p>
+
 <p>মুন্নি- যার অর্থ হলো ছোট।</p>
 <p>মুনা- যার অর্থ হলো আকাক্ষিত।</p>
 <p>মিমি- যার অর্থ হলো বিদ্রোহী।&nbsp;</p>
@@ -8629,10 +8538,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>মুক্তা- যারা অর্থ হলো মোতি।</p>
 <p>মুক্তিঃ- যার অর্থ হলো রেহাই।</p>
 <p>মৌঃ- যার অর্থ হলো মধু।</p>
-<p></p>
-<p>Tag:- ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম,&nbsp; ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheRZcGfOfP5fAq-WU8XesPyau-YQKbQriCTVUefvHuqNn-pj8gpZMW6zuCmdloZoCT4zAMmGYPSf1FmcGF9L08qalbGXhxDNKZNdQk10s7KeKzrY2PkxgXuqjMfqXIVui_nNqNzkL2hZ3A5Riw-467xlhEKwUESVuoJHPQXkexiXLmYYd-DEADHcU5HA/s16000/IMG_20220825_210022.jpg",
+
+<p>Tag:- ম দিয়ে দুই অক্ষরের মেয়েদের ইসলামিক নাম,&nbsp; ম দিয়ে দুই অক্ষরে মেয়েদের নামের তালিকা অর্থ সহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq4g4Kam4Ka/4Kav4Ka84KeHIOCmpuCngeCmhyDgpoXgppXgp43gprfgprDgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kau4KeH4Kav4Ka84KeH4Kam4KeH4KawIOCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq48L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Keo4Kem4Keo4KesIHwg4KauIOCmpuCmv+Cmr+CmvOCnhyDgpqbgp4Hgpoc8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%a6%e0%a7%81%e0%a6%87-%e0%a6%85%e0%a6%95%e0%a7%8d%e0%a6%b7%e0%a6%b0%e0%a7%87%e0%a6%b0-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87.html",
     category: "Baby Boy & Girl Name",
@@ -8640,19 +8548,20 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1320,
-    title: `মেয়েদের ইসলামিক নাম অর্থ সহ ৫০০০+(সকল অক্ষর দিয়ে) -মেয়েদের ইসলামিক নাম অর্থসহ pdf | মেয়েদের আধুনিক নামের তালিকা-মেয়েদের নামের তালিকা অর্থসহ-মেয়ে বাবুর ইসলামিক নাম`,
-    slug: "মেয়েদের-ইসলামিক-নাম-অর্",
+    title: "মেয়েদের ইসলামিক নাম অর্থ সহ ৫০০০+(সকল অক্ষর দিয়ে) -মেয়েদের ইসলামিক নাম অর্থসহ pdf | মেয়েদের আধুনিক নামের তালিকা-মেয়েদের নামের তালিকা অর্থসহ-মেয়ে বাবুর ইসলামিক নাম",
+    slug: "meyeder-islamic-name-meaning-5000all-letter-diye-meyeder-islamic-name-meaning-pdf",
+    oldSlug: "মেয়েদের-ইসলামিক-নাম-অর্",
     excerpt: `আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন।আসা করি সবাই ভালো আছেন। বন্ধুরা আজকে আমরা তোমাদের এই পোস্টে মেয়েদের ইসলামিক নাম সকল অক্ষর দিয়ে শেয়ার করবো । আসা করি তোমাদের উপকারে আসবে। Table Of Contents মে`,
     content: `</p>
-<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc0P3tU5bG4bLqOmhnFGISZ8BrtyczeijFLmqrg_J1MN58o2lb68jmNpvcNq8nCrz2788rQkuhLo6IzI8WUjvbvbNoJrnWXRejdoBEH8WN0BV_s0BRicGUSZcp_2EbXJukprzLwvvUvi3R/s1280/IMG_20260317_042044.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="মেয়েদের ইসলামিক নাম অর্থ সহ (সকল অক্ষর দিয়ে) -মেয়েদের ইসলামিক নাম অর্থসহ pdf | মেয়েদের আধুনিক নামের তালিকা-মেয়েদের নামের তালিকা অর্থসহ-মেয়ে বাবুর ইসলামিক নাম" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc0P3tU5bG4bLqOmhnFGISZ8BrtyczeijFLmqrg_J1MN58o2lb68jmNpvcNq8nCrz2788rQkuhLo6IzI8WUjvbvbNoJrnWXRejdoBEH8WN0BV_s0BRicGUSZcp_2EbXJukprzLwvvUvi3R/s16000/IMG_20260317_042044.jpg" /></a></div>
+
 <p><span style="font-size: 1em;"><br /></span></p>
 <p><span style="font-size: 1em;">আসছালামু আলাইকুম প্রিয় পাঠক সবাই কেমন আছেন।আসা করি সবাই ভালো আছেন। বন্ধুরা আজকে আমরা তোমাদের এই পোস্টে <b><u>মেয়েদের ইসলামিক নাম সকল অক্ষর দিয়ে</u></b> শেয়ার করবো । আসা করি তোমাদের উপকারে আসবে।</span></p>
 <div>
     <button>Table Of Contents</button><br />
     </p>
 <ul></ul>
-<p>    </p></div>
-<p>  </p>
+</div>
+
 <h2 style="text-align: left;"><span>মেয়েদের আধুনিক নামের তালিকা</span></h2>
 <p dir="ltr"><span style="font-size: 1em;"><u><b>মেয়েদের ইসলামিক নাম</b></u> : অনেকে আছেন যারা ভিবিন্ন অক্ষর দিয়ে মেয়ে বাবুর নাম খুজে থাকেন। তাই আমরা তোমাদের জন্য একটি পোস্ট সকল অক্ষর দিয়ে <u><b>ইসলামিক নাম মেয়েদের অর্থসহ</b></u> শেয়ার করতেছি। আসা করি এই পোস্টে আপনার মেয়ে বাবুর নাম ইসলামিক সুন্দর একটি পেয়ে যাবেন। </span></p>
 <h2 style="text-align: center;"><span style="font-size: 1em;">ইসলামিক নাম মেয়েদের অর্থসহ &#8211; মেয়েদের ইসলামিক নাম অর্থসহ pdf |&nbsp; মেয়েদের ইসলামিক নামের তালিকা</span></h2>
@@ -8851,11 +8760,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>রওশন &#8211; অর্থ &#8211; উজ্জ্বল</p>
 <p>রীমা &#8211; অর্থ &#8211; সাদা হরিণ</p>
 <p>রোমানা &#8211; অর্থ &#8211; ডালিম</p></div>
-<div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;"></div>
+
 <div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;">রিমশা &#8211; অর্থ &#8211; ফুল&nbsp;</div>
-<div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;"></div>
+
 <div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;">রিহানা &#8211; অর্থ &#8211; পবিত্র,&nbsp; শুদ্ধ&nbsp;</div>
-<div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;"></div>
+
 <div dir="ltr" style="background-attachment: initial; background-clip: initial; background-image: initial; background-origin: initial; background-position: 0px 0px; background-repeat: initial; background-size: initial; border: 0px; font-family: Roboto, sans-serif; font-size: 15px; outline: 0px; padding: 0px; vertical-align: baseline;">রোমিসা &#8211; অর্থ &#8211; সৌন্দর্য, স্বর্গ</p>
 <p>রাফিয়া &#8211; অর্থ &#8211; উন্নত</p>
 <p>রাইসা&nbsp;&#8211; অর্থ &#8211; রাণী</p>
@@ -8958,10 +8867,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 </ul>
 <p></span></div>
 <h2 style="text-align: left;"><span style="font-size: 16px;">হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</span></h2>
-<div></div>
-<p dir="ltr"><span style="font-size: 1em;">Tag: অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,আ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ই দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঈ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,এ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,খ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,গ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঘ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,চ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ছ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ট দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঠ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ড দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঢ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ণ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,থ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ধ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ন দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ফ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ভ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ম দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,য দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,র দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ল দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ষ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,স দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,</span></p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc0P3tU5bG4bLqOmhnFGISZ8BrtyczeijFLmqrg_J1MN58o2lb68jmNpvcNq8nCrz2788rQkuhLo6IzI8WUjvbvbNoJrnWXRejdoBEH8WN0BV_s0BRicGUSZcp_2EbXJukprzLwvvUvi3R/s16000/IMG_20260317_042044.jpg",
+
+<p dir="ltr"><span style="font-size: 1em;">Tag: অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,আ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ই দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঈ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,এ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ক দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,খ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,গ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঘ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,চ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ছ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ট দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঠ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ড দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ঢ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ণ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ত দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,থ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,দ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ধ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ন দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,প দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ফ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ব দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ভ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ম দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,য দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,র দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ল দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,ষ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,স দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,হ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ,</span></p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgpq/gprzgp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmrjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpoXgprDgp43gpqUg4Ka44Ka5IOCnq+CnpuCnpuCnpiso4Ka44KaV4KayIOCmheCmleCnjeCmt+CmsDwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpqbgpr/gp5/gp4cpIC3gpq7gp4fgp5/gp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%95-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%85%e0%a6%b0%e0%a7%8d.html",
     category: "Baby Boy & Girl Name",
@@ -8969,21 +8877,22 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1337,
-    title: `রাসুল সাঃ এর সন্তানদের নাম || নবীজির মেয়েদের নাম || নবীজির ছেলেদের নাম -হযরত মোহাম্মদ সাঃ এর সন্তানদের নাম`,
-    slug: "রাসুল-সাঃ-এর-সন্তানদের-না",
-    excerpt: `Table Of Contents রাসুল সাঃ এর সন্তানদের নাম আসসালামুআলাইকুম সবাইকে Educationblog.Com এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন`,
-    content: `<p style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhZrnE7xmE2R7ASpd7BcHwzSmFnGJh4NCdUkXzPT57MwwHWkOQI41DuIbM9ng_dLxGKsdX2E1_EIgWznY9k44FjF10r99Wow-q_gslu1uYROPdhI4nptHUnZLVYv1a6lENvqS6nhLgtjyggZMFYkaM-vFH-LCRBNC6TZJ75in8MGqKahBju-oe8IfZ4=s1280" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEhZrnE7xmE2R7ASpd7BcHwzSmFnGJh4NCdUkXzPT57MwwHWkOQI41DuIbM9ng_dLxGKsdX2E1_EIgWznY9k44FjF10r99Wow-q_gslu1uYROPdhI4nptHUnZLVYv1a6lENvqS6nhLgtjyggZMFYkaM-vFH-LCRBNC6TZJ75in8MGqKahBju-oe8IfZ4=s16000" /></a></p>
-<p></p>
+    title: "রাসুল সাঃ এর সন্তানদের নাম || নবীজির মেয়েদের নাম || নবীজির ছেলেদের নাম -হযরত মোহাম্মদ সাঃ এর সন্তানদের নাম",
+    slug: "nobijir-er-sontander-name",
+    oldSlug: "রাসুল-সাঃ-এর-সন্তানদের-না",
+    excerpt: `Table Of Contents রাসুল সাঃ এর সন্তানদের নাম আসসালামুআলাইকুম সবাইকে BD Edu PDF এ স্বাগতম। আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি। বন্ধুরা আ`,
+    content: `<p style="clear: both; text-align: center;"></p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">রাসুল সাঃ এর সন্তানদের নাম</h2>
-<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>Educationblog.Com</b>&nbsp;এ স্বাগতম।&nbsp;</div>
+<div><b>আসসালামুআলাইকুম</b>&nbsp;সবাইকে&nbsp;<b>BD Edu PDF</b>&nbsp;এ স্বাগতম।&nbsp;</div>
 <div>
 <p>আশা করি আল্লাহুর অশেষ রহমতে আপনারা সবাই ভালো আছেন। আলহামদুলিল্লাহ আমরাও আল্লাহর অশেষ রহমতে ভালো আছি।&nbsp;</p>
-<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>Educationblog.Com</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #01ffff;">নবীদের মেয়ের নাম,&nbsp; নবীজির ছেলেদের নাম,&nbsp; নবীজির মেয়েদের নাম,&nbsp; নবীজির ছেলে ও মেয়েদের নাম অর্থসহ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
-<p></p>
+<p>বন্ধুরা আজকে আপনাদের মাঝে&nbsp;<b>BD Edu PDF</b>&nbsp;নিয়ে আসলো&nbsp;<b style="background-color: #01ffff;">নবীদের মেয়ের নাম,&nbsp; নবীজির ছেলেদের নাম,&nbsp; নবীজির মেয়েদের নাম,&nbsp; নবীজির ছেলে ও মেয়েদের নাম অর্থসহ</b> এই সম্পর্কে পোস্টে পাবেন সবকিছু।&nbsp;</p>
+
 </div>
 <h2 style="text-align: left;">নবীজির ছেলেদের নাম&nbsp;&nbsp;</h2>
 <p>★কাসিম — অর্থ — বন্টনকারী</p>
@@ -8992,7 +8901,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>পূর্ণ নামঃ আব্দুল্লাহ ইবনে মুহাম্মদ&nbsp;</p>
 <p>★ইব্রাহিম — অর্থ — পিতাদের পিতা</p>
 <p>পূর্ণ নামঃ ইব্রাহিম ইবনে মুহাম্মদ&nbsp;</p>
-<p></p>
+
 <h2 style="text-align: left;">নবীজির মেয়েদের নাম&nbsp;&nbsp;</h2>
 <p>★জয়নাব — অর্থ — একটি সুগন্ধি ফুল</p>
 <p>পূর্ণ নামঃ জয়নব বিনতে মুহাম্মদ&nbsp;</p>
@@ -9019,7 +8928,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★আল &#8211; বাতুল&nbsp;&nbsp;</p>
 <p>★আল &#8211; জহরা&nbsp;&nbsp;</p>
 <p>★সৈয়দাতুন নিসা আল &#8211; আলামিন</p>
-<p></p>
+
 <h2 style="text-align: left;">নবীজির ছেলে ও মেয়েদের নাম অর্থসহ</h2>
 <p>কাসিম — অর্থ — বন্টনকারী</p>
 <p>পূর্ণ নামঃ কাসিম ইবনে মুহাম্মদ&nbsp;</p>
@@ -9035,11 +8944,10 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>পূর্ণ নামঃ উম্মে কুলসুম বিনতে মুহাম্মদ&nbsp;</p>
 <p>★ফাতিমাহ — অর্থ — দুধ ছাড়ানো শিশুর মা</p>
 <p>পূর্ণ নামঃ সৈয়দা ফাতিমাহ বিনতে মুহাম্মদ&nbsp;</p>
-<p></p>
-<p></p>
-<p><b>Tag</b>:&nbsp;নবীদের মেয়ের নাম,&nbsp; নবীজির ছেলেদের নাম,&nbsp; নবীজির মেয়েদের নাম,&nbsp; নবীজির ছেলে ও মেয়েদের নাম অর্থসহ</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/a/AVvXsEhZrnE7xmE2R7ASpd7BcHwzSmFnGJh4NCdUkXzPT57MwwHWkOQI41DuIbM9ng_dLxGKsdX2E1_EIgWznY9k44FjF10r99Wow-q_gslu1uYROPdhI4nptHUnZLVYv1a6lENvqS6nhLgtjyggZMFYkaM-vFH-LCRBNC6TZJ75in8MGqKahBju-oe8IfZ4=s16000",
+
+
+<p><b>Tag</b>:&nbsp;নবীদের মেয়ের নাম,&nbsp; নবীজির ছেলেদের নাম,&nbsp; নবীজির মেয়েদের নাম,&nbsp; নবীজির ছেলে ও মেয়েদের নাম অর্থসহ</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gprDgpr7gprjgp4HgprIg4Ka44Ka+4KaDIOCmj+CmsCDgprjgpqjgp43gpqTgpr7gpqjgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4KauIHx8IOCmqOCmrOCngOCmnOCmv+CmsCDgpq7gp4fgpq/gprzgp4fgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4KauIHx8IOCmqOCmrOCngOCmnOCmv+CmsCDgppvgp4fgprLgp4fgpqbgp4fgprA8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%b0%e0%a6%be%e0%a6%b8%e0%a7%81%e0%a6%b2-%e0%a6%b8%e0%a6%be%e0%a6%83-%e0%a6%8f%e0%a6%b0-%e0%a6%b8%e0%a6%a8%e0%a7%8d%e0%a6%a4%e0%a6%be%e0%a6%a8%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be.html",
     category: "Baby Boy & Girl Name",
@@ -9047,109 +8955,107 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1416,
-    title: `মেয়েদের নাম: জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – J দিয়ে মেয়েদের ইসলামিক নাম | জ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-জ-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো জ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEoIe3ZpYmzXTvGEEAPDsm-TdmDigF9NCQ05BLAdlVzFhrzcuVbt_S0ZJ4emUl5v3dOEqycm3HA7JJg4E5AzW44mfaLBD7rcw-8xjWsyuSy83LpaE58ndu6kMiufLprZ5T1i5_C-jdNQk/s1280/20260708_153950.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="428" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEoIe3ZpYmzXTvGEEAPDsm-TdmDigF9NCQ05BLAdlVzFhrzcuVbt_S0ZJ4emUl5v3dOEqycm3HA7JJg4E5AzW44mfaLBD7rcw-8xjWsyuSy83LpaE58ndu6kMiufLprZ5T1i5_C-jdNQk/s16000/20260708_153950.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">জ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। জ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "মেয়েদের নাম: জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ – J দিয়ে মেয়েদের ইসলামিক নাম | জ দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-j-diye-meyeder-islamic-name-meaning",
+    oldSlug: "মেয়েদের-নাম-জ-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো জ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">জ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। জ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">জ<span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">জ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;জ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <p style="text-align: left;">&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></p>
 <p>১.জয়া &#8211; অর্থ – স্বাধীন</p>
-<p></p>
+
 <p>২.জয়নব – অর্থ – সুদশনী</p>
-<p></p>
+
 <p>৩.জ্যোৎস্না / জোস্না – অর্থ – চাঁদের আলো</p>
-<p></p>
+
 <p>৪.জেসমিন – অর্থ – ফুলের নাম</p>
-<p></p>
+
 <p>৫.জেসি / জেসিকা / জেসা – অর্থ – জুঁই / নবমালিকা</p>
-<p></p>
+
 <p>৬.জাহান – অর্থ – পৃথিবী</p>
-<p></p>
+
 <p>৭.জমিমা – অর্থ – ভাগ্য</p>
-<p></p>
+
 <p>৮.জাবিরা – অর্থ – রাজি হওয়া</p>
-<p></p>
+
 <p>৯.জাদিদাহ – অর্থ – নতুন</p>
-<p></p>
+
 <p>১০.জাদওয়াহ – অর্থ – উপহার</p>
-<p></p>
+
 <p>১১.জুলফা – অর্থ – বাগান</p>
-<p></p>
+
 <p>১২.জালসান – অর্থ – বাগান</p>
-<p></p>
+
 <p>১৩.জুই / জুঁই– অর্থ – ফুলের নাম</p>
-<p></p>
+
 <p>১৪.জুথী / জুথীকা – অর্থ – নবমালিকা / জুঁই</p>
-<p></p>
+
 <p>১৫.জুহি – অর্থ – ফুল বিশেষ</p>
-<p></p>
+
 <p>১৬.জিমি – অর্থ – উদার</p>
-<p></p>
+
 <p>১৭.জারিন – অর্থ – স্বর্ণ / স্বর্ণের তৈরি / সোনালী / সুবর্ণ</p>
-<p></p>
+
 <p>১৮.জারিন তাসনিম – অর্থ – সুবর্ণ ঝর্ণা</p>
-<p></p>
+
 <p>১৯.জেরিন – অর্থ –&nbsp; সোনালী / সুবর্ণ / স্বর্ণ / স্বর্ণের তৈরি</p>
-<p></p>
+
 <p>২০জোহা – অর্থ – প্রতীক্ষা করা / প্রত্যাশা / অনুসন্ধান করা</p>
-<p></p>
+
 <h2 style="text-align: left;">J দিয়ে মেয়েদের ইসলামিক নাম | জ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; <u><b>নাম</b></u>&nbsp; &nbsp; &nbsp; <b><u>Name</u></b>&nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1.জুলি – Juli – জলনালী / সরু নালা</div>
-<div></div>
+
 <div>2.জাকিয়া – Jakia – পবিত্র / নিষ্পাপ / নিরপরাধ / নির্দোষ</div>
-<div></div>
+
 <div>3.জাকিয়া সুলতানা – Jakiya Sultana – বাংলা অর্থ – পবিত্র রাণী / নিরপরাধ শাসক</div>
-<div></div>
+
 <div>4.জারা – Jara – রাজকুমারী / গোলাম / ছোট্ট প্রজাপতি</div>
-<div></div>
+
 <div>5.জাইয়ানা– Jaiyana – শক্তি</div>
-<div></div>
+
 <div>6.জামিয়া – Jamia – সুন্দর</div>
-<div></div>
+
 <div>7.জামানা – Jamana – মুক্তা</div>
-<div></div>
+
 <div>8.জানান – Janan – হৃদয় / আত্মা</div>
-<div></div>
+
 <div>9.জুনাইনাহ – Junainah – বেহেশতের বাগান</div>
-<div></div>
+
 <div>10.জুয়াইরিয়া – Juyairia – ছোট্ট বালিকা / যুবা মহিলা / এক ধরনের গোলাপ ফুল</div>
-<div></div>
+
 <div>11.জুওয়াইরিয়াহ – Juoyairiah – মহানবি সা. এর একজন স্ত্রী / ছোট্ট বালিকা</div>
-<div></div>
+
 <div>12.জাযিবা – Jazeba – আকর্ষণীয়</div>
-<div></div>
+
 <div>13.জাবীন / জেবিন – Jabin – কপাল / ললাট</div>
-<div></div>
+
 <div>14.জাসীমা – Jasima – মোটা / বিরাটকায়</div>
-<div></div>
+
 <div>15.জালওয়াত – Jalwat – ঘোমটা উন্মোচন / প্রত্যক্ষ করা</div>
-<div></div>
+
 <div>16.জালীলা – Jalila – মহতী</div>
-<div></div>
+
 <div>17.জামীলা / জামিলাহ – Jamila – সুন্দরী</div>
-<div></div>
+
 <div>18.জান্নাত – Jannat – বেহেশত / স্বর্গ</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;জ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp;J দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; জ দিয়ে মেয়ে শিশুর নাম, জ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: জ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</div>
 <div></p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEoIe3ZpYmzXTvGEEAPDsm-TdmDigF9NCQ05BLAdlVzFhrzcuVbt_S0ZJ4emUl5v3dOEqycm3HA7JJg4E5AzW44mfaLBD7rcw-8xjWsyuSy83LpaE58ndu6kMiufLprZ5T1i5_C-jdNQk/s16000/20260708_153950.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgppwg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDigJMgSiDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%9c-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -9157,112 +9063,110 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 782,
-    title: `১৫০+ শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬- Sh দিয়ে মেয়েদের ইসলামিক নাম | শ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "১৫০-শ-দিয়ে-মেয়েদের-ইসলা",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো শ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZyrV-0FSwCm_zbjp1Z0pxhIYTlVzcbYYBKGA5ThARhGx0HY0lJh8P4SF2Aw9xN1yuCxtXD9qn7wokPZFEtCpNcKHUwljoed8Pgu6rbEdOYqR8DXkHxlCwSTTaEB6M998E8t9zs21rKa8/s1280/20260709_152545.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZyrV-0FSwCm_zbjp1Z0pxhIYTlVzcbYYBKGA5ThARhGx0HY0lJh8P4SF2Aw9xN1yuCxtXD9qn7wokPZFEtCpNcKHUwljoed8Pgu6rbEdOYqR8DXkHxlCwSTTaEB6M998E8t9zs21rKa8/s16000/20260709_152545.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">শ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। শ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "১৫০+ শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬- Sh দিয়ে মেয়েদের ইসলামিক নাম | শ দিয়ে মেয়ে শিশুর নাম",
+    slug: "150-sh-diye-meyeder-islamic-name-meaning-2026-sh-diye-meyeder-islamic-name",
+    oldSlug: "১৫০-শ-দিয়ে-মেয়েদের-ইসলা",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো শ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">শ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। শ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">শ<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">শ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;শ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b><u>অর্থ</u></b></div>
 <div>
 <div>১.শাফীকা – অর্থ – সুপারিশ কারিনী</div>
-<div></div>
+
 <div>২.শাকীলা –&nbsp; অর্থ – স্নেহশীলা</div>
-<div></div>
+
 <div>৩.শাকুরা – অর্থ – সুশ্রী / প্রেমিকা</div>
-<div></div>
+
 <div>৪.শামসুন – অর্থ – অত্যন্ত কৃতজ্ঞ</div>
-<div></div>
+
 <div>৫.শাহীদা – অর্থ – সূর্য / রবি</div>
-<div></div>
+
 <div>৬.শাহনাজ&nbsp; &#8211; অর্থ – সাক্ষীশাহীরা – ইংরেজী – Shahira – বাংলা অর্থ – দুলহান</div>
-<div></div>
+
 <div>৭.শিরীন – অর্থ – প্রসিদ্ধ</div>
-<div></div>
+
 <div>৮.শায়মা –অর্থ – মিষ্টি / প্রিয়</div>
-<div></div>
+
 <div>৯.শামা – অর্থ – শরীরের যতি চিহ্ন / উল্কা</div>
-<div></div>
+
 <div>১০.শামসিয়া – অর্থ – প্রদীপ</div>
-<div></div>
+
 <div>১১.শাহবা – অর্থ – ছাতা</div>
-<div></div>
+
 <div>১২.শাহলা – অর্থ – বাঘিনী</div>
-<div></div>
+
 <div>১৩.শামিখা &#8211; অর্থ – সুন্দরী</div>
-<div></div>
+
 <div>১৪.শারিকা – অর্থ – দৃঢ় / উচ্চ / উন্নত / মহিরূপ</div>
-<div></div>
+
 <div>১৫.শাম্মা – অর্থ – উজ্জল</div>
-<div></div>
+
 <div>১৬.শায়মা – অর্থ – সুন্দর</div>
-<div></div>
+
 <div>১৭.শীমাহ – অর্থ – রাসূল (সাঃ) এর দুধ বোন</div>
-<div></div>
+
 <div>১৮.শানিমুন – অর্থ – মেজাজ / অভ্যাস</div>
-<div></div>
+
 <div>১৯.শানিন – অর্থ – ঠান্ডা পানি</div>
-<div></div>
+
 <div>২০.শবনম – অর্থ – অশ্রুর ফোঁটা / পানি মেশানো</div>
 </div>
-<div></div>
-<div></div>
+
+
 <h2 style="text-align: left;">Sh দিয়ে মেয়েদের ইসলামিক নাম | শ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; <b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp; &nbsp; <u><b>অর্থ</b></u></div>
 <div>
 <div>1.শামীমা – Shamima – গোলাপ ফুলের সুবাস</div>
-<div></div>
+
 <div>2.শাবানা – Shabana – উপস্থিত</div>
-<div></div>
+
 <div>3.শাহনাজ – Shahanaj – সাহসিনী</div>
-<div></div>
+
 <div>4.শূহরাহ – Suhrah – বিশ্বখ্যাতি</div>
-<div></div>
+
 <div>5.শাহানা – Shahana – সুগন্ধ</div>
-<div></div>
+
 <div>6.শাকেরা – Shakira – রাজ কুমারী</div>
-<div></div>
+
 <div>7.শায়েরা – Shayera – কৃতজ্ঞতা প্রকাশ কারিনী</div>
-<div></div>
+
 <div>8.শাফাত – Shafat – বুদ্ধিমতী / মহিলা কবি</div>
-<div></div>
+
 <div>9.শাহ (ফার্সি) – Shah – মূল / শিকড়</div>
-<div></div>
+
 <div>10.শাহিদা – Shahida – বাদশাহ</div>
-<div></div>
+
 <div>11.শাজীয়া – Shazia – রাত্রি মধ্যে</div>
-<div></div>
+
 <div>12.শারীফা – Sharifa – বাজগর্ব</div>
-<div></div>
+
 <div>13.শূরফাত – Shorefat – ভদ্র / সম্ভ্রান্ত</div>
-<div></div>
+
 <div>14.শার্মিলা – Sharmila – মর্যাদা</div>
-<div></div>
+
 <div>15.শূরাফাত – Sharafat – লজ্জাবতী</div>
-<div></div>
+
 <div>16.শিফা – Shifa – ভদ্রতা / আভিজাত্য</div>
-<div></div>
+
 <div>17.শাফাকাত – Shafaqat – আরোধ্য</div>
-<div></div>
+
 <div>18.শাফীয়া – Shafia – অনুগ্রহ / স্নেহ / মমতা</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;শ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা,&nbsp; Sh দিয়ে মেয়েদের ইসলামিক নাম, শ দিয়ে মেয়ে শিশুর নাম, শ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: শ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZyrV-0FSwCm_zbjp1Z0pxhIYTlVzcbYYBKGA5ThARhGx0HY0lJh8P4SF2Aw9xN1yuCxtXD9qn7wokPZFEtCpNcKHUwljoed8Pgu6rbEdOYqR8DXkHxlCwSTTaEB6M998E8t9zs21rKa8/s16000/20260709_152545.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gp6fgp6vgp6YrIOCmtiDgpqbgpr/gp5/gp4cg4Kau4KeH4Kef4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4g4KaF4Kaw4KeN4Kal4Ka44Ka5IOCnqOCnpuCnqOCnrC08L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+U2gg4Kam4Ka/4Kef4KeHIOCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppU8L3RleHQ+CiAgICA8L2c+CgogICAgPCEtLSBEaXZpZGVyIC0tPgogICAgPGxpbmUgeDE9IjI1MCIgeTE9IjQ4NSIgeDI9Ijk1MCIgeTI9IjQ4NSIgc3Ryb2tlPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgCiAgICA8IS0tIEZvb3RlciBCcmFuZGluZyAtLT4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iNTMwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2ZiY2ZlOCIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QkQgRWR1IFBERiDigKIg4Ken4Kem4KemJSDgpqjgpr/gprDgp43gpq3gp4HgprIg4Kao4Ka+4Kau4KeH4KawIOCmheCmsOCnjeCmpSDgprjgpoLgppXgprLgpqg8L3RleHQ+CiAgPC9zdmc+",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a7%a7%e0%a7%ab%e0%a7%a6-%e0%a6%b6-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be.html",
     category: "Baby Boy & Girl Name",
@@ -9270,12 +9174,11 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1321,
-    title: `ইরানী মেয়ে শিশুর নাম 100+ | ইরানী মেয়েদের নামের তালিকা`,
-    slug: "ইরানী-মেয়ে-শিশুর-নাম-100-ইরা",
-    excerpt: `আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে Educationblog24.Com এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন। প্রিয় পাঠকবৃন্দ বন্ধুরা আপনারা অনেকেই ইন্`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi270zj4uPJ9-yQ4s4GlogO0Vmd68pv317yTxtNBKD2vYQ0MD_vqXu2PGBDoOCjbbLtdoY0xmE-YucxF1Nwl3bJvJ0uEsST5LmAXB2HHxXqI6OHS3R8iqGOV_l0m1R6lEsJRZRqWhGw4py_AxrvhR1ukWaBs14BCAw40XZrRqUnaUzmP1ty_4637Qw0/s1280/20220526_170039.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="ইরানী মেয়ে শিশুর নাম 100+ | ইরানী মেয়েদের নামের তালিকা" border="0" data-original-height="450" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi270zj4uPJ9-yQ4s4GlogO0Vmd68pv317yTxtNBKD2vYQ0MD_vqXu2PGBDoOCjbbLtdoY0xmE-YucxF1Nwl3bJvJ0uEsST5LmAXB2HHxXqI6OHS3R8iqGOV_l0m1R6lEsJRZRqWhGw4py_AxrvhR1ukWaBs14BCAw40XZrRqUnaUzmP1ty_4637Qw0/s16000/20220526_170039.jpg" title="ইরানী মেয়ে শিশুর নাম 100+ | ইরানী মেয়েদের নামের তালিকা" /></a></div>
-<p></p>
-<p>আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে&nbsp;<span style="color: red;">Educationblog24.Com</span>&nbsp;এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন।&nbsp;</p>
+    title: "ইরানী মেয়ে শিশুর নাম 100+ | ইরানী মেয়েদের নামের তালিকা",
+    slug: "irani-meye-shishur-name-100",
+    oldSlug: "ইরানী-মেয়ে-শিশুর-নাম-100-ইরা",
+    excerpt: `আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে BD Edu PDF এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন। প্রিয় পাঠকবৃন্দ বন্ধুরা আপনারা অনেকেই ইন্টারনেট সা`,
+    content: `<p>আসসালামু আলাইকুম প্রিয় পাঠকবৃন্দ বন্ধুরা আপনাদের সবাইকে&nbsp;<span style="color: red;">BD Edu PDF</span>&nbsp;এর পক্ষ থেকে শুভেচ্ছা ও স্বাগতম। আশা করি আল্লাহর অশেষ রহমতে আপনারা অনেক ভালো আছেন।&nbsp;</p>
 <p>প্রিয় পাঠকবৃন্দ বন্ধুরা আপনারা অনেকেই ইন্টারনেট সাহায্যে জানতে চান <b>ইরানী মেয়ে শিশুদের নামের তালিকা</b> সম্পর্কে। এবং অনেকেই এই <b>ইরানি মেয়েদের নামের তালিকা</b> পাওয়ার জন্য অনেকেই অনেক রকম ভাবে খোঁজাখুজি করে থাকেন। তাই বন্ধুরা শুধুমাত্র আপনাদের সুবিধার জন্য আমরা এই পোস্টের মাধ্যমে আপনাদের মাঝে নিয়ে হাজির হলাম <b>ইরানী মেয়ে শিশুর নাম 100+, ইরানী মেয়েদের নামের তালিকা</b>। আশা করি আমাদের এই পোস্টে দেওয়া গুরুত্বপূর্ণ এই <b>ইরানী মেয়েদের নামের তালিকা</b> পেয়ে আপনাদের অনেক উপকার হবে।&nbsp;</p>
 <p>&nbsp;</p>
 <div>
@@ -9313,7 +9216,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★দিবা — একটি অমূল্য ব্রোকেড বা সূক্ষ্ম সিল্ক,,!!</p>
 <p>★দিলারা — শোভাময় সৌন্দর্য,,!!</p>
 <p>★দিলনাজ — প্রিয় বা প্রিয়তমা,,!!</p>
-<p></p>
+
 <h2 style="text-align: left;">ইরানী মেয়েদের নামের তালিকা</h2>
 <p>★ইমাজেন — কল্পনা করা,,!!</p>
 <p>★এসমি — সম্মানিত, প্রিয়, বা পান্না,,!!</p>
@@ -9340,10 +9243,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★ফারসিরিস — একটি রাজকীয় মেয়ে, একটি রাজকুমারী,,!!</p>
 <p>★ফ্রিমা — চমৎকার বা অত্যাশ্চর্য বোঝায়,,!!</p>
 <p>★গীতি — বিশ্ব, মহাবিশ্ব,,!!</p>
-<p></p>
-<p>Tag:&nbsp;ইরানী মেয়ে শিশুর নাম 100+, ইরানী মেয়েদের নামের তালিকা</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi270zj4uPJ9-yQ4s4GlogO0Vmd68pv317yTxtNBKD2vYQ0MD_vqXu2PGBDoOCjbbLtdoY0xmE-YucxF1Nwl3bJvJ0uEsST5LmAXB2HHxXqI6OHS3R8iqGOV_l0m1R6lEsJRZRqWhGw4py_AxrvhR1ukWaBs14BCAw40XZrRqUnaUzmP1ty_4637Qw0/s16000/20220526_170039.jpg",
+
+<p>Tag:&nbsp;ইরানী মেয়ে শিশুর নাম 100+, ইরানী মেয়েদের নামের তালিকা</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpofgprDgpr7gpqjgp4Ag4Kau4KeH4Kav4Ka84KeHIOCmtuCmv+CmtuCngeCmsCDgpqjgpr7gpq48L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzE1IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+MTAwKyB8IOCmh+CmsOCmvuCmqOCngCDgpq7gp4fgp5/gp4fgpqbgp4fgprA8L3RleHQ+Cjx0ZXh0IHg9IjYwMCIgeT0iMzgwIiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0NCIgZm9udC13ZWlnaHQ9IjkwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSI+4Kao4Ka+4Kau4KeH4KawIOCmpOCmvuCmsuCmv+CmleCmvjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%87%e0%a6%b0%e0%a6%be%e0%a6%a8%e0%a7%80-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%b6%e0%a6%bf%e0%a6%b6%e0%a7%81%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-100-%e0%a6%87%e0%a6%b0%e0%a6%be.html",
     category: "Baby Boy & Girl Name",
@@ -9351,20 +9253,19 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1338,
-    title: `আব্দুল্লাহ আল দিয়ে ছেলেদের ইসলামিক নাম আব্দুল্লাহ নামের সাথে মিলিয়ে নাম | আব্দুল্লাহ দিয়ে ছেলেদের ইসলামিক অর্থ অর্থ সহ`,
-    slug: "আব্দুল্লাহ-আল-দিয়ে-ছেলে",
-    excerpt: `Table Of Contents আব্দুল্লাহ আল দিয়ে নাম Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য Educationblog`,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBdMg-0EigPZjSk9j56b_fPVxClsLPR-oyufmnT9JqcOGOb47MSwSKLqQYdHSAQdx2GTJZTKWvC0Gfx2u61uEsa-RmDz3dgltTq4x4few-ZOVN_4RPNP7P27zO9stTjiywwXVaZq1XcmHCIZ_gVGXsiw3aYVi6WrTuNQlCD-NrWcl_vg7qp6rGHGiw/s1280/20220524_003838.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" alt="আব্দুল্লাহ আল দিয়ে নাম | আব্দুল্লাহ নামের সাথে মিলিয়ে নাম" border="0" data-original-height="480" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBdMg-0EigPZjSk9j56b_fPVxClsLPR-oyufmnT9JqcOGOb47MSwSKLqQYdHSAQdx2GTJZTKWvC0Gfx2u61uEsa-RmDz3dgltTq4x4few-ZOVN_4RPNP7P27zO9stTjiywwXVaZq1XcmHCIZ_gVGXsiw3aYVi6WrTuNQlCD-NrWcl_vg7qp6rGHGiw/s16000/20220524_003838.jpg" title="আব্দুল্লাহ আল দিয়ে নাম | আব্দুল্লাহ নামের সাথে মিলিয়ে নাম" /></a></div>
-<p></p>
-<div>
+    title: "আব্দুল্লাহ আল দিয়ে ছেলেদের ইসলামিক নাম আব্দুল্লাহ নামের সাথে মিলিয়ে নাম | আব্দুল্লাহ দিয়ে ছেলেদের ইসলামিক অর্থ অর্থ সহ",
+    slug: "abdullah-al-diye-cheleder-islamic-name-abdullah-name-sth-mly-name",
+    oldSlug: "আব্দুল্লাহ-আল-দিয়ে-ছেলে",
+    excerpt: `Table Of Contents আব্দুল্লাহ আল দিয়ে নাম BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো B`,
+    content: `<div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">আব্দুল্লাহ আল দিয়ে নাম</h2>
-<p><span style="color: #2b00fe;">Educationblog24.com</span> এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <span style="color: #2b00fe;">Educationblog24.com</span> নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ ও নাম। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন। সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+<p><span style="color: #2b00fe;">BD Edu PDF</span> এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।আপনাদের সুবিধার্থের জন্য <span style="color: #2b00fe;">BD Edu PDF</span> নিয়ে আসলো Boy / Baby / Girl নামের সকল প্রকার অর্থ ও নাম। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন। সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <p>প্রিয় পাঠক আপনি যদি আব্দুল্লাহ আল নাম দিয়ে নাম&nbsp;খুজে থাকেন তাহলে আপনি সঠিক জায়গায় এসেছেন। এই পোস্টে আমরা&nbsp;<b>আব্দুল্লাহ আল দিয়ে নাম, আব্দুল্লাহ নামের সাথে মিলিয়ে নাম</b> শেয়ার করবো।</p>
 <p>বন্ধুরা&nbsp;<b>আব্দুল্লাহ আল দিয়ে নাম, আব্দুল্লাহ নামের সাথে মিলিয়ে নাম&nbsp;</b>দেখতে পারবেন। এবং আপনি চাইলে মুসলিম ধর্মে এই নামগুলো রাখতে পারেন। এই নাম গুলোর মতো এই নামের অর্থগুলো অনেক সুন্দর নিচে আমরা <b>আব্দুল্লাহ আল দিয়ে কিছু নাম</b>&nbsp;আপনাদের মাঝে শেয়ার করতেছি। আশা করি এই পোস্টে দেওয়া <b>আব্দুল্লাহ নামের সাথে মিলিয়ে নাম&nbsp;</b>পেয়ে আপনাদের অনেক উপকার হবে।</p>
-<p></p>
+
 <h2 style="text-align: left;">আব্দুল্লাহ নামের সাথে মিলিয়ে নাম</h2>
 <p>আব্দুল্লাহ আল দিয়ে সুন্দর ইসলামিক কিছু নাম নিচে দেওয়া হলো—</p>
 <p>★আব্দুল্লাহ আল মামুন</p>
@@ -9400,10 +9301,9 @@ const BABY_NAME_POSTS: CategoryPost[] = [
 <p>★আব্দুল্লাহ আল আশরাফ&nbsp;</p>
 <p>★আব্দুল্লাহ আল জাকির</p>
 <p>★আব্দুল্লাহ আল রহমান</p>
-<p></p>
-<p><b>Tag</b>:&nbsp;আব্দুল্লাহ আল দিয়ে নাম | আব্দুল্লাহ নামের সাথে মিলিয়ে নাম</p>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBdMg-0EigPZjSk9j56b_fPVxClsLPR-oyufmnT9JqcOGOb47MSwSKLqQYdHSAQdx2GTJZTKWvC0Gfx2u61uEsa-RmDz3dgltTq4x4few-ZOVN_4RPNP7P27zO9stTjiywwXVaZq1XcmHCIZ_gVGXsiw3aYVi6WrTuNQlCD-NrWcl_vg7qp6rGHGiw/s16000/20220524_003838.jpg",
+
+<p><b>Tag</b>:&nbsp;আব্দুল্লাহ আল দিয়ে নাম | আব্দুল্লাহ নামের সাথে মিলিয়ে নাম</p>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpobgpqzgp43gpqbgp4HgprLgp43gprLgpr7gprkg4KaG4KayIOCmpuCmv+Cnn+CnhzwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzMTUiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gppvgp4fgprLgp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmrjwvdGV4dD4KPHRleHQgeD0iNjAwIiB5PSIzODAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpobgpqzgp43gpqbgp4HgprLgp43gprLgpr7gprkg4Kao4Ka+4Kau4KeH4KawIOCmuOCmvuCmpeCnhzwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%86%e0%a6%ac%e0%a7%8d%e0%a6%a6%e0%a7%81%e0%a6%b2%e0%a7%8d%e0%a6%b2%e0%a6%be%e0%a6%b9-%e0%a6%86%e0%a6%b2-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87.html",
     category: "Baby Boy & Girl Name",
@@ -9411,142 +9311,140 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 1417,
-    title: `500+ জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – J দিয়ে ছেলেদের ইসলামিক নাম | জ দিয়ে ছেলে শিশুর নামের তালিকা`,
-    slug: "500-জ-দিয়ে-ছেলেদের-ইসলামিক-ন",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো জ দিয়ে ছেলেদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh1naHA1o8ukbZfcrmNXy1egeis-Wi4vNC2kgs8PWgptbl_pEuY0aqq0_cMTapPJaJlLj09OzR9oO_uygnXX9urIFGAS0Jl8mBnCawi7LdgJ1_-EkKeW8oDPTOI-d2yx0OCeLD5nQLXos/s1280/20260703_213007.jpg" style="margin-left: 1em; margin-right: 1em;" target="_blank" rel="noopener"><img decoding="async" border="0" data-original-height="632" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh1naHA1o8ukbZfcrmNXy1egeis-Wi4vNC2kgs8PWgptbl_pEuY0aqq0_cMTapPJaJlLj09OzR9oO_uygnXX9urIFGAS0Jl8mBnCawi7LdgJ1_-EkKeW8oDPTOI-d2yx0OCeLD5nQLXos/s16000/20260703_213007.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">জ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। জ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
-<p></p>
+    title: "500+ জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ – J দিয়ে ছেলেদের ইসলামিক নাম | জ দিয়ে ছেলে শিশুর নামের তালিকা",
+    slug: "500-j-diye-cheleder-islamic-name-meaning",
+    oldSlug: "500-জ-দিয়ে-ছেলেদের-ইসলামিক-ন",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো জ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">জ দিয়ে ছেলেদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। জ দিয়ে ছেলেদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">গ দিয়ে নিচে ছেলেদের নামের তালিকা</span> দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">জ দিয়ে ছেলে শিশুর নাম &#8211; জ দিয়ে ছেলেদের ইসলামি সুন্দর নাম&nbsp;</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
-<div></div>
+
 <div>
 <div>১.জাফর –&nbsp; অর্থ – বড় নদী</div>
-<div></div>
+
 <div>২.জাহিদুল হক –&nbsp; অর্থ – প্রকৃত সংযমী</div>
-<div></div>
+
 <div>৩.জহিরুদ্দীন – বাংলা অর্থ – দ্বীনের বন্ধু</div>
-<div></div>
+
 <div>৪.জলীল –&nbsp; অর্থ – মহান</div>
-<div></div>
+
 <div>৫.জামালু্দ্দীন –&nbsp; অর্থ – দ্বীনের সাধক</div>
-<div></div>
+
 <div>৬.জামালুল ইসলাম-&nbsp; অর্থ – ইসলামের মুফীজ</div>
-<div></div>
+
 <div>৭.জামীল –&nbsp; অর্থ – সুন্দর</div>
-<div></div>
+
 <div>৮.জামিলুল হক –&nbsp; অর্থ – প্রকৃত ন্যায়নিষ্ঠ</div>
-<div></div>
+
 <div>৯.জারীফ –&nbsp; অর্থ – বুদ্ধিমান</div>
-<div></div>
+
 <div>১০.জাকি –&nbsp; অর্থ – বুদ্ধিমতি</div>
-<div></div>
+
 <div>১১.জকীউদ্দীন –&nbsp; অর্থ – দ্বীনের নিরপেক্ষ</div>
-<div></div>
+
 <div>১২.জিয়া –&nbsp; অর্থ – পবিত্র</div>
-<div></div>
+
 <div>১৩.জিয়াউদ্দীন –&nbsp; অর্থ –&nbsp;</div>
 <div>দ্বীনের আলো</div>
-<div></div>
+
 <div>১৪.জিয়াউল হক –&nbsp; অর্থ – প্রকৃত জ্যোতি</div>
-<div></div>
+
 <div>১৫.জিয়াউল হাসান –&nbsp; অর্থ – সুন্দর সাহায্যকারী</div>
-<div></div>
+
 <div>১৬.জিয়াউল ইসলাম –&nbsp; অর্থ – ইসলামের জ্যোতি</div>
-<div></div>
+
 <div>১৭.জিয়াউর রহমান –&nbsp; অর্থ – দয়াময়ের দান</div>
-<div></div>
+
 <div>১৮.জিল্লুর রহমান –&nbsp; অর্থ – দয়াময়ের ছায়া</div>
-<div></div>
+
 <div>১৯.জুহায়ের আনজুম –&nbsp; অর্থ – উজ্জ্বল তারা</div>
-<div></div>
+
 <div>২০.জুহায়ের মাহতাব –&nbsp; অর্থ – উজ্জ্বল চাঁদ</div>
-<div></div>
+
 <div>২১.জুহায়ের ওয়াসিম –&nbsp; অর্থ – উজ্জ্বল সুন্দর গঠন</div>
 </div>
-<div></div>
-<div></div>
+
+
 <h2 style="text-align: left;">J দিয়ে ছেলেদের ইসলামিক নাম |&nbsp;জ দিয়ে ছেলে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
-<div></div>
+
 <div>
 <div>1= Jahid (জাহিদ) &#8211; প্রচেষ্টাকারী</div>
-<div></div>
-<div></div>
+
+
 <div>2= Jarif (জারীফ) &#8211; বুদ্ধিমান</div>
-<div></div>
-<div></div>
+
+
 <div>3= Jalal (জালাল) &#8211; মহিমা</div>
-<div></div>
-<div></div>
+
+
 <div>4= Jalil (জালীল)- মহান</div>
-<div></div>
-<div></div>
+
+
 <div>5= Jamil (জামীল) &#8211; সুন্দর</div>
-<div></div>
-<div></div>
+
+
 <div>6=Jafar (জ্যাফার) &#8211; বড় নদী</div>
-<div></div>
-<div></div>
+
+
 <div>7=Zakir (জাকীর)- প্রশংসিত</div>
-<div></div>
-<div></div>
+
+
 <div>৪= Jit জৈীৎ) &#8211; আধিপত্য</div>
-<div></div>
-<div></div>
+
+
 <div>9 = Jahaan(জাহান)- পৃথিবী</div>
-<div></div>
-<div></div>
+
+
 <div>10= Jabir (জাবির) সচ্ছল (বিক্ষাত সাহাবীর নাম)</div>
-<div></div>
-<div></div>
+
+
 <div>11 Jubair (জুবাইর) &#8211; সচ্ছল (একজান সাহাবীর নাম</div>
-<div></div>
-<div></div>
+
+
 <div>12= Jahi (জাহিয়) &#8211; একজন আরবী ভাষার কবির নাম</div>
-<div></div>
-<div></div>
+
+
 <div>13 = Jodi (জোদি), &#8211; প্রচেষ্টার</div>
-<div></div>
-<div></div>
+
+
 <div>14 = Jadir (জাদীর) &#8211; উপযুক্ত, খােগ্য</div>
-<div></div>
-<div></div>
+
+
 <div>15= Jazib (জাবি) আকৃষ্টকারী</div>
-<div></div>
-<div></div>
+
+
 <div>16= Jarraf) (জাহ) আঘাতকারী</div>
-<div></div>
-<div></div>
+
+
 <div>17= Jazarr) (জাযম) -দৃঢ়তা</div>
-<div></div>
-<div></div>
+
+
 <div>18= Jagarat (জাসারাত) বীরত্ব</div>
-<div></div>
-<div></div>
+
+
 <div>19= Josim (জসিম)- বিরাটাকার</div>
-<div></div>
-<div></div>
+
+
 <div>20-Jalid (জালীদ) শক্ত বা কঠিন</div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+
+
+
 <div><b>Tag</b>:&nbsp;জ দিয়ে ছেলেদের ইসলামিক নাম অর্থ তালিকা,&nbsp;J দিয়ে ছেলেদের ইসলামিক নাম, জ দিয়ে ছেলে শিশুর নাম, জ দিয়ে ছেলেদের ইসলামিক সুন্দর নাম,&nbsp;ছেলেদের নাম: জ দিয়ে ছেলেদের ইসলামিক নাম অর্থসহ</div>
-<div></div>
+
 <div></p>
-</div>
-`,
-    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh1naHA1o8ukbZfcrmNXy1egeis-Wi4vNC2kgs8PWgptbl_pEuY0aqq0_cMTapPJaJlLj09OzR9oO_uygnXX9urIFGAS0Jl8mBnCawi7LdgJ1_-EkKeW8oDPTOI-d2yx0OCeLD5nQLXos/s16000/20260703_213007.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj41MDArIOCmnCDgpqbgpr/gp5/gp4cg4Kab4KeH4Kay4KeH4Kam4KeH4KawPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmh+CmuOCmsuCmvuCmruCmv+CmlSDgpqjgpr7gpq4g4KaF4Kaw4KeN4Kal4Ka44Ka5IOKAkyBKPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmpuCmv+Cnn+CnhyDgppvgp4fgprLgp4fgpqbgp4fgprAg4KaH4Ka44Kay4Ka+4Kau4Ka/4KaVIOCmqOCmvuCmrjwvdGV4dD4KICAgIDwvZz4KCiAgICA8IS0tIERpdmlkZXIgLS0+CiAgICA8bGluZSB4MT0iMjUwIiB5MT0iNDg1IiB4Mj0iOTUwIiB5Mj0iNDg1IiBzdHJva2U9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICAKICAgIDwhLS0gRm9vdGVyIEJyYW5kaW5nIC0tPgogICAgPHRleHQgeD0iNjAwIiB5PSI1MzAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjI0IiBmb250LXdlaWdodD0iNzAwIiBmaWxsPSIjZmJjZmU4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CRCBFZHUgUERGIOKAoiDgp6fgp6bgp6YlIOCmqOCmv+CmsOCnjeCmreCngeCmsiDgpqjgpr7gpq7gp4fgprAg4KaF4Kaw4KeN4KalIOCmuOCmguCmleCmsuCmqDwvdGV4dD4KICA8L3N2Zz4=",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/500-%e0%a6%9c-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%9b%e0%a7%87%e0%a6%b2%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a6%bf%e0%a6%95-%e0%a6%a8.html",
     category: "Baby Boy & Girl Name",
@@ -9554,110 +9452,108 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
   {
     id: 783,
-    title: `মেয়েদের নাম: অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬- O দিয়ে মেয়েদের ইসলামিক নাম | অ দিয়ে মেয়ে শিশুর নাম`,
-    slug: "মেয়েদের-নাম-অ-দিয়ে-মেয়",
-    excerpt: `Educationblog24.com এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য Educationblog24.com নিয়ে আসলো অ দিয়ে মেয়েদের ইসলামিক `,
-    content: `<div style="clear: both; text-align: center;"><a href="https://educationblog24.com/wp-content/uploads/2026/08/20260709_214957.jpg" style="margin-left: 1em; margin-right: 1em;"><img decoding="async" border="0" data-original-height="500" data-original-width="1280" src="https://educationblog24.com/wp-content/uploads/2026/08/20260709_214957-300x117.jpg" /></a></div>
-<p></p>
-<p><b>Educationblog24.com</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
-<p>আপনাদের সুবিধার্থের জন্য <b>Educationblog24.com</b> নিয়ে আসলো <span style="background-color: #fcff01;">অ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। অ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
+    title: "মেয়েদের নাম: অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ ২০২৬- O দিয়ে মেয়েদের ইসলামিক নাম | অ দিয়ে মেয়ে শিশুর নাম",
+    slug: "meyeder-name-o-diye-meyeder-islamic-name-meaning-2026-o-diye-meyeder-islamic-name",
+    oldSlug: "মেয়েদের-নাম-অ-দিয়ে-মেয়",
+    excerpt: `BD Edu PDF এর পক্ষ থেকে আপনাদের সকলকে জানাই আসসালামুলাইকুম আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন। আপনাদের সুবিধার্থের জন্য BD Edu PDF নিয়ে আসলো অ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্`,
+    content: `<p><b>BD Edu PDF</b> এর পক্ষ থেকে আপনাদের সকলকে জানাই <b>আসসালামুলাইকুম</b> আপনারা সবাই কেমন আছেন? আশা করি আপনারা সবাই ভালো আছেন।</p>
+<p>আপনাদের সুবিধার্থের জন্য <b>BD Edu PDF</b> নিয়ে আসলো <span style="background-color: #fcff01;">অ দিয়ে মেয়েদের ইসলামিক নামসহ নামের সকল প্রকার অর্থ। অ দিয়ে মেয়েদের ভালো নামের সাথে তার অর্থগুলো</span> আমাদের এই পোস্ট থেকে পাবেন। সঠিক তথ্যটি জানার জন্য আমাদের পুরো পোস্ট টা দেখুন।সঠিক তথ্যটি জানার জন্য আমাদের সাথে থাকুন।</p>
 <div>
     <button>Table Of Contents</button> </p>
 <ul></ul>
 </p></div>
 <h2 style="text-align: left;">অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</h2>
 <div>বন্ধুরা আপনাদের জন্য <span style="background-color: #fcff01;">অ<span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span><span>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span style="background-color: #fcff01;">দিয়ে নিচে মেয়েদের নামের তালিকা</span>&nbsp;দেওয়া হয়েছে। আপনাদের সুবিধামতো নামটি এখান থেকে বেছে নিতে পারেন।</div>
-<div></div>
+
 <h2 style="text-align: left;">অ দিয়ে মেয়ে শিশুর নাম &#8211;&nbsp;অ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>১.অনিশা – অর্থ – নিরবচ্ছিন্য</div>
-<div></div>
+
 <div>২.অনীকিনী – অর্থ – সৈন্যবাহিনীবিশেষ</div>
-<div></div>
+
 <div>৩.অনুপমা – অর্থ – তুলনাহীনা</div>
-<div></div>
+
 <div>৪.অনুপ্রভা – অর্থ – ঔজ্বল্য</div>
-<div></div>
+
 <div>৫.অনুমিতা – অর্থ – সম্ভবতঃ অনুমিত থেকে</div>
-<div></div>
+
 <div>৬.অনুমিতি – অর্থ – অনুমান / ব্যাপ্তিজ্ঞান দ্বারা লব্ধ জ্ঞান</div>
-<div></div>
+
 <div>৭.অনুশ্রী – অর্থ – সুন্দরী</div>
-<div></div>
+
 <div>৮.অনুরাধা – অর্থ – উজ্জ্বল নক্ষত্র</div>
-<div></div>
+
 <div>৯.অঙ্কিতা – অর্থ – চিহ্ন</div>
-<div></div>
+
 <div>১০.অন্তরা – অর্থ – আস্থায়ী ও আভোগের মধ্যে উচ্চারিত সুর</div>
-<div></div>
+
 <div>১১.অপরাজিতা – অর্থ – দুর্গা / এক ধরণের ফুল / যে পরাজিত হয়নি</div>
-<div></div>
+
 <div>১২.অপর্ণা – অর্থ – পার্বতী / দুর্গা</div>
-<div></div>
+
 <div>১৩.অপলা – অর্থ – অতি সুন্দরী</div>
-<div></div>
+
 <div>১৪.অপ্সরা – অর্থ – স্বর্গ বারাঙ্গনা</div>
-<div></div>
+
 <div>১৫.অবন্তিকা – অর্থ – উজ্জয়িনীর রাজকুমারী</div>
-<div></div>
+
 <div>১৬.অবন্তী – অর্থ – মালবদেশ / উজ্জয়িনী</div>
-<div></div>
+
 <div>১৭.অভয়া – অর্থ – ভয়হীনা</div>
 <div>অমৃতা – অর্থ – মৃত্যুহীনা</div>
-<div></div>
+
 <div>১৮.অমোঘা – অর্থ – পরম রূপলাবণ্যবতী / মহর্ষি শান্তনুর স্ত্রী</div>
-<div></div>
+
 <div>১৯.অস্মিতা &#8211; অর্থ &#8211; খুশী, আশার প্রতীক</div>
-<div></div>
+
 <div>২০.অবনী &#8211; অর্থ &#8211; পৃথিবী</div>
 </div>
-<div></div>
+
 <h2 style="text-align: left;">O দিয়ে মেয়েদের ইসলামিক নাম | অ দিয়ে মেয়ে শিশুর নাম</h2>
 <div>&nbsp; &nbsp; &nbsp;<b><u>নাম</u></b>&nbsp; &nbsp; &nbsp;<b><u>Name</u></b>&nbsp; &nbsp; &nbsp;<b><u>অর্থ</u></b></div>
 <div>
 <div>1.অচলা – ochola – গতিহীন</div>
-<div></div>
+
 <div>2.অচিরা – ochira – ক্ষণস্থায়ী</div>
-<div></div>
+
 <div>3.অজন্তা – ojonta – গুহাবিশেষ</div>
-<div></div>
+
 <div>4. অজপা – ojpa – বিনা আয়াসে</div>
-<div></div>
+
 <div>5.অজলা – ozola – পৃথিবী</div>
-<div></div>
+
 <div>6.অঞ্চিতা – drita – পুজনীয়া</div>
-<div></div>
+
 <div>7.অঞ্জলি – onjuli – যুক্তকর</div>
-<div></div>
+
 <div>8.অঞ্জনা – onjona – শাপভ্রষ্টা অপ্সরা / হনুমানের জননী / ঈশানদিকের দিককারিণী</div>
-<div></div>
+
 <div>9.অণিমা – onima – সূক্ষ্মত্ব</div>
-<div></div>
+
 <div>10.অতন্দ্রিতা – otndrita – আলস্যহীনা</div>
-<div></div>
+
 <div>11.অতসী – otsi – পুষ্পবিশেষ</div>
-<div></div>
+
 <div>12.অদ্রিকা – odrika – অপ্সরা</div>
-<div></div>
+
 <div>13.অদিতি – oditi – দক্ষ প্রজাপতির কন্যা / কশ্যপের স্ত্রী</div>
-<div></div>
+
 <div>14.অনন্যা – ononya – একমাত্র, অদ্বিতীয়</div>
-<div></div>
+
 <div>15.অনসূয়া – onsuya – শকুন্তলার সখী / মহর্ষি অত্রির স্ত্রী / ঈর্ষার অভাব</div>
-<div></div>
+
 <div>16.অনাম্নী – onamrni – নামহীন</div>
-<div></div>
+
 <div>17.অনংশা – Onngso – নন্দ ও যশোদার কন্যা</div>
-<div></div>
+
 <div>18.অনিন্দিতা – onindita – নিন্দার যোগ্য নয়</div>
 </div>
-<div></div>
-<div></div>
+
+
 <div><b>Tag</b>:&nbsp;অ দিয়ে মেয়েদের ইসলামিক নাম অর্থ তালিকা, O দিয়ে মেয়েদের ইসলামিক নাম,&nbsp; অ দিয়ে মেয়ে শিশুর নাম, অ দিয়ে মেয়েদের ইসলামিক সুন্দর নাম,&nbsp;মেয়েদের নাম: অ দিয়ে মেয়েদের ইসলামিক নাম অর্থসহ</p>
-</div>
-`,
-    image: "https://educationblog24.com/wp-content/uploads/2026/08/20260709_214957-300x117.jpg",
+</div>`,
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYzMCIgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjMwIj4KICAgIDxkZWZzPgogICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjMDUxOSIvPgogICAgICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjODMxODQzIi8+CiAgICAgICAgPHN0b3Agb2Zmc2V0PSI3MCUiIHN0b3AtY29sb3I9IiM5ZDE3NGQiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0YzFkOTUiLz4KICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgPGxpbmVhckdyYWRpZW50IGlkPSJjYXJkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMCwwLDAsMC40KSIvPgogICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICA8ZmlsdGVyIGlkPSJzaGFkb3ciIHg9Ii0xMCUiIHk9Ii0xMCUiIHdpZHRoPSIxMjAlIiBoZWlnaHQ9IjEyMCUiPgogICAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSI0IiBzdGREZXZpYXRpb249IjYiIGZsb29kLWNvbG9yPSIjMDAwMDAwIiBmbG9vZC1vcGFjaXR5PSIwLjUiLz4KICAgICAgPC9maWx0ZXI+CiAgICA8L2RlZnM+CiAgICAKICAgIDwhLS0gQmFja2dyb3VuZCAtLT4KICAgIDxyZWN0IHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjYzMCIgZmlsbD0idXJsKCNiZ0dyYWQpIi8+CiAgICAKICAgIDwhLS0gRGVjb3JhdGl2ZSBHbG93aW5nIENpcmNsZXMgLS0+CiAgICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIxMDAiIHI9IjIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA1KSIvPgogICAgPGNpcmNsZSBjeD0iMTA4MCIgY3k9IjUzMCIgcj0iMjkwIiBmaWxsPSJyZ2JhKDIzNiw3MiwxNTMsMC4xNSkiLz4KICAgIDxjaXJjbGUgY3g9Ijk4MCIgY3k9IjEyMCIgcj0iMTcwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDYpIi8+CgogICAgPCEtLSBJbm5lciBDYXJkIEZyYW1lIC0tPgogICAgPHJlY3QgeD0iNDUiIHk9IjQ1IiB3aWR0aD0iMTExMCIgaGVpZ2h0PSI1NDAiIHJ4PSIyOCIgZmlsbD0idXJsKCNjYXJkR3JhZCkiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjI1KSIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KICAgIAogICAgPCEtLSBUb3AgUGlsbCBCYWRnZSAtLT4KICAgIDxyZWN0IHg9IjQxMCIgeT0iODUiIHdpZHRoPSIzODAiIGhlaWdodD0iNTQiIHJ4PSIyNyIgZmlsbD0iI2Y0M2Y1ZSIgZmlsdGVyPSJ1cmwoI3NoYWRvdykiLz4KICAgIDx0ZXh0IHg9IjYwMCIgeT0iMTE5IiBmb250LWZhbWlseT0iLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCBSb2JvdG8sICdTb2xhaW1hbkxpcGknLCBBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMiIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+RtiBCYWJ5IEJveSAmYW1wOyBHaXJsIE5hbWUg8J+MuDwvdGV4dD4KICAgIAogICAgPCEtLSBUaXRsZSBMaW5lcyAtLT4KICAgIDxnIGZpbHRlcj0idXJsKCNzaGFkb3cpIj4KICAgICAgPHRleHQgeD0iNjAwIiB5PSIyNTAiIGZvbnQtZmFtaWx5PSItYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgJ1NvbGFpbWFuTGlwaScsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iOTAwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj7gpq7gp4fgp5/gp4fgpqbgp4fgprAg4Kao4Ka+4KauOiDgpoUg4Kam4Ka/4Kef4KeHPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjMxNSIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmruCnh+Cnn+Cnh+CmpuCnh+CmsCDgpofgprjgprLgpr7gpq7gpr/gppUg4Kao4Ka+4KauPC90ZXh0Pgo8dGV4dCB4PSI2MDAiIHk9IjM4MCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSI5MDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiPuCmheCmsOCnjeCmpeCmuOCmuSDgp6jgp6bgp6jgp6wtIE8g4Kam4Ka/4Kef4KeHPC90ZXh0PgogICAgPC9nPgoKICAgIDwhLS0gRGl2aWRlciAtLT4KICAgIDxsaW5lIHgxPSIyNTAiIHkxPSI0ODUiIHgyPSI5NTAiIHkyPSI0ODUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIAogICAgPCEtLSBGb290ZXIgQnJhbmRpbmcgLS0+CiAgICA8dGV4dCB4PSI2MDAiIHk9IjUzMCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnU29sYWltYW5MaXBpJywgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiNmYmNmZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJEIEVkdSBQREYg4oCiIOCnp+CnpuCnpiUg4Kao4Ka/4Kaw4KeN4Kat4KeB4KayIOCmqOCmvuCmruCnh+CmsCDgpoXgprDgp43gpqUg4Ka44KaC4KaV4Kay4KaoPC90ZXh0PgogIDwvc3ZnPg==",
     date: "2026-08-22",
     link: "https://educationblog24.com/2026/08/%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc%e0%a7%87%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%a8%e0%a6%be%e0%a6%ae-%e0%a6%85-%e0%a6%a6%e0%a6%bf%e0%a6%af%e0%a6%bc%e0%a7%87-%e0%a6%ae%e0%a7%87%e0%a6%af%e0%a6%bc.html",
     category: "Baby Boy & Girl Name",
@@ -9665,7 +9561,7 @@ const BABY_NAME_POSTS: CategoryPost[] = [
   },
 ];
 
-export const CATEGORY_POSTS: CategoryPost[] = [...BABY_NAME_POSTS, ...JOB_CIRCULAR_POSTS];
+export const CATEGORY_POSTS: CategoryPost[] = [...HSC_HAND_NOTE_POSTS, ...BABY_NAME_POSTS, ...JOB_CIRCULAR_POSTS];
 
 export interface CategoryMeta {
   name: string;
@@ -9676,6 +9572,13 @@ export interface CategoryMeta {
 }
 
 export const CATEGORY_LIST: CategoryMeta[] = [
+  {
+    name: 'HSC Hand Note',
+    slug: 'hsc-hand-note',
+    bnName: 'এইচএসসি হ্যান্ড নোট',
+    description: 'এইচএসসি (HSC) সকল বিষয়ের লেকচার শিট, হ্যান্ড নোট ও গুরুত্বপূর্ণ সমাধান',
+    source: '',
+  },
   {
     name: 'Baby Boy & Girl Name',
     slug: 'baby-boy-girl-name',
@@ -9697,11 +9600,18 @@ export function getCategoryPosts(categorySlug: string = 'baby-boy-girl-name'): C
 }
 
 export function getCategoryPostBySlug(slug: string): CategoryPost | undefined {
-  return CATEGORY_POSTS.find((p) => p.slug === slug);
+  const decoded = decodeURIComponent(slug);
+  return CATEGORY_POSTS.find(
+    (p) =>
+      p.slug === slug ||
+      (p as any).oldSlug === slug ||
+      p.slug === decoded ||
+      (p as any).oldSlug === decoded
+  );
 }
 
 export function getRelatedCategoryPosts(slug: string, limit = 3): CategoryPost[] {
   const current = getCategoryPostBySlug(slug);
   if (!current) return [];
-  return CATEGORY_POSTS.filter((p) => p.slug !== slug).slice(0, limit);
+  return CATEGORY_POSTS.filter((p) => p.slug !== slug && p.categorySlug === current.categorySlug).slice(0, limit);
 }
