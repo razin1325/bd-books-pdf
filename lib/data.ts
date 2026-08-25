@@ -637,7 +637,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-7",
     "title": "অষ্টম/৮ম শ্রেণির বাংলাদেশ ও বিশ্বপরিচয় বই ২০২৬ pdf download | ৮ম শ্রেণির বাংলাদেশ ও বিশ্বপরিচয় বই PDF",
-    "slug": "class-8-bangla",
+    "slug": "class-8-bangla-pdf-download-pdf-jsc-scraped-1787684477823-7",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "বাংলা (Bangla)",
@@ -700,7 +700,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-10",
     "title": "অষ্টম শ্রেণির ইংরেজি গ্রামার বই ২০২৬ PDF |Class 8 English Grammer And Composition Pdf |ইংরেজি গ্রামার ৮ম শ্রেণি বই",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-class-8-english-grammer-a-jsc-scraped-1787684477823-10",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -721,7 +721,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-11",
     "title": "অষ্টম/৮ম শ্রেণীর/শ্রেণির ইংরেজি বই ২০২৬ pdf | Class 8 English For Today Book 2026 PDF",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-class-8-english-for-today-jsc-scraped-1787684477823-11",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -742,7 +742,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-12",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৩য় | Class 8 Math Solution Chapter 3 | অষ্টম শ্রেণীর গণিত ৩য় অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-12",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -763,7 +763,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-13",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ২য় | Class 8 Math Solution Chapter 2 | অষ্টম শ্রেণীর গণিত ২য় অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-13",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -784,7 +784,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-14",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ১ম | Class 8 Math Solution Chapter 1 | অষ্টম শ্রেণীর গণিত ১ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-14",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -805,7 +805,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-15",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ১০ম | Class 8 Math Solution Chapter 10 | অষ্টম শ্রেণীর গণিত ১০ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-15",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -826,7 +826,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-16",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৯ম | Class 8 Math Solution Chapter 9 | অষ্টম শ্রেণীর গণিত ৯ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-16",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -847,7 +847,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-17",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৮ম | Class 8 Math Solution Chapter 8 | অষ্টম শ্রেণীর গণিত ৮ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-17",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -868,7 +868,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-18",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৭ম | Class 8 Math Solution Chapter 7 | অষ্টম শ্রেণীর গণিত ৭ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-18",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -889,7 +889,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-19",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৬ষ্ঠ | Class 8 Math Solution Chapter 6 | অষ্টম শ্রেণীর গণিত ৬ষ্ঠ অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-19",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -910,7 +910,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-20",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৫ম | Class 8 Math Solution Chapter 5 | অষ্টম শ্রেণীর গণিত ৫ম অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-20",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -931,7 +931,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-21",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৪র্থ | Class 8 Math Solution Chapter 4 | অষ্টম শ্রেণীর গণিত ৪র্থ অধ্যায় সমাধান",
-    "slug": "class-8-math",
+    "slug": "class-8-math-class-8-math-solution-chapter-jsc-scraped-1787684477823-21",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -952,7 +952,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787684477823-22",
     "title": "অষ্টম শ্রেণির ইংরেজি বই pdf download | English For Today Class Eight | ৮ম শ্রেণির ইংরেজি বই পিডিএফ",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-download-english-for-toda-jsc-scraped-1787684477823-22",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -995,7 +995,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964434-1",
     "title": "অষ্টম শ্রেণির আনন্দপাঠ ২০২৬ (বাংলা দ্রুতপঠন) pdf Download |৮ম শ্রেণির আনন্দপাঠ বই ২০২৬ pdf",
-    "slug": "class-8-bangla-অষ্টম-শ",
+    "slug": "class-8-bangla-অষ্টম-শ-pdf-download-pdf-jsc-scraped-1787683964434-1",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "বাংলা (Bangla)",
@@ -1037,7 +1037,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964434-3",
     "title": "অষ্টম/৮ম শ্রেণির গাহস্থ বিজ্ঞান ২০২৬ pdf |গাহস্থ বিজ্ঞান ৮ম শ্রেণি pdf Download",
-    "slug": "class-8-general",
+    "slug": "class-8-general-pdf-pdf-download-jsc-scraped-1787683964434-3",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "সাধারণ জ্ঞান (General)",
@@ -1163,7 +1163,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-9",
     "title": "অষ্টম শ্রেনীর ইংরেজি ২য় পত্র গাইড/নোট PDF &#8211; Class 8 English 2nd guide Book PDF 2026 |Jsc English 2nd Paper note pdf",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-8211-class-8-english-2nd-jsc-scraped-1787683964435-9",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -1184,7 +1184,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-10",
     "title": "অষ্টম শ্রেণির ইংরেজি গ্রামার বই ২০২৬ PDF |Class 8 English Grammer And Composition Pdf |ইংরেজি গ্রামার ৮ম শ্রেণি বই",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-class-8-english-grammer-a-jsc-scraped-1787683964435-10",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -1205,7 +1205,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-11",
     "title": "অষ্টম/৮ম শ্রেণীর/শ্রেণির ইংরেজি বই ২০২৬ pdf | Class 8 English For Today Book 2026 PDF",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-class-8-english-for-today-jsc-scraped-1787683964435-11",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -1226,7 +1226,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-12",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায়  ৩য় | Class 8 Math Solution Chapter 3 | অষ্টম শ্রেণীর গণিত ৩য় অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-12",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1247,7 +1247,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-13",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায়  ২য় | Class 8 Math Solution Chapter 2 | অষ্টম শ্রেণীর গণিত ২য় অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-13",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1268,7 +1268,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-14",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ১ম | Class 8 Math Solution Chapter 1 | অষ্টম শ্রেণীর গণিত ১ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-14",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1289,7 +1289,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-15",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ১০ম | Class 8 Math Solution Chapter 10 | অষ্টম শ্রেণীর গণিত ১০ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-15",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1310,7 +1310,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-16",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৯ম | Class 8 Math Solution Chapter 9 | অষ্টম শ্রেণীর গণিত ৯ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-16",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1331,7 +1331,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-17",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৮ম | Class 8 Math Solution Chapter 8 | অষ্টম শ্রেণীর গণিত ৮ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-17",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1352,7 +1352,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-18",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৭ম | Class 8 Math Solution Chapter 7 | অষ্টম শ্রেণীর গণিত ৭ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-18",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1373,7 +1373,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-19",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৬ষ্ঠ | Class 8 Math Solution Chapter 6 | অষ্টম শ্রেণীর গণিত ৬ষ্ঠ অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-19",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1394,7 +1394,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-20",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায় ৫ম | Class 8 Math Solution Chapter 5 | অষ্টম শ্রেণীর গণিত ৫ম অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-20",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1415,7 +1415,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-21",
     "title": "অষ্টম শ্রেণীর গণিত সমাধান অধ্যায়  ৪র্থ | Class 8 Math Solution Chapter 4 | অষ্টম শ্রেণীর গণিত ৪র্থ অধ্যায় সমাধান",
-    "slug": "class-8-math-অষ্টম-শ",
+    "slug": "class-8-math-অষ্টম-শ-class-8-math-solution-chapter-jsc-scraped-1787683964435-21",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "গণিত (Mathematics)",
@@ -1436,7 +1436,7 @@ export let MOCK_BOOKS: Book[] = [
 {
     "id": "b-jsc-scraped-1787683964435-22",
     "title": "অষ্টম শ্রেণির ইংরেজি বই pdf download | English For Today Class Eight | ৮ম শ্রেণির ইংরেজি বই পিডিএফ",
-    "slug": "class-8-english",
+    "slug": "class-8-english-pdf-download-english-for-toda-jsc-scraped-1787683964435-22",
     "class_name": "Class 8",
     "class_slug": "class-8",
     "subject": "English",
@@ -1458,7 +1458,7 @@ export let MOCK_BOOKS: Book[] = [
 {
   "id": "b-class8-math-solution-ch3",
   "title": "Class 8 Math Solution Chapter 3 PDF 2026 | অষ্টম শ্রেণির গণিত ৩য় অধ্যায় সমাধান PDF",
-  "slug": "class-8-math-solution-chapter-3-pdf",
+  "slug": "class-8-math-solution-chapter-3-pdf-class-8-math-solution-chapter-class8-math-solution-ch3",
   "class_name": "Class 8",
   "class_slug": "class-8",
   "subject": "গণিত (Mathematics)",
@@ -1773,7 +1773,7 @@ export let MOCK_BOOKS: Book[] = [
 {
   "id": "b-auto-scraped-1787682242501-13",
   "title": "নবম-দশম/৯ম-১০ম শ্রেণীর/শ্রেণির শিল্প ও সংস্কৃতি বই ২০২৬ pdf |Class 9-10/nine-Ten Art & Culture Book 2026 pdf",
-  "slug": "class-9-10-art-and-culture",
+  "slug": "class-9-10-art-and-culture-pdf-class-9-10nine-ten-art-auto-scraped-1787682242501-13",
   "class_name": "Class 9-10",
   "class_slug": "class-9-10",
   "subject": "শিল্প ও সংস্কৃতি",
@@ -1878,7 +1878,7 @@ export let MOCK_BOOKS: Book[] = [
 {
   "id": "b-auto-scraped-1787682242501-18",
   "title": "৯ম-১০ম শ্রেণির স্বাস্থ্য সুরক্ষা গাইড ২০২৬ PDF | Class 9-10 Health protection Guide 2026 PDF | নবম-দশম শ্রেণির স্বাস্থ্য সুরক্ষা গাইড PDF",
-  "slug": "class-9-10-health-protection",
+  "slug": "class-9-10-health-protection-pdf-class-9-10-health-protec-auto-scraped-1787682242501-18",
   "class_name": "Class 9-10",
   "class_slug": "class-9-10",
   "subject": "স্বাস্থ্য সুরক্ষা",
@@ -2025,7 +2025,7 @@ export let MOCK_BOOKS: Book[] = [
 {
   "id": "b-auto-scraped-1787682242501-25",
   "title": "এইচএসসি রসায়ন ১ম পত্র টেস্ট পেপার ২০২৬ PDF (পাঞ্জেরী,লেকচার) | Hsc Chemistry 1st Paper Test Paper 2026",
-  "slug": "hsc-chemistry",
+  "slug": "hsc-chemistry-pdf-hsc-chemistry-1st-paper-t-auto-scraped-1787682242501-25",
   "class_name": "HSC",
   "class_slug": "hsc",
   "subject": "রসায়ন (Chemistry)",

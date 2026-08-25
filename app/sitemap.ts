@@ -123,5 +123,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...classRoutes, ...subjectRoutes, ...bookRoutes];
+  const allEntries = [...staticRoutes, ...classRoutes, ...subjectRoutes, ...bookRoutes];
+  const uniqueEntries: MetadataRoute.Sitemap = [];
+  const seenUrls = new Set<string>();
+
+  for (const entry of allEntries) {
+    const normUrl = entry.url.toLowerCase().trim();
+    if (!seenUrls.has(normUrl)) {
+      seenUrls.add(normUrl);
+      uniqueEntries.push(entry);
+    }
+  }
+
+  return uniqueEntries;
 }
