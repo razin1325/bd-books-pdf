@@ -15,16 +15,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Category listing routes
   const categoryListingRoutes = CATEGORY_LIST.map((cat) => `/category/${cat.slug}`);
 
-  // Category detail post routes
+  // Category detail post routes (clean decoded URLs for Googlebot)
   const categoryDetailRoutes: string[] = [];
   CATEGORY_LIST.forEach((cat) => {
     const posts = getCategoryPosts(cat.slug);
     posts.forEach((p) => {
-      categoryDetailRoutes.push(`/category/${p.categorySlug}/${encodeURIComponent(p.slug)}`);
+      categoryDetailRoutes.push(`/category/${p.categorySlug}/${p.slug}`);
     });
   });
 
-  // Static & Hub routes
+  // Static & Hub routes (Note: /search is excluded to comply with Google Webmaster Guidelines against indexing internal search pages)
   const staticRoutes = [
     '',
     '/books',
@@ -77,7 +77,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/admission/ru',
     '/admission/gst',
     '/admission/agri',
-    '/search',
     '/sitemap',
     '/about',
     '/privacy-policy',
@@ -98,16 +97,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.9,
   }));
 
-  // Subject routes
+  // Subject routes (Only include combinations that actually have active books to prevent Thin Content / Soft 404 for Google AdSense)
   const subjectRoutes: MetadataRoute.Sitemap = [];
   CLASSES_LIST.forEach((cls) => {
     SUBJECTS_LIST.forEach((subj) => {
-      subjectRoutes.push({
-        url: `${baseUrl}/${cls.slug}/${subj.slug}`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.7,
-      });
+      const hasBooks = books.some(
+        (b) => b.class_slug === cls.slug && (b.subject_slug === subj.slug || b.subject.toLowerCase().includes(subj.slug))
+      );
+      if (hasBooks) {
+        subjectRoutes.push({
+          url: `${baseUrl}/${cls.slug}/${subj.slug}`,
+          lastModified: new Date(),
+          changeFrequency: 'weekly' as const,
+          priority: 0.8,
+        });
+      }
     });
   });
 
