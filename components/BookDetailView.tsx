@@ -5,7 +5,7 @@ import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import { Book } from '@/lib/types';
 import { getAdmissionBookHref } from '@/lib/admission';
-import { getBaseUrl } from '@/lib/site';
+import { getBaseUrl, getGoogleDriveEmbedUrl } from '@/lib/site';
 import { ExternalLink, Download, FileText, Calendar, Layers, User, Building, BookOpen } from 'lucide-react';
 
 interface BookDetailViewProps {
@@ -134,6 +134,51 @@ export default function BookDetailView({ book, relatedBooks = [] }: BookDetailVi
       </div>
 
       <AdSlot slotId="book-detail-middle" />
+
+      {/* Embedded Google Drive PDF Viewer (Mobile-Friendly & Responsive) */}
+      {book.pdf_url && (
+        <section className="bg-white rounded-2xl border border-gray-200 p-4 sm:p-6 space-y-4 shadow-sm">
+          <h2 className="text-lg sm:text-xl font-bold text-gray-900 flex items-center space-x-2 border-b border-gray-100 pb-3">
+            <FileText className="w-5 h-5 text-emerald-600" />
+            <span>অনলাইন পিডিএফ ভিউয়ার (Google Drive Reader):</span>
+          </h2>
+          <div className="relative w-full h-[480px] sm:h-[620px] bg-slate-100 rounded-xl overflow-hidden border border-gray-300 shadow-inner">
+            <iframe
+              src={getGoogleDriveEmbedUrl(book.pdf_url)}
+              className="w-full h-full border-0"
+              allow="autoplay"
+              title={`${book.title} PDF Reader`}
+            />
+          </div>
+        </section>
+      )}
+
+      {/* Next Page Multi-Page Article Pagination Card */}
+      <div className="bg-gradient-to-r from-emerald-900 via-teal-950 to-slate-900 text-white rounded-2xl p-6 sm:p-8 shadow-xl border border-emerald-700/50 space-y-4 text-center">
+        <div className="space-y-2">
+          <span className="bg-emerald-500/30 text-emerald-200 text-xs font-bold px-3 py-1 rounded-full border border-emerald-400/30 inline-block">
+            পড়ুন পরবর্তী অংশে... (Next Page)
+          </span>
+          <h3 className="text-xl sm:text-2xl font-black text-white">
+            পরবর্তী পৃষ্ঠায় আরও বিস্তারিত সমাধান ও অধ্যায়ভিত্তিক গুরুত্বপূর্ণ কুইজ দেখুন
+          </h3>
+          <p className="text-xs sm:text-sm text-emerald-100 max-w-2xl mx-auto">
+            পরীক্ষার প্রস্তুতি সহজ করতে এবং পরবর্তী অধ্যায়ের সমাধান পেতে নিচের বোতামে ক্লিক করুন।
+          </p>
+        </div>
+
+        <div className="pt-2 flex justify-center">
+          <a
+            href={`${getAdmissionBookHref(book)}?page=2`}
+            className="py-4 px-8 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-black text-base sm:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:-translate-y-0.5 flex items-center space-x-3 border border-emerald-400/40 group"
+          >
+            <span>পরবর্তী পৃষ্ঠা (Next Page) পড়ুন</span>
+            <ExternalLink className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
+      </div>
+
+      <AdSlot slotId="book-detail-bottom-page" />
 
       {/* Book Information Section */}
       <section className="bg-white rounded-xl border border-gray-200 p-6 space-y-4 shadow-xs">

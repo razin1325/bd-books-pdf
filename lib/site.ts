@@ -34,3 +34,28 @@ export function getBaseUrl(): string {
   // Fallback for local development
   return envUrl ? envUrl.replace(/\/$/, '') : 'http://localhost:3000';
 }
+
+/**
+ * Normalizes any Google Drive file or folder URL into a clean, embeddable iframe preview URL.
+ */
+export function getGoogleDriveEmbedUrl(url?: string | null): string {
+  if (!url) return '';
+  const cleanUrl = url.trim();
+
+  // 1. File ID matching (/file/d/ID/...)
+  const fileMatch = cleanUrl.match(/\/file\/d\/([a-zA-Z0-9_-]+)/);
+  if (fileMatch && fileMatch[1]) {
+    return `https://drive.google.com/file/d/${fileMatch[1]}/preview`;
+  }
+
+  // 2. Folder ID matching (/folders/ID or ?id=ID)
+  const folderMatch =
+    cleanUrl.match(/\/(?:mobile\/)?folders\/([a-zA-Z0-9_-]+)/) ||
+    cleanUrl.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+  if (folderMatch && folderMatch[1]) {
+    return `https://drive.google.com/embeddedfolderview?id=${folderMatch[1]}#list`;
+  }
+
+  // 3. Fallback replace /view with /preview
+  return cleanUrl.replace(/\/view(\?.*)?$/, '/preview');
+}

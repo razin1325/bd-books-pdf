@@ -61,6 +61,7 @@ export const SUBJECTS_LIST: SubjectCategory[] = [
   { name: 'Islam Studies', slug: 'islamic-studies', bnName: 'ইসলাম ও নৈতিক শিক্ষা' },
   { name: 'Hindu Studies', slug: 'hindu-studies', bnName: 'হিন্দুধর্ম ও নৈতিক শিক্ষা' },
   { name: 'Agriculture', slug: 'agriculture', bnName: 'কৃষি শিক্ষা' },
+  { name: 'Jibon O Jibika', slug: 'jibon-o-jibika', bnName: 'জীবন ও জীবিকা' },
   { name: 'Physics', slug: 'physics', bnName: 'পদার্থবিজ্ঞান' },
   { name: 'Chemistry', slug: 'chemistry', bnName: 'রসায়ন' },
   { name: 'Biology', slug: 'biology', bnName: 'জীববিজ্ঞান' },

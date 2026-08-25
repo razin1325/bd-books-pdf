@@ -3,6 +3,7 @@ import { CLASSES_LIST, SUBJECTS_LIST, DIVISION_COLLEGES_REQ, DETAILED_COLLEGES_L
 import { getBooks } from '@/lib/data';
 import { getAdmissionBookHref } from '@/lib/admission';
 import { getBaseUrl } from '@/lib/site';
+import { CATEGORY_LIST, getCategoryPosts } from '@/lib/categories-data';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = getBaseUrl();
@@ -10,6 +11,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const divisionRoutes = DIVISION_COLLEGES_REQ.map((d) => `/college-admission/${d.slug}`);
   const individualCollegeRoutes = DETAILED_COLLEGES_LIST.map((c) => `/college/${c.slug}`);
+
+  // Category listing routes
+  const categoryListingRoutes = CATEGORY_LIST.map((cat) => `/category/${cat.slug}`);
+
+  // Category detail post routes
+  const categoryDetailRoutes: string[] = [];
+  CATEGORY_LIST.forEach((cat) => {
+    const posts = getCategoryPosts(cat.slug);
+    posts.forEach((p) => {
+      categoryDetailRoutes.push(`/category/${p.categorySlug}/${encodeURIComponent(p.slug)}`);
+    });
+  });
 
   // Static & Hub routes
   const staticRoutes = [
@@ -51,6 +64,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/blogs/nu-degree-1st-year-form-fillup-2026',
     '/blogs/honours-1st-year-history-of-bangladesh-short-suggestion',
     '/blogs/honours-1st-year-ict-guide-book-pdf',
+    ...categoryListingRoutes,
+    ...categoryDetailRoutes,
     ...divisionRoutes,
     '/colleges',
     ...individualCollegeRoutes,
@@ -72,7 +87,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: 'daily' as const,
-    priority: route === '' || route === '/hsc-exam-routine' || route === '/college-admission' || route === '/colleges' ? 1.0 : 0.8,
+    priority: route === '' || route === '/hsc-exam-routine' || route === '/college-admission' || route === '/colleges' || route.startsWith('/category') ? 1.0 : 0.8,
   }));
 
   // Class routes

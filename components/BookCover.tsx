@@ -97,7 +97,19 @@ export default function BookCover({
 }: BookCoverProps) {
   const [imageError, setImageError] = useState(false);
 
-  const hasValidImage = Boolean(coverImage && coverImage.trim() !== '' && !imageError);
+  const isExternalImage = Boolean(
+    coverImage &&
+    (coverImage.includes('blogger') ||
+     coverImage.includes('educationblog24') ||
+     coverImage.includes('blogspot'))
+  );
+
+  const hasValidImage = Boolean(
+    coverImage &&
+    coverImage.trim() !== '' &&
+    !imageError &&
+    !isExternalImage
+  );
   const theme = getCoverTheme(title, subject, bookType);
 
   const isTextbook = bookType === 'textbook';

@@ -3,18 +3,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import type { CategoryPost } from '@/lib/categories-data';
-import { generateBabyNameSvgImage } from '@/lib/svg-generator';
+import { generateBabyNameSvgImage, generateBookSvgImage } from '@/lib/svg-generator';
 
 export default function CategoryCard({ post }: { post: CategoryPost }) {
+  const isExternalImage = Boolean(
+    post.image &&
+    (post.image.includes('blogger') ||
+     post.image.includes('educationblog24') ||
+     post.image.includes('blogspot'))
+  );
+
   const displayImage =
-    post.image ||
+    (!isExternalImage && post.image) ||
     (post.categorySlug === 'baby-boy-girl-name'
       ? generateBabyNameSvgImage(post.title, post.category)
-      : null);
+      : generateBookSvgImage(post.title, post.category));
+
+  const targetHref = post.link || `/category/${post.categorySlug}/${encodeURIComponent(post.slug)}`;
 
   return (
     <Link
-      href={`/category/${post.categorySlug}/${encodeURIComponent(post.slug)}`}
+      href={targetHref}
       className="group bg-white rounded-2xl border border-gray-200 hover:border-pink-500 hover:shadow-md transition-all overflow-hidden flex flex-col"
     >
       <div className="relative w-full h-44 bg-slate-900 overflow-hidden">

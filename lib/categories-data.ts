@@ -1,5 +1,5 @@
 export interface CategoryPost {
-  id: number;
+  id: number | string;
   title: string;
   slug: string;
   oldSlug?: string;
@@ -10,6 +10,11 @@ export interface CategoryPost {
   link: string;
   category: string;
   categorySlug: string;
+  pdf_url?: string;
+  file_size?: string;
+  author?: string;
+  publisher?: string;
+  year?: number;
 }
 
 import { JOB_CIRCULAR_POSTS } from './job-circular-data';
@@ -9585,37 +9590,209 @@ export const CATEGORY_LIST: CategoryMeta[] = [
     slug: 'baby-boy-girl-name',
     bnName: 'ছেলে ও মেয়ে শিশুর নাম',
     description: 'ছেলেদের ও মেয়েদের ইসলামিক নাম, ইমো/ফেসবুক আইডির নাম, বিদেশি নাম ও নামের অর্থসহ তালিকা',
-    source: 'https://educationblog24.com/category/baby-boy-girl-name',
+    source: '',
   },
   {
     name: 'Job Circular News',
     slug: 'job-circular-news',
     bnName: 'চাকরির সার্কুলার ও নিয়োগ বিজ্ঞপ্তি',
     description: 'বিসিএস, ব্যাংক, সরকারি-বেসরকারি চাকরির সার্কুলার, নিয়োগ বিজ্ঞপ্তি ও সাপ্তাহিক চাকরির খবর',
-    source: 'https://educationblog24.com/category/job-circular-news',
+    source: '',
   },
   {
     name: 'Daily Gk Information',
     slug: 'daily-gk-information',
     bnName: 'দৈনিক সাধারণ জ্ঞান',
     description: 'বিগত সালের সাধারণ জ্ঞান, সাম্প্রতিক GK, প্রিলিমিনারি ও প্রাইমারি শিক্ষক নিয়োগ সাধারণ জ্ঞান',
-    source: 'https://educationblog24.com/category/daily-gk-information',
+    source: '',
+  },
+  {
+    name: 'Class Six Seven Books & Note',
+    slug: 'class-six-seven-books-and-note',
+    bnName: 'ষষ্ঠ ও সপ্তম শ্রেণির বই ও নোট',
+    description: 'ষষ্ঠ ও সপ্তম শ্রেণি (Class 6 & 7) নতুন কারিকুলাম ২০২৬ এর সকল বিষয়ের মূল পাঠ্যবই, পাঞ্জেরী ও অনুপম গাইড বই এবং লেকচার নোট PDF',
+    source: '',
+  },
+  {
+    name: 'SSC All Books & Notes',
+    slug: 'ssc-all-books-and-notes',
+    bnName: 'এসএসসি সকল বই ও নোট',
+    description: 'নবম-দশম শ্রেণি ও এসএসসি (SSC) মানবিক, বিজ্ঞান ও ব্যবসায় শিক্ষা বিভাগের সকল বই, পাঞ্জেরী গাইড, টেস্ট পেপার ও গুরুত্বপূর্ণ সমাধান',
+    source: '',
+  },
+  {
+    name: 'All Test Paper',
+    slug: 'all-test-paper',
+    bnName: 'অল টেস্ট পেপার',
+    description: 'এসএসসি ও এইচএসসি (SSC & HSC) বোর্ড পরীক্ষার সকল বিষয়ের লেকচার, পাঞ্জেরী ও রয়েল টেস্ট পেপার PDF বিনামূল্যে ডাউনলোড',
+    source: '',
+  },
+  {
+    name: 'JSC All Books & Notes',
+    slug: 'jsc-all-books-and-notes',
+    bnName: 'জেএসসি (৮ম শ্রেণি) সকল বই ও নোট',
+    description: 'অষ্টম শ্রেণি ও জেএসসি (JSC) নতুন কারিকুলাম ২০২৬ এর সকল বিষয়ের এনসিটিবি মূল বই, পাঞ্জেরী ও লেকচার গাইড এবং সমাধান নোট PDF',
+    source: 'https://educationblog24.com/category/jsc-all-books-and-notes',
   },
 ];
 
+import { MOCK_BOOKS } from './data';
+
 export function getCategoryPosts(categorySlug: string = 'baby-boy-girl-name'): CategoryPost[] {
-  return CATEGORY_POSTS.filter((p) => p.categorySlug === categorySlug);
+  const posts = CATEGORY_POSTS.filter((p) => p.categorySlug === categorySlug);
+  if (posts.length > 0) {
+    return posts;
+  }
+
+  if (categorySlug === 'class-six-seven-books-and-note') {
+    return MOCK_BOOKS.filter((b) => b.class_slug === 'class-6' || b.class_slug === 'class-7').map((b) => ({
+      id: b.id,
+      title: b.title,
+      slug: b.slug,
+      excerpt: b.description ? b.description.slice(0, 160) + '...' : b.title,
+      content: b.description || b.title,
+      image: b.cover_image || undefined,
+      date: b.created_at || '2026-08-25',
+      link: `/${b.class_slug}/${b.slug}`,
+      category: 'Class Six Seven Books & Note',
+      categorySlug: 'class-six-seven-books-and-note',
+      pdf_url: b.pdf_url,
+      file_size: b.file_size,
+      author: b.author,
+      publisher: b.publisher,
+      year: b.year,
+    }));
+  }
+
+  if (categorySlug === 'ssc-all-books-and-notes') {
+    return MOCK_BOOKS.filter(
+      (b) =>
+        b.class_slug === 'class-9-10' ||
+        b.class_slug === 'ssc' ||
+        b.class_slug === 'class-9' ||
+        b.class_slug === 'class-10' ||
+        b.title.toLowerCase().includes('ssc') ||
+        b.title.includes('এসএসসি')
+    ).map((b) => ({
+      id: b.id,
+      title: b.title,
+      slug: b.slug,
+      excerpt: b.description ? b.description.slice(0, 160) + '...' : b.title,
+      content: b.description || b.title,
+      image: b.cover_image || undefined,
+      date: b.created_at || '2026-08-25',
+      link: `/${b.class_slug}/${b.slug}`,
+      category: 'SSC All Books & Notes',
+      categorySlug: 'ssc-all-books-and-notes',
+      pdf_url: b.pdf_url,
+      file_size: b.file_size,
+      author: b.author,
+      publisher: b.publisher,
+      year: b.year,
+    }));
+  }
+
+  if (categorySlug === 'all-test-paper') {
+    return MOCK_BOOKS.filter(
+      (b) =>
+        b.book_type === 'guide' ||
+        b.title.toLowerCase().includes('test paper') ||
+        b.title.includes('গাইড') ||
+        b.title.includes('টেস্ট পেপার')
+    ).map((b) => ({
+      id: b.id,
+      title: b.title,
+      slug: b.slug,
+      excerpt: b.description ? b.description.slice(0, 160) + '...' : b.title,
+      content: b.description || b.title,
+      image: b.cover_image || undefined,
+      date: b.created_at || '2026-08-25',
+      link: `/${b.class_slug}/${b.slug}`,
+      category: 'All Test Paper',
+      categorySlug: 'all-test-paper',
+      pdf_url: b.pdf_url,
+      file_size: b.file_size,
+      author: b.author,
+      publisher: b.publisher,
+      year: b.year,
+    }));
+  }
+
+  if (categorySlug === 'jsc-all-books-and-notes') {
+    return MOCK_BOOKS.filter(
+      (b) =>
+        b.class_slug === 'class-8' ||
+        b.class_slug === 'jsc' ||
+        b.title.toLowerCase().includes('jsc') ||
+        b.title.includes('জেএসসি') ||
+        b.title.includes('অষ্টম')
+    ).map((b) => ({
+      id: b.id,
+      title: b.title,
+      slug: b.slug,
+      excerpt: b.description ? b.description.slice(0, 160) + '...' : b.title,
+      content: b.description || b.title,
+      image: b.cover_image || undefined,
+      date: b.created_at || '2026-08-25',
+      link: `/${b.class_slug}/${b.slug}`,
+      category: 'JSC All Books & Notes',
+      categorySlug: 'jsc-all-books-and-notes',
+      pdf_url: b.pdf_url,
+      file_size: b.file_size,
+      author: b.author,
+      publisher: b.publisher,
+      year: b.year,
+    }));
+  }
+
+  return [];
 }
 
 export function getCategoryPostBySlug(slug: string): CategoryPost | undefined {
-  const decoded = decodeURIComponent(slug);
-  return CATEGORY_POSTS.find(
+  if (!slug) return undefined;
+  const raw = slug.trim().toLowerCase();
+  let decoded = raw;
+  try {
+    decoded = decodeURIComponent(slug).trim().toLowerCase();
+  } catch {}
+
+  const found = CATEGORY_POSTS.find(
     (p) =>
-      p.slug === slug ||
-      (p as any).oldSlug === slug ||
-      p.slug === decoded ||
-      (p as any).oldSlug === decoded
+      p.slug.toLowerCase() === raw ||
+      p.slug.toLowerCase() === decoded ||
+      (p as any).oldSlug?.toLowerCase() === raw ||
+      (p as any).oldSlug?.toLowerCase() === decoded
   );
+  if (found) return found;
+
+  const book = MOCK_BOOKS.find(
+    (b) =>
+      (b.slug && b.slug.toLowerCase() === raw) ||
+      (b.slug && b.slug.toLowerCase() === decoded) ||
+      (b.id && b.id.toLowerCase() === raw) ||
+      (b.id && b.id.toLowerCase() === decoded)
+  );
+  if (book) {
+    return {
+      id: book.id,
+      title: book.title,
+      slug: book.slug,
+      excerpt: book.description ? book.description.slice(0, 160) + '...' : book.title,
+      content: book.description || book.title,
+      image: book.cover_image || undefined,
+      date: book.created_at || '2026-08-25',
+      link: `/${book.class_slug}/${book.slug}`,
+      category: book.class_name,
+      categorySlug: book.class_slug,
+      pdf_url: book.pdf_url,
+      file_size: book.file_size,
+      author: book.author,
+      publisher: book.publisher,
+      year: book.year,
+    };
+  }
+
+  return undefined;
 }
 
 export function getRelatedCategoryPosts(slug: string, limit = 3): CategoryPost[] {
