@@ -28,7 +28,7 @@ export default function PrivacyPolicyPage() {
 
         <h2 className="text-lg font-bold text-gray-900 pt-2">Google DoubleClick DART Cookie & Google AdSense</h2>
         <p>
-          Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet.
+          Google is a third-party vendor on our site (<strong>https://dyingfield.com</strong>). It uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to https://dyingfield.com and other sites on the internet. Users may choose to decline the use of DART cookies by visiting the Google AdSense Privacy Policy.
         </p>
 
         <h2 className="text-lg font-bold text-gray-900 pt-2">Consent</h2>
