@@ -6,6 +6,8 @@ import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import { getBooksByClass } from '@/lib/data';
 import { TOP_DHAKA_COLLEGES_REQ } from '@/lib/types';
+import { XI_COLLEGES } from '@/lib/xi-colleges-data';
+import XiCollegeBrowser from '@/components/XiCollegeBrowser';
 import { GraduationCap, Award, BookOpen, ChevronRight, FileText, CheckCircle2, MapPin, Sparkles, Building2, HelpCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -130,6 +132,63 @@ export default async function CollegeAdmissionHubPage() {
             </Link>
           ))}
         </div>
+
+        {/* New Grid: Step-by-step Admission Process Guide + Official Circular PDF */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+          <Link
+            href="/college-admission/admission-process-2026"
+            className="md:col-span-2 bg-gradient-to-br from-slate-900 via-emerald-950 to-teal-900 text-white p-6 rounded-2xl shadow-sm hover:shadow-md hover:scale-[1.01] transition-all flex flex-col justify-between space-y-4 border border-emerald-500/30 group"
+          >
+            <div className="space-y-2">
+              <span className="inline-block text-2xs font-bold uppercase tracking-wider text-amber-200 bg-white/10 px-2.5 py-1 rounded-md">
+                🆕 ধাপে ধাপে সম্পূর্ণ গাইড
+              </span>
+              <h3 className="text-xl font-extrabold leading-snug group-hover:underline">
+                একাদশ শ্রেণির কলেজ ভর্তি ২০২৬: অনলাইন আবেদন থেকে চূড়ান্ত ভর্তি — ৭ ধাপের পূর্ণাঙ্গ নির্দেশিকা
+              </h3>
+              <p className="text-xs text-gray-300 leading-relaxed">
+                আবেদন (২–১০ সেপ্টেম্বর) → ফলাফল (১৭ সেপ্টেম্বর) → নিশ্চায়ন (১৯ সেপ্টেম্বর রাত ৮টা) → চূড়ান্ত ভর্তি (২০–২২) → ক্লাস শুরু (২৩ সেপ্টেম্বর)। প্রতিটি ধাপের বিস্তারিত নিয়ম, পছন্দক্রম তৈরির কৌশল ও প্রয়োজনীয় কাগজপত্র।
+              </p>
+            </div>
+            {/* Mini timeline */}
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-2xs font-bold text-emerald-200">
+              {['২ সেপ্টেম্বর আবেদন শুরু', '১০ সেপ্টেম্বর আবেদন শেষ', '১৭ ফলাফল', '১৯ নিশ্চায়ন শেষ', '২০–২২ চূড়ান্ত ভর্তি', '২৩ ক্লাস শুরু'].map((t, i) => (
+                <span key={t} className="inline-flex items-center space-x-2">
+                  {i > 0 && <ChevronRight className="w-3 h-3 text-emerald-400" />}
+                  <span className="bg-white/10 border border-white/15 px-2 py-0.5 rounded-md">{t}</span>
+                </span>
+              ))}
+            </div>
+            <div className="flex items-center justify-between text-xs font-bold text-emerald-300 pt-3 border-t border-white/15">
+              <span>সম্পূর্ণ ভর্তি প্রক্রিয়া পড়ুন</span>
+              <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </Link>
+
+          <a
+            href="https://files.bangladeshgov.org/pdf/HSC%20(XI%20Class)%20Admission%20Circular%202026.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gradient-to-br from-red-700 via-rose-800 to-red-950 text-white p-6 rounded-2xl shadow-sm hover:shadow-md hover:scale-[1.01] transition-all flex flex-col justify-between space-y-4 border border-red-400/40 group"
+          >
+            <div className="space-y-2">
+              <span className="inline-flex items-center space-x-1.5 text-2xs font-bold uppercase tracking-wider text-red-100 bg-white/10 px-2.5 py-1 rounded-md">
+                <FileText className="w-3.5 h-3.5" />
+                <span>অফিসিয়াল PDF</span>
+              </span>
+              <h3 className="text-lg font-extrabold leading-snug group-hover:underline">
+                HSC (XI Class) Admission Circular 2026 PDF
+              </h3>
+              <p className="text-xs text-gray-200 leading-relaxed">
+                ভর্তি নীতিমালা ২০২৬-২৭ — অফিসিয়াল সার্কুলারটি সরাসরি ডাউনলোড ও পড়ুন।
+              </p>
+            </div>
+            <div className="flex items-center justify-between text-xs font-bold text-red-200 pt-3 border-t border-white/15">
+              <span>PDF ডাউনলোড করুন</span>
+              <FileText className="w-4 h-4 group-hover:scale-110 transition-transform" />
+            </div>
+          </a>
+        </div>
       </section>
 
       {/* Section 2: Top 30 Dhaka Colleges Minimum GPA Requirement Table */}
@@ -208,6 +267,9 @@ export default async function CollegeAdmissionHubPage() {
         </div>
       </section>
 
+      {/* Section: Full HSC College List (All Boards) - 7,359 Colleges Searchable */}
+      <XiCollegeListSection />
+
       {/* Section 3: XI Class Admission Guide Step by Step */}
       <section className="bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-200 rounded-2xl p-6 sm:p-8 space-y-4">
         <div className="flex items-center space-x-3">
@@ -278,5 +340,29 @@ export default async function CollegeAdmissionHubPage() {
         </section>
       )}
     </div>
+  );
+}
+
+function XiCollegeListSection() {
+  const initial = XI_COLLEGES.slice(0, 120);
+  return (
+    <section className="bg-white border-2 border-emerald-100 rounded-2xl p-6 sm:p-8 shadow-xs space-y-5">
+      <div className="flex items-center justify-between border-b border-gray-200 pb-4">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center shadow-xs">
+            <Building2 className="w-6 h-6" />
+          </div>
+          <div>
+            <h2 className="text-xl sm:text-2xl font-extrabold text-gray-900">
+              সকল শিক্ষা বোর্ডের HSC কলেজ তালিকা ২০২৬ (All Boards College List)
+            </h2>
+            <p className="text-xs text-gray-500 font-medium">
+              {XI_COLLEGES.length.toLocaleString()}টি কলেজ — EIIN, থানা, গ্রুপ, নূন্যতম GPA ও আসন সংখ্যাসহ। যেকোনো কলেজের নামে ক্লিক করে বিস্তারিত দেখুন
+            </p>
+          </div>
+        </div>
+      </div>
+      <XiCollegeBrowser initial={initial} total={XI_COLLEGES.length} />
+    </section>
   );
 }

@@ -7,6 +7,8 @@ import BookCard from '@/components/BookCard';
 import AdSlot from '@/components/AdSlot';
 import { getBooksByClass } from '@/lib/data';
 import { DIVISION_COLLEGES_REQ } from '@/lib/types';
+import { getXiCollegeBySlug, getRelatedXiColleges } from '@/lib/xi-colleges-data';
+import { NdcGuide, HolyCrossGuide, StJosephGuide, AdmissionProcessGuide } from '@/components/xi-college-guides';
 import {
   GraduationCap,
   Award,
@@ -45,6 +47,7 @@ export async function generateStaticParams() {
     { slug: 'ndc' },
     { slug: 'holy-cross' },
     { slug: 'st-joseph' },
+    { slug: 'admission-process-2026' },
     { slug: 'how-to-apply' },
     { slug: 'requirements-gpa-cut-marks' },
     ...divisionSlugs,
@@ -54,24 +57,43 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { slug } = await params;
 
+  // XI College List (All Boards) detail pages
+  const xi = getXiCollegeBySlug(slug);
+  if (xi) {
+    const title = `${xi.name} HSC ভর্তি তথ্য ২০২৬ | EIIN ${xi.eiin} - ${xi.board} Board`;
+    const description = `${xi.name} (${xi.thana}, ${xi.district}) — ${xi.board} বোর্ড। একাদশ শ্রেণি ভর্তি ২০২৬: নূন্যতম GPA ${Number(xi.gpa).toFixed(2)}, মোট আসন ${xi.seats.toLocaleString()}, গ্রুপ: ${xi.groups.join(', ')}। শিফট ও ভার্সন সহ সম্পূর্ণ তথ্য।`;
+    return {
+      title,
+      description,
+      openGraph: { title, description },
+    };
+  }
+
   if (slug === 'ndc') {
     return {
-      title: 'নটর ডেম কলেজ ঢাকার ভর্তি নির্দেশিকা ২০২৫-২০২৬ | একাদশ শ্রেণি ভর্তি তথ্য (NDC)',
-      description: 'নটর ডেম কলেজ (Notre Dame College) একাদশ শ্রেণি ভর্তি তথ্য ২০২৫-২০২৬। যোগ্যতা, বাংলা ও ইংরেজি ভার্সন আসন সংখ্যা, লিখিত পরীক্ষার বিষয়াবলী, আবেদন ফি ৪০০ টাকা ও ভাইভা প্রস্তুতি।',
+      title: 'নটর ডেম কলেজ ঢাকা ভর্তি ২০২৬-২০২৭ | আবেদন, যোগ্যতা, ভর্তি পরীক্ষা ও সম্পূর্ণ নির্দেশিকা (NDC)',
+      description: 'নটর ডেম কলেজ (NDC) একাদশ শ্রেণি ভর্তি ২০২৬-২০২৭। আবেদন ১-১০ সেপ্টেম্বর, আবেদন ফি ৫০০ টাকা (bKash), GPA শর্ত, আসন ৩,২৯০টি, লিখিত ও মৌখিক পরীক্ষার সম্পূর্ণ নির্দেশিকা।',
     };
   }
 
   if (slug === 'holy-cross') {
     return {
-      title: '২০২৫-২০২৬ শিক্ষাবর্ষে হলি ক্রস কলেজে একাদশ শ্রেণিতে ভর্তির সম্পূর্ণ তথ্য | Holy Cross Admission 2025',
-      description: '২০২৫-২০২৬ শিক্ষাবর্ষে হলি ক্রস কলেজে একাদশ শ্রেণিতে ভর্তির সম্পূর্ণ তথ্য, যোগ্যতা, আবেদন ফি ৮০০ টাকা, সিলেকশন টেস্ট সময়সূচি, প্রয়োজনীয় কাগজপত্র এবং বিষয় তালিকা।',
+      title: 'হলি ক্রস কলেজ ঢাকা ভর্তি ২০২৬-২০২৭ | আবেদন ৫-১০ সেপ্টেম্বর, আসন ১,৩১০ ও ভর্তি পরীক্ষা (Holy Cross Admission)',
+      description: 'হলি ক্রস কলেজ (EIIN 131962) একাদশ শ্রেণি ভর্তি ২০২৬-২০২৭। অনলাইন আবেদন ৫-১০ সেপ্টেম্বর, আবেদন ফি ৪০০ টাকা, মোট আসন ১,৩১০টি, ফলাফল ২৫ সেপ্টেম্বর — সম্পূর্ণ গাইড।',
     };
   }
 
   if (slug === 'st-joseph') {
     return {
-      title: 'সেন্ট জোসেফ কলেজ (St. Joseph) ভর্তি পরীক্ষা ২০২৫-২০২৬ | যোগ্যতা, পরীক্ষা সিলেবাস ও বই',
-      description: 'সেন্ট জোসেফ উচ্চ মাধ্যমিক বিদ্যালয় (St. Joseph College) ভর্তি পরীক্ষা ২০২৫-২০২৬। নূন্যতম জিপিএ শর্তাবলী, লিখিত পরীক্ষার প্রস্তুতি ও প্রশ্ন ব্যাংক PDF।',
+      title: 'সেন্ট যোসেফ হায়ার সেকেন্ডারি স্কুল ভর্তি ২০২৬-২০২৭ | আবেদন, যোগ্যতা, আসন ৬৮০ ও পরীক্ষা',
+      description: 'সেন্ট যোসেফ হায়ার সেকেন্ডারি স্কুল (EIIN 108259) ভর্তি ২০২৬-২০২৭। আবেদন ২-৭ সেপ্টেম্বর, ফি ৫০০ টাকা, GPA শর্ত, মোট আসন ৬৮০টি ও ১১-১২ সেপ্টেম্বর লিখিত/মৌখিক পরীক্ষার নির্দেশিকা।',
+    };
+  }
+
+  if (slug === 'admission-process-2026') {
+    return {
+      title: 'একাদশ শ্রেণির কলেজ ভর্তি ২০২৬: অনলাইন আবেদন থেকে চূড়ান্ত ভর্তি — ধাপে ধাপে গাইড',
+      description: 'কলেজ ভর্তি ২০২৬-এর সম্পূর্ণ প্রক্রিয়া: আবেদন ২–১০ সেপ্টেম্বর, ফলাফল ১৭ সেপ্টেম্বর, নিশ্চায়ন ১৯ সেপ্টেম্বর রাত ৮টা, চূড়ান্ত ভর্তি ২০–২২ ও ক্লাস শুরু ২৩ সেপ্টেম্বর — ৭ ধাপের পূর্ণাঙ্গ নির্দেশিকা ও অফিসিয়াল সার্কুলার PDF।',
     };
   }
 
@@ -102,349 +124,45 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
 
 export default async function DynamicCollegePage({ params }: RouteProps) {
   const { slug } = await params;
+
+  // -------------------------------------------------------------
+  // PAGE 0: XI College List (All Boards) — College Detail Page
+  // -------------------------------------------------------------
+  const xiCollege = getXiCollegeBySlug(slug);
+  if (xiCollege) {
+    return <XiCollegeDetail college={xiCollege} related={getRelatedXiColleges(xiCollege)} />;
+  }
+
   const sscBooks = await getBooksByClass('ssc');
   const hscBooks = await getBooksByClass('hsc');
   const relatedBooks = [...sscBooks, ...hscBooks].slice(0, 6);
 
   // -------------------------------------------------------------
-  // PAGE 1: Notre Dame College (NDC) Detail Page
+  // PAGE 1: Notre Dame College (NDC) — ২০২৬-২০২৭ Guide
   // -------------------------------------------------------------
   if (slug === 'ndc') {
-    return (
-      <div className="space-y-8 pb-12">
-        <Breadcrumb
-          items={[
-            { label: 'একাদশ শ্রেণি ভর্তি', href: '/college-admission' },
-            { label: 'নটর ডেম কলেজ (NDC)' },
-          ]}
-        />
-
-        <div className="bg-gradient-to-r from-blue-950 via-indigo-900 to-slate-900 text-white p-6 sm:p-10 rounded-2xl shadow-md space-y-4">
-          <div className="inline-flex items-center space-x-2 bg-blue-700/50 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-semibold text-blue-100 border border-blue-400/30">
-            <Award className="w-4 h-4 text-amber-300" />
-            <span>Notre Dame College Admission (২০২৫-২০২৬ শিক্ষাবর্ষ)</span>
-          </div>
-
-          <h1 className="text-2xl sm:text-4xl font-extrabold leading-snug">
-            নটর ডেম কলেজ ঢাকার ভর্তি নির্দেশিকা ২০২৫-২০২৬ | একাদশ শ্রেণি ভর্তি তথ্য (NDC)
-          </h1>
-
-          <p className="text-blue-100 text-sm sm:text-base leading-relaxed max-w-4xl">
-            বাংলাদেশের অন্যতম শ্রেষ্ঠ মিশনারি শিক্ষা প্রতিষ্ঠান নটর ডেম কলেজ (মতিঝিল, ঢাকা)। ১৯৪৯ সালে প্রতিষ্ঠিত এই ঐতিহ্যবাহী কলেজে ২০২৫-২০২৬ শিক্ষাবর্ষে একাদশ শ্রেণির বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখায় ছাত্র ভর্তির নিয়মাবলী।
-          </p>
-        </div>
-
-        <AdSlot slotId="ndc-top" />
-
-        <div className="space-y-6 text-gray-800">
-          <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-blue-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <Calendar className="w-6 h-6 text-blue-700" />
-              <span>📅 আবেদন সময়সূচি ও আবেদন ফি (Application Schedule & Fee)</span>
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm sm:text-base font-medium">
-              <div className="p-4 bg-blue-50/60 rounded-xl border border-blue-200 space-y-1">
-                <span className="text-xs text-blue-800 font-bold uppercase block">আবেদন শুরু</span>
-                <span className="font-extrabold text-blue-950 text-base">২৯ জুলাই ২০২৫ (রাত ১২:০১ মিনিট)</span>
-              </div>
-
-              <div className="p-4 bg-red-50/60 rounded-xl border border-red-200 space-y-1">
-                <span className="text-xs text-red-800 font-bold uppercase block">আবেদন শেষ</span>
-                <span className="font-extrabold text-red-950 text-base">০৭ আগস্ট ২০২৫ (দুপুর ১২:০০ টা পর্যন্ত)</span>
-              </div>
-            </div>
-
-            <div className="p-4 bg-gray-50 rounded-xl border border-gray-200 text-xs sm:text-sm text-gray-800 space-y-2">
-              <p>
-                🌐 অনলাইনে আবেদন করতে হবে অফিশিয়াল ওয়েবসাইট <strong className="font-mono bg-white px-2 py-0.5 rounded border">ndc.edu.bd</strong> এর মাধ্যমে।
-              </p>
-              <p>
-                💳 আবেদন ফি <strong>৪০০ টাকা (400 BDT)</strong> bKash বা Rocket অ্যাপের মাধ্যমে পরিশোধ করতে হবে।
-              </p>
-            </div>
-          </section>
-
-          <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-blue-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <CheckCircle2 className="w-6 h-6 text-blue-700" />
-              <span>✅ যোগ্যতা ও জিপিএ শর্ত (Minimum GPA Criteria)</span>
-            </h2>
-
-            <ul className="space-y-3 text-sm sm:text-base font-medium">
-              <li className="flex items-start space-x-3 bg-blue-50/60 p-3.5 rounded-xl border border-blue-200">
-                <Check className="w-5 h-5 text-blue-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-blue-950 block">বিজ্ঞান বিভাগ (Science):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট জিপিএ ৫.০০ (GPA 5.00) অর্জন করতে হবে (উচ্চতর গণিতসহ)।
-                  </span>
-                </div>
-              </li>
-
-              <li className="flex items-start space-x-3 bg-emerald-50/60 p-3.5 rounded-xl border border-emerald-200">
-                <Check className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-emerald-950 block">ব্যবসায় শিক্ষা বিভাগ (Business Studies):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট ন্যূনতম জিপিএ ৪.০০ (GPA 4.00) অর্জন করতে হবে।
-                  </span>
-                </div>
-              </li>
-
-              <li className="flex items-start space-x-3 bg-purple-50/60 p-3.5 rounded-xl border border-purple-200">
-                <Check className="w-5 h-5 text-purple-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-purple-950 block">মানবিক বিভাগ (Humanities / Arts):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট ন্যূনতম জিপিএ ৩.০০ (GPA 3.00) অর্জন করতে হবে।
-                  </span>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-blue-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <Users className="w-6 h-6 text-blue-700" />
-              <span>🪑 বিষয়ভিত্তিক আসন সংখ্যা (Seat Breakdown - মোট ৩,২৯০টি আসন)</span>
-            </h2>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm font-semibold">
-              <div className="p-4 bg-blue-50 border border-blue-200 rounded-xl space-y-1">
-                <span className="text-xs text-blue-800 block">বিজ্ঞান (বাংলা মিড়িয়াম)</span>
-                <span className="text-2xl font-black text-blue-950">১,৮১০ সিট</span>
-              </div>
-
-              <div className="p-4 bg-teal-50 border border-teal-200 rounded-xl space-y-1">
-                <span className="text-xs text-teal-800 block">বিজ্ঞান (ইংরেজি ভার্সন)</span>
-                <span className="text-2xl font-black text-teal-950">৩১০ সিট</span>
-              </div>
-
-              <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl space-y-1">
-                <span className="text-xs text-emerald-800 block">ব্যবসায় শিক্ষা বিভাগ</span>
-                <span className="text-2xl font-black text-emerald-950">৭৫০ সিট</span>
-              </div>
-
-              <div className="p-4 bg-purple-50 border border-purple-200 rounded-xl space-y-1">
-                <span className="text-xs text-purple-800 block">মানবিক বিভাগ</span>
-                <span className="text-2xl font-black text-purple-950">৪১০ সিট</span>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        {relatedBooks.length > 0 && (
-          <section className="space-y-4">
-            <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-              <BookOpen className="w-5 h-5 text-blue-700" />
-              <h2 className="text-xl font-bold text-gray-900">
-                নটর ডেম কলেজ ভর্তি প্রস্তুতি গাইড ও বোর্ড বই PDF
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-              {relatedBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
-          </section>
-        )}
-      </div>
-    );
+    return <NdcGuide books={relatedBooks} />;
   }
 
   // -------------------------------------------------------------
-  // PAGE 2: Holy Cross College Detail Page
+  // PAGE 2: Holy Cross College — ২০২৬-২০২৭ Guide
   // -------------------------------------------------------------
   if (slug === 'holy-cross') {
-    return (
-      <div className="space-y-8 pb-12">
-        <Breadcrumb
-          items={[
-            { label: 'একাদশ শ্রেণি ভর্তি', href: '/college-admission' },
-            { label: 'হলিক্রস কলেজ (Holy Cross)' },
-          ]}
-        />
-
-        <div className="bg-gradient-to-r from-emerald-900 via-teal-900 to-slate-900 text-white p-6 sm:p-10 rounded-2xl shadow-md space-y-4">
-          <div className="inline-flex items-center space-x-2 bg-emerald-700/50 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-semibold text-emerald-100 border border-emerald-400/30">
-            <Award className="w-4 h-4 text-amber-300" />
-            <span>Holy Cross College Admission Notice (২০২৫-২০২৬ শিক্ষাবর্ষ)</span>
-          </div>
-
-          <h1 className="text-2xl sm:text-4xl font-extrabold leading-snug">
-            ২০২৫-২০২৬ শিক্ষাবর্ষে হলি ক্রস কলেজে একাদশ শ্রেণিতে ভর্তির সম্পূর্ণ তথ্য (Holy Cross College 2025 Admission)
-          </h1>
-
-          <p className="text-emerald-100 text-sm sm:text-base leading-relaxed max-w-4xl">
-            ঢাকার অন্যতম সেরা মহিলা শিক্ষা প্রতিষ্ঠান হলি ক্রস কলেজ (তেজগাঁও, ঢাকা – ১২১৫) একাদশ শ্রেণিতে ভর্তির বিজ্ঞপ্তি প্রকাশ করেছে। মাধ্যমিক ও উচ্চমাধ্যমিক শিক্ষা বোর্ড, ঢাকার নির্দেশনা অনুসারে বিজ্ঞান, মানবিক এবং ব্যবসায় শিক্ষা বিভাগে শিক্ষার্থী ভর্তি কার্যক্রম সংক্রান্ত বিস্তারিত গাইড।
-          </p>
-        </div>
-
-        <AdSlot slotId="holycross-top" />
-
-        <div className="space-y-6 text-gray-800">
-          <section className="bg-white border-2 border-emerald-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-emerald-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <CheckCircle2 className="w-6 h-6 text-emerald-600" />
-              <span>✅ ভর্তির জন্য প্রয়োজনীয় যোগ্যতা (Eligibility Criteria)</span>
-            </h2>
-
-            <ul className="space-y-3 text-sm sm:text-base font-medium">
-              <li className="flex items-start space-x-3 bg-emerald-50/60 p-3.5 rounded-xl border border-emerald-200">
-                <Check className="w-5 h-5 text-emerald-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-emerald-950 block">বিজ্ঞান বিভাগ (Science):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট জিপিএ ৫.০০ (GPA 5.00) অর্জন করতে হবে এবং বিষয়ভিত্তিক উচ্চতর গণিত ও জীববিজ্ঞান আবশ্যক।
-                  </span>
-                </div>
-              </li>
-
-              <li className="flex items-start space-x-3 bg-blue-50/60 p-3.5 rounded-xl border border-blue-200">
-                <Check className="w-5 h-5 text-blue-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-blue-950 block">মানবিক বিভাগ (Humanities / Arts):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট ন্যূনতম জিপিএ ৪.০০ (GPA 4.00) অর্জন করতে হবে।
-                  </span>
-                </div>
-              </li>
-
-              <li className="flex items-start space-x-3 bg-purple-50/60 p-3.5 rounded-xl border border-purple-200">
-                <Check className="w-5 h-5 text-purple-700 flex-shrink-0 mt-0.5" />
-                <div>
-                  <strong className="text-purple-950 block">ব্যবসায় শিক্ষা বিভাগ (Business Studies):</strong>
-                  <span className="text-gray-700 text-xs sm:text-sm">
-                    এসএসসি পরীক্ষায় মোট ন্যূনতম জিপিএ ৪.০০ (GPA 4.00) অর্জন করতে হবে।
-                  </span>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <section className="bg-white border-2 border-emerald-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-emerald-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <Calendar className="w-6 h-6 text-emerald-600" />
-              <span>📅 আবেদন শুরু ও শেষ তারিখ (Important Dates)</span>
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm sm:text-base">
-              <div className="p-4 bg-gray-50 rounded-xl border border-gray-200 space-y-1">
-                <span className="text-xs text-gray-500 font-bold uppercase block">আবেদন শুরু</span>
-                <span className="font-extrabold text-emerald-900 text-base">৩০ জুলাই (বুধবার)</span>
-              </div>
-
-              <div className="p-4 bg-gray-50 rounded-xl border border-gray-200 space-y-1">
-                <span className="text-xs text-gray-500 font-bold uppercase block">আবেদন শেষ</span>
-                <span className="font-extrabold text-red-700 text-base">০৩ আগস্ট (রবিবার, রাত ১২টা পর্যন্ত)</span>
-              </div>
-            </div>
-
-            <div className="p-4 bg-emerald-50 rounded-xl border border-emerald-200 text-xs sm:text-sm text-emerald-950">
-              💡 আবেদন করতে হবে অফিশিয়াল ওয়েবসাইট <strong className="font-mono bg-white px-2 py-0.5 rounded border">www.hcc.edu.bd</strong> এর <em>Admissions &gt; Admission Application</em> অপশন থেকে।
-            </div>
-          </section>
-        </div>
-
-        {relatedBooks.length > 0 && (
-          <section className="space-y-4">
-            <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-              <BookOpen className="w-5 h-5 text-emerald-700" />
-              <h2 className="text-xl font-bold text-gray-900">
-                হলিক্রস কলেজ ভর্তি প্রস্তুতি বই ও সমাধান PDF
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-              {relatedBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
-          </section>
-        )}
-      </div>
-    );
+    return <HolyCrossGuide books={relatedBooks} />;
   }
 
   // -------------------------------------------------------------
-  // PAGE 3: St. Joseph College Detail Page
+  // PAGE 3: St. Joseph Higher Secondary School — ২০২৬-২০২৭ Guide
   // -------------------------------------------------------------
   if (slug === 'st-joseph') {
-    return (
-      <div className="space-y-8 pb-12">
-        <Breadcrumb
-          items={[
-            { label: 'একাদশ শ্রেণি ভর্তি', href: '/college-admission' },
-            { label: 'সেন্ট জোসেফ কলেজ (St. Joseph)' },
-          ]}
-        />
+    return <StJosephGuide books={relatedBooks} />;
+  }
 
-        <div className="bg-gradient-to-r from-blue-900 via-slate-900 to-indigo-950 text-white p-6 sm:p-10 rounded-2xl shadow-md space-y-4">
-          <div className="inline-flex items-center space-x-2 bg-blue-700/50 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-semibold text-blue-100 border border-blue-400/30">
-            <Award className="w-4 h-4 text-amber-300" />
-            <span>St. Joseph Higher Secondary School & College Admission 2025</span>
-          </div>
-
-          <h1 className="text-2xl sm:text-4xl font-extrabold leading-snug">
-            সেন্ট জোসেফ কলেজ (St. Joseph) ভর্তি তথ্য ও দিকনির্দেশনা ২০২৫-২০২৬
-          </h1>
-
-          <p className="text-blue-100 text-sm sm:text-base leading-relaxed max-w-4xl">
-            ঢাকার ঐতিহাসিক সেন্ট জোসেফ উচ্চ মাধ্যমিক বিদ্যালয় (মোহাম্মদপুর, ঢাকা)। একাদশ শ্রেণির বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখায় ছাত্র ভর্তির প্রয়োজনীয় যোগ্যতা, আসন সংখ্যা ও লিখিত ভর্তি পরীক্ষা সংক্রান্ত তথ্য।
-          </p>
-        </div>
-
-        <AdSlot slotId="stjoseph-top" />
-
-        <div className="space-y-6 text-gray-800">
-          <section className="bg-white border-2 border-blue-100 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xs">
-            <h2 className="text-xl sm:text-2xl font-extrabold text-blue-950 flex items-center space-x-2 border-b border-gray-200 pb-3">
-              <CheckCircle2 className="w-6 h-6 text-blue-700" />
-              <span>✅ ন্যূনতম জিপিএ ও যোগ্যতা (Minimum Requirements)</span>
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-semibold">
-              <div className="p-4 bg-blue-50 rounded-xl border border-blue-200 space-y-1">
-                <span className="text-xs text-blue-800 uppercase block">বিজ্ঞান বিভাগ (Science)</span>
-                <span className="text-2xl font-black text-blue-950">GPA 5.00</span>
-                <span className="text-3xs text-gray-500 font-normal block">উচ্চতর গণিত ও বিজ্ঞান আবশ্যক</span>
-              </div>
-
-              <div className="p-4 bg-emerald-50 rounded-xl border border-emerald-200 space-y-1">
-                <span className="text-xs text-emerald-800 uppercase block">ব্যবসায় শিক্ষা (Commerce)</span>
-                <span className="text-2xl font-black text-emerald-950">GPA 4.00</span>
-                <span className="text-3xs text-gray-500 font-normal block">যেকোনো গ্রুপ থেকে পরিবর্তন সম্ভব</span>
-              </div>
-
-              <div className="p-4 bg-purple-50 rounded-xl border border-purple-200 space-y-1">
-                <span className="text-xs text-purple-800 uppercase block">মানবিক বিভাগ (Arts)</span>
-                <span className="text-2xl font-black text-purple-950">GPA 3.50</span>
-                <span className="text-3xs text-gray-500 font-normal block">ন্যূনতম জিপিএ ৩.৫০</span>
-              </div>
-            </div>
-          </section>
-        </div>
-
-        {relatedBooks.length > 0 && (
-          <section className="space-y-4">
-            <div className="flex items-center space-x-2 border-b border-gray-200 pb-2">
-              <BookOpen className="w-5 h-5 text-blue-700" />
-              <h2 className="text-xl font-bold text-gray-900">
-                সেন্ট জোসেফ ভর্তি প্রস্তুতি ও এইচএসসি বই PDF
-              </h2>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-              {relatedBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
-          </section>
-        )}
-      </div>
-    );
+  // -------------------------------------------------------------
+  // PAGE 3.5: College Admission Process 2026 — Step-by-step Guide
+  // -------------------------------------------------------------
+  if (slug === 'admission-process-2026') {
+    return <AdmissionProcessGuide />;
   }
 
   // -------------------------------------------------------------
@@ -841,4 +559,192 @@ export default async function DynamicCollegePage({ params }: RouteProps) {
   }
 
   notFound();
+}
+
+// =============================================================
+// XI College Detail (All Boards College List — EIIN based)
+// =============================================================
+function XiCollegeDetail({
+  college,
+  related,
+}: {
+  college: ReturnType<typeof getXiCollegeBySlug> & NonNullable<ReturnType<typeof getXiCollegeBySlug>>;
+  related: ReturnType<typeof getRelatedXiColleges>;
+}) {
+  const c = college;
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollegeOrUniversity',
+    name: c.name,
+    identifier: String(c.eiin),
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: c.thana,
+      addressRegion: c.district,
+      addressCountry: 'BD',
+    },
+  };
+
+  const schedule = [
+    ['অনলাইন আবেদন শুরু', '২ সেপ্টেম্বর ২০২৬'],
+    ['আবেদনের শেষ সময়', '১০ সেপ্টেম্বর ২০২৬, রাত ৮:০০'],
+    ['ফলাফল প্রকাশ', '১৭ সেপ্টেম্বর ২০২৬'],
+    ['সিট নিশ্চায়নের শেষ সময়', '১৯ সেপ্টেম্বর ২০২৬'],
+    ['ভৌত ভর্তি (কলেজে)', '২০–২২ সেপ্টেম্বর ২০২৬'],
+    ['ক্লাস শুরু', '২৩ সেপ্টেম্বর ২০২৬'],
+  ];
+
+  return (
+    <div className="space-y-8 pb-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+
+      <Breadcrumb
+        items={[
+          { label: 'একাদশ শ্রেণি ভর্তি', href: '/college-admission' },
+          { label: 'HSC কলেজ তালিকা', href: '/college-admission' },
+          { label: c.name },
+        ]}
+      />
+
+      {/* Hero */}
+      <div className="bg-gradient-to-r from-emerald-950 via-teal-900 to-slate-900 text-white p-6 sm:p-10 rounded-2xl shadow-md space-y-4">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="inline-flex items-center space-x-1.5 bg-emerald-600/40 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-bold text-emerald-100 border border-emerald-400/30">
+            <GraduationCap className="w-4 h-4 text-amber-300" />
+            <span>{c.board} Board</span>
+          </span>
+          {c.gender && (
+            <span className="px-3 py-1 rounded-full text-xs font-bold bg-white/10 border border-white/20 text-white">
+              {c.gender}
+            </span>
+          )}
+          <span className="px-3 py-1 rounded-full text-xs font-mono font-bold bg-white/10 border border-white/20 text-white">
+            EIIN: {c.eiin}
+          </span>
+        </div>
+
+        <h1 className="text-2xl sm:text-4xl font-extrabold leading-snug">{c.name}</h1>
+
+        <p className="text-emerald-100 text-sm sm:text-base leading-relaxed max-w-4xl flex items-center space-x-2">
+          <MapPin className="w-4 h-4 flex-shrink-0" />
+          <span>
+            {c.thana}, {c.district} — {c.board} শিক্ষা বোর্ডের অধীনে একাদশ শ্রেণি (XI Class) ভর্তি ২০২৬-এর জন্য অনুমোদিত কলেজ।
+          </span>
+        </p>
+      </div>
+
+      <AdSlot slotId={`xi-college-${c.eiin}-top`} format="horizontal" />
+
+      {/* Key Facts */}
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div className="bg-blue-50 border border-blue-200 p-4 rounded-xl text-center space-y-1">
+          <Award className="w-5 h-5 text-blue-700 mx-auto" />
+          <p className="text-2xs font-bold text-blue-700 uppercase">নূন্যতম GPA</p>
+          <p className="text-xl sm:text-2xl font-black text-blue-950">{Number(c.gpa).toFixed(2)}</p>
+        </div>
+        <div className="bg-emerald-50 border border-emerald-200 p-4 rounded-xl text-center space-y-1">
+          <Users className="w-5 h-5 text-emerald-700 mx-auto" />
+          <p className="text-2xs font-bold text-emerald-700 uppercase">মোট আসন</p>
+          <p className="text-xl sm:text-2xl font-black text-emerald-950">{c.seats.toLocaleString()}</p>
+        </div>
+        <div className="bg-amber-50 border border-amber-200 p-4 rounded-xl text-center space-y-1">
+          <Layers className="w-5 h-5 text-amber-700 mx-auto" />
+          <p className="text-2xs font-bold text-amber-700 uppercase">শিফট</p>
+          <p className="text-xs sm:text-sm font-extrabold text-amber-950 leading-snug pt-1">{c.shifts.join(', ') || 'N/A'}</p>
+        </div>
+        <div className="bg-purple-50 border border-purple-200 p-4 rounded-xl text-center space-y-1">
+          <FileText className="w-5 h-5 text-purple-700 mx-auto" />
+          <p className="text-2xs font-bold text-purple-700 uppercase">ভার্সন</p>
+          <p className="text-xs sm:text-sm font-extrabold text-purple-950 leading-snug pt-1">{c.versions.join(', ') || 'N/A'}</p>
+        </div>
+      </section>
+
+      {/* Groups */}
+      <section className="bg-white border-2 border-emerald-100 rounded-2xl p-6 sm:p-8 shadow-xs space-y-4">
+        <h2 className="text-xl sm:text-2xl font-extrabold text-gray-900 flex items-center space-x-2 border-b border-gray-200 pb-3">
+          <CheckCircle2 className="w-6 h-6 text-emerald-700" />
+          <span>এই কলেজে ভর্তিযোগ্য গ্রুপসমূহ (Available Groups)</span>
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {c.groups.map((g) => (
+            <div
+              key={g}
+              className={`p-4 rounded-xl border-2 font-extrabold text-center ${
+                g === 'Science'
+                  ? 'bg-blue-50/60 border-blue-300 text-blue-900'
+                  : g === 'Business Studies'
+                  ? 'bg-emerald-50/60 border-emerald-300 text-emerald-900'
+                  : 'bg-purple-50/60 border-purple-300 text-purple-900'
+              }`}
+            >
+              {g === 'Science' ? 'বিজ্ঞান (Science)' : g === 'Business Studies' ? 'ব্যবসায় শিক্ষা (Business Studies)' : g === 'Humanities' ? 'মানবিক (Humanities)' : g}
+            </div>
+          ))}
+        </div>
+        <p className="text-xs text-gray-500 leading-relaxed bg-gray-50 p-3 rounded-lg border border-gray-200">
+          📌 বিজ্ঞান বিভাগের শিক্ষার্থীরা ইচ্ছা করলে বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা — তিনটি গ্রুপের যেকোনোটিতে আবেদন করতে পারে। তবে ব্যবসায় শিক্ষা বা মানবিকের শিক্ষার্থীরা কেবল নিজ নিজ গ্রুপেই আবেদন করতে পারবে।
+        </p>
+      </section>
+
+      {/* Admission Schedule */}
+      <section className="bg-gradient-to-br from-sky-50 to-indigo-50 border-2 border-sky-100 rounded-2xl p-6 sm:p-8 shadow-xs space-y-4">
+        <h2 className="text-xl sm:text-2xl font-extrabold text-sky-950 flex items-center space-x-2 border-b border-sky-200 pb-3">
+          <Calendar className="w-6 h-6 text-sky-700" />
+          <span>একাদশ শ্রেণি ভর্তি সময়সূচি ২০২৬ (XI Class Admission Schedule)</span>
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {schedule.map(([label, date]) => (
+            <div key={label} className="bg-white p-4 rounded-xl border border-sky-100 flex items-center justify-between gap-3">
+              <span className="text-xs sm:text-sm font-bold text-gray-700">{label}</span>
+              <span className="text-xs sm:text-sm font-black text-sky-800 whitespace-nowrap">{date}</span>
+            </div>
+          ))}
+        </div>
+        <p className="text-xs text-red-700 font-semibold bg-red-50 border border-red-200 p-3 rounded-lg">
+          ⚠️ নির্ধারিত সময়ের মধ্যে সিট নিশ্চায়ন না করলে ভর্তি বাতিল হয়ে যাবে এবং আবেদনটি বাতিল গণ্য হবে।
+        </p>
+      </section>
+
+      <AdSlot slotId={`xi-college-${c.eiin}-bottom`} format="horizontal" />
+
+      {/* Related Colleges */}
+      {related.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-center space-x-2 border-b border-gray-200 pb-3">
+            <Building2 className="w-5 h-5 text-emerald-600" />
+            <h2 className="text-xl font-bold text-gray-900">আশেপাশে / একই বোর্ডের অন্যান্য কলেজ</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {related.map((r) => (
+              <Link
+                key={r.eiin}
+                href={`/college-admission/${r.slug}`}
+                className="group bg-white p-4 rounded-xl border border-gray-200 hover:border-emerald-500 hover:shadow-md transition-all flex items-center justify-between gap-3"
+              >
+                <div className="min-w-0">
+                  <h3 className="font-bold text-sm text-gray-900 group-hover:text-emerald-700 truncate">{r.name}</h3>
+                  <p className="text-2xs text-gray-500 mt-0.5 truncate">
+                    {r.thana}, {r.district} • {r.board}
+                  </p>
+                </div>
+                <div className="text-right flex-shrink-0">
+                  <p className="text-xs font-black text-blue-900">GPA {Number(r.gpa).toFixed(2)}</p>
+                  <p className="text-2xs text-gray-500">{r.seats.toLocaleString()} আসন</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link
+              href="/college-admission"
+              className="inline-flex items-center space-x-1 text-sm font-extrabold text-emerald-700 hover:underline"
+            >
+              <span>সকল কলেজের তালিকা দেখুন</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </section>
+      )}
+    </div>
+  );
 }
