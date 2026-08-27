@@ -18,13 +18,10 @@ export default function AdSlot({
   const adClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID || 'ca-pub-5879637503098000';
   const isDevPlaceholder = process.env.NEXT_PUBLIC_SHOW_AD_PLACEHOLDERS === 'true' || showPlaceholder;
 
-  // If real AdSense client ID exists, render actual Google AdSense slot with policy-compliant label
+  // If real AdSense client ID exists, render actual Google AdSense slot
   if (adClient) {
     return (
-      <div className={`my-6 w-full flex flex-col items-center overflow-hidden ${className}`}>
-        <span className="text-[10px] uppercase tracking-wider text-gray-400 font-medium mb-1">
-          Advertisement / বিজ্ঞাপন
-        </span>
+      <div className={`my-6 w-full flex justify-center items-center overflow-hidden ${className}`}>
         <ins
           className="adsbygoogle"
           style={{ display: 'block', width: '100%' }}
