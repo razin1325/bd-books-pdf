@@ -1,6 +1,9 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { ChevronRight, Home } from 'lucide-react';
+import { usePathname } from 'next/navigation';
 import { getBaseUrl } from '@/lib/site';
 
 export interface BreadcrumbItem {
@@ -14,8 +17,11 @@ interface BreadcrumbProps {
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
   const baseUrl = getBaseUrl();
+  const pathname = usePathname() || '';
 
-  // Generate JSON-LD BreadcrumbList Schema
+  const currentUrl = `${baseUrl}${pathname}`;
+
+  // Generate JSON-LD BreadcrumbList Schema ensuring EVERY ListItem has a valid `item` URL
   const schemaItems = [
     {
       '@type': 'ListItem',
@@ -23,14 +29,21 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       name: 'Home',
       item: baseUrl,
     },
-    ...items.map((item, index) => ({
-      '@type': 'ListItem',
-      position: index + 2,
-      name: item.label,
-      item: item.href
-        ? `${baseUrl}${item.href}`
-        : undefined,
-    })),
+    ...items.map((item, index) => {
+      let itemUrl = currentUrl;
+      if (item.href) {
+        itemUrl = item.href.startsWith('http')
+          ? item.href
+          : `${baseUrl}${item.href.startsWith('/') ? '' : '/'}${item.href}`;
+      }
+
+      return {
+        '@type': 'ListItem',
+        position: index + 2,
+        name: item.label,
+        item: itemUrl,
+      };
+    }),
   ];
 
   const jsonLd = {

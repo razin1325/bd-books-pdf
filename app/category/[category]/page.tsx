@@ -93,7 +93,7 @@ export default async function CategoryListingPage({ params }: RouteProps) {
 
   return (
     <div className="space-y-8 pb-8">
-      <Breadcrumb items={[{ label: 'Category' }, { label: meta.name }]} />
+      <Breadcrumb items={[{ label: 'Category', href: `/category/${meta.slug}` }, { label: meta.name }]} />
 
       {/* Hero */}
       <div
